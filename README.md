@@ -15,10 +15,12 @@ Quick Navigation
 
 # Clinical Analytics Workflow
 
+```mermaid
 flowchart LR
     A[Clinical Trial Data<br/>EDC, Labs, Outcomes] --> B[Biostatistical Analysis<br/>Modeling & Validation]
     B --> C[Machine Learning & AI Support<br/>Prediction & Pattern Detection]
     C --> D[Clinical & Operational Decisions<br/>Monitoring, Risk Assessment, Study Execution]
+```
 
 # Analytical Principles
 
