@@ -1,0 +1,17 @@
+---
+title: "Regulatory Compliance"
+---
+
+## Purpose
+This module defines the CRA’s role in ensuring regulatory compliance and maintaining
+inspection-ready documentation at the site and in the TMF.
+
+## CRA Accountability (Practical)
+- Confirm required documents are current, complete, and consistent across systems
+- Verify approvals (IRB/IEC) and version control for ICF/protocol
+- Ensure delegation and training documentation supports all trial activities
+- Identify gaps early and drive timely resolution with documented follow-up
+
+## Scope
+Applies to all interventional trials. Therapeutic-area considerations (oncology,
+infectious disease) are highlighted where relevant.

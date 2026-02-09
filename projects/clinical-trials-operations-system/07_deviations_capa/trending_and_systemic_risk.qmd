@@ -1,0 +1,25 @@
+---
+title: "Trending & Systemic Risk"
+---
+
+## Why Trending Matters
+Single deviations may be minor.
+Patterns indicate **systemic risk.**
+
+## Examples of Trends
+- Repeated consent errors
+- Frequent missed visits
+- Ongoing safety reporting delays
+- Consistent data entry issues
+
+## CRA Role in Trending
+- Maintain deviation log
+- Identify recurring patterns
+- Escalate systemic risks
+- Support sponsor QA reviews
+
+## Inspection Reality
+Inspectors focus heavily on:
+- Repeat deviations
+- Weak CAPA effectiveness
+- Lack of trend analysis

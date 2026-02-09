@@ -1,0 +1,36 @@
+---
+title: "IRB/IEC & Approvals"
+---
+
+## Approval Rules of Thumb (CRA Use)
+- No site activity begins before IRB/IEC approval (per protocol and site requirements)
+- All versions of protocol/ICF in use must be IRB/IEC-approved
+- Continuing review approvals must remain current (if applicable)
+
+## Approval Verification Workflow
+
+```{mermaid}
+flowchart LR
+  A[Document Version Issued] --> B[IRB/IEC Review & Approval]
+  B --> C[Site Implements Approved Version]
+  C --> D[CRA Confirms Version Control at Visit]
+  D --> E[File to Site Binder + TMF]
+```
+
+## CRA Monitoring Checks
+
+- [ ] Current IRB approval covers current protocol version
+- [ ] ICF version in use matches IRB approval letter
+- [ ] Recruitment materials approved (if used)
+- [ ] Continuing review dates tracked; no lapse occurred
+- [ ] Local IRB requirements met (if multi-IRB environment)
+
+::: {.callout-note title="Oncology-Specific Considerations"}
+Safety updates and amendments are frequent → approval tracking must be disciplined
+:::
+
+::: {.callout-note title="Vaccine Trial Considerations"}
+Vaccine trials may operate under accelerated start-up timelines to support rapid enrollment.
+Ensure IRB/IEC approvals, consent versions, recruitment materials, and protocol amendments
+are fully documented and filed despite compressed activation schedules.
+:::

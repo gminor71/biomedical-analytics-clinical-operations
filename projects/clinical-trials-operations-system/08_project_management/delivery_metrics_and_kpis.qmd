@@ -1,0 +1,79 @@
+---
+title: "Delivery Metrics & KPIs"
+---
+
+## Purpose
+Metrics and KPIs provide **quantitative visibility**
+into trial performance.
+
+They allow project management to:
+- detect problems early,
+- track trends,
+- and justify decisions.
+
+Without metrics, PM is blind.
+
+---
+
+## Key Performance Domains
+
+Typical KPI categories:
+
+| Domain | Examples |
+|-------|---------|
+| Start-Up | % sites activated |
+| Monitoring | Visit completion rate |
+| Safety | SAE reporting timeliness |
+| Data Quality | Query aging |
+| Quality | Deviation rate |
+| Delivery | Milestone adherence |
+
+---
+
+## Examples of Operational KPIs
+
+### Monitoring
+- % scheduled visits completed
+- average days to report findings
+
+### Data Quality
+- open queries per subject
+- median query resolution time
+
+### Safety
+- % SAEs reported within 24 hours
+- unresolved safety follow-ups
+
+### Quality
+- deviations per site
+- CAPA closure time
+
+---
+
+## Leading vs Lagging Indicators
+
+| Type | Meaning |
+|------|--------|
+| Leading | Predict future problems |
+| Lagging | Confirm past performance |
+
+Examples:
+- High query aging → leading indicator  
+- Missed DBL → lagging indicator  
+
+Effective PM prioritizes **leading indicators**.
+
+---
+
+## KPIs as Decision Inputs
+
+Metrics are not for reporting.
+They are for **decision-making**.
+
+KPIs inform:
+- resource reallocation
+- escalation
+- vendor performance
+- risk prioritization
+
+KPIs are a **control system**, not a scoreboard.

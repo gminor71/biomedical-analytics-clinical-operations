@@ -1,0 +1,83 @@
+---
+title: "Case Studies"
+---
+
+## Purpose
+
+The case studies in this section demonstrate how the Clinical Trial
+Operations System functions in real-world scenarios.
+
+Clinical trials rarely proceed exactly as planned.
+Operational challenges, safety events, and regulatory findings
+require coordinated responses across execution and governance layers.
+
+These case studies illustrate how operational signals are:
+
+- identified,
+- interpreted as risks or issues,
+- escalated through governance structures,
+- and resolved through execution and quality controls.
+
+---
+
+## Role of Case Studies in This System
+
+The core modules of this system describe:
+
+- how clinical trials are structured,
+- how work is executed,
+- and how governance is applied.
+
+Case studies demonstrate how those components interact when
+unexpected events occur.
+
+They show how the system moves from:
+
+**Operational signal → Risk assessment → Governance decision → Execution response**
+
+---
+
+## Scope
+
+All case studies are illustrative and use generalized scenarios.
+They are designed to demonstrate operational reasoning rather than
+document specific studies or organizations.
+
+The scenarios reflect common challenges encountered in clinical trials:
+
+- delivery risks affecting timelines,
+- safety reporting challenges,
+- and regulatory or inspection findings.
+
+---
+
+## Case Study Categories
+
+The current case studies represent three major categories of trial risk:
+
+### Delivery Risk
+Enrollment underperformance demonstrating project management,
+analytics, and operational coordination.
+
+### Safety Risk
+Late SAE reporting demonstrating safety oversight,
+monitoring, and escalation pathways.
+
+### Regulatory & Quality Risk
+Inspection data quality findings demonstrating CAPA,
+monitoring strategy adjustment, and governance response.
+
+---
+
+## How to Read These Case Studies
+
+Each case study follows a consistent structure:
+
+1. Scenario description  
+2. Operational signals  
+3. Risk assessment  
+4. System response across layers  
+5. Outcome and lessons learned  
+
+Readers are encouraged to reference the corresponding modules
+to understand how execution and governance interact within the system.

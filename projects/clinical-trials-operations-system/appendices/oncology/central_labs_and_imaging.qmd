@@ -1,0 +1,14 @@
+---
+title: "Central Labs & Imaging"
+---
+
+## Oncology Dependencies
+- Central pathology review
+- Central biomarker labs
+- Central imaging review (CT/MRI/PET)
+
+## CRA Oversight
+- Sample chain-of-custody
+- Imaging manuals followed
+- Lab turnaround times
+- Specimen integrity

@@ -1,0 +1,37 @@
+---
+title: "Inspection Templates & Checklists"
+---
+
+## Inspection Readiness Checklist (CRA)
+
+- [ ] Regulatory binder current
+- [ ] Monitoring documentation complete
+- [ ] Safety documentation consistent
+- [ ] Deviations tracked
+- [ ] CAPAs closed
+- [ ] TMF reconciled
+- [ ] Training documentation available
+
+---
+
+## Inspection Question Log
+
+| Question | Asked By | Date | Response | Evidence Provided |
+|---------|---------|------|---------|-------------------|
+|         |         |      |         |                   |
+
+---
+
+::: {.center}
+![](../assets/images/inspection_question_log_mock.png){width=65%}
+:::
+
+Example inspection question log (mock data).
+
+
+
+## Inspection Finding Log
+
+| Finding | Severity | Root Cause | CAPA | Owner | Due Date | Status |
+|--------|---------|------------|------|-------|---------|--------|
+|        |         |            |      |       |         |        |

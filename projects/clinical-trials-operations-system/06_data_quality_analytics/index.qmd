@@ -1,0 +1,20 @@
+---
+title: "Data Quality & Analytics"
+---
+
+## Purpose
+This module defines how CRAs use data to monitor site performance,
+identify risks, and support evidence-based oversight.
+Within the Trial Lifecycle Map, analytics supports continuous
+risk assessment during the Conduct phase.
+
+## CRA Accountability (Practical)
+- Track key operational metrics
+- Identify data quality risks early
+- Support risk-based monitoring (RBM)
+- Detect trends and systemic issues
+- Escalate based on evidence, not intuition
+
+## Why This Matters
+Modern trials are data-driven.
+CRAs who understand analytics become **decision-support partners**, not just monitors.

@@ -1,0 +1,117 @@
+project:
+  type: book
+  output-dir: docs
+  resources:
+    - assets/**
+
+book:
+  title: "Clinical Trial Operating System"
+  subtitle: "Execution and Governance"
+  author: "Grant Minor, MS"
+  cover-image: assets/images/cover_image.png
+  
+  chapters:
+    - index.qmd
+    
+    - 00_how_to_use/index.qmd
+    
+    - 00_about/index.qmd
+    
+    - 01_trial_lifecycle/index.qmd
+    - 01_trial_lifecycle/trial_phases_and_objectives.qmd
+    - 01_trial_lifecycle/cra_role_across_lifecycle.qmd
+    - 01_trial_lifecycle/lifecycle_to_modules_map.qmd
+    
+    - 02_regulatory_compliance/index.qmd
+    - 02_regulatory_compliance/regulatory_framework_and_roles.qmd
+    - 02_regulatory_compliance/essential_documents_and_site_reg_binder.qmd
+    - 02_regulatory_compliance/informed_consent_oversight.qmd
+    - 02_regulatory_compliance/irb_iec_and_approvals.qmd
+    - 02_regulatory_compliance/delegation_training_and_qualification.qmd
+    - 02_regulatory_compliance/tmf_quality_control.qmd
+    - 02_regulatory_compliance/regulatory_templates_and_checklists.qmd
+    
+    - 03_site_startup/index.qmd
+    - 03_site_startup/feasibility_and_site_selection.qmd
+    - 03_site_startup/site_startup_workflow.qmd
+    - 03_site_startup/siv_preparation_and_execution.qmd
+    - 03_site_startup/site_activation_and_readiness.qmd
+    - 03_site_startup/startup_risks_and_mitigation.qmd
+    - 03_site_startup/startup_templates_and_checklists.qmd
+    
+    - 04_monitoring_operations/index.qmd
+    - 04_monitoring_operations/monitoring_visit_types.qmd
+    - 04_monitoring_operations/monitoring_workflow.qmd
+    - 04_monitoring_operations/sdv_rbm.qmd
+    - 04_monitoring_operations/follow_up_and_issue_management.qmd
+    - 04_monitoring_operations/monitoring_templates.qmd
+    
+    - 05_safety_pharmacovigilance/index.qmd
+    - 05_safety_pharmacovigilance/safety_framework_and_roles.qmd
+    - 05_safety_pharmacovigilance/ae_sae_identification_and_reporting.qmd
+    - 05_safety_pharmacovigilance/causality_severity_and_expectedness.qmd
+    - 05_safety_pharmacovigilance/safety_oversight_workflows.qmd
+    - 05_safety_pharmacovigilance/safety_follow_up_and_escalation.qmd
+    - 05_safety_pharmacovigilance/safety_templates_and_checklists.qmd
+    
+    - 06_data_quality_analytics/index.qmd
+    - 06_data_quality_analytics/data_quality_framework.qmd
+    - 06_data_quality_analytics/key_cra_metrics.qmd
+    - 06_data_quality_analytics/risk_based_monitoring_analytics.qmd
+    - 06_data_quality_analytics/site_performance_dashboards.qmd
+    - 06_data_quality_analytics/query_and_issue_trending.qmd
+    - 06_data_quality_analytics/analytics_templates.qmd
+    
+    - 07_deviations_capa/index.qmd
+    - 07_deviations_capa/deviation_framework_and_definitions.qmd
+    - 07_deviations_capa/deviation_identification_and_documentation.qmd
+    - 07_deviations_capa/classification_and_impact_assessment.qmd
+    - 07_deviations_capa/capa_workflow_and_root_cause.qmd
+    - 07_deviations_capa/trending_and_systemic_risk.qmd
+    - 07_deviations_capa/deviation_capa_templates.qmd
+    
+    - 08_project_management/index.qmd
+    - 08_project_management/trial_planning_and_milestones.qmd
+    - 08_project_management/governance_and_communication.qmd
+    - 08_project_management/risk_and_issue_management.qmd
+    - 08_project_management/resource_and_capacity_planning.qmd
+    - 08_project_management/delivery_metrics_and_kpis.qmd
+    - 08_project_management/pm_templates_and_trackers.qmd
+    
+    - 09_inspection_readiness/index.qmd
+    - 09_inspection_readiness/inspection_types_and_stakeholders.qmd
+    - 09_inspection_readiness/inspection_readiness_framework.qmd
+    - 09_inspection_readiness/pre_inspection_preparation.qmd
+    - 09_inspection_readiness/on_site_inspection_support.qmd
+    - 09_inspection_readiness/findings_responses_and_remediation.qmd
+    - 09_inspection_readiness/mock_inspection_and_training.qmd
+    - 09_inspection_readiness/inspection_templates_and_checklists.qmd
+    
+    - appendices/oncology/index.qmd
+    - appendices/oncology/oncology_trial_designs.qmd
+    - appendices/oncology/recist_and_tumor_assessment.qmd
+    - appendices/oncology/dose_limiting_toxicity_and_escalation.qmd
+    - appendices/oncology/immune_related_adverse_events.qmd
+    - appendices/oncology/oncology_safety_workflows.qmd
+    - appendices/oncology/central_labs_and_imaging.qmd
+    - appendices/oncology/oncology_inspection_hotspots.qmd
+    - appendices/oncology/oncology_quick_reference.qmd
+    
+    - appendices/vaccine_trials/index.qmd
+    - appendices/vaccine_trials/enrollment_and_site_selection.qmd
+    - appendices/vaccine_trials/safety_and_surveillance.qmd
+    - appendices/vaccine_trials/visit_timing_and_endpoints.qmd
+    - appendices/vaccine_trials/regulatory_and_governance_considerations.qmd
+    
+    - appendices/case_studies/index.qmd
+    - appendices/case_studies/enrollment_underperformance.qmd
+    - appendices/case_studies/late_sae_reporting.qmd
+    - appendices/case_studies/inspection_finding_data_quality.qmd
+  
+
+
+format:
+  html:
+    css:
+      - assets/css/branding.css
+    toc: true

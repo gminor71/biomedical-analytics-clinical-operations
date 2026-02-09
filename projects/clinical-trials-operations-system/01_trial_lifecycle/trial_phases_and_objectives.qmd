@@ -1,0 +1,17 @@
+---
+title: "Trial Phases & Objectives"
+---
+
+## Core Phases
+- Start-Up
+- Initiation
+- Conduct
+- Close-Out
+
+## Primary Objectives
+| Phase | Objective |
+|------|----------|
+| Start-Up | Site readiness |
+| Initiation | Training & activation |
+| Conduct | Data & safety oversight |
+| Close-Out | Reconciliation & archiving |

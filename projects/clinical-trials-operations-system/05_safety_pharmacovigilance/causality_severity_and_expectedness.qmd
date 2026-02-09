@@ -1,0 +1,25 @@
+---
+title: "Causality, Severity & Expectedness"
+---
+
+## Key Concepts (CRA Lens)
+
+### Causality
+Relationship between study intervention and event.
+
+### Severity
+Intensity of the event (e.g., mild, moderate, severe).
+
+### Expectedness
+Whether the event is described in protocol/IB/product label.
+
+## CRA Role
+CRAs:
+- Do not determine medical causality
+- Verify that causality/severity fields are completed
+- Ensure consistency between source, SAE forms, and EDC
+
+## Common CRA Findings
+- Missing severity grading
+- Inconsistent causality across documents
+- Expected events not documented because “they were expected”

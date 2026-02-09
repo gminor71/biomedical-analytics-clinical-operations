@@ -1,0 +1,158 @@
+---
+title: "Case Study: Inspection Finding – Data Quality & Source Documentation"
+---
+
+## Scenario
+
+During a regulatory inspection, the auditor identified inconsistencies
+between source documentation and data entered in the Electronic Data
+Capture (EDC) system at multiple sites.
+
+Examples included:
+
+- incomplete source documentation supporting entered data,
+- discrepancies between visit dates in source and EDC,
+- delayed data entry following subject visits.
+
+Although no evidence of intentional misconduct was identified,
+the findings raised concerns regarding data reliability and
+monitoring effectiveness.
+
+---
+
+## Operational Signals
+
+Prior to inspection, several indicators suggested elevated data quality risk:
+
+- increased query rates at multiple sites,
+- repeated data clarification requests,
+- delayed query resolution,
+- monitoring findings related to documentation completeness,
+- variability in source documentation practices between sites.
+
+These signals were visible through:
+
+- monitoring reports,
+- data management metrics,
+- and query aging analytics.
+
+---
+
+## Risk Assessment
+
+Inspection findings related to data quality represent high-impact risk because they affect:
+
+- credibility of study data,
+- regulatory acceptance of results,
+- sponsor reputation,
+- and inspection outcomes.
+
+Potential consequences include:
+
+- inspection observations,
+- requirement for corrective actions,
+- or increased regulatory scrutiny.
+
+Risk classification:
+
+| Dimension | Assessment |
+|------------|-----------|
+| Probability | Moderate |
+| Impact | High |
+| Priority | High |
+
+---
+
+## System Response
+
+The Clinical Trial Operations System responds through coordinated
+execution, governance, and quality actions.
+
+### Execution Layer (Monitoring Operations)
+
+Immediate actions included:
+
+- verification of affected data points,
+- confirmation of source documentation completeness,
+- clarification of documentation expectations with site staff,
+- targeted review of similar data across subjects and visits.
+
+Monitoring focus shifted toward:
+
+- source documentation consistency,
+- timeliness of data entry,
+- and documentation practices.
+
+---
+
+### Analytics Layer
+
+Data trends were reviewed to determine scope:
+
+- identification of sites with elevated query rates,
+- assessment of recurring data discrepancies,
+- comparison of affected variables across sites.
+
+Analytics helped determine whether the issue was:
+- isolated,
+- site-specific,
+- or systemic.
+
+---
+
+### Governance Layer (Project Management)
+
+The inspection finding was logged as a critical issue.
+
+Governance actions included:
+
+- cross-functional review with monitoring, data management, and quality,
+- prioritization of remediation activities,
+- reassessment of monitoring strategy,
+- communication with sponsor leadership.
+
+Decision-making focused on:
+- risk containment,
+- documentation remediation timelines,
+- and prevention of recurrence.
+
+---
+
+### Quality & CAPA Response
+
+Because findings affected multiple sites, the issue was treated as systemic.
+
+CAPA activities included:
+
+- root cause analysis of documentation practices,
+- additional training on source documentation expectations,
+- updated monitoring focus areas,
+- enhanced oversight until corrective actions proved effective.
+
+CAPA effectiveness checks ensured that improvements were sustained.
+
+---
+
+## Outcome
+
+Successful resolution resulted in:
+
+- correction of affected data discrepancies,
+- improved documentation consistency,
+- strengthened monitoring focus,
+- and improved inspection readiness.
+
+The event reinforced the importance of early signal detection
+through monitoring and analytics.
+
+---
+
+## Modules Involved
+
+This case study integrates:
+
+- Monitoring Operations
+- Data Quality & Analytics
+- Deviations & CAPA
+- Project Management
+- Inspection Readiness

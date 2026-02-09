@@ -1,0 +1,27 @@
+
+---
+title: "Site Initiation Visit (SIV)"
+---
+
+## Purpose
+Ensure site staff are fully trained and operationally ready
+to conduct the trial.
+
+## SIV Preparation (CRA)
+- Review protocol and amendments
+- Confirm required regulatory documents collected
+- Prepare SIV agenda and training materials
+- Coordinate site staff attendance
+
+## SIV Execution Topics
+- Protocol overview
+- Informed consent process
+- Safety reporting procedures
+- Data entry and EDC training
+- IP handling and accountability
+- Lab and imaging workflows
+
+## CRA Deliverables
+- Attendance/training log
+- SIV report or documentation
+- Follow-up action items

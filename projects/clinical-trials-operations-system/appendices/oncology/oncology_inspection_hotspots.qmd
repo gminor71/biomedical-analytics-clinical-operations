@@ -1,0 +1,15 @@
+---
+title: "Oncology Inspection Hotspots"
+---
+
+## Areas Inspectors Scrutinize
+- RECIST source verification
+- Dose modification rationale
+- Safety reporting completeness
+- Protocol amendments
+- Informed consent re-consent
+
+## CRA Defense Strategy
+- Strong documentation
+- Version control discipline
+- Deviation trend awareness

@@ -1,0 +1,16 @@
+---
+title: "Dose-Limiting Toxicity & Escalation"
+---
+
+## What is a DLT?
+A toxicity that limits further dose escalation.
+
+## CRA Implications
+- Critical documentation of timing and severity
+- Close monitoring of Cycle 1
+- Safety review committees (SRC/DSMB)
+
+## Escalation Designs
+- 3+3
+- Bayesian adaptive models
+- Modified toxicity probability interval (mTPI)

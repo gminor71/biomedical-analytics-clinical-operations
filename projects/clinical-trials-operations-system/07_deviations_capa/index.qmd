@@ -1,0 +1,19 @@
+---
+title: "Protocol Deviations & CAPA"
+---
+
+
+## Purpose
+This module defines how protocol deviations are identified, documented,
+classified, and corrected through CAPA (Corrective and Preventive Actions).
+
+## CRA Accountability (Practical)
+- Identify deviations during monitoring
+- Ensure deviations are documented and reported appropriately
+- Assess risk and impact with the study team
+- Track CAPAs to resolution
+- Detect trends and systemic issues
+
+## Why This Matters
+Deviations and CAPAs are one of the **highest inspection risk areas**
+in clinical trials.

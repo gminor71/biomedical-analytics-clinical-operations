@@ -1,0 +1,49 @@
+---
+title: "Monitoring Templates"
+---
+
+## Monitoring Visit Report (MVR)
+
+**Study:**  
+**Site:**  
+**Visit Type:**  
+**Visit Date(s):**  
+**CRA:**  
+
+### Summary
+Overall site status and risk assessment.
+
+### Findings
+| Area | Observation | Action Required |
+|----|-----------|----------------|
+| Informed Consent | | |
+| SDV | | |
+| Safety | | |
+| IP Accountability | | |
+
+### Action Items
+- [ ] Item 1
+- [ ] Item 2
+
+---
+
+## Follow-Up Letter Template
+
+**Date:**  
+**Study / Site:**  
+
+### Summary of Findings
+Brief overview of key observations.
+
+### Required Actions
+| Issue | Required Action | Due Date |
+|-----|---------------|---------|
+
+---
+
+## CRA Monitoring Checklist
+- [ ] Consent reviewed
+- [ ] SDV completed per plan
+- [ ] AEs reviewed
+- [ ] IP accountability verified
+- [ ] Action items documented

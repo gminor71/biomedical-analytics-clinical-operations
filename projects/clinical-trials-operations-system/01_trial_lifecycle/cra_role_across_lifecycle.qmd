@@ -1,0 +1,9 @@
+---
+title: "CRA Role Across the Lifecycle"
+---
+
+| Phase | CRA Focus |
+|------|----------|
+| Start-Up | Feasibility, SIV, activation |
+| Conduct | Monitoring, safety, quality |
+| Close-Out | Issue resolution, archiving |

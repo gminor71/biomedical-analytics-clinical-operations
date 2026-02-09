@@ -1,0 +1,24 @@
+---
+title: "Classification & Impact Assessment"
+---
+
+## Deviation Severity Levels (Typical)
+
+| Level | Description |
+|------|------------|
+| Minor | No impact on safety or data integrity |
+| Major | Potential impact on safety or data |
+| Critical | Significant risk to subject safety or data validity |
+
+## CRA Role
+CRAs:
+- Do not determine regulatory classification alone
+- Verify site assessment
+- Escalate major/critical deviations
+- Document rationale
+
+## Impact Dimensions
+- Subject safety
+- Data integrity
+- Regulatory compliance
+- Study credibility

@@ -1,0 +1,34 @@
+---
+title: "Informed Consent Oversight"
+---
+
+## CRA Oversight Objectives
+- Correct version in use (IRB-approved)
+- Consent obtained before any protocol-required procedures
+- Documentation complete and consistent (dates, times, signatures)
+- Re-consent performed when required (amendments, new risk info)
+
+## Consent Review Checklist (During Monitoring)
+- [ ] Correct ICF version in use; IRB approval dates match
+- [ ] Participant (or LAR) signed/dated appropriately
+- [ ] Person obtaining consent signed/dated appropriately
+- [ ] All required signatures present (witness/translator if applicable)
+- [ ] No study procedures performed before consent date/time
+- [ ] Participant received a copy (documented per site practice)
+- [ ] Re-consent completed when triggered; documented rationale if not
+
+::: {.callout-warning title="Common Consent Findings"}
+Missing dates, wrong version, signatures out of order, and procedures done before consent are frequent inspection issues.
+:::
+
+::: {.callout-note title="Oncology-Specific Considerations"}
+- Consent language often includes genetics, tissue banking, future research, optional sub-studies
+- Re-consent triggers may occur more often due to safety updates and amendments
+:::
+
+::: {.callout-note title="Vaccine Trial Considerations"}
+- High enrollment volume may increase risk of consent timing or documentation errors; verify consent completion prior to any study procedures.
+- Rapid recruitment environments require careful verification of consent version control and timestamp accuracy.
+- Ensure subjects have adequate opportunity for questions despite accelerated enrollment workflows.
+:::
+

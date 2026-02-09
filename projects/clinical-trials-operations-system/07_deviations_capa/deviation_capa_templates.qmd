@@ -1,0 +1,35 @@
+---
+title: "Deviation & CAPA Templates"
+---
+
+## Deviation Log (Template)
+
+| ID | Site | Date | Deviation Description | Severity | Reported To | Status |
+|----|------|------|----------------------|----------|-------------|--------|
+|    |      |      |                      |          |             |        |
+
+---
+
+## CAPA Form (Template)
+
+**Deviation ID:**  
+**Root Cause:**  
+
+### Corrective Action
+Describe immediate fix.
+
+### Preventive Action
+Describe long-term prevention.
+
+### Owner:
+### Due Date:
+### Evidence of Effectiveness:
+
+---
+
+## CRA Deviation Review Checklist
+- [ ] Deviation documented objectively
+- [ ] Severity assessed
+- [ ] Reported per protocol
+- [ ] CAPA implemented
+- [ ] Closure evidence present

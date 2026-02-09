@@ -1,0 +1,22 @@
+---
+title: "Site Start-Up Workflow"
+---
+
+## End-to-End Site Start-Up Workflow
+
+```{mermaid}
+flowchart LR
+  A[Site Identification] --> B[Feasibility Assessment]
+  B --> C[Site Selection]
+  C --> D[Regulatory Collection]
+  D --> E[Site Initiation Visit]
+  E --> F[Site Activation]
+  F --> G[Enrollment Begins]
+```
+
+## CRA Focus Areas
+
+- Regulatory document collection
+- Training coordination
+- System access (EDC/IRT)
+- Activation readiness verification

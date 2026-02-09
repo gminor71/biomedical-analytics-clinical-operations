@@ -1,0 +1,20 @@
+---
+title: "Site Start-Up & Activation"
+---
+
+## Purpose
+This module defines the CRA’s role in site feasibility, initiation,
+and activation to ensure sites are prepared to conduct the trial
+in compliance with protocol and regulatory requirements.
+As shown in the Trial Lifecycle Map, Start-Up represents the transition
+from site identification to activation and enrollment.
+
+## CRA Accountability (Practical)
+- Assess site suitability and readiness
+- Support Site Initiation Visit (SIV) execution
+- Verify training, documentation, and system access
+- Confirm activation criteria are met before enrollment
+
+## Scope
+Applies to all interventional clinical trials. Therapeutic-area
+considerations (oncology, infectious disease) are highlighted where relevant.

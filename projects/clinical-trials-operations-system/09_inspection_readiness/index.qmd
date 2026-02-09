@@ -1,0 +1,24 @@
+---
+title: "Inspection Readiness & Audit Defense"
+---
+
+## Purpose
+This module defines how CRAs support inspection readiness,
+regulatory audits, and inspection responses across the clinical trial lifecycle.
+Inspection readiness spans the entire lifecycle, as illustrated
+in the Trial Lifecycle Map.
+
+
+## CRA Accountability (Practical)
+- Maintain inspection-ready documentation at all times
+- Support sites during audits and inspections
+- Verify completeness and consistency of trial records
+- Track findings and remediation actions
+- Contribute to CAPA effectiveness
+
+## Why This Matters
+Inspections determine:
+- Regulatory trust
+- Sponsor credibility
+- Trial validity
+- Site eligibility for future studies

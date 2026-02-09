@@ -1,0 +1,19 @@
+---
+title: "Query & Issue Trending"
+---
+
+## Why Trending is Critical
+Single issues are noise.
+Patterns are signals.
+
+## Examples of Trends
+- Recurrent missing labs
+- Frequent consent corrections
+- Repeated data entry delays
+- Systematic protocol deviations
+
+## CRA Responsibilities
+- Maintain issue logs
+- Identify recurring patterns
+- Escalate systemic risks
+- Support CAPA decisions

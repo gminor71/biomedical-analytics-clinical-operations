@@ -1,0 +1,23 @@
+---
+title: "Welcome"
+---
+
+This is a Clinical Trial Operations System designed to provide an
+end-to-end operating model for clinical research.
+
+It integrates execution and governance across:
+site operations, safety, data quality, quality systems, analytics,
+and project management.
+
+**Start here:** [How to Use This System](00_how_to_use/index.qmd)
+
+
+**Clinical Trial Operations System**
+
+Version: v1.0  
+
+Last updated: 2026-02-05
+
+Status: Stable
+
+Maintainer: Grant Minor

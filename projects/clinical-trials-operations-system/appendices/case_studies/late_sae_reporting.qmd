@@ -1,0 +1,157 @@
+---
+title: "Case Study: Late SAE Reporting"
+---
+
+## Scenario
+
+During routine monitoring review, a Serious Adverse Event (SAE)
+was identified in source documentation that had not been reported
+to the sponsor within the protocol-defined reporting timeline.
+
+The event was eventually reported, but outside the required
+reporting window.
+
+Subsequent review identified delayed follow-up documentation
+and uncertainty at the site regarding reporting responsibilities.
+
+This raised concerns regarding both patient safety oversight
+and regulatory compliance.
+
+---
+
+## Operational Signals
+
+Several indicators suggested an emerging safety oversight issue:
+
+- SAE identified during monitoring rather than proactive reporting
+- Delay between event occurrence and sponsor notification
+- Incomplete or delayed follow-up information
+- Site uncertainty regarding reporting timelines
+- Similar reporting delays observed at prior visits
+
+These signals were identified through:
+
+- source data verification,
+- monitoring visit findings,
+- and safety reconciliation activities.
+
+---
+
+## Risk Assessment
+
+Late SAE reporting represents a high-risk event because it impacts:
+
+- patient safety oversight,
+- sponsor pharmacovigilance responsibilities,
+- regulatory compliance,
+- and inspection readiness.
+
+Potential consequences include:
+
+- delayed safety signal evaluation,
+- regulatory findings,
+- or increased inspection scrutiny.
+
+Risk classification:
+
+| Dimension | Assessment |
+|------------|-----------|
+| Probability | Moderate |
+| Impact | High |
+| Priority | High |
+
+---
+
+## System Response
+
+The Clinical Trial Operations System addresses safety issues
+through coordinated execution, governance, and quality actions.
+
+### Execution Layer (Site Operations)
+
+Immediate actions included:
+
+- verification of event details and timelines,
+- confirmation that the SAE was fully documented,
+- clarification of reporting responsibilities with site staff,
+- reinforcement of reporting procedures.
+
+Monitoring follow-up ensured:
+- complete safety documentation,
+- appropriate investigator awareness,
+- and prevention of recurrence.
+
+---
+
+### Safety Oversight Layer
+
+Safety personnel reviewed:
+
+- seriousness and expectedness classification,
+- completeness of safety narrative,
+- follow-up requirements,
+- and potential impact on ongoing safety evaluation.
+
+Reconciliation between EDC and safety systems ensured
+no additional unreported events existed.
+
+---
+
+### Governance Layer (Project Management)
+
+The event was logged as an issue and reviewed for escalation.
+
+Governance actions included:
+
+- review during study team meetings,
+- assessment of whether issue was isolated or systemic,
+- evaluation of additional site training needs,
+- increased oversight for affected site.
+
+Escalation decisions were based on:
+- recurrence risk,
+- site performance history,
+- and potential regulatory exposure.
+
+---
+
+### Quality & CAPA Considerations
+
+If delayed reporting reflected systemic process failure,
+Corrective and Preventive Action (CAPA) was initiated.
+
+Possible CAPA actions included:
+
+- targeted retraining,
+- clarification of reporting workflows,
+- enhanced monitoring frequency,
+- documentation of process improvements.
+
+CAPA ensured that corrective actions addressed root cause,
+not only the individual event.
+
+---
+
+## Outcome
+
+Successful resolution resulted in:
+
+- restored compliance with reporting timelines,
+- improved site understanding of safety responsibilities,
+- and strengthened safety oversight processes.
+
+Early identification prevented escalation into a systemic
+safety compliance issue.
+
+---
+
+## Modules Involved
+
+This case study integrates:
+
+- Monitoring Operations
+- Safety & Pharmacovigilance
+- Deviations & CAPA
+- Project Management
+- Risk & Issue Management
+- Inspection Readiness

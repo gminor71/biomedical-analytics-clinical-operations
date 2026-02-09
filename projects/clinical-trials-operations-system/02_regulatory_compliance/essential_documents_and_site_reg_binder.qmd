@@ -1,0 +1,30 @@
+---
+title: "Essential Documents & Site Regulatory Binder"
+---
+
+## Core Concept
+If it isn’t documented correctly, it didn’t happen (from an inspection perspective).
+
+## Essential Document Categories (CRA Monitoring Lens)
+- Protocol + amendments
+- Investigator’s Brochure (IB) / product information
+- Informed consent forms (ICF) + short forms as applicable
+- IRB/IEC approvals and correspondence
+- Delegation of Authority (DOA) / site signature log
+- Training documentation (protocol, GCP, safety, EDC)
+- CVs, medical licenses (as required), and financial disclosures (if applicable)
+- Normal ranges and lab certifications (central/local labs)
+- IP accountability documentation (as applicable)
+
+::: {.callout-note title="Oncology-Specific Considerations"}
+- Tissue/biopsy logistics often create additional essential documentation (shipping, chain-of-custody, lab manuals)
+- Imaging charter or imaging guidance may function as an essential reference for endpoints
+- Higher amendment frequency → version control becomes a recurring risk area
+:::
+
+::: {.callout-note title="Vaccine Trial Considerations"}
+- Time-sensitive specimen collection and processing are often critical for immunogenicity and safety endpoints.
+- Laboratory manuals and specimen handling instructions must ensure consistency in timing relative to vaccination and follow-up visits.
+- Cold-chain handling and accountability documentation may receive additional review during audits or inspections.
+:::
+

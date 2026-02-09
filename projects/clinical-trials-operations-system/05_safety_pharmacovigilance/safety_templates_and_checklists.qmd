@@ -1,0 +1,35 @@
+---
+title: "Safety Templates & Checklists"
+---
+
+## Safety Oversight Checklist (CRA)
+- [ ] AE/SAE listings reviewed
+- [ ] SAEs reported within required timelines
+- [ ] Source documentation present
+- [ ] Follow-up obtained for ongoing events
+- [ ] Safety correspondence filed
+- [ ] TMF reconciled as required
+
+---
+
+## Safety Issue Log (Template)
+
+| Event ID | Issue | Date Identified | Required Action | Owner | Due Date | Status |
+|---------|------|----------------|-----------------|-------|---------|--------|
+|         |      |                |                 |       |         |        |
+
+---
+
+## Follow-Up Request Template
+
+**Date:**  
+**Study / Site:**  
+
+### Issue
+Describe missing or inconsistent safety information.
+
+### Required Action
+Specify documentation or clarification needed.
+
+### Due Date
+Specify timeline per protocol/safety plan.

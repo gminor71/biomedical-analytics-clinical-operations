@@ -1,0 +1,16 @@
+---
+title: "Oncology Trial Designs"
+---
+
+## Common Oncology Designs
+- Phase I dose escalation
+- Basket trials
+- Umbrella trials
+- Expansion cohorts
+- Adaptive designs
+
+## CRA Implications
+- More frequent amendments
+- Complex eligibility criteria
+- Rapid protocol evolution
+- Frequent safety reviews

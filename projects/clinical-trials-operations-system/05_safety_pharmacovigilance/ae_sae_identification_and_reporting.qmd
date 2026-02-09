@@ -1,0 +1,33 @@
+---
+title: "AE & SAE Identification and Reporting"
+---
+
+## Definitions (Operational)
+- **Adverse Event (AE):** Any unfavorable medical occurrence
+- **Serious Adverse Event (SAE):** Results in death, life-threatening condition,
+  hospitalization, disability, or is medically significant
+
+## CRA Oversight Objectives
+- Site recognizes and reports events per protocol
+- Reporting timelines are met
+- Documentation is complete and traceable
+
+## CRA Monitoring Checks
+- [ ] All AEs documented in source and EDC
+- [ ] SAEs reported to sponsor within required timelines
+- [ ] SAE forms complete (onset date, outcome, seriousness criteria)
+- [ ] Supporting source documentation present
+- [ ] Follow-up information obtained when required
+
+::: {.callout-note title="Oncology-Specific Considerations"}
+- High volume of expected toxicities → risk of under-reporting
+- Hospitalizations may be protocol-expected but still require documentation
+- Immune-related AEs (irAEs) often require prolonged follow-up
+:::
+
+::: {.callout-note title="Vaccine Trial Consideration"}
+Because vaccine trials frequently involve healthy populations,
+unexpected safety signals may require rapid escalation and governance review,
+even when event severity is low.
+:::
+

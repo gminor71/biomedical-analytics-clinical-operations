@@ -1,0 +1,23 @@
+---
+title: "Safety Follow-Up & Escalation"
+---
+
+## Follow-Up Triggers
+- Incomplete SAE documentation
+- Missing outcome information
+- Unresolved ongoing events
+- Recurrent reporting delays
+
+## CRA Escalation Criteria
+Escalate when:
+- Reporting timelines repeatedly missed
+- Site does not respond to safety queries
+- Safety processes appear systematically weak
+- Subject safety may be compromised
+
+## Documentation
+All follow-up actions must be:
+- Written
+- Dated
+- Tracked to resolution
+- Filed appropriately

@@ -1,0 +1,23 @@
+---
+title: "Safety Oversight Workflows"
+---
+
+## End-to-End Safety Oversight Workflow
+
+```{mermaid}
+flowchart LR
+  A[Event Occurs] --> B[Investigator Assessment]
+  B --> C[AE/SAE Documentation]
+  C --> D[Sponsor Safety Review]
+  D --> E[Follow-Up Information]
+  E --> F[CRA Verification]
+  F --> G[TMF / Site Binder Filing]
+```
+
+## CRA Safety Workflow (Visit-Level)
+
+- [ ] Review AE/SAE listings
+- [ ] Cross-check against source documentation
+- [ ] Identify missing or late reports
+- [ ] Request follow-up documentation
+- [ ] Document actions in visit report

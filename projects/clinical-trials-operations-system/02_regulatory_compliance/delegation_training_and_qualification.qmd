@@ -1,0 +1,30 @@
+---
+title: "Delegation, Training & Qualification"
+---
+
+## Why Delegation Matters
+Delegation links “who did the work” to “who was trained and qualified to do it.”
+
+## Delegation of Authority (DOA) Checks
+- [ ] All staff performing trial tasks are on the DOA
+- [ ] Start/stop dates align with actual activity dates
+- [ ] Roles/responsibilities match staff qualifications
+- [ ] PI oversight documented per site practice
+
+## Training Oversight (CRA Practical Set)
+- Protocol training (initial + amendments)
+- GCP training (current)
+- Safety reporting training (site obligations)
+- EDC/IRT training (as applicable)
+- Lab/manual training (specimen handling; imaging manuals if applicable)
+
+::: {.callout-note title="Oncology-Specific Considerations"}
+- Specialized administration procedures and toxicity management workflows may require documented training
+- Imaging review processes often require documented training or guidance acknowledgments
+:::
+
+::: {.callout-note title="Vaccine Trial Considerations"}
+- Training related to vaccination procedures, specimen collection timing, and protocol-defined visit windows is often critical to endpoint validity.
+- Training documentation serves as an important risk control to ensure consistency across high-volume enrollment and follow-up activities.
+- Ensure delegation logs accurately reflect staff performing vaccination, safety assessments, and specimen collection activities.
+:::

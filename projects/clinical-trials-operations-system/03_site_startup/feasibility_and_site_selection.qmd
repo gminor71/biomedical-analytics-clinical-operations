@@ -1,0 +1,34 @@
+---
+title: "Feasibility & Site Selection"
+---
+
+## Goal
+Identify sites capable of conducting the trial effectively
+and in compliance with protocol requirements.
+
+## Feasibility Assessment Domains
+- Patient population
+- Investigator experience
+- Staff availability
+- Facilities and equipment
+- Competing trials
+- Recruitment timelines
+
+## CRA Role
+- Review feasibility questionnaires
+- Participate in site qualification visits (as applicable)
+- Identify potential risks or capacity gaps
+
+::: {.callout-note title="Oncology-Specific Considerations"}
+- Access to eligible patient population by tumor type/stage
+- Availability of imaging and central lab workflows
+- Experience with complex protocols and amendments
+:::
+
+::: {.callout-note title="Vaccine Trial Considerations"}
+- Access to large eligible populations to support rapid enrollment targets.
+- Demonstrated ability to recruit healthy volunteers or target populations efficiently.
+- Capacity to manage high visit volume and protocol-driven vaccination schedules.
+- Experience with vaccine storage, handling, and cold-chain requirements where applicable.
+:::
+

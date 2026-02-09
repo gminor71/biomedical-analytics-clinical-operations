@@ -1,0 +1,21 @@
+---
+title: "RECIST & Tumor Assessment"
+---
+
+## What is RECIST?
+Response Evaluation Criteria in Solid Tumors.
+Defines objective tumor response categories:
+- CR: Complete Response
+- PR: Partial Response
+- SD: Stable Disease
+- PD: Progressive Disease
+
+## CRA Oversight
+- Verify imaging dates align with visit windows
+- Confirm measurements trace to source imaging
+- Ensure central review processes followed
+
+## High-Risk Areas
+- Missed imaging windows
+- Incorrect target lesion selection
+- Missing baseline scans

@@ -1,0 +1,2912 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "This is a Clinical Trial Operations System designed to provide an end-to-end operating model for clinical research.\nIt integrates execution and governance across: site operations, safety, data quality, quality systems, analytics, and project management.\nStart here: How to Use This System\nClinical Trial Operations System\nVersion: v1.0\nLast updated: 2026-02-05\nStatus: Stable\nMaintainer: Grant Minor",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome</span>"
+    ]
+  },
+  {
+    "objectID": "00_how_to_use/index.html",
+    "href": "00_how_to_use/index.html",
+    "title": "2  How to Use This System in Practice",
+    "section": "",
+    "text": "2.1 Conceptual Model\nThis Clinical Trial Operations System is designed to function as a governance and decision framework that sits above organizational tools such as Excel, CTMS, EDC, safety systems, and eTMF platforms.\nIt does not replace corporate systems. It provides the logic by which those systems are interpreted and controlled.\nClinical trials operate across three layers:",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>How to Use This System in Practice</span>"
+    ]
+  },
+  {
+    "objectID": "00_how_to_use/index.html#conceptual-model",
+    "href": "00_how_to_use/index.html#conceptual-model",
+    "title": "2  How to Use This System in Practice",
+    "section": "",
+    "text": "2.1.1 1. Reality Layer\nSites, subjects, CRAs, vendors, and patients generate operational activity.\n\n\n2.1.2 2. Corporate Systems Layer\nOrganizational tools store and track this activity: - CTMS (milestones, visits, site status) - EDC (data quality, queries) - Safety systems (SAEs, follow-ups) - eTMF (documents, compliance) - Excel trackers (ad hoc operational logs)\n\n\n2.1.3 3. Operations System Layer (This Binder)\nThis system provides: - execution logic, - governance rules, - risk interpretation, - escalation pathways, - and decision frameworks.\nIt converts operational data into management actions.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>How to Use This System in Practice</span>"
+    ]
+  },
+  {
+    "objectID": "00_how_to_use/index.html#operational-decision-flow",
+    "href": "00_how_to_use/index.html#operational-decision-flow",
+    "title": "2  How to Use This System in Practice",
+    "section": "2.2 Operational Decision Flow",
+    "text": "2.2 Operational Decision Flow\n\n\n\n\n\nflowchart LR\n  A[\"Operational Activity\\n(Sites, Subjects, Monitoring)\"] --&gt; B[\"Operational Signals\"]\n  B --&gt; C[\"Risk & Issue Assessment\"]\n  C --&gt; D{\"Governance Review Required?\"}\n\n  D -- \"No\" --&gt; E[\"Continue Execution\"]\n  E --&gt; A\n\n  D -- \"Yes\" --&gt; F[\"Governance Decision\\n(PM, Safety, Quality)\"]\n  F --&gt; G[\"Execution Adjustment\\n(Monitoring, Training, Resources)\"]\n  G --&gt; A",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>How to Use This System in Practice</span>"
+    ]
+  },
+  {
+    "objectID": "00_how_to_use/index.html#example-using-the-system-as-a-ctm-or-trial-lead",
+    "href": "00_how_to_use/index.html#example-using-the-system-as-a-ctm-or-trial-lead",
+    "title": "2  How to Use This System in Practice",
+    "section": "2.3 Example: Using the System as a CTM or Trial Lead",
+    "text": "2.3 Example: Using the System as a CTM or Trial Lead\nIn practice, a project manager or trial lead does not begin with tools.\nThey begin with the system:\n\nReview trial lifecycle and milestones\n\nAssess current risks and issues\n\nExamine key performance indicators\n\nIdentify deviations from expected performance\n\nDetermine required governance actions\n\nOnly then do they access corporate systems to retrieve the specific data needed to support those decisions.\nFor example: - CTMS is used to confirm site activation delays. - EDC is used to assess query aging trends. - Safety systems are used to review SAE reporting timelines.\nThe system determines what questions to ask. The tools provide the data to answer them.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>How to Use This System in Practice</span>"
+    ]
+  },
+  {
+    "objectID": "00_how_to_use/index.html#role-of-this-system",
+    "href": "00_how_to_use/index.html#role-of-this-system",
+    "title": "2  How to Use This System in Practice",
+    "section": "2.4 Role of This System",
+    "text": "2.4 Role of This System\nThis binder functions as a meta-framework that:\n\ndefines what metrics matter,\nestablishes acceptable thresholds,\nformalizes escalation logic,\nand documents decision pathways.\n\nIt enables consistent trial control across: - organizations, - software platforms, - therapeutic areas, - and operational models.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>How to Use This System in Practice</span>"
+    ]
+  },
+  {
+    "objectID": "00_how_to_use/index.html#practical-usage-pattern",
+    "href": "00_how_to_use/index.html#practical-usage-pattern",
+    "title": "2  How to Use This System in Practice",
+    "section": "2.5 Practical Usage Pattern",
+    "text": "2.5 Practical Usage Pattern\nThis system can be used in three ways:\n\n2.5.1 As a Master Reference\nA conceptual guide for how clinical trials are executed and governed.\n\n\n2.5.2 As a Template Generator\nA source of reusable structures for: - timelines, - risk registers, - issue logs, - decision logs, - governance models.\n\n\n2.5.3 As a Control Framework\nA mental and operational model for interpreting real-world data and making informed trial management decisions.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>How to Use This System in Practice</span>"
+    ]
+  },
+  {
+    "objectID": "00_about/index.html",
+    "href": "00_about/index.html",
+    "title": "3  About the Author",
+    "section": "",
+    "text": "3.1 Grant Minor, MS",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>About the Author</span>"
+    ]
+  },
+  {
+    "objectID": "00_about/index.html#grant-minor-ms",
+    "href": "00_about/index.html#grant-minor-ms",
+    "title": "3  About the Author",
+    "section": "",
+    "text": "3.1.1 Background in:\n\nBiostatistics\nProject Management (PMI)\nMolecular Biology and Microbiology\n\n\n\n3.1.2 Training in:\n\nClinical Trials Operations\nQuality Control and Quality Assurance\n\nThis binder represents a personal operational framework for clinical research execution, quality systems, and inspection readiness.\n\n\n3.1.3 Professional Focus\n\nClinical Research Associate (CRA)\nBiostatistics\nProject Management\nRegulatory Compliance\nData Quality & Analytics\nOncology and Infectious Disease\n\n\n\n3.1.4 Purpose of This Work\n\na living knowledge system,\na professional development tool,\nand a practical study execution reference.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>About the Author</span>"
+    ]
+  },
+  {
+    "objectID": "01_trial_lifecycle/index.html",
+    "href": "01_trial_lifecycle/index.html",
+    "title": "4  Clinical Trial Lifecycle",
+    "section": "",
+    "text": "4.1 Purpose\nThis module provides a high-level view of the clinical trial lifecycle and situates CRA responsibilities within each phase.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Clinical Trial Lifecycle</span>"
+    ]
+  },
+  {
+    "objectID": "01_trial_lifecycle/index.html#why-this-matters",
+    "href": "01_trial_lifecycle/index.html#why-this-matters",
+    "title": "4  Clinical Trial Lifecycle",
+    "section": "4.2 Why This Matters",
+    "text": "4.2 Why This Matters\nThis module explains how all other modules in this binder connect. It is the conceptual map of the system.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Clinical Trial Lifecycle</span>"
+    ]
+  },
+  {
+    "objectID": "01_trial_lifecycle/trial_phases_and_objectives.html",
+    "href": "01_trial_lifecycle/trial_phases_and_objectives.html",
+    "title": "5  Trial Phases & Objectives",
+    "section": "",
+    "text": "5.1 Core Phases",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Trial Phases & Objectives</span>"
+    ]
+  },
+  {
+    "objectID": "01_trial_lifecycle/trial_phases_and_objectives.html#core-phases",
+    "href": "01_trial_lifecycle/trial_phases_and_objectives.html#core-phases",
+    "title": "5  Trial Phases & Objectives",
+    "section": "",
+    "text": "Start-Up\nInitiation\nConduct\nClose-Out",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Trial Phases & Objectives</span>"
+    ]
+  },
+  {
+    "objectID": "01_trial_lifecycle/trial_phases_and_objectives.html#primary-objectives",
+    "href": "01_trial_lifecycle/trial_phases_and_objectives.html#primary-objectives",
+    "title": "5  Trial Phases & Objectives",
+    "section": "5.2 Primary Objectives",
+    "text": "5.2 Primary Objectives\n\n\n\nPhase\nObjective\n\n\n\n\nStart-Up\nSite readiness\n\n\nInitiation\nTraining & activation\n\n\nConduct\nData & safety oversight\n\n\nClose-Out\nReconciliation & archiving",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Trial Phases & Objectives</span>"
+    ]
+  },
+  {
+    "objectID": "01_trial_lifecycle/cra_role_across_lifecycle.html",
+    "href": "01_trial_lifecycle/cra_role_across_lifecycle.html",
+    "title": "6  CRA Role Across the Lifecycle",
+    "section": "",
+    "text": "Phase\nCRA Focus\n\n\n\n\nStart-Up\nFeasibility, SIV, activation\n\n\nConduct\nMonitoring, safety, quality\n\n\nClose-Out\nIssue resolution, archiving",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>CRA Role Across the Lifecycle</span>"
+    ]
+  },
+  {
+    "objectID": "01_trial_lifecycle/lifecycle_to_modules_map.html",
+    "href": "01_trial_lifecycle/lifecycle_to_modules_map.html",
+    "title": "7  Lifecycle to Binder Map",
+    "section": "",
+    "text": "Lifecycle Phase\nBinder Module\n\n\n\n\nStart-Up\nModule 3\n\n\nConduct\nModules 4, 5, 6\n\n\nQuality Control\nModule 7\n\n\nProject Management\nModule 8\n\n\nInspection\nModule 9",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Lifecycle to Binder Map</span>"
+    ]
+  },
+  {
+    "objectID": "02_regulatory_compliance/index.html",
+    "href": "02_regulatory_compliance/index.html",
+    "title": "8  Regulatory Compliance",
+    "section": "",
+    "text": "8.1 Purpose\nThis module defines the CRA’s role in ensuring regulatory compliance and maintaining inspection-ready documentation at the site and in the TMF.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Regulatory Compliance</span>"
+    ]
+  },
+  {
+    "objectID": "02_regulatory_compliance/index.html#cra-accountability-practical",
+    "href": "02_regulatory_compliance/index.html#cra-accountability-practical",
+    "title": "8  Regulatory Compliance",
+    "section": "8.2 CRA Accountability (Practical)",
+    "text": "8.2 CRA Accountability (Practical)\n\nConfirm required documents are current, complete, and consistent across systems\nVerify approvals (IRB/IEC) and version control for ICF/protocol\nEnsure delegation and training documentation supports all trial activities\nIdentify gaps early and drive timely resolution with documented follow-up",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Regulatory Compliance</span>"
+    ]
+  },
+  {
+    "objectID": "02_regulatory_compliance/index.html#scope",
+    "href": "02_regulatory_compliance/index.html#scope",
+    "title": "8  Regulatory Compliance",
+    "section": "8.3 Scope",
+    "text": "8.3 Scope\nApplies to all interventional trials. Therapeutic-area considerations (oncology, infectious disease) are highlighted where relevant.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Regulatory Compliance</span>"
+    ]
+  },
+  {
+    "objectID": "02_regulatory_compliance/regulatory_framework_and_roles.html",
+    "href": "02_regulatory_compliance/regulatory_framework_and_roles.html",
+    "title": "9  Regulatory Framework & Roles",
+    "section": "",
+    "text": "9.1 What “Compliance” Means Operationally\nCompliance is demonstrated through: - Correct approvals before study activities occur - Accurate delegation and training for staff performing trial tasks - Controlled versions of essential documents - Traceable decisions and corrective actions (audit trail)",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Regulatory Framework & Roles</span>"
+    ]
+  },
+  {
+    "objectID": "02_regulatory_compliance/regulatory_framework_and_roles.html#cra-role-vs-site-role-quick-map",
+    "href": "02_regulatory_compliance/regulatory_framework_and_roles.html#cra-role-vs-site-role-quick-map",
+    "title": "9  Regulatory Framework & Roles",
+    "section": "9.2 CRA Role vs Site Role (Quick Map)",
+    "text": "9.2 CRA Role vs Site Role (Quick Map)\n\n\n\n\n\n\n\n\nArea\nSite Owns\nCRA Verifies / Oversees\n\n\n\n\nIRB submissions\nSubmission content/timing\nApproval validity; no activity before approval\n\n\nInformed consent\nConsent process + documentation\nVersion control; process adherence; documentation completeness\n\n\nDelegation\nAssigning tasks\nAlignment to qualifications + training\n\n\nEssential docs\nMaintenance of site reg binder\nCompleteness; consistency; filing timeliness\n\n\nTMF\nSponsor/CRO filing\nCompleteness/QC; reconciliation with site docs",
+    "crumbs": [
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Regulatory Framework & Roles</span>"
+    ]
+  },
+  {
+    "objectID": "02_regulatory_compliance/essential_documents_and_site_reg_binder.html",
+    "href": "02_regulatory_compliance/essential_documents_and_site_reg_binder.html",
+    "title": "10  Essential Documents & Site Regulatory Binder",
+    "section": "",
+    "text": "10.1 Core Concept\nIf it isn’t documented correctly, it didn’t happen (from an inspection perspective).",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Essential Documents & Site Regulatory Binder</span>"
+    ]
+  },
+  {
+    "objectID": "02_regulatory_compliance/essential_documents_and_site_reg_binder.html#essential-document-categories-cra-monitoring-lens",
+    "href": "02_regulatory_compliance/essential_documents_and_site_reg_binder.html#essential-document-categories-cra-monitoring-lens",
+    "title": "10  Essential Documents & Site Regulatory Binder",
+    "section": "10.2 Essential Document Categories (CRA Monitoring Lens)",
+    "text": "10.2 Essential Document Categories (CRA Monitoring Lens)\n\nProtocol + amendments\nInvestigator’s Brochure (IB) / product information\nInformed consent forms (ICF) + short forms as applicable\nIRB/IEC approvals and correspondence\nDelegation of Authority (DOA) / site signature log\nTraining documentation (protocol, GCP, safety, EDC)\nCVs, medical licenses (as required), and financial disclosures (if applicable)\nNormal ranges and lab certifications (central/local labs)\nIP accountability documentation (as applicable)\n\n\n\n\n\n\n\nNoteOncology-Specific Considerations\n\n\n\n\nTissue/biopsy logistics often create additional essential documentation (shipping, chain-of-custody, lab manuals)\nImaging charter or imaging guidance may function as an essential reference for endpoints\nHigher amendment frequency → version control becomes a recurring risk area\n\n\n\n\n\n\n\n\n\nNoteVaccine Trial Considerations\n\n\n\n\nTime-sensitive specimen collection and processing are often critical for immunogenicity and safety endpoints.\nLaboratory manuals and specimen handling instructions must ensure consistency in timing relative to vaccination and follow-up visits.\nCold-chain handling and accountability documentation may receive additional review during audits or inspections.",
+    "crumbs": [
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Essential Documents & Site Regulatory Binder</span>"
+    ]
+  },
+  {
+    "objectID": "02_regulatory_compliance/informed_consent_oversight.html",
+    "href": "02_regulatory_compliance/informed_consent_oversight.html",
+    "title": "11  Informed Consent Oversight",
+    "section": "",
+    "text": "11.1 CRA Oversight Objectives",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Informed Consent Oversight</span>"
+    ]
+  },
+  {
+    "objectID": "02_regulatory_compliance/informed_consent_oversight.html#cra-oversight-objectives",
+    "href": "02_regulatory_compliance/informed_consent_oversight.html#cra-oversight-objectives",
+    "title": "11  Informed Consent Oversight",
+    "section": "",
+    "text": "Correct version in use (IRB-approved)\nConsent obtained before any protocol-required procedures\nDocumentation complete and consistent (dates, times, signatures)\nRe-consent performed when required (amendments, new risk info)",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Informed Consent Oversight</span>"
+    ]
+  },
+  {
+    "objectID": "02_regulatory_compliance/informed_consent_oversight.html#consent-review-checklist-during-monitoring",
+    "href": "02_regulatory_compliance/informed_consent_oversight.html#consent-review-checklist-during-monitoring",
+    "title": "11  Informed Consent Oversight",
+    "section": "11.2 Consent Review Checklist (During Monitoring)",
+    "text": "11.2 Consent Review Checklist (During Monitoring)\n\nCorrect ICF version in use; IRB approval dates match\nParticipant (or LAR) signed/dated appropriately\nPerson obtaining consent signed/dated appropriately\nAll required signatures present (witness/translator if applicable)\nNo study procedures performed before consent date/time\nParticipant received a copy (documented per site practice)\nRe-consent completed when triggered; documented rationale if not\n\n\n\n\n\n\n\nWarningCommon Consent Findings\n\n\n\nMissing dates, wrong version, signatures out of order, and procedures done before consent are frequent inspection issues.\n\n\n\n\n\n\n\n\nNoteOncology-Specific Considerations\n\n\n\n\nConsent language often includes genetics, tissue banking, future research, optional sub-studies\nRe-consent triggers may occur more often due to safety updates and amendments\n\n\n\n\n\n\n\n\n\nNoteVaccine Trial Considerations\n\n\n\n\nHigh enrollment volume may increase risk of consent timing or documentation errors; verify consent completion prior to any study procedures.\nRapid recruitment environments require careful verification of consent version control and timestamp accuracy.\nEnsure subjects have adequate opportunity for questions despite accelerated enrollment workflows.",
+    "crumbs": [
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Informed Consent Oversight</span>"
+    ]
+  },
+  {
+    "objectID": "02_regulatory_compliance/irb_iec_and_approvals.html",
+    "href": "02_regulatory_compliance/irb_iec_and_approvals.html",
+    "title": "12  IRB/IEC & Approvals",
+    "section": "",
+    "text": "12.1 Approval Rules of Thumb (CRA Use)",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>IRB/IEC & Approvals</span>"
+    ]
+  },
+  {
+    "objectID": "02_regulatory_compliance/irb_iec_and_approvals.html#approval-rules-of-thumb-cra-use",
+    "href": "02_regulatory_compliance/irb_iec_and_approvals.html#approval-rules-of-thumb-cra-use",
+    "title": "12  IRB/IEC & Approvals",
+    "section": "",
+    "text": "No site activity begins before IRB/IEC approval (per protocol and site requirements)\nAll versions of protocol/ICF in use must be IRB/IEC-approved\nContinuing review approvals must remain current (if applicable)",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>IRB/IEC & Approvals</span>"
+    ]
+  },
+  {
+    "objectID": "02_regulatory_compliance/irb_iec_and_approvals.html#approval-verification-workflow",
+    "href": "02_regulatory_compliance/irb_iec_and_approvals.html#approval-verification-workflow",
+    "title": "12  IRB/IEC & Approvals",
+    "section": "12.2 Approval Verification Workflow",
+    "text": "12.2 Approval Verification Workflow\n\n\n\n\n\nflowchart LR\n  A[Document Version Issued] --&gt; B[IRB/IEC Review & Approval]\n  B --&gt; C[Site Implements Approved Version]\n  C --&gt; D[CRA Confirms Version Control at Visit]\n  D --&gt; E[File to Site Binder + TMF]",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>IRB/IEC & Approvals</span>"
+    ]
+  },
+  {
+    "objectID": "02_regulatory_compliance/irb_iec_and_approvals.html#cra-monitoring-checks",
+    "href": "02_regulatory_compliance/irb_iec_and_approvals.html#cra-monitoring-checks",
+    "title": "12  IRB/IEC & Approvals",
+    "section": "12.3 CRA Monitoring Checks",
+    "text": "12.3 CRA Monitoring Checks\n\nCurrent IRB approval covers current protocol version\nICF version in use matches IRB approval letter\nRecruitment materials approved (if used)\nContinuing review dates tracked; no lapse occurred\nLocal IRB requirements met (if multi-IRB environment)\n\n\n\n\n\n\n\nNoteOncology-Specific Considerations\n\n\n\nSafety updates and amendments are frequent → approval tracking must be disciplined\n\n\n\n\n\n\n\n\nNoteVaccine Trial Considerations\n\n\n\nVaccine trials may operate under accelerated start-up timelines to support rapid enrollment. Ensure IRB/IEC approvals, consent versions, recruitment materials, and protocol amendments are fully documented and filed despite compressed activation schedules.",
+    "crumbs": [
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>IRB/IEC & Approvals</span>"
+    ]
+  },
+  {
+    "objectID": "02_regulatory_compliance/delegation_training_and_qualification.html",
+    "href": "02_regulatory_compliance/delegation_training_and_qualification.html",
+    "title": "13  Delegation, Training & Qualification",
+    "section": "",
+    "text": "13.1 Why Delegation Matters\nDelegation links “who did the work” to “who was trained and qualified to do it.”",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Delegation, Training & Qualification</span>"
+    ]
+  },
+  {
+    "objectID": "02_regulatory_compliance/delegation_training_and_qualification.html#delegation-of-authority-doa-checks",
+    "href": "02_regulatory_compliance/delegation_training_and_qualification.html#delegation-of-authority-doa-checks",
+    "title": "13  Delegation, Training & Qualification",
+    "section": "13.2 Delegation of Authority (DOA) Checks",
+    "text": "13.2 Delegation of Authority (DOA) Checks\n\nAll staff performing trial tasks are on the DOA\nStart/stop dates align with actual activity dates\nRoles/responsibilities match staff qualifications\nPI oversight documented per site practice",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Delegation, Training & Qualification</span>"
+    ]
+  },
+  {
+    "objectID": "02_regulatory_compliance/delegation_training_and_qualification.html#training-oversight-cra-practical-set",
+    "href": "02_regulatory_compliance/delegation_training_and_qualification.html#training-oversight-cra-practical-set",
+    "title": "13  Delegation, Training & Qualification",
+    "section": "13.3 Training Oversight (CRA Practical Set)",
+    "text": "13.3 Training Oversight (CRA Practical Set)\n\nProtocol training (initial + amendments)\nGCP training (current)\nSafety reporting training (site obligations)\nEDC/IRT training (as applicable)\nLab/manual training (specimen handling; imaging manuals if applicable)\n\n\n\n\n\n\n\nNoteOncology-Specific Considerations\n\n\n\n\nSpecialized administration procedures and toxicity management workflows may require documented training\nImaging review processes often require documented training or guidance acknowledgments\n\n\n\n\n\n\n\n\n\nNoteVaccine Trial Considerations\n\n\n\n\nTraining related to vaccination procedures, specimen collection timing, and protocol-defined visit windows is often critical to endpoint validity.\nTraining documentation serves as an important risk control to ensure consistency across high-volume enrollment and follow-up activities.\nEnsure delegation logs accurately reflect staff performing vaccination, safety assessments, and specimen collection activities.",
+    "crumbs": [
+      "<span class='chapter-number'>13</span>  <span class='chapter-title'>Delegation, Training & Qualification</span>"
+    ]
+  },
+  {
+    "objectID": "02_regulatory_compliance/tmf_quality_control.html",
+    "href": "02_regulatory_compliance/tmf_quality_control.html",
+    "title": "14  TMF Quality Control (CRA-Relevant)",
+    "section": "",
+    "text": "14.1 Goal\nEnsure essential documents are filed in the TMF accurately and on time, and reconcile TMF vs site binder.",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>TMF Quality Control (CRA-Relevant)</span>"
+    ]
+  },
+  {
+    "objectID": "02_regulatory_compliance/tmf_quality_control.html#cra-tmf-qc-responsibilities-typical",
+    "href": "02_regulatory_compliance/tmf_quality_control.html#cra-tmf-qc-responsibilities-typical",
+    "title": "14  TMF Quality Control (CRA-Relevant)",
+    "section": "14.2 CRA TMF QC Responsibilities (Typical)",
+    "text": "14.2 CRA TMF QC Responsibilities (Typical)\n\nConfirm filing of approvals, ICF versions, key correspondence (as required)\nIdentify gaps and drive resolution (with documented follow-up)\nReconcile discrepancies between site binder and TMF",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>TMF Quality Control (CRA-Relevant)</span>"
+    ]
+  },
+  {
+    "objectID": "02_regulatory_compliance/tmf_quality_control.html#tmf-reconciliation-checklist",
+    "href": "02_regulatory_compliance/tmf_quality_control.html#tmf-reconciliation-checklist",
+    "title": "14  TMF Quality Control (CRA-Relevant)",
+    "section": "14.3 TMF Reconciliation Checklist",
+    "text": "14.3 TMF Reconciliation Checklist\n\nProtocol/ICF versions match between TMF and site\nIRB approval letters present for each version used\nDelegation logs and training evidence filed per plan\nSite staff CV/licensure present if required\nAudit trail: follow-up requests documented and closed",
+    "crumbs": [
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>TMF Quality Control (CRA-Relevant)</span>"
+    ]
+  },
+  {
+    "objectID": "02_regulatory_compliance/regulatory_templates_and_checklists.html",
+    "href": "02_regulatory_compliance/regulatory_templates_and_checklists.html",
+    "title": "15  Regulatory Templates & Checklists",
+    "section": "",
+    "text": "15.1 Template: Regulatory Document Tracker (Copy/Paste Table)\nUse this as a lightweight tracker for site-level oversight.",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Regulatory Templates & Checklists</span>"
+    ]
+  },
+  {
+    "objectID": "02_regulatory_compliance/regulatory_templates_and_checklists.html#template-regulatory-document-tracker-copypaste-table",
+    "href": "02_regulatory_compliance/regulatory_templates_and_checklists.html#template-regulatory-document-tracker-copypaste-table",
+    "title": "15  Regulatory Templates & Checklists",
+    "section": "",
+    "text": "Document\nVersion/Date\nRequired?\nReceived Date\nVerified By (CRA)\nFiled (Site/TMF)\nNotes/Actions\n\n\n\n\nProtocol\n\nYes\n\n\n\n\n\n\nICF\n\nYes\n\n\n\n\n\n\nIRB Approval\n\nYes\n\n\n\n\n\n\nDOA Log\n\nYes\n\n\n\n\n\n\nTraining Log\n\nYes",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Regulatory Templates & Checklists</span>"
+    ]
+  },
+  {
+    "objectID": "02_regulatory_compliance/regulatory_templates_and_checklists.html#checklist-visit-level-regulatory-review-cra",
+    "href": "02_regulatory_compliance/regulatory_templates_and_checklists.html#checklist-visit-level-regulatory-review-cra",
+    "title": "15  Regulatory Templates & Checklists",
+    "section": "15.2 Checklist: Visit-Level Regulatory Review (CRA)",
+    "text": "15.2 Checklist: Visit-Level Regulatory Review (CRA)\n\nCurrent IRB approval present and not expired/lapsed\nCorrect ICF version in use; documentation complete\nDOA covers staff performing trial tasks; dates aligned\nTraining evidence documented for key systems/processes\nEssential documents filed and reconciled (site/TMF)\nOpen regulatory issues tracked with due dates",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Regulatory Templates & Checklists</span>"
+    ]
+  },
+  {
+    "objectID": "02_regulatory_compliance/regulatory_templates_and_checklists.html#optional-issue-log-regulatory",
+    "href": "02_regulatory_compliance/regulatory_templates_and_checklists.html#optional-issue-log-regulatory",
+    "title": "15  Regulatory Templates & Checklists",
+    "section": "15.3 Optional: Issue Log (Regulatory)",
+    "text": "15.3 Optional: Issue Log (Regulatory)\n\n\n\n\n\n\n\n\n\n\n\n\nIssue\nCategory\nDate Identified\nRequired Action\nOwner\nDue Date\nStatus",
+    "crumbs": [
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Regulatory Templates & Checklists</span>"
+    ]
+  },
+  {
+    "objectID": "03_site_startup/index.html",
+    "href": "03_site_startup/index.html",
+    "title": "16  Site Start-Up & Activation",
+    "section": "",
+    "text": "16.1 Purpose\nThis module defines the CRA’s role in site feasibility, initiation, and activation to ensure sites are prepared to conduct the trial in compliance with protocol and regulatory requirements. As shown in the Trial Lifecycle Map, Start-Up represents the transition from site identification to activation and enrollment.",
+    "crumbs": [
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Site Start-Up & Activation</span>"
+    ]
+  },
+  {
+    "objectID": "03_site_startup/index.html#cra-accountability-practical",
+    "href": "03_site_startup/index.html#cra-accountability-practical",
+    "title": "16  Site Start-Up & Activation",
+    "section": "16.2 CRA Accountability (Practical)",
+    "text": "16.2 CRA Accountability (Practical)\n\nAssess site suitability and readiness\nSupport Site Initiation Visit (SIV) execution\nVerify training, documentation, and system access\nConfirm activation criteria are met before enrollment",
+    "crumbs": [
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Site Start-Up & Activation</span>"
+    ]
+  },
+  {
+    "objectID": "03_site_startup/index.html#scope",
+    "href": "03_site_startup/index.html#scope",
+    "title": "16  Site Start-Up & Activation",
+    "section": "16.3 Scope",
+    "text": "16.3 Scope\nApplies to all interventional clinical trials. Therapeutic-area considerations (oncology, infectious disease) are highlighted where relevant.",
+    "crumbs": [
+      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Site Start-Up & Activation</span>"
+    ]
+  },
+  {
+    "objectID": "03_site_startup/feasibility_and_site_selection.html",
+    "href": "03_site_startup/feasibility_and_site_selection.html",
+    "title": "17  Feasibility & Site Selection",
+    "section": "",
+    "text": "17.1 Goal\nIdentify sites capable of conducting the trial effectively and in compliance with protocol requirements.",
+    "crumbs": [
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Feasibility & Site Selection</span>"
+    ]
+  },
+  {
+    "objectID": "03_site_startup/feasibility_and_site_selection.html#feasibility-assessment-domains",
+    "href": "03_site_startup/feasibility_and_site_selection.html#feasibility-assessment-domains",
+    "title": "17  Feasibility & Site Selection",
+    "section": "17.2 Feasibility Assessment Domains",
+    "text": "17.2 Feasibility Assessment Domains\n\nPatient population\nInvestigator experience\nStaff availability\nFacilities and equipment\nCompeting trials\nRecruitment timelines",
+    "crumbs": [
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Feasibility & Site Selection</span>"
+    ]
+  },
+  {
+    "objectID": "03_site_startup/feasibility_and_site_selection.html#cra-role",
+    "href": "03_site_startup/feasibility_and_site_selection.html#cra-role",
+    "title": "17  Feasibility & Site Selection",
+    "section": "17.3 CRA Role",
+    "text": "17.3 CRA Role\n\nReview feasibility questionnaires\nParticipate in site qualification visits (as applicable)\nIdentify potential risks or capacity gaps\n\n\n\n\n\n\n\nNoteOncology-Specific Considerations\n\n\n\n\nAccess to eligible patient population by tumor type/stage\nAvailability of imaging and central lab workflows\nExperience with complex protocols and amendments\n\n\n\n\n\n\n\n\n\nNoteVaccine Trial Considerations\n\n\n\n\nAccess to large eligible populations to support rapid enrollment targets.\nDemonstrated ability to recruit healthy volunteers or target populations efficiently.\nCapacity to manage high visit volume and protocol-driven vaccination schedules.\nExperience with vaccine storage, handling, and cold-chain requirements where applicable.",
+    "crumbs": [
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Feasibility & Site Selection</span>"
+    ]
+  },
+  {
+    "objectID": "03_site_startup/site_startup_workflow.html",
+    "href": "03_site_startup/site_startup_workflow.html",
+    "title": "18  Site Start-Up Workflow",
+    "section": "",
+    "text": "18.1 End-to-End Site Start-Up Workflow\nflowchart LR\n  A[Site Identification] --&gt; B[Feasibility Assessment]\n  B --&gt; C[Site Selection]\n  C --&gt; D[Regulatory Collection]\n  D --&gt; E[Site Initiation Visit]\n  E --&gt; F[Site Activation]\n  F --&gt; G[Enrollment Begins]",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Site Start-Up Workflow</span>"
+    ]
+  },
+  {
+    "objectID": "03_site_startup/site_startup_workflow.html#cra-focus-areas",
+    "href": "03_site_startup/site_startup_workflow.html#cra-focus-areas",
+    "title": "18  Site Start-Up Workflow",
+    "section": "18.2 CRA Focus Areas",
+    "text": "18.2 CRA Focus Areas\n\nRegulatory document collection\nTraining coordination\nSystem access (EDC/IRT)\nActivation readiness verification",
+    "crumbs": [
+      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Site Start-Up Workflow</span>"
+    ]
+  },
+  {
+    "objectID": "03_site_startup/siv_preparation_and_execution.html",
+    "href": "03_site_startup/siv_preparation_and_execution.html",
+    "title": "19  Site Initiation Visit (SIV)",
+    "section": "",
+    "text": "19.1 Purpose\nEnsure site staff are fully trained and operationally ready to conduct the trial.",
+    "crumbs": [
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Site Initiation Visit (SIV)</span>"
+    ]
+  },
+  {
+    "objectID": "03_site_startup/siv_preparation_and_execution.html#siv-preparation-cra",
+    "href": "03_site_startup/siv_preparation_and_execution.html#siv-preparation-cra",
+    "title": "19  Site Initiation Visit (SIV)",
+    "section": "19.2 SIV Preparation (CRA)",
+    "text": "19.2 SIV Preparation (CRA)\n\nReview protocol and amendments\nConfirm required regulatory documents collected\nPrepare SIV agenda and training materials\nCoordinate site staff attendance",
+    "crumbs": [
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Site Initiation Visit (SIV)</span>"
+    ]
+  },
+  {
+    "objectID": "03_site_startup/siv_preparation_and_execution.html#siv-execution-topics",
+    "href": "03_site_startup/siv_preparation_and_execution.html#siv-execution-topics",
+    "title": "19  Site Initiation Visit (SIV)",
+    "section": "19.3 SIV Execution Topics",
+    "text": "19.3 SIV Execution Topics\n\nProtocol overview\nInformed consent process\nSafety reporting procedures\nData entry and EDC training\nIP handling and accountability\nLab and imaging workflows",
+    "crumbs": [
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Site Initiation Visit (SIV)</span>"
+    ]
+  },
+  {
+    "objectID": "03_site_startup/siv_preparation_and_execution.html#cra-deliverables",
+    "href": "03_site_startup/siv_preparation_and_execution.html#cra-deliverables",
+    "title": "19  Site Initiation Visit (SIV)",
+    "section": "19.4 CRA Deliverables",
+    "text": "19.4 CRA Deliverables\n\nAttendance/training log\nSIV report or documentation\nFollow-up action items",
+    "crumbs": [
+      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Site Initiation Visit (SIV)</span>"
+    ]
+  },
+  {
+    "objectID": "03_site_startup/site_activation_and_readiness.html",
+    "href": "03_site_startup/site_activation_and_readiness.html",
+    "title": "20  Site Activation & Readiness",
+    "section": "",
+    "text": "20.1 Activation Criteria (Typical)",
+    "crumbs": [
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Site Activation & Readiness</span>"
+    ]
+  },
+  {
+    "objectID": "03_site_startup/site_activation_and_readiness.html#activation-criteria-typical",
+    "href": "03_site_startup/site_activation_and_readiness.html#activation-criteria-typical",
+    "title": "20  Site Activation & Readiness",
+    "section": "",
+    "text": "IRB/IEC approval in place\nRegulatory documents complete\nTraining completed and documented\nEDC/IRT access granted\nIP available on-site (if applicable)",
+    "crumbs": [
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Site Activation & Readiness</span>"
+    ]
+  },
+  {
+    "objectID": "03_site_startup/site_activation_and_readiness.html#cra-activation-verification",
+    "href": "03_site_startup/site_activation_and_readiness.html#cra-activation-verification",
+    "title": "20  Site Activation & Readiness",
+    "section": "20.2 CRA Activation Verification",
+    "text": "20.2 CRA Activation Verification\n\nAll approvals current\nDOA completed\nTraining logs complete\nSystems access verified\nPharmacy/lab ready\n\n\n\n\n\n\n\nNoteOncology-Specific Considerations\n\n\n\n\nCentral imaging and lab activation may be gating items\nPharmacy readiness for cytotoxic handling\n\n\n\n\n\n\n\n\n\nNoteVaccine Trial Consideration\n\n\n\nVaccine trials often require rapid site activation and high enrollment capacity. Site selection may prioritize throughput and population access over therapeutic specialization.",
+    "crumbs": [
+      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Site Activation & Readiness</span>"
+    ]
+  },
+  {
+    "objectID": "03_site_startup/startup_risks_and_mitigation.html",
+    "href": "03_site_startup/startup_risks_and_mitigation.html",
+    "title": "21  Start-Up Risks & Mitigation",
+    "section": "",
+    "text": "21.1 Common Start-Up Risks",
+    "crumbs": [
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Start-Up Risks & Mitigation</span>"
+    ]
+  },
+  {
+    "objectID": "03_site_startup/startup_risks_and_mitigation.html#common-start-up-risks",
+    "href": "03_site_startup/startup_risks_and_mitigation.html#common-start-up-risks",
+    "title": "21  Start-Up Risks & Mitigation",
+    "section": "",
+    "text": "Delayed regulatory approvals\nIncomplete training\nSystem access issues\nStaff turnover\nPoor recruitment projections",
+    "crumbs": [
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Start-Up Risks & Mitigation</span>"
+    ]
+  },
+  {
+    "objectID": "03_site_startup/startup_risks_and_mitigation.html#cra-risk-mitigation-strategies",
+    "href": "03_site_startup/startup_risks_and_mitigation.html#cra-risk-mitigation-strategies",
+    "title": "21  Start-Up Risks & Mitigation",
+    "section": "21.2 CRA Risk Mitigation Strategies",
+    "text": "21.2 CRA Risk Mitigation Strategies\n\nEarly regulatory tracking\nClear SIV follow-up\nProactive communication with sites\nEscalation of delays",
+    "crumbs": [
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Start-Up Risks & Mitigation</span>"
+    ]
+  },
+  {
+    "objectID": "03_site_startup/startup_risks_and_mitigation.html#high-risk-indicators",
+    "href": "03_site_startup/startup_risks_and_mitigation.html#high-risk-indicators",
+    "title": "21  Start-Up Risks & Mitigation",
+    "section": "21.3 High-Risk Indicators",
+    "text": "21.3 High-Risk Indicators\n\nRepeated activation delays\nMissing documentation\nInexperienced staff\nOvercommitted investigators",
+    "crumbs": [
+      "<span class='chapter-number'>21</span>  <span class='chapter-title'>Start-Up Risks & Mitigation</span>"
+    ]
+  },
+  {
+    "objectID": "03_site_startup/startup_templates_and_checklists.html",
+    "href": "03_site_startup/startup_templates_and_checklists.html",
+    "title": "22  Start-Up Templates & Checklists",
+    "section": "",
+    "text": "22.1 SIV Checklist (CRA)",
+    "crumbs": [
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Start-Up Templates & Checklists</span>"
+    ]
+  },
+  {
+    "objectID": "03_site_startup/startup_templates_and_checklists.html#siv-checklist-cra",
+    "href": "03_site_startup/startup_templates_and_checklists.html#siv-checklist-cra",
+    "title": "22  Start-Up Templates & Checklists",
+    "section": "",
+    "text": "Regulatory documents complete\nProtocol training conducted\nSafety reporting reviewed\nEDC/IRT training completed\nIP handling reviewed\nLab/imaging workflows reviewed",
+    "crumbs": [
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Start-Up Templates & Checklists</span>"
+    ]
+  },
+  {
+    "objectID": "03_site_startup/startup_templates_and_checklists.html#site-activation-tracker-template",
+    "href": "03_site_startup/startup_templates_and_checklists.html#site-activation-tracker-template",
+    "title": "22  Start-Up Templates & Checklists",
+    "section": "22.2 Site Activation Tracker (Template)",
+    "text": "22.2 Site Activation Tracker (Template)\n\n\n\n\n\n\n\n\n\n\n\n\nSite\nIRB Approved\nTraining Complete\nSystems Access\nIP Available\nActivation Date\nNotes",
+    "crumbs": [
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Start-Up Templates & Checklists</span>"
+    ]
+  },
+  {
+    "objectID": "03_site_startup/startup_templates_and_checklists.html#start-up-issue-log",
+    "href": "03_site_startup/startup_templates_and_checklists.html#start-up-issue-log",
+    "title": "22  Start-Up Templates & Checklists",
+    "section": "22.3 Start-Up Issue Log",
+    "text": "22.3 Start-Up Issue Log\n\n\n\n\n\n\n\n\n\n\n\n\nIssue\nSite\nDate Identified\nImpact\nAction Required\nOwner\nDue Date",
+    "crumbs": [
+      "<span class='chapter-number'>22</span>  <span class='chapter-title'>Start-Up Templates & Checklists</span>"
+    ]
+  },
+  {
+    "objectID": "04_monitoring_operations/index.html",
+    "href": "04_monitoring_operations/index.html",
+    "title": "23  Monitoring Operations",
+    "section": "",
+    "text": "23.1 Purpose\nThis module defines the Clinical Research Associate (CRA) responsibilities for monitoring clinical trial sites to ensure subject safety, data integrity, and regulatory compliance.",
+    "crumbs": [
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Monitoring Operations</span>"
+    ]
+  },
+  {
+    "objectID": "04_monitoring_operations/index.html#scope",
+    "href": "04_monitoring_operations/index.html#scope",
+    "title": "23  Monitoring Operations",
+    "section": "23.2 Scope",
+    "text": "23.2 Scope\nApplies to on-site and remote monitoring across all interventional clinical trials. Therapeutic-area–specific considerations (e.g., oncology, vaccine trials) are highlighted where applicable.\n\n\n\n\n\n\nNoteTherapeutic Area Considerations\n\n\n\nThe monitoring framework described in this module represents the core execution model for clinical trials.\nTherapeutic area appendices (e.g., oncology or vaccine trials) do not change monitoring principles or responsibilities. Instead, they modify the areas of emphasis within monitoring activities based on differences in safety profiles, endpoint timing, and operational risk.\nCRAs should apply the same monitoring framework while adjusting focus according to study-specific risks and therapeutic context.",
+    "crumbs": [
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Monitoring Operations</span>"
+    ]
+  },
+  {
+    "objectID": "04_monitoring_operations/index.html#cra-accountability",
+    "href": "04_monitoring_operations/index.html#cra-accountability",
+    "title": "23  Monitoring Operations",
+    "section": "23.3 CRA Accountability",
+    "text": "23.3 CRA Accountability\n\nOversight of protocol compliance\nVerification of critical data and processes\nIdentification, documentation, and follow-up of issues\nMaintenance of inspection-ready documentation",
+    "crumbs": [
+      "<span class='chapter-number'>23</span>  <span class='chapter-title'>Monitoring Operations</span>"
+    ]
+  },
+  {
+    "objectID": "04_monitoring_operations/monitoring_visit_types.html",
+    "href": "04_monitoring_operations/monitoring_visit_types.html",
+    "title": "24  Monitoring Visit Types",
+    "section": "",
+    "text": "24.1 Overview\nMonitoring visits are conducted at defined intervals to evaluate site performance and trial compliance.",
+    "crumbs": [
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Monitoring Visit Types</span>"
+    ]
+  },
+  {
+    "objectID": "04_monitoring_operations/monitoring_visit_types.html#visit-types",
+    "href": "04_monitoring_operations/monitoring_visit_types.html#visit-types",
+    "title": "24  Monitoring Visit Types",
+    "section": "24.2 Visit Types",
+    "text": "24.2 Visit Types\n\n24.2.1 Pre-Study Visit (PSV)\nPurpose - Assess site suitability - Confirm infrastructure and staff readiness\nCRA Focus - Source documentation systems - Pharmacy and lab capabilities - Staff availability and experience\n\n\n\n24.2.2 Site Initiation Visit (SIV)\nPurpose - Train site staff - Confirm readiness to enroll\nCRA Focus - Protocol training documentation - Delegation of Authority (DOA) - EDC access and training\n\n\n\n24.2.3 Interim Monitoring Visit (IMV)\nPurpose - Ongoing oversight during trial conduct\nCRA Focus - Source Data Verification (SDV) - Informed consent compliance - Safety reporting - Protocol deviations\n\n\n\n24.2.4 For-Cause Visit\nPurpose - Address identified risks or noncompliance\nTriggers - Repeated deviations - Data quality concerns - Safety signal escalation\n\n\n\n24.2.5 Close-Out Visit (COV)\nPurpose - Ensure trial completion and documentation readiness\nCRA Focus - IP reconciliation - Data query resolution - Document archiving",
+    "crumbs": [
+      "<span class='chapter-number'>24</span>  <span class='chapter-title'>Monitoring Visit Types</span>"
+    ]
+  },
+  {
+    "objectID": "04_monitoring_operations/monitoring_workflow.html",
+    "href": "04_monitoring_operations/monitoring_workflow.html",
+    "title": "25  Monitoring Workflow",
+    "section": "",
+    "text": "25.1 End-to-End Monitoring Workflow\nflowchart LR\n  A[Pre-Visit Preparation] --&gt; B[On-Site / Remote Monitoring]\n  B --&gt; C[Issue Identification]\n  C --&gt; D[Follow-Up Letter]\n  D --&gt; E[Issue Resolution]\n  E --&gt; F[Documentation Complete]",
+    "crumbs": [
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Monitoring Workflow</span>"
+    ]
+  },
+  {
+    "objectID": "04_monitoring_operations/monitoring_workflow.html#pre-visit-preparation",
+    "href": "04_monitoring_operations/monitoring_workflow.html#pre-visit-preparation",
+    "title": "25  Monitoring Workflow",
+    "section": "25.2 Pre-Visit Preparation",
+    "text": "25.2 Pre-Visit Preparation\n\nReview protocol and amendments\nReview prior visit reports\nIdentify outstanding issues\nReview EDC listings and queries",
+    "crumbs": [
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Monitoring Workflow</span>"
+    ]
+  },
+  {
+    "objectID": "04_monitoring_operations/monitoring_workflow.html#on-site-remote-monitoring",
+    "href": "04_monitoring_operations/monitoring_workflow.html#on-site-remote-monitoring",
+    "title": "25  Monitoring Workflow",
+    "section": "25.3 On-Site / Remote Monitoring",
+    "text": "25.3 On-Site / Remote Monitoring\n\nInformed consent review\nSDV per monitoring plan\nSafety review (AEs / SAEs)\nIP accountability\nFacility and staff assessment",
+    "crumbs": [
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Monitoring Workflow</span>"
+    ]
+  },
+  {
+    "objectID": "04_monitoring_operations/monitoring_workflow.html#post-visit-activities",
+    "href": "04_monitoring_operations/monitoring_workflow.html#post-visit-activities",
+    "title": "25  Monitoring Workflow",
+    "section": "25.4 Post-Visit Activities",
+    "text": "25.4 Post-Visit Activities\n\nDraft Monitoring Visit Report (MVR)\nIssue Follow-Up Letter\nTrack action items to resolution",
+    "crumbs": [
+      "<span class='chapter-number'>25</span>  <span class='chapter-title'>Monitoring Workflow</span>"
+    ]
+  },
+  {
+    "objectID": "04_monitoring_operations/sdv_rbm.html",
+    "href": "04_monitoring_operations/sdv_rbm.html",
+    "title": "26  Source Data Verification & Risk-Based Monitoring",
+    "section": "",
+    "text": "26.1 Source Data Verification (SDV)",
+    "crumbs": [
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Source Data Verification & Risk-Based Monitoring</span>"
+    ]
+  },
+  {
+    "objectID": "04_monitoring_operations/sdv_rbm.html#source-data-verification-sdv",
+    "href": "04_monitoring_operations/sdv_rbm.html#source-data-verification-sdv",
+    "title": "26  Source Data Verification & Risk-Based Monitoring",
+    "section": "",
+    "text": "26.1.1 Definition\nComparison of data recorded in the EDC against source documents to ensure accuracy, completeness, and reliability.\n\n\n26.1.2 Typical SDV Areas\n\nInformed consent dates\nEligibility criteria\nPrimary endpoint data\nSafety data (AEs / SAEs)\nIP dosing records",
+    "crumbs": [
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Source Data Verification & Risk-Based Monitoring</span>"
+    ]
+  },
+  {
+    "objectID": "04_monitoring_operations/sdv_rbm.html#risk-based-monitoring-rbm",
+    "href": "04_monitoring_operations/sdv_rbm.html#risk-based-monitoring-rbm",
+    "title": "26  Source Data Verification & Risk-Based Monitoring",
+    "section": "26.2 Risk-Based Monitoring (RBM)",
+    "text": "26.2 Risk-Based Monitoring (RBM)\n\n26.2.1 Principles\n\nFocus on critical data and processes\nReduce unnecessary SDV\nIdentify systemic risks early\n\n\n\n26.2.2 CRA Responsibilities\n\nApply monitoring plan consistently\nEscalate emerging risk trends\nDocument rationale for targeted SDV\n\n\n\n\n\n\n\n\nNoteOncology-Specific Considerations\n\n\n\n\nCycle 1 often requires 100% SDV\nDose modifications and delays require close source review\nTumor assessments (e.g., RECIST) must be traceable to source\n\n\n\n\n\n\n\n\n\nNoteVaccine Trial Consideration\n\n\n\nMonitoring in vaccine trials may emphasize visit timing adherence, consent accuracy, and rapid data entry due to time-sensitive endpoints.",
+    "crumbs": [
+      "<span class='chapter-number'>26</span>  <span class='chapter-title'>Source Data Verification & Risk-Based Monitoring</span>"
+    ]
+  },
+  {
+    "objectID": "04_monitoring_operations/follow_up_and_issue_management.html",
+    "href": "04_monitoring_operations/follow_up_and_issue_management.html",
+    "title": "27  Follow-Up & Issue Management",
+    "section": "",
+    "text": "27.1 Issue Identification\nIssues may include: - Protocol deviations - Data discrepancies - Missing documentation - Training gaps",
+    "crumbs": [
+      "<span class='chapter-number'>27</span>  <span class='chapter-title'>Follow-Up & Issue Management</span>"
+    ]
+  },
+  {
+    "objectID": "04_monitoring_operations/follow_up_and_issue_management.html#issue-documentation",
+    "href": "04_monitoring_operations/follow_up_and_issue_management.html#issue-documentation",
+    "title": "27  Follow-Up & Issue Management",
+    "section": "27.2 Issue Documentation",
+    "text": "27.2 Issue Documentation\nEach issue should include: - Description - Reference (protocol / GCP) - Required action - Due date - Responsible party",
+    "crumbs": [
+      "<span class='chapter-number'>27</span>  <span class='chapter-title'>Follow-Up & Issue Management</span>"
+    ]
+  },
+  {
+    "objectID": "04_monitoring_operations/follow_up_and_issue_management.html#follow-up-letters",
+    "href": "04_monitoring_operations/follow_up_and_issue_management.html#follow-up-letters",
+    "title": "27  Follow-Up & Issue Management",
+    "section": "27.3 Follow-Up Letters",
+    "text": "27.3 Follow-Up Letters\nPurpose - Summarize visit findings - Clearly document expectations - Establish accountability\nCRA Best Practices - Be factual and objective - Reference protocol sections - Track closure formally",
+    "crumbs": [
+      "<span class='chapter-number'>27</span>  <span class='chapter-title'>Follow-Up & Issue Management</span>"
+    ]
+  },
+  {
+    "objectID": "04_monitoring_operations/follow_up_and_issue_management.html#escalation",
+    "href": "04_monitoring_operations/follow_up_and_issue_management.html#escalation",
+    "title": "27  Follow-Up & Issue Management",
+    "section": "27.4 Escalation",
+    "text": "27.4 Escalation\nEscalate issues when: - Repeated noncompliance occurs - Subject safety is at risk - Site responsiveness is inadequate",
+    "crumbs": [
+      "<span class='chapter-number'>27</span>  <span class='chapter-title'>Follow-Up & Issue Management</span>"
+    ]
+  },
+  {
+    "objectID": "04_monitoring_operations/monitoring_templates.html",
+    "href": "04_monitoring_operations/monitoring_templates.html",
+    "title": "28  Monitoring Templates",
+    "section": "",
+    "text": "28.1 Monitoring Visit Report (MVR)\nStudy:\nSite:\nVisit Type:\nVisit Date(s):\nCRA:",
+    "crumbs": [
+      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Monitoring Templates</span>"
+    ]
+  },
+  {
+    "objectID": "04_monitoring_operations/monitoring_templates.html#monitoring-visit-report-mvr",
+    "href": "04_monitoring_operations/monitoring_templates.html#monitoring-visit-report-mvr",
+    "title": "28  Monitoring Templates",
+    "section": "",
+    "text": "28.1.1 Summary\nOverall site status and risk assessment.\n\n\n28.1.2 Findings\n\n\n\nArea\nObservation\nAction Required\n\n\n\n\nInformed Consent\n\n\n\n\nSDV\n\n\n\n\nSafety\n\n\n\n\nIP Accountability\n\n\n\n\n\n\n\n28.1.3 Action Items\n\nItem 1\nItem 2",
+    "crumbs": [
+      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Monitoring Templates</span>"
+    ]
+  },
+  {
+    "objectID": "04_monitoring_operations/monitoring_templates.html#follow-up-letter-template",
+    "href": "04_monitoring_operations/monitoring_templates.html#follow-up-letter-template",
+    "title": "28  Monitoring Templates",
+    "section": "28.2 Follow-Up Letter Template",
+    "text": "28.2 Follow-Up Letter Template\nDate:\nStudy / Site:\n\n28.2.1 Summary of Findings\nBrief overview of key observations.\n\n\n28.2.2 Required Actions\n\n\n\nIssue\nRequired Action\nDue Date",
+    "crumbs": [
+      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Monitoring Templates</span>"
+    ]
+  },
+  {
+    "objectID": "04_monitoring_operations/monitoring_templates.html#cra-monitoring-checklist",
+    "href": "04_monitoring_operations/monitoring_templates.html#cra-monitoring-checklist",
+    "title": "28  Monitoring Templates",
+    "section": "28.3 CRA Monitoring Checklist",
+    "text": "28.3 CRA Monitoring Checklist\n\nConsent reviewed\nSDV completed per plan\nAEs reviewed\nIP accountability verified\nAction items documented",
+    "crumbs": [
+      "<span class='chapter-number'>28</span>  <span class='chapter-title'>Monitoring Templates</span>"
+    ]
+  },
+  {
+    "objectID": "05_safety_pharmacovigilance/index.html",
+    "href": "05_safety_pharmacovigilance/index.html",
+    "title": "29  Safety & Pharmacovigilance",
+    "section": "",
+    "text": "29.1 Purpose\nThis module defines the CRA’s role in safety oversight and pharmacovigilance during clinical trial conduct.",
+    "crumbs": [
+      "<span class='chapter-number'>29</span>  <span class='chapter-title'>Safety & Pharmacovigilance</span>"
+    ]
+  },
+  {
+    "objectID": "05_safety_pharmacovigilance/index.html#cra-accountability-practical",
+    "href": "05_safety_pharmacovigilance/index.html#cra-accountability-practical",
+    "title": "29  Safety & Pharmacovigilance",
+    "section": "29.2 CRA Accountability (Practical)",
+    "text": "29.2 CRA Accountability (Practical)\n\nConfirm site awareness of safety reporting obligations\nVerify documentation of AEs/SAEs is complete and timely\nEnsure follow-up information is obtained and documented\nIdentify safety trends or systemic issues and escalate appropriately",
+    "crumbs": [
+      "<span class='chapter-number'>29</span>  <span class='chapter-title'>Safety & Pharmacovigilance</span>"
+    ]
+  },
+  {
+    "objectID": "05_safety_pharmacovigilance/index.html#scope",
+    "href": "05_safety_pharmacovigilance/index.html#scope",
+    "title": "29  Safety & Pharmacovigilance",
+    "section": "29.3 Scope",
+    "text": "29.3 Scope\nApplies to all interventional trials. Therapeutic-area–specific considerations (oncology, infectious disease) are highlighted where relevant.",
+    "crumbs": [
+      "<span class='chapter-number'>29</span>  <span class='chapter-title'>Safety & Pharmacovigilance</span>"
+    ]
+  },
+  {
+    "objectID": "05_safety_pharmacovigilance/safety_framework_and_roles.html",
+    "href": "05_safety_pharmacovigilance/safety_framework_and_roles.html",
+    "title": "30  Safety Framework & Roles",
+    "section": "",
+    "text": "30.1 What “Safety Oversight” Means for a CRA\nCRAs do not perform medical assessment, but they: - Verify safety processes are followed - Confirm documentation supports reported events - Escalate incomplete, late, or inconsistent reporting",
+    "crumbs": [
+      "<span class='chapter-number'>30</span>  <span class='chapter-title'>Safety Framework & Roles</span>"
+    ]
+  },
+  {
+    "objectID": "05_safety_pharmacovigilance/safety_framework_and_roles.html#roles-simplified",
+    "href": "05_safety_pharmacovigilance/safety_framework_and_roles.html#roles-simplified",
+    "title": "30  Safety Framework & Roles",
+    "section": "30.2 Roles (Simplified)",
+    "text": "30.2 Roles (Simplified)\n\n\n\nRole\nPrimary Responsibility\n\n\n\n\nInvestigator\nMedical assessment and reporting of AEs/SAEs\n\n\nSponsor/CRO Safety\nRegulatory reporting and aggregate analysis\n\n\nCRA\nOversight, verification, and follow-up documentation",
+    "crumbs": [
+      "<span class='chapter-number'>30</span>  <span class='chapter-title'>Safety Framework & Roles</span>"
+    ]
+  },
+  {
+    "objectID": "05_safety_pharmacovigilance/safety_framework_and_roles.html#inspection-reality",
+    "href": "05_safety_pharmacovigilance/safety_framework_and_roles.html#inspection-reality",
+    "title": "30  Safety Framework & Roles",
+    "section": "30.3 Inspection Reality",
+    "text": "30.3 Inspection Reality\nInspectors will not ask CRAs to judge medical causality, but will ask whether safety processes were followed and documented.",
+    "crumbs": [
+      "<span class='chapter-number'>30</span>  <span class='chapter-title'>Safety Framework & Roles</span>"
+    ]
+  },
+  {
+    "objectID": "05_safety_pharmacovigilance/ae_sae_identification_and_reporting.html",
+    "href": "05_safety_pharmacovigilance/ae_sae_identification_and_reporting.html",
+    "title": "31  AE & SAE Identification and Reporting",
+    "section": "",
+    "text": "31.1 Definitions (Operational)",
+    "crumbs": [
+      "<span class='chapter-number'>31</span>  <span class='chapter-title'>AE & SAE Identification and Reporting</span>"
+    ]
+  },
+  {
+    "objectID": "05_safety_pharmacovigilance/ae_sae_identification_and_reporting.html#definitions-operational",
+    "href": "05_safety_pharmacovigilance/ae_sae_identification_and_reporting.html#definitions-operational",
+    "title": "31  AE & SAE Identification and Reporting",
+    "section": "",
+    "text": "Adverse Event (AE): Any unfavorable medical occurrence\nSerious Adverse Event (SAE): Results in death, life-threatening condition, hospitalization, disability, or is medically significant",
+    "crumbs": [
+      "<span class='chapter-number'>31</span>  <span class='chapter-title'>AE & SAE Identification and Reporting</span>"
+    ]
+  },
+  {
+    "objectID": "05_safety_pharmacovigilance/ae_sae_identification_and_reporting.html#cra-oversight-objectives",
+    "href": "05_safety_pharmacovigilance/ae_sae_identification_and_reporting.html#cra-oversight-objectives",
+    "title": "31  AE & SAE Identification and Reporting",
+    "section": "31.2 CRA Oversight Objectives",
+    "text": "31.2 CRA Oversight Objectives\n\nSite recognizes and reports events per protocol\nReporting timelines are met\nDocumentation is complete and traceable",
+    "crumbs": [
+      "<span class='chapter-number'>31</span>  <span class='chapter-title'>AE & SAE Identification and Reporting</span>"
+    ]
+  },
+  {
+    "objectID": "05_safety_pharmacovigilance/ae_sae_identification_and_reporting.html#cra-monitoring-checks",
+    "href": "05_safety_pharmacovigilance/ae_sae_identification_and_reporting.html#cra-monitoring-checks",
+    "title": "31  AE & SAE Identification and Reporting",
+    "section": "31.3 CRA Monitoring Checks",
+    "text": "31.3 CRA Monitoring Checks\n\nAll AEs documented in source and EDC\nSAEs reported to sponsor within required timelines\nSAE forms complete (onset date, outcome, seriousness criteria)\nSupporting source documentation present\nFollow-up information obtained when required\n\n\n\n\n\n\n\nNoteOncology-Specific Considerations\n\n\n\n\nHigh volume of expected toxicities → risk of under-reporting\nHospitalizations may be protocol-expected but still require documentation\nImmune-related AEs (irAEs) often require prolonged follow-up\n\n\n\n\n\n\n\n\n\nNoteVaccine Trial Consideration\n\n\n\nBecause vaccine trials frequently involve healthy populations, unexpected safety signals may require rapid escalation and governance review, even when event severity is low.",
+    "crumbs": [
+      "<span class='chapter-number'>31</span>  <span class='chapter-title'>AE & SAE Identification and Reporting</span>"
+    ]
+  },
+  {
+    "objectID": "05_safety_pharmacovigilance/causality_severity_and_expectedness.html",
+    "href": "05_safety_pharmacovigilance/causality_severity_and_expectedness.html",
+    "title": "32  Causality, Severity & Expectedness",
+    "section": "",
+    "text": "32.1 Key Concepts (CRA Lens)",
+    "crumbs": [
+      "<span class='chapter-number'>32</span>  <span class='chapter-title'>Causality, Severity & Expectedness</span>"
+    ]
+  },
+  {
+    "objectID": "05_safety_pharmacovigilance/causality_severity_and_expectedness.html#key-concepts-cra-lens",
+    "href": "05_safety_pharmacovigilance/causality_severity_and_expectedness.html#key-concepts-cra-lens",
+    "title": "32  Causality, Severity & Expectedness",
+    "section": "",
+    "text": "32.1.1 Causality\nRelationship between study intervention and event.\n\n\n32.1.2 Severity\nIntensity of the event (e.g., mild, moderate, severe).\n\n\n32.1.3 Expectedness\nWhether the event is described in protocol/IB/product label.",
+    "crumbs": [
+      "<span class='chapter-number'>32</span>  <span class='chapter-title'>Causality, Severity & Expectedness</span>"
+    ]
+  },
+  {
+    "objectID": "05_safety_pharmacovigilance/causality_severity_and_expectedness.html#cra-role",
+    "href": "05_safety_pharmacovigilance/causality_severity_and_expectedness.html#cra-role",
+    "title": "32  Causality, Severity & Expectedness",
+    "section": "32.2 CRA Role",
+    "text": "32.2 CRA Role\nCRAs: - Do not determine medical causality - Verify that causality/severity fields are completed - Ensure consistency between source, SAE forms, and EDC",
+    "crumbs": [
+      "<span class='chapter-number'>32</span>  <span class='chapter-title'>Causality, Severity & Expectedness</span>"
+    ]
+  },
+  {
+    "objectID": "05_safety_pharmacovigilance/causality_severity_and_expectedness.html#common-cra-findings",
+    "href": "05_safety_pharmacovigilance/causality_severity_and_expectedness.html#common-cra-findings",
+    "title": "32  Causality, Severity & Expectedness",
+    "section": "32.3 Common CRA Findings",
+    "text": "32.3 Common CRA Findings\n\nMissing severity grading\nInconsistent causality across documents\nExpected events not documented because “they were expected”",
+    "crumbs": [
+      "<span class='chapter-number'>32</span>  <span class='chapter-title'>Causality, Severity & Expectedness</span>"
+    ]
+  },
+  {
+    "objectID": "05_safety_pharmacovigilance/safety_oversight_workflows.html",
+    "href": "05_safety_pharmacovigilance/safety_oversight_workflows.html",
+    "title": "33  Safety Oversight Workflows",
+    "section": "",
+    "text": "33.1 End-to-End Safety Oversight Workflow\nflowchart LR\n  A[Event Occurs] --&gt; B[Investigator Assessment]\n  B --&gt; C[AE/SAE Documentation]\n  C --&gt; D[Sponsor Safety Review]\n  D --&gt; E[Follow-Up Information]\n  E --&gt; F[CRA Verification]\n  F --&gt; G[TMF / Site Binder Filing]",
+    "crumbs": [
+      "<span class='chapter-number'>33</span>  <span class='chapter-title'>Safety Oversight Workflows</span>"
+    ]
+  },
+  {
+    "objectID": "05_safety_pharmacovigilance/safety_oversight_workflows.html#cra-safety-workflow-visit-level",
+    "href": "05_safety_pharmacovigilance/safety_oversight_workflows.html#cra-safety-workflow-visit-level",
+    "title": "33  Safety Oversight Workflows",
+    "section": "33.2 CRA Safety Workflow (Visit-Level)",
+    "text": "33.2 CRA Safety Workflow (Visit-Level)\n\nReview AE/SAE listings\nCross-check against source documentation\nIdentify missing or late reports\nRequest follow-up documentation\nDocument actions in visit report",
+    "crumbs": [
+      "<span class='chapter-number'>33</span>  <span class='chapter-title'>Safety Oversight Workflows</span>"
+    ]
+  },
+  {
+    "objectID": "05_safety_pharmacovigilance/safety_follow_up_and_escalation.html",
+    "href": "05_safety_pharmacovigilance/safety_follow_up_and_escalation.html",
+    "title": "34  Safety Follow-Up & Escalation",
+    "section": "",
+    "text": "34.1 Follow-Up Triggers",
+    "crumbs": [
+      "<span class='chapter-number'>34</span>  <span class='chapter-title'>Safety Follow-Up & Escalation</span>"
+    ]
+  },
+  {
+    "objectID": "05_safety_pharmacovigilance/safety_follow_up_and_escalation.html#follow-up-triggers",
+    "href": "05_safety_pharmacovigilance/safety_follow_up_and_escalation.html#follow-up-triggers",
+    "title": "34  Safety Follow-Up & Escalation",
+    "section": "",
+    "text": "Incomplete SAE documentation\nMissing outcome information\nUnresolved ongoing events\nRecurrent reporting delays",
+    "crumbs": [
+      "<span class='chapter-number'>34</span>  <span class='chapter-title'>Safety Follow-Up & Escalation</span>"
+    ]
+  },
+  {
+    "objectID": "05_safety_pharmacovigilance/safety_follow_up_and_escalation.html#cra-escalation-criteria",
+    "href": "05_safety_pharmacovigilance/safety_follow_up_and_escalation.html#cra-escalation-criteria",
+    "title": "34  Safety Follow-Up & Escalation",
+    "section": "34.2 CRA Escalation Criteria",
+    "text": "34.2 CRA Escalation Criteria\nEscalate when: - Reporting timelines repeatedly missed - Site does not respond to safety queries - Safety processes appear systematically weak - Subject safety may be compromised",
+    "crumbs": [
+      "<span class='chapter-number'>34</span>  <span class='chapter-title'>Safety Follow-Up & Escalation</span>"
+    ]
+  },
+  {
+    "objectID": "05_safety_pharmacovigilance/safety_follow_up_and_escalation.html#documentation",
+    "href": "05_safety_pharmacovigilance/safety_follow_up_and_escalation.html#documentation",
+    "title": "34  Safety Follow-Up & Escalation",
+    "section": "34.3 Documentation",
+    "text": "34.3 Documentation\nAll follow-up actions must be: - Written - Dated - Tracked to resolution - Filed appropriately",
+    "crumbs": [
+      "<span class='chapter-number'>34</span>  <span class='chapter-title'>Safety Follow-Up & Escalation</span>"
+    ]
+  },
+  {
+    "objectID": "05_safety_pharmacovigilance/safety_templates_and_checklists.html",
+    "href": "05_safety_pharmacovigilance/safety_templates_and_checklists.html",
+    "title": "35  Safety Templates & Checklists",
+    "section": "",
+    "text": "35.1 Safety Oversight Checklist (CRA)",
+    "crumbs": [
+      "<span class='chapter-number'>35</span>  <span class='chapter-title'>Safety Templates & Checklists</span>"
+    ]
+  },
+  {
+    "objectID": "05_safety_pharmacovigilance/safety_templates_and_checklists.html#safety-oversight-checklist-cra",
+    "href": "05_safety_pharmacovigilance/safety_templates_and_checklists.html#safety-oversight-checklist-cra",
+    "title": "35  Safety Templates & Checklists",
+    "section": "",
+    "text": "AE/SAE listings reviewed\nSAEs reported within required timelines\nSource documentation present\nFollow-up obtained for ongoing events\nSafety correspondence filed\nTMF reconciled as required",
+    "crumbs": [
+      "<span class='chapter-number'>35</span>  <span class='chapter-title'>Safety Templates & Checklists</span>"
+    ]
+  },
+  {
+    "objectID": "05_safety_pharmacovigilance/safety_templates_and_checklists.html#safety-issue-log-template",
+    "href": "05_safety_pharmacovigilance/safety_templates_and_checklists.html#safety-issue-log-template",
+    "title": "35  Safety Templates & Checklists",
+    "section": "35.2 Safety Issue Log (Template)",
+    "text": "35.2 Safety Issue Log (Template)\n\n\n\n\n\n\n\n\n\n\n\n\nEvent ID\nIssue\nDate Identified\nRequired Action\nOwner\nDue Date\nStatus",
+    "crumbs": [
+      "<span class='chapter-number'>35</span>  <span class='chapter-title'>Safety Templates & Checklists</span>"
+    ]
+  },
+  {
+    "objectID": "05_safety_pharmacovigilance/safety_templates_and_checklists.html#follow-up-request-template",
+    "href": "05_safety_pharmacovigilance/safety_templates_and_checklists.html#follow-up-request-template",
+    "title": "35  Safety Templates & Checklists",
+    "section": "35.3 Follow-Up Request Template",
+    "text": "35.3 Follow-Up Request Template\nDate:\nStudy / Site:\n\n35.3.1 Issue\nDescribe missing or inconsistent safety information.\n\n\n35.3.2 Required Action\nSpecify documentation or clarification needed.\n\n\n35.3.3 Due Date\nSpecify timeline per protocol/safety plan.",
+    "crumbs": [
+      "<span class='chapter-number'>35</span>  <span class='chapter-title'>Safety Templates & Checklists</span>"
+    ]
+  },
+  {
+    "objectID": "06_data_quality_analytics/index.html",
+    "href": "06_data_quality_analytics/index.html",
+    "title": "36  Data Quality & Analytics",
+    "section": "",
+    "text": "36.1 Purpose\nThis module defines how CRAs use data to monitor site performance, identify risks, and support evidence-based oversight. Within the Trial Lifecycle Map, analytics supports continuous risk assessment during the Conduct phase.",
+    "crumbs": [
+      "<span class='chapter-number'>36</span>  <span class='chapter-title'>Data Quality & Analytics</span>"
+    ]
+  },
+  {
+    "objectID": "06_data_quality_analytics/index.html#cra-accountability-practical",
+    "href": "06_data_quality_analytics/index.html#cra-accountability-practical",
+    "title": "36  Data Quality & Analytics",
+    "section": "36.2 CRA Accountability (Practical)",
+    "text": "36.2 CRA Accountability (Practical)\n\nTrack key operational metrics\nIdentify data quality risks early\nSupport risk-based monitoring (RBM)\nDetect trends and systemic issues\nEscalate based on evidence, not intuition",
+    "crumbs": [
+      "<span class='chapter-number'>36</span>  <span class='chapter-title'>Data Quality & Analytics</span>"
+    ]
+  },
+  {
+    "objectID": "06_data_quality_analytics/index.html#why-this-matters",
+    "href": "06_data_quality_analytics/index.html#why-this-matters",
+    "title": "36  Data Quality & Analytics",
+    "section": "36.3 Why This Matters",
+    "text": "36.3 Why This Matters\nModern trials are data-driven. CRAs who understand analytics become decision-support partners, not just monitors.",
+    "crumbs": [
+      "<span class='chapter-number'>36</span>  <span class='chapter-title'>Data Quality & Analytics</span>"
+    ]
+  },
+  {
+    "objectID": "06_data_quality_analytics/data_quality_framework.html",
+    "href": "06_data_quality_analytics/data_quality_framework.html",
+    "title": "37  Data Quality Framework",
+    "section": "",
+    "text": "37.1 What is Data Quality?\nHigh-quality clinical data is: - Accurate - Complete - Timely - Consistent - Traceable to source",
+    "crumbs": [
+      "<span class='chapter-number'>37</span>  <span class='chapter-title'>Data Quality Framework</span>"
+    ]
+  },
+  {
+    "objectID": "06_data_quality_analytics/data_quality_framework.html#cra-data-quality-domains",
+    "href": "06_data_quality_analytics/data_quality_framework.html#cra-data-quality-domains",
+    "title": "37  Data Quality Framework",
+    "section": "37.2 CRA Data Quality Domains",
+    "text": "37.2 CRA Data Quality Domains\n\nData entry (EDC)\nSource documentation\nQuery management\nProtocol adherence\nSafety reporting",
+    "crumbs": [
+      "<span class='chapter-number'>37</span>  <span class='chapter-title'>Data Quality Framework</span>"
+    ]
+  },
+  {
+    "objectID": "06_data_quality_analytics/data_quality_framework.html#inspection-reality",
+    "href": "06_data_quality_analytics/data_quality_framework.html#inspection-reality",
+    "title": "37  Data Quality Framework",
+    "section": "37.3 Inspection Reality",
+    "text": "37.3 Inspection Reality\nInspectors assess not just errors, but whether the data quality system itself is effective.",
+    "crumbs": [
+      "<span class='chapter-number'>37</span>  <span class='chapter-title'>Data Quality Framework</span>"
+    ]
+  },
+  {
+    "objectID": "06_data_quality_analytics/key_cra_metrics.html",
+    "href": "06_data_quality_analytics/key_cra_metrics.html",
+    "title": "38  Key CRA Metrics",
+    "section": "",
+    "text": "38.1 Core Operational Metrics",
+    "crumbs": [
+      "<span class='chapter-number'>38</span>  <span class='chapter-title'>Key CRA Metrics</span>"
+    ]
+  },
+  {
+    "objectID": "06_data_quality_analytics/key_cra_metrics.html#core-operational-metrics",
+    "href": "06_data_quality_analytics/key_cra_metrics.html#core-operational-metrics",
+    "title": "38  Key CRA Metrics",
+    "section": "",
+    "text": "Metric\nWhat It Tells You\n\n\n\n\nQuery rate\nData quality burden\n\n\nSDV completion %\nMonitoring compliance\n\n\nEnrollment rate\nSite performance\n\n\nScreen failure rate\nEligibility issues\n\n\nProtocol deviations\nProcess failures\n\n\nSAE rate\nSafety signal volume\n\n\nData entry lag\nTimeliness risk",
+    "crumbs": [
+      "<span class='chapter-number'>38</span>  <span class='chapter-title'>Key CRA Metrics</span>"
+    ]
+  },
+  {
+    "objectID": "06_data_quality_analytics/key_cra_metrics.html#cra-insight",
+    "href": "06_data_quality_analytics/key_cra_metrics.html#cra-insight",
+    "title": "38  Key CRA Metrics",
+    "section": "38.2 CRA Insight",
+    "text": "38.2 CRA Insight\nMetrics are not performance scores. They are risk indicators.",
+    "crumbs": [
+      "<span class='chapter-number'>38</span>  <span class='chapter-title'>Key CRA Metrics</span>"
+    ]
+  },
+  {
+    "objectID": "06_data_quality_analytics/key_cra_metrics.html#how-to-use-these-metrics-signal-action",
+    "href": "06_data_quality_analytics/key_cra_metrics.html#how-to-use-these-metrics-signal-action",
+    "title": "38  Key CRA Metrics",
+    "section": "38.3 How to Use These Metrics (Signal → Action)",
+    "text": "38.3 How to Use These Metrics (Signal → Action)\nThese metrics should trigger structured follow-up, not isolated reactions. Use them to determine whether a concern is:\n\nsite-specific (one site deviating), or\nsystemic (trend across sites or over time).\n\nWhen a metric shifts, interpret it as:\nOperational Signal → Risk Interpretation → Next Action",
+    "crumbs": [
+      "<span class='chapter-number'>38</span>  <span class='chapter-title'>Key CRA Metrics</span>"
+    ]
+  },
+  {
+    "objectID": "06_data_quality_analytics/key_cra_metrics.html#metric-interpretation-and-typical-actions",
+    "href": "06_data_quality_analytics/key_cra_metrics.html#metric-interpretation-and-typical-actions",
+    "title": "38  Key CRA Metrics",
+    "section": "38.4 Metric Interpretation and Typical Actions",
+    "text": "38.4 Metric Interpretation and Typical Actions\n\n\n\n\n\n\n\n\n\nMetric\nOperational Signal\nPotential Risk\nTypical Next Action / Escalation\n\n\n\n\nQuery rate\nIncreased data clarification burden\nData quality risk; monitoring burden\nReview query drivers; coordinate with DM; focus monitoring on recurring fields\n\n\nSDV completion %\nVisit backlog or incomplete verification\nOversight and inspection risk\nReprioritize SDV to critical data; escalate resourcing constraints to CTM/PM\n\n\nEnrollment rate\nEnrollment below forecast\nTimeline risk\nConfirm screening workflow; escalate persistent underperformance; consider mitigation plan (additional sites, recruitment support)\n\n\nScreen failure rate\nEligibility mismatch or pre-screening gaps\nInefficient enrollment; feasibility risk\nReview criteria interpretation; retrain on eligibility; improve pre-screening workflow\n\n\nProtocol deviations\nProcess inconsistency\nQuality risk; endpoint validity risk\nTrend deviations; determine root cause; escalate systemic patterns for CAPA consideration\n\n\nSAE rate\nIncreased safety event volume\nPotential safety signal\nVerify documentation/reporting timeliness; coordinate with safety for trend review\n\n\nData entry lag\nDelayed data availability\nDownstream delays (queries, DBL)\nReinforce entry expectations; prioritize time-critical forms; escalate persistent lag",
+    "crumbs": [
+      "<span class='chapter-number'>38</span>  <span class='chapter-title'>Key CRA Metrics</span>"
+    ]
+  },
+  {
+    "objectID": "06_data_quality_analytics/key_cra_metrics.html#leading-vs-lagging-indicators",
+    "href": "06_data_quality_analytics/key_cra_metrics.html#leading-vs-lagging-indicators",
+    "title": "38  Key CRA Metrics",
+    "section": "38.5 Leading vs Lagging Indicators",
+    "text": "38.5 Leading vs Lagging Indicators\n\n\n\n\n\n\n\n\nType\nMeaning\nExamples\n\n\n\n\nLeading indicator\nPredicts future issues\nIncreasing query aging, growing data entry lag, declining SDV completion\n\n\nLagging indicator\nConfirms issues already occurred\nMissed visits, missed milestones, inspection findings\n\n\n\nPrioritize leading indicators to prevent downstream failures.",
+    "crumbs": [
+      "<span class='chapter-number'>38</span>  <span class='chapter-title'>Key CRA Metrics</span>"
+    ]
+  },
+  {
+    "objectID": "06_data_quality_analytics/key_cra_metrics.html#governance-link",
+    "href": "06_data_quality_analytics/key_cra_metrics.html#governance-link",
+    "title": "38  Key CRA Metrics",
+    "section": "38.6 Governance Link",
+    "text": "38.6 Governance Link\nMetrics become most useful when they feed into:\n\nthe risk register (risk & issue management),\nmonitoring strategy adjustments (RBM emphasis),\nand governance decisions (resource allocation, escalation, CAPA initiation).\n\nUse metrics to support clear communication: - what changed, - why it matters, - what action is recommended, - and what support is needed.",
+    "crumbs": [
+      "<span class='chapter-number'>38</span>  <span class='chapter-title'>Key CRA Metrics</span>"
+    ]
+  },
+  {
+    "objectID": "06_data_quality_analytics/risk_based_monitoring_analytics.html",
+    "href": "06_data_quality_analytics/risk_based_monitoring_analytics.html",
+    "title": "39  Risk-Based Monitoring (RBM) Analytics",
+    "section": "",
+    "text": "39.1 RBM Concept\nFocus monitoring on: - Critical data - High-risk sites - Emerging trends",
+    "crumbs": [
+      "<span class='chapter-number'>39</span>  <span class='chapter-title'>Risk-Based Monitoring (RBM) Analytics</span>"
+    ]
+  },
+  {
+    "objectID": "06_data_quality_analytics/risk_based_monitoring_analytics.html#rbm-inputs-cra-level",
+    "href": "06_data_quality_analytics/risk_based_monitoring_analytics.html#rbm-inputs-cra-level",
+    "title": "39  Risk-Based Monitoring (RBM) Analytics",
+    "section": "39.2 RBM Inputs (CRA Level)",
+    "text": "39.2 RBM Inputs (CRA Level)\n\nDeviation frequency\nQuery patterns\nLate data\nSafety reporting delays\nStaff turnover",
+    "crumbs": [
+      "<span class='chapter-number'>39</span>  <span class='chapter-title'>Risk-Based Monitoring (RBM) Analytics</span>"
+    ]
+  },
+  {
+    "objectID": "06_data_quality_analytics/risk_based_monitoring_analytics.html#example-rbm-risk-scoring",
+    "href": "06_data_quality_analytics/risk_based_monitoring_analytics.html#example-rbm-risk-scoring",
+    "title": "39  Risk-Based Monitoring (RBM) Analytics",
+    "section": "39.3 Example RBM Risk Scoring",
+    "text": "39.3 Example RBM Risk Scoring\n\n\n\nSite\nDeviations\nLate Data\nQuery Rate\nRisk Level\n\n\n\n\nA\nLow\nLow\nLow\nLow\n\n\nB\nHigh\nHigh\nMedium\nHigh\n\n\nC\nMedium\nLow\nHigh\nMedium\n\n\n\n\n\n\nExample RBM site risk heatmap (mock data)",
+    "crumbs": [
+      "<span class='chapter-number'>39</span>  <span class='chapter-title'>Risk-Based Monitoring (RBM) Analytics</span>"
+    ]
+  },
+  {
+    "objectID": "06_data_quality_analytics/risk_based_monitoring_analytics.html#cra-role",
+    "href": "06_data_quality_analytics/risk_based_monitoring_analytics.html#cra-role",
+    "title": "39  Risk-Based Monitoring (RBM) Analytics",
+    "section": "39.4 CRA Role",
+    "text": "39.4 CRA Role\n\nInterpret risk scores\nAdjust monitoring focus\nEscalate high-risk sites\n\n\n\n\n\n\n\nNoteVaccine Trial Consideration\n\n\n\nEnrollment rate and visit compliance metrics are often leading indicators of overall trial success in vaccine studies due to narrow endpoint windows.",
+    "crumbs": [
+      "<span class='chapter-number'>39</span>  <span class='chapter-title'>Risk-Based Monitoring (RBM) Analytics</span>"
+    ]
+  },
+  {
+    "objectID": "06_data_quality_analytics/site_performance_dashboards.html",
+    "href": "06_data_quality_analytics/site_performance_dashboards.html",
+    "title": "40  Site Performance Dashboards",
+    "section": "",
+    "text": "40.1 Why Dashboards Matter\nDashboards convert raw data into: - Situational awareness - Prioritization - Decision support",
+    "crumbs": [
+      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Site Performance Dashboards</span>"
+    ]
+  },
+  {
+    "objectID": "06_data_quality_analytics/site_performance_dashboards.html#common-dashboard-elements",
+    "href": "06_data_quality_analytics/site_performance_dashboards.html#common-dashboard-elements",
+    "title": "40  Site Performance Dashboards",
+    "section": "40.2 Common Dashboard Elements",
+    "text": "40.2 Common Dashboard Elements\n\nEnrollment vs target\nQuery volume over time\nDeviation trends\nSAE counts\nVisit compliance",
+    "crumbs": [
+      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Site Performance Dashboards</span>"
+    ]
+  },
+  {
+    "objectID": "06_data_quality_analytics/site_performance_dashboards.html#cra-use-cases",
+    "href": "06_data_quality_analytics/site_performance_dashboards.html#cra-use-cases",
+    "title": "40  Site Performance Dashboards",
+    "section": "40.3 CRA Use Cases",
+    "text": "40.3 CRA Use Cases\n\nWeekly study team calls\nSite performance reviews\nEscalation justification\nMonitoring planning",
+    "crumbs": [
+      "<span class='chapter-number'>40</span>  <span class='chapter-title'>Site Performance Dashboards</span>"
+    ]
+  },
+  {
+    "objectID": "06_data_quality_analytics/query_and_issue_trending.html",
+    "href": "06_data_quality_analytics/query_and_issue_trending.html",
+    "title": "41  Query & Issue Trending",
+    "section": "",
+    "text": "41.1 Why Trending is Critical\nSingle issues are noise. Patterns are signals.",
+    "crumbs": [
+      "<span class='chapter-number'>41</span>  <span class='chapter-title'>Query & Issue Trending</span>"
+    ]
+  },
+  {
+    "objectID": "06_data_quality_analytics/query_and_issue_trending.html#examples-of-trends",
+    "href": "06_data_quality_analytics/query_and_issue_trending.html#examples-of-trends",
+    "title": "41  Query & Issue Trending",
+    "section": "41.2 Examples of Trends",
+    "text": "41.2 Examples of Trends\n\nRecurrent missing labs\nFrequent consent corrections\nRepeated data entry delays\nSystematic protocol deviations",
+    "crumbs": [
+      "<span class='chapter-number'>41</span>  <span class='chapter-title'>Query & Issue Trending</span>"
+    ]
+  },
+  {
+    "objectID": "06_data_quality_analytics/query_and_issue_trending.html#cra-responsibilities",
+    "href": "06_data_quality_analytics/query_and_issue_trending.html#cra-responsibilities",
+    "title": "41  Query & Issue Trending",
+    "section": "41.3 CRA Responsibilities",
+    "text": "41.3 CRA Responsibilities\n\nMaintain issue logs\nIdentify recurring patterns\nEscalate systemic risks\nSupport CAPA decisions",
+    "crumbs": [
+      "<span class='chapter-number'>41</span>  <span class='chapter-title'>Query & Issue Trending</span>"
+    ]
+  },
+  {
+    "objectID": "06_data_quality_analytics/analytics_templates.html",
+    "href": "06_data_quality_analytics/analytics_templates.html",
+    "title": "42  Analytics Templates",
+    "section": "",
+    "text": "42.1 Site Performance Tracker (Template)",
+    "crumbs": [
+      "<span class='chapter-number'>42</span>  <span class='chapter-title'>Analytics Templates</span>"
+    ]
+  },
+  {
+    "objectID": "06_data_quality_analytics/analytics_templates.html#site-performance-tracker-template",
+    "href": "06_data_quality_analytics/analytics_templates.html#site-performance-tracker-template",
+    "title": "42  Analytics Templates",
+    "section": "",
+    "text": "Site\nEnrolled\nTarget\nQuery Rate\nDeviations\nSAE Count\nRisk Level",
+    "crumbs": [
+      "<span class='chapter-number'>42</span>  <span class='chapter-title'>Analytics Templates</span>"
+    ]
+  },
+  {
+    "objectID": "06_data_quality_analytics/analytics_templates.html#query-trend-log",
+    "href": "06_data_quality_analytics/analytics_templates.html#query-trend-log",
+    "title": "42  Analytics Templates",
+    "section": "42.2 Query Trend Log",
+    "text": "42.2 Query Trend Log\n\n\n\nSite\nQuery Type\nCount\nTime Period\nAction Required",
+    "crumbs": [
+      "<span class='chapter-number'>42</span>  <span class='chapter-title'>Analytics Templates</span>"
+    ]
+  },
+  {
+    "objectID": "06_data_quality_analytics/analytics_templates.html#cra-risk-flag-checklist",
+    "href": "06_data_quality_analytics/analytics_templates.html#cra-risk-flag-checklist",
+    "title": "42  Analytics Templates",
+    "section": "42.3 CRA Risk Flag Checklist",
+    "text": "42.3 CRA Risk Flag Checklist\n\nRepeated deviations\nHigh query volume\nLate data entry\nSafety reporting delays\nStaff turnover",
+    "crumbs": [
+      "<span class='chapter-number'>42</span>  <span class='chapter-title'>Analytics Templates</span>"
+    ]
+  },
+  {
+    "objectID": "07_deviations_capa/index.html",
+    "href": "07_deviations_capa/index.html",
+    "title": "43  Protocol Deviations & CAPA",
+    "section": "",
+    "text": "43.1 Purpose\nThis module defines how protocol deviations are identified, documented, classified, and corrected through CAPA (Corrective and Preventive Actions).",
+    "crumbs": [
+      "<span class='chapter-number'>43</span>  <span class='chapter-title'>Protocol Deviations & CAPA</span>"
+    ]
+  },
+  {
+    "objectID": "07_deviations_capa/index.html#cra-accountability-practical",
+    "href": "07_deviations_capa/index.html#cra-accountability-practical",
+    "title": "43  Protocol Deviations & CAPA",
+    "section": "43.2 CRA Accountability (Practical)",
+    "text": "43.2 CRA Accountability (Practical)\n\nIdentify deviations during monitoring\nEnsure deviations are documented and reported appropriately\nAssess risk and impact with the study team\nTrack CAPAs to resolution\nDetect trends and systemic issues",
+    "crumbs": [
+      "<span class='chapter-number'>43</span>  <span class='chapter-title'>Protocol Deviations & CAPA</span>"
+    ]
+  },
+  {
+    "objectID": "07_deviations_capa/index.html#why-this-matters",
+    "href": "07_deviations_capa/index.html#why-this-matters",
+    "title": "43  Protocol Deviations & CAPA",
+    "section": "43.3 Why This Matters",
+    "text": "43.3 Why This Matters\nDeviations and CAPAs are one of the highest inspection risk areas in clinical trials.",
+    "crumbs": [
+      "<span class='chapter-number'>43</span>  <span class='chapter-title'>Protocol Deviations & CAPA</span>"
+    ]
+  },
+  {
+    "objectID": "07_deviations_capa/deviation_framework_and_definitions.html",
+    "href": "07_deviations_capa/deviation_framework_and_definitions.html",
+    "title": "44  Deviation Framework & Definitions",
+    "section": "",
+    "text": "44.1 What is a Protocol Deviation?\nAny instance where study conduct differs from the approved protocol, GCP, or regulatory requirements.",
+    "crumbs": [
+      "<span class='chapter-number'>44</span>  <span class='chapter-title'>Deviation Framework & Definitions</span>"
+    ]
+  },
+  {
+    "objectID": "07_deviations_capa/deviation_framework_and_definitions.html#common-deviation-categories",
+    "href": "07_deviations_capa/deviation_framework_and_definitions.html#common-deviation-categories",
+    "title": "44  Deviation Framework & Definitions",
+    "section": "44.2 Common Deviation Categories",
+    "text": "44.2 Common Deviation Categories\n\nInformed consent errors\nEligibility violations\nMissed or out-of-window visits\nIncorrect dosing or IP handling\nMissing assessments\nSafety reporting delays",
+    "crumbs": [
+      "<span class='chapter-number'>44</span>  <span class='chapter-title'>Deviation Framework & Definitions</span>"
+    ]
+  },
+  {
+    "objectID": "07_deviations_capa/deviation_framework_and_definitions.html#cra-reality-check",
+    "href": "07_deviations_capa/deviation_framework_and_definitions.html#cra-reality-check",
+    "title": "44  Deviation Framework & Definitions",
+    "section": "44.3 CRA Reality Check",
+    "text": "44.3 CRA Reality Check\nNot all deviations are catastrophic, but all must be documented, assessed, and addressed.",
+    "crumbs": [
+      "<span class='chapter-number'>44</span>  <span class='chapter-title'>Deviation Framework & Definitions</span>"
+    ]
+  },
+  {
+    "objectID": "07_deviations_capa/deviation_identification_and_documentation.html",
+    "href": "07_deviations_capa/deviation_identification_and_documentation.html",
+    "title": "45  Deviation Identification & Documentation",
+    "section": "",
+    "text": "45.1 How Deviations Are Identified",
+    "crumbs": [
+      "<span class='chapter-number'>45</span>  <span class='chapter-title'>Deviation Identification & Documentation</span>"
+    ]
+  },
+  {
+    "objectID": "07_deviations_capa/deviation_identification_and_documentation.html#how-deviations-are-identified",
+    "href": "07_deviations_capa/deviation_identification_and_documentation.html#how-deviations-are-identified",
+    "title": "45  Deviation Identification & Documentation",
+    "section": "",
+    "text": "Monitoring visits\nData review / listings\nSafety review\nSponsor or CRO queries\nSite self-reporting",
+    "crumbs": [
+      "<span class='chapter-number'>45</span>  <span class='chapter-title'>Deviation Identification & Documentation</span>"
+    ]
+  },
+  {
+    "objectID": "07_deviations_capa/deviation_identification_and_documentation.html#cra-responsibilities",
+    "href": "07_deviations_capa/deviation_identification_and_documentation.html#cra-responsibilities",
+    "title": "45  Deviation Identification & Documentation",
+    "section": "45.2 CRA Responsibilities",
+    "text": "45.2 CRA Responsibilities\n\nConfirm deviation occurred (source verification)\nEnsure site documents deviation\nVerify required reporting pathways followed\nTrack deviation to resolution",
+    "crumbs": [
+      "<span class='chapter-number'>45</span>  <span class='chapter-title'>Deviation Identification & Documentation</span>"
+    ]
+  },
+  {
+    "objectID": "07_deviations_capa/deviation_identification_and_documentation.html#documentation-principles",
+    "href": "07_deviations_capa/deviation_identification_and_documentation.html#documentation-principles",
+    "title": "45  Deviation Identification & Documentation",
+    "section": "45.3 Documentation Principles",
+    "text": "45.3 Documentation Principles\n\nFactual and objective\nTraceable to source\nIncludes date, description, impact, action\n\n\n\n\n\n\n\nNoteOncology-Specific Considerations\n\n\n\n\nDose modifications and delays often generate deviations\nImaging windows frequently missed due to scheduling complexity\n\n\n\n\n\n\n\n\n\nNoteVaccine Trial Considerations\n\n\n\n\nMissed or out-of-window visits may compromise immunogenicity or safety endpoint validity.\nVaccination timing and protocol-defined follow-up intervals are often critical to endpoint interpretation.\nDeviations related to dosing schedule or specimen collection timing may require heightened review.",
+    "crumbs": [
+      "<span class='chapter-number'>45</span>  <span class='chapter-title'>Deviation Identification & Documentation</span>"
+    ]
+  },
+  {
+    "objectID": "07_deviations_capa/classification_and_impact_assessment.html",
+    "href": "07_deviations_capa/classification_and_impact_assessment.html",
+    "title": "46  Classification & Impact Assessment",
+    "section": "",
+    "text": "46.1 Deviation Severity Levels (Typical)",
+    "crumbs": [
+      "<span class='chapter-number'>46</span>  <span class='chapter-title'>Classification & Impact Assessment</span>"
+    ]
+  },
+  {
+    "objectID": "07_deviations_capa/classification_and_impact_assessment.html#deviation-severity-levels-typical",
+    "href": "07_deviations_capa/classification_and_impact_assessment.html#deviation-severity-levels-typical",
+    "title": "46  Classification & Impact Assessment",
+    "section": "",
+    "text": "Level\nDescription\n\n\n\n\nMinor\nNo impact on safety or data integrity\n\n\nMajor\nPotential impact on safety or data\n\n\nCritical\nSignificant risk to subject safety or data validity",
+    "crumbs": [
+      "<span class='chapter-number'>46</span>  <span class='chapter-title'>Classification & Impact Assessment</span>"
+    ]
+  },
+  {
+    "objectID": "07_deviations_capa/classification_and_impact_assessment.html#cra-role",
+    "href": "07_deviations_capa/classification_and_impact_assessment.html#cra-role",
+    "title": "46  Classification & Impact Assessment",
+    "section": "46.2 CRA Role",
+    "text": "46.2 CRA Role\nCRAs: - Do not determine regulatory classification alone - Verify site assessment - Escalate major/critical deviations - Document rationale",
+    "crumbs": [
+      "<span class='chapter-number'>46</span>  <span class='chapter-title'>Classification & Impact Assessment</span>"
+    ]
+  },
+  {
+    "objectID": "07_deviations_capa/classification_and_impact_assessment.html#impact-dimensions",
+    "href": "07_deviations_capa/classification_and_impact_assessment.html#impact-dimensions",
+    "title": "46  Classification & Impact Assessment",
+    "section": "46.3 Impact Dimensions",
+    "text": "46.3 Impact Dimensions\n\nSubject safety\nData integrity\nRegulatory compliance\nStudy credibility",
+    "crumbs": [
+      "<span class='chapter-number'>46</span>  <span class='chapter-title'>Classification & Impact Assessment</span>"
+    ]
+  },
+  {
+    "objectID": "07_deviations_capa/capa_workflow_and_root_cause.html",
+    "href": "07_deviations_capa/capa_workflow_and_root_cause.html",
+    "title": "47  CAPA Workflow & Root Cause Analysis",
+    "section": "",
+    "text": "47.1 What is CAPA?\nCAPA = Corrective and Preventive Action",
+    "crumbs": [
+      "<span class='chapter-number'>47</span>  <span class='chapter-title'>CAPA Workflow & Root Cause Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "07_deviations_capa/capa_workflow_and_root_cause.html#what-is-capa",
+    "href": "07_deviations_capa/capa_workflow_and_root_cause.html#what-is-capa",
+    "title": "47  CAPA Workflow & Root Cause Analysis",
+    "section": "",
+    "text": "Corrective: Fix what went wrong\nPreventive: Prevent it from happening again",
+    "crumbs": [
+      "<span class='chapter-number'>47</span>  <span class='chapter-title'>CAPA Workflow & Root Cause Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "07_deviations_capa/capa_workflow_and_root_cause.html#capa-workflow",
+    "href": "07_deviations_capa/capa_workflow_and_root_cause.html#capa-workflow",
+    "title": "47  CAPA Workflow & Root Cause Analysis",
+    "section": "47.2 CAPA Workflow",
+    "text": "47.2 CAPA Workflow\n\n\n\n\n\nflowchart LR\n  A[Deviation Identified] --&gt; B[Root Cause Analysis]\n  B --&gt; C[Corrective Action]\n  C --&gt; D[Preventive Action]\n  D --&gt; E[Effectiveness Check]\n  E --&gt; F[Closure]",
+    "crumbs": [
+      "<span class='chapter-number'>47</span>  <span class='chapter-title'>CAPA Workflow & Root Cause Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "07_deviations_capa/capa_workflow_and_root_cause.html#root-cause-analysis-cra-lens",
+    "href": "07_deviations_capa/capa_workflow_and_root_cause.html#root-cause-analysis-cra-lens",
+    "title": "47  CAPA Workflow & Root Cause Analysis",
+    "section": "47.3 Root Cause Analysis (CRA Lens)",
+    "text": "47.3 Root Cause Analysis (CRA Lens)\nAsk:\n\nWas this a training issue?\nProcess failure?\nSystem limitation?\nResource problem?\nHuman error?\n\n\n\n\nCAPA lifecycle — quality management framework",
+    "crumbs": [
+      "<span class='chapter-number'>47</span>  <span class='chapter-title'>CAPA Workflow & Root Cause Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "07_deviations_capa/capa_workflow_and_root_cause.html#cra-responsibilities",
+    "href": "07_deviations_capa/capa_workflow_and_root_cause.html#cra-responsibilities",
+    "title": "47  CAPA Workflow & Root Cause Analysis",
+    "section": "47.4 CRA Responsibilities",
+    "text": "47.4 CRA Responsibilities\n\nEnsure CAPA is documented\nTrack implementation\nVerify closure evidence",
+    "crumbs": [
+      "<span class='chapter-number'>47</span>  <span class='chapter-title'>CAPA Workflow & Root Cause Analysis</span>"
+    ]
+  },
+  {
+    "objectID": "07_deviations_capa/trending_and_systemic_risk.html",
+    "href": "07_deviations_capa/trending_and_systemic_risk.html",
+    "title": "48  Trending & Systemic Risk",
+    "section": "",
+    "text": "48.1 Why Trending Matters\nSingle deviations may be minor. Patterns indicate systemic risk.",
+    "crumbs": [
+      "<span class='chapter-number'>48</span>  <span class='chapter-title'>Trending & Systemic Risk</span>"
+    ]
+  },
+  {
+    "objectID": "07_deviations_capa/trending_and_systemic_risk.html#examples-of-trends",
+    "href": "07_deviations_capa/trending_and_systemic_risk.html#examples-of-trends",
+    "title": "48  Trending & Systemic Risk",
+    "section": "48.2 Examples of Trends",
+    "text": "48.2 Examples of Trends\n\nRepeated consent errors\nFrequent missed visits\nOngoing safety reporting delays\nConsistent data entry issues",
+    "crumbs": [
+      "<span class='chapter-number'>48</span>  <span class='chapter-title'>Trending & Systemic Risk</span>"
+    ]
+  },
+  {
+    "objectID": "07_deviations_capa/trending_and_systemic_risk.html#cra-role-in-trending",
+    "href": "07_deviations_capa/trending_and_systemic_risk.html#cra-role-in-trending",
+    "title": "48  Trending & Systemic Risk",
+    "section": "48.3 CRA Role in Trending",
+    "text": "48.3 CRA Role in Trending\n\nMaintain deviation log\nIdentify recurring patterns\nEscalate systemic risks\nSupport sponsor QA reviews",
+    "crumbs": [
+      "<span class='chapter-number'>48</span>  <span class='chapter-title'>Trending & Systemic Risk</span>"
+    ]
+  },
+  {
+    "objectID": "07_deviations_capa/trending_and_systemic_risk.html#inspection-reality",
+    "href": "07_deviations_capa/trending_and_systemic_risk.html#inspection-reality",
+    "title": "48  Trending & Systemic Risk",
+    "section": "48.4 Inspection Reality",
+    "text": "48.4 Inspection Reality\nInspectors focus heavily on: - Repeat deviations - Weak CAPA effectiveness - Lack of trend analysis",
+    "crumbs": [
+      "<span class='chapter-number'>48</span>  <span class='chapter-title'>Trending & Systemic Risk</span>"
+    ]
+  },
+  {
+    "objectID": "07_deviations_capa/deviation_capa_templates.html",
+    "href": "07_deviations_capa/deviation_capa_templates.html",
+    "title": "49  Deviation & CAPA Templates",
+    "section": "",
+    "text": "49.1 Deviation Log (Template)",
+    "crumbs": [
+      "<span class='chapter-number'>49</span>  <span class='chapter-title'>Deviation & CAPA Templates</span>"
+    ]
+  },
+  {
+    "objectID": "07_deviations_capa/deviation_capa_templates.html#deviation-log-template",
+    "href": "07_deviations_capa/deviation_capa_templates.html#deviation-log-template",
+    "title": "49  Deviation & CAPA Templates",
+    "section": "",
+    "text": "ID\nSite\nDate\nDeviation Description\nSeverity\nReported To\nStatus",
+    "crumbs": [
+      "<span class='chapter-number'>49</span>  <span class='chapter-title'>Deviation & CAPA Templates</span>"
+    ]
+  },
+  {
+    "objectID": "07_deviations_capa/deviation_capa_templates.html#capa-form-template",
+    "href": "07_deviations_capa/deviation_capa_templates.html#capa-form-template",
+    "title": "49  Deviation & CAPA Templates",
+    "section": "49.2 CAPA Form (Template)",
+    "text": "49.2 CAPA Form (Template)\nDeviation ID:\nRoot Cause:\n\n49.2.1 Corrective Action\nDescribe immediate fix.\n\n\n49.2.2 Preventive Action\nDescribe long-term prevention.\n\n\n49.2.3 Owner:\n\n\n49.2.4 Due Date:\n\n\n49.2.5 Evidence of Effectiveness:",
+    "crumbs": [
+      "<span class='chapter-number'>49</span>  <span class='chapter-title'>Deviation & CAPA Templates</span>"
+    ]
+  },
+  {
+    "objectID": "07_deviations_capa/deviation_capa_templates.html#cra-deviation-review-checklist",
+    "href": "07_deviations_capa/deviation_capa_templates.html#cra-deviation-review-checklist",
+    "title": "49  Deviation & CAPA Templates",
+    "section": "49.3 CRA Deviation Review Checklist",
+    "text": "49.3 CRA Deviation Review Checklist\n\nDeviation documented objectively\nSeverity assessed\nReported per protocol\nCAPA implemented\nClosure evidence present",
+    "crumbs": [
+      "<span class='chapter-number'>49</span>  <span class='chapter-title'>Deviation & CAPA Templates</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/index.html",
+    "href": "08_project_management/index.html",
+    "title": "50  Project Management in Clinical Trials",
+    "section": "",
+    "text": "50.1 Purpose of Project Management\nProject management in clinical trials functions as the control layer over operational execution.\nWhile CRA operations focus on what happens at sites, project management focuses on:\nProject management does not replace clinical operations.\nIt coordinates and steers them.",
+    "crumbs": [
+      "<span class='chapter-number'>50</span>  <span class='chapter-title'>Project Management in Clinical Trials</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/index.html#purpose-of-project-management",
+    "href": "08_project_management/index.html#purpose-of-project-management",
+    "title": "50  Project Management in Clinical Trials",
+    "section": "",
+    "text": "how work is planned,\nhow progress is monitored,\nhow risks are managed,\nand how decisions are made.",
+    "crumbs": [
+      "<span class='chapter-number'>50</span>  <span class='chapter-title'>Project Management in Clinical Trials</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/index.html#execution-layer-vs-control-layer",
+    "href": "08_project_management/index.html#execution-layer-vs-control-layer",
+    "title": "50  Project Management in Clinical Trials",
+    "section": "50.2 Execution Layer vs Control Layer",
+    "text": "50.2 Execution Layer vs Control Layer\n\n\n\nLayer\nFunction\n\n\n\n\nExecution (CRA Ops)\nConduct visits, verify data, manage safety\n\n\nQuality & Safety\nCAPA, TMF, pharmacovigilance\n\n\nControl (PM)\nPlanning, prioritization, escalation, decision-making\n\n\n\nThe PM layer exists to ensure that: - timelines are realistic, - resources are aligned, - risks are anticipated, - and the trial remains on track.",
+    "crumbs": [
+      "<span class='chapter-number'>50</span>  <span class='chapter-title'>Project Management in Clinical Trials</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/index.html#pm-across-the-trial-lifecycle",
+    "href": "08_project_management/index.html#pm-across-the-trial-lifecycle",
+    "title": "50  Project Management in Clinical Trials",
+    "section": "50.3 PM Across the Trial Lifecycle",
+    "text": "50.3 PM Across the Trial Lifecycle\nProject management spans the entire lifecycle:\n\nStart-Up: site selection, activation planning\n\nConduct: monitoring cadence, enrollment tracking\n\nQuality: deviation trends, CAPA oversight\n\nClose-Out: database lock, CSR delivery\n\nInspection: readiness, response coordination\n\nPM is continuous, not a single phase.",
+    "crumbs": [
+      "<span class='chapter-number'>50</span>  <span class='chapter-title'>Project Management in Clinical Trials</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/index.html#information-flow",
+    "href": "08_project_management/index.html#information-flow",
+    "title": "50  Project Management in Clinical Trials",
+    "section": "50.4 Information Flow",
+    "text": "50.4 Information Flow\nClinical trials generate signals:\n\nmissed visits\ndelayed data\nprotocol deviations\nsafety events\n\nThese signals flow upward into the PM layer, where they become:\n\nrisks\nissues\nescalations\ndecisions\n\nPM converts operational signals into governance actions.",
+    "crumbs": [
+      "<span class='chapter-number'>50</span>  <span class='chapter-title'>Project Management in Clinical Trials</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/index.html#relationship-to-other-modules",
+    "href": "08_project_management/index.html#relationship-to-other-modules",
+    "title": "50  Project Management in Clinical Trials",
+    "section": "50.5 Relationship to Other Modules",
+    "text": "50.5 Relationship to Other Modules\nProject management interfaces with:\n\nMonitoring Operations → delivery tracking\n\nSafety & Pharmacovigilance → escalation thresholds\n\nData Quality & Analytics → performance metrics\n\nDeviations & CAPA → systemic risk\n\nInspection Readiness → response coordination\n\nPM is the integrating layer of the entire binder.",
+    "crumbs": [
+      "<span class='chapter-number'>50</span>  <span class='chapter-title'>Project Management in Clinical Trials</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/trial_planning_and_milestones.html",
+    "href": "08_project_management/trial_planning_and_milestones.html",
+    "title": "51  Trial Planning & Milestones",
+    "section": "",
+    "text": "51.1 What is Being Planned?\nIn clinical trials, the “project” is the delivery of evidence.\nThe primary planning objectives are:",
+    "crumbs": [
+      "<span class='chapter-number'>51</span>  <span class='chapter-title'>Trial Planning & Milestones</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/trial_planning_and_milestones.html#what-is-being-planned",
+    "href": "08_project_management/trial_planning_and_milestones.html#what-is-being-planned",
+    "title": "51  Trial Planning & Milestones",
+    "section": "",
+    "text": "activate sites,\nenroll subjects,\ngenerate clean data,\nanalyze outcomes,\ndeliver regulatory-grade results.",
+    "crumbs": [
+      "<span class='chapter-number'>51</span>  <span class='chapter-title'>Trial Planning & Milestones</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/trial_planning_and_milestones.html#major-trial-milestones",
+    "href": "08_project_management/trial_planning_and_milestones.html#major-trial-milestones",
+    "title": "51  Trial Planning & Milestones",
+    "section": "51.2 Major Trial Milestones",
+    "text": "51.2 Major Trial Milestones\nTypical high-level milestones:\n\n\n\nMilestone\nMeaning\n\n\n\n\nFSI\nFirst Site Initiated\n\n\nFPI\nFirst Patient In\n\n\nLPI\nLast Patient In\n\n\nLPLV\nLast Patient Last Visit\n\n\nDBL\nDatabase Lock\n\n\nCSR\nClinical Study Report\n\n\n\nThese milestones define the critical path of the trial.",
+    "crumbs": [
+      "<span class='chapter-number'>51</span>  <span class='chapter-title'>Trial Planning & Milestones</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/trial_planning_and_milestones.html#critical-path-concept",
+    "href": "08_project_management/trial_planning_and_milestones.html#critical-path-concept",
+    "title": "51  Trial Planning & Milestones",
+    "section": "51.3 Critical Path Concept",
+    "text": "51.3 Critical Path Concept\nThe critical path represents: &gt; the sequence of activities that determines the earliest possible &gt; completion date of the trial.\nCommon critical path blockers: - slow site activation - poor enrollment - delayed monitoring - unresolved data queries - late safety reporting",
+    "crumbs": [
+      "<span class='chapter-number'>51</span>  <span class='chapter-title'>Trial Planning & Milestones</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/trial_planning_and_milestones.html#dependencies",
+    "href": "08_project_management/trial_planning_and_milestones.html#dependencies",
+    "title": "51  Trial Planning & Milestones",
+    "section": "51.4 Dependencies",
+    "text": "51.4 Dependencies\nMany tasks depend on others:\n\n\n\nTask\nDepends On\n\n\n\n\nMonitoring\nSite activation\n\n\nEnrollment\nIRB approval\n\n\nDatabase lock\nQuery resolution\n\n\nCSR\nFinal analyses\n\n\n\nPM’s role is to identify and manage these dependencies.",
+    "crumbs": [
+      "<span class='chapter-number'>51</span>  <span class='chapter-title'>Trial Planning & Milestones</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/trial_planning_and_milestones.html#what-does-on-track-mean",
+    "href": "08_project_management/trial_planning_and_milestones.html#what-does-on-track-mean",
+    "title": "51  Trial Planning & Milestones",
+    "section": "51.5 What Does “On Track” Mean?",
+    "text": "51.5 What Does “On Track” Mean?\nA trial is considered “on track” when:\n\nmilestones are met on time,\nrisks are controlled,\ndata quality is acceptable,\nsafety reporting is timely,\nand no unresolved critical issues exist.\n\n“On track” is not just schedule — it is system health.",
+    "crumbs": [
+      "<span class='chapter-number'>51</span>  <span class='chapter-title'>Trial Planning & Milestones</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/governance_and_communication.html",
+    "href": "08_project_management/governance_and_communication.html",
+    "title": "52  Governance & Communication",
+    "section": "",
+    "text": "52.1 Purpose\nGovernance defines how decisions are made in a clinical trial.\nWhile CRA operations generate information, governance structures determine: - who reviews it, - who decides, - and how actions are authorized.\nEffective governance prevents: - unclear accountability, - delayed decisions, - and unmanaged escalation.",
+    "crumbs": [
+      "<span class='chapter-number'>52</span>  <span class='chapter-title'>Governance & Communication</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/governance_and_communication.html#governance-structures",
+    "href": "08_project_management/governance_and_communication.html#governance-structures",
+    "title": "52  Governance & Communication",
+    "section": "52.2 Governance Structures",
+    "text": "52.2 Governance Structures\nTypical governance layers include:\n\n\n\nLevel\nPurpose\n\n\n\n\nStudy Team\nOperational coordination\n\n\nSafety Review Committee\nSafety oversight\n\n\nVendor Governance\nCRO / vendor performance\n\n\nSteering Committee\nStrategic decisions\n\n\n\nNot all trials require all layers, but every trial requires defined decision pathways.",
+    "crumbs": [
+      "<span class='chapter-number'>52</span>  <span class='chapter-title'>Governance & Communication</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/governance_and_communication.html#study-team-meetings",
+    "href": "08_project_management/governance_and_communication.html#study-team-meetings",
+    "title": "52  Governance & Communication",
+    "section": "52.3 Study Team Meetings",
+    "text": "52.3 Study Team Meetings\nStudy team meetings typically occur: - weekly or biweekly during conduct\nCommon agenda: - enrollment status - monitoring progress - safety updates - data quality issues - risk register review\nThese meetings are the operational heartbeat of the trial.",
+    "crumbs": [
+      "<span class='chapter-number'>52</span>  <span class='chapter-title'>Governance & Communication</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/governance_and_communication.html#raci-framework",
+    "href": "08_project_management/governance_and_communication.html#raci-framework",
+    "title": "52  Governance & Communication",
+    "section": "52.4 RACI Framework",
+    "text": "52.4 RACI Framework\nRACI defines roles:\n\n\n\nRole\nMeaning\n\n\n\n\nR\nResponsible (does the work)\n\n\nA\nAccountable (owns outcome)\n\n\nC\nConsulted\n\n\nI\nInformed\n\n\n\nExample: - CRA: Responsible for monitoring - CTM: Accountable for monitoring quality - Safety: Consulted on AE issues - Sponsor: Informed of status",
+    "crumbs": [
+      "<span class='chapter-number'>52</span>  <span class='chapter-title'>Governance & Communication</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/governance_and_communication.html#decision-logs",
+    "href": "08_project_management/governance_and_communication.html#decision-logs",
+    "title": "52  Governance & Communication",
+    "section": "52.5 Decision Logs",
+    "text": "52.5 Decision Logs\nAll major trial decisions should be documented:\n\nprotocol amendments\nenrollment strategy changes\nvendor replacements\nescalation outcomes\n\nDecision logs provide: - transparency - accountability - audit trail",
+    "crumbs": [
+      "<span class='chapter-number'>52</span>  <span class='chapter-title'>Governance & Communication</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/governance_and_communication.html#communication-as-risk-control",
+    "href": "08_project_management/governance_and_communication.html#communication-as-risk-control",
+    "title": "52  Governance & Communication",
+    "section": "52.6 Communication as Risk Control",
+    "text": "52.6 Communication as Risk Control\nPoor communication is itself a risk.\nGovernance ensures: - consistent information flow, - documented decisions, - controlled escalation, - and stakeholder alignment.\nCommunication is not soft skill. It is a control mechanism.",
+    "crumbs": [
+      "<span class='chapter-number'>52</span>  <span class='chapter-title'>Governance & Communication</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/risk_and_issue_management.html",
+    "href": "08_project_management/risk_and_issue_management.html",
+    "title": "53  Risk & Issue Management",
+    "section": "",
+    "text": "53.1 Purpose\nRisk and issue management is the primary mechanism by which project management maintains control over trial execution.\nThe goal is not to eliminate problems, but to: - anticipate them, - detect them early, - mitigate their impact, - and escalate appropriately.",
+    "crumbs": [
+      "<span class='chapter-number'>53</span>  <span class='chapter-title'>Risk & Issue Management</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/risk_and_issue_management.html#risk-vs-issue-vs-deviation",
+    "href": "08_project_management/risk_and_issue_management.html#risk-vs-issue-vs-deviation",
+    "title": "53  Risk & Issue Management",
+    "section": "53.2 Risk vs Issue vs Deviation",
+    "text": "53.2 Risk vs Issue vs Deviation\nThese terms are often confused but represent different concepts:\n\n\n\nConcept\nMeaning\n\n\n\n\nRisk\nA potential future problem\n\n\nIssue\nA current active problem\n\n\nDeviation\nA compliance failure\n\n\n\nExamples:\n\nRisk: Sites may fail to enroll on time\n\nIssue: Site A missed enrollment target\n\nDeviation: Site A violated protocol inclusion criteria\n\nEach requires a different response.",
+    "crumbs": [
+      "<span class='chapter-number'>53</span>  <span class='chapter-title'>Risk & Issue Management</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/risk_and_issue_management.html#the-risk-register",
+    "href": "08_project_management/risk_and_issue_management.html#the-risk-register",
+    "title": "53  Risk & Issue Management",
+    "section": "53.3 The Risk Register",
+    "text": "53.3 The Risk Register\nA risk register is a structured list of:\n\nidentified risks\nprobability of occurrence\npotential impact\nmitigation strategies\ncurrent status\n\nTypical risk categories:\n\nOperational (enrollment, monitoring)\nRegulatory (IRB delays)\nSafety (late SAE reporting)\nData quality (high query rates)\nVendor performance",
+    "crumbs": [
+      "<span class='chapter-number'>53</span>  <span class='chapter-title'>Risk & Issue Management</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/risk_and_issue_management.html#risk-assessment-dimensions",
+    "href": "08_project_management/risk_and_issue_management.html#risk-assessment-dimensions",
+    "title": "53  Risk & Issue Management",
+    "section": "53.4 Risk Assessment Dimensions",
+    "text": "53.4 Risk Assessment Dimensions\nRisks are assessed using two primary dimensions:\n\n\n\nDimension\nQuestion\n\n\n\n\nProbability\nHow likely is this to occur?\n\n\nImpact\nHow severe would the effect be?\n\n\n\nHigh-probability, high-impact risks receive highest priority.",
+    "crumbs": [
+      "<span class='chapter-number'>53</span>  <span class='chapter-title'>Risk & Issue Management</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/risk_and_issue_management.html#issues-and-escalation",
+    "href": "08_project_management/risk_and_issue_management.html#issues-and-escalation",
+    "title": "53  Risk & Issue Management",
+    "section": "53.5 Issues and Escalation",
+    "text": "53.5 Issues and Escalation\nAn issue represents a risk that has materialized.\nIssues require: - immediate attention, - root cause analysis, - and often escalation.\nCommon escalation triggers: - missed critical milestones - repeated protocol deviations - systemic safety reporting failures - data integrity concerns",
+    "crumbs": [
+      "<span class='chapter-number'>53</span>  <span class='chapter-title'>Risk & Issue Management</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/risk_and_issue_management.html#escalation-pathways",
+    "href": "08_project_management/risk_and_issue_management.html#escalation-pathways",
+    "title": "53  Risk & Issue Management",
+    "section": "53.6 Escalation Pathways",
+    "text": "53.6 Escalation Pathways\nEscalation typically flows:\nCRA → CTM → CPM / Trial Lead → Sponsor → Steering Committee\nEscalation is not failure. It is a control mechanism.",
+    "crumbs": [
+      "<span class='chapter-number'>53</span>  <span class='chapter-title'>Risk & Issue Management</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/risk_and_issue_management.html#relationship-to-capa",
+    "href": "08_project_management/risk_and_issue_management.html#relationship-to-capa",
+    "title": "53  Risk & Issue Management",
+    "section": "53.7 Relationship to CAPA",
+    "text": "53.7 Relationship to CAPA\nIssues that represent: - systemic failures, - repeated deviations, - or quality breakdowns\noften require Corrective and Preventive Actions (CAPA).\nRisk management identifies problems.\nCAPA resolves root causes.",
+    "crumbs": [
+      "<span class='chapter-number'>53</span>  <span class='chapter-title'>Risk & Issue Management</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/risk_and_issue_management.html#risk-management-as-a-living-process",
+    "href": "08_project_management/risk_and_issue_management.html#risk-management-as-a-living-process",
+    "title": "53  Risk & Issue Management",
+    "section": "53.8 Risk Management as a Living Process",
+    "text": "53.8 Risk Management as a Living Process\nRisk management is not a one-time activity.\nIt evolves throughout the trial: - new risks emerge, - priorities shift, - mitigations change.\nThe risk register should be reviewed: - at every study team meeting, - before major milestones, - and during inspection preparation.\n\n\n\n\n\n\nNoteVaccine Trial Consideration\n\n\n\nVaccine trials frequently require accelerated decision-making cycles due to enrollment speed and public health timelines. Governance structures must support rapid escalation and response.",
+    "crumbs": [
+      "<span class='chapter-number'>53</span>  <span class='chapter-title'>Risk & Issue Management</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/resource_and_capacity_planning.html",
+    "href": "08_project_management/resource_and_capacity_planning.html",
+    "title": "54  Resource & Capacity Planning",
+    "section": "",
+    "text": "54.1 Purpose\nResource planning ensures that the trial has sufficient human capacity to execute planned activities.\nIn clinical trials, resources are primarily: - CRAs - CTMs - data managers - safety staff - vendors",
+    "crumbs": [
+      "<span class='chapter-number'>54</span>  <span class='chapter-title'>Resource & Capacity Planning</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/resource_and_capacity_planning.html#cra-capacity",
+    "href": "08_project_management/resource_and_capacity_planning.html#cra-capacity",
+    "title": "54  Resource & Capacity Planning",
+    "section": "54.2 CRA Capacity",
+    "text": "54.2 CRA Capacity\nCRA workload is driven by: - number of sites - visit frequency - complexity - risk level\nOverloaded CRAs lead to: - missed visits - delayed follow-up - quality issues - burnout",
+    "crumbs": [
+      "<span class='chapter-number'>54</span>  <span class='chapter-title'>Resource & Capacity Planning</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/resource_and_capacity_planning.html#site-load",
+    "href": "08_project_management/resource_and_capacity_planning.html#site-load",
+    "title": "54  Resource & Capacity Planning",
+    "section": "54.3 Site Load",
+    "text": "54.3 Site Load\nSites differ in: - enrollment volume - data quality - deviation rate - support needs\nHigh-burden sites require: - increased monitoring - more communication - escalation readiness",
+    "crumbs": [
+      "<span class='chapter-number'>54</span>  <span class='chapter-title'>Resource & Capacity Planning</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/resource_and_capacity_planning.html#vendor-oversight",
+    "href": "08_project_management/resource_and_capacity_planning.html#vendor-oversight",
+    "title": "54  Resource & Capacity Planning",
+    "section": "54.4 Vendor Oversight",
+    "text": "54.4 Vendor Oversight\nExternal vendors include: - CROs - labs - imaging vendors - EDC providers\nPM must monitor: - performance metrics - deliverable timelines - contract obligations\nVendors are resources, not black boxes.",
+    "crumbs": [
+      "<span class='chapter-number'>54</span>  <span class='chapter-title'>Resource & Capacity Planning</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/resource_and_capacity_planning.html#scaling-and-reallocation",
+    "href": "08_project_management/resource_and_capacity_planning.html#scaling-and-reallocation",
+    "title": "54  Resource & Capacity Planning",
+    "section": "54.5 Scaling and Reallocation",
+    "text": "54.5 Scaling and Reallocation\nResource plans must adapt to: - new sites - delayed enrollment - emerging risks - staff turnover\nPM’s role is to: - anticipate overload, - redistribute work, - and prevent systemic failure.",
+    "crumbs": [
+      "<span class='chapter-number'>54</span>  <span class='chapter-title'>Resource & Capacity Planning</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/resource_and_capacity_planning.html#resource-planning-as-risk-management",
+    "href": "08_project_management/resource_and_capacity_planning.html#resource-planning-as-risk-management",
+    "title": "54  Resource & Capacity Planning",
+    "section": "54.6 Resource Planning as Risk Management",
+    "text": "54.6 Resource Planning as Risk Management\nIn practice, most trial failures result from: &gt; insufficient or misaligned resources.\nResource planning is therefore a primary risk control activity.",
+    "crumbs": [
+      "<span class='chapter-number'>54</span>  <span class='chapter-title'>Resource & Capacity Planning</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/delivery_metrics_and_kpis.html",
+    "href": "08_project_management/delivery_metrics_and_kpis.html",
+    "title": "55  Delivery Metrics & KPIs",
+    "section": "",
+    "text": "55.1 Purpose\nMetrics and KPIs provide quantitative visibility into trial performance.\nThey allow project management to: - detect problems early, - track trends, - and justify decisions.\nWithout metrics, PM is blind.",
+    "crumbs": [
+      "<span class='chapter-number'>55</span>  <span class='chapter-title'>Delivery Metrics & KPIs</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/delivery_metrics_and_kpis.html#key-performance-domains",
+    "href": "08_project_management/delivery_metrics_and_kpis.html#key-performance-domains",
+    "title": "55  Delivery Metrics & KPIs",
+    "section": "55.2 Key Performance Domains",
+    "text": "55.2 Key Performance Domains\nTypical KPI categories:\n\n\n\nDomain\nExamples\n\n\n\n\nStart-Up\n% sites activated\n\n\nMonitoring\nVisit completion rate\n\n\nSafety\nSAE reporting timeliness\n\n\nData Quality\nQuery aging\n\n\nQuality\nDeviation rate\n\n\nDelivery\nMilestone adherence",
+    "crumbs": [
+      "<span class='chapter-number'>55</span>  <span class='chapter-title'>Delivery Metrics & KPIs</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/delivery_metrics_and_kpis.html#examples-of-operational-kpis",
+    "href": "08_project_management/delivery_metrics_and_kpis.html#examples-of-operational-kpis",
+    "title": "55  Delivery Metrics & KPIs",
+    "section": "55.3 Examples of Operational KPIs",
+    "text": "55.3 Examples of Operational KPIs\n\n55.3.1 Monitoring\n\n% scheduled visits completed\naverage days to report findings\n\n\n\n55.3.2 Data Quality\n\nopen queries per subject\nmedian query resolution time\n\n\n\n55.3.3 Safety\n\n% SAEs reported within 24 hours\nunresolved safety follow-ups\n\n\n\n55.3.4 Quality\n\ndeviations per site\nCAPA closure time",
+    "crumbs": [
+      "<span class='chapter-number'>55</span>  <span class='chapter-title'>Delivery Metrics & KPIs</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/delivery_metrics_and_kpis.html#leading-vs-lagging-indicators",
+    "href": "08_project_management/delivery_metrics_and_kpis.html#leading-vs-lagging-indicators",
+    "title": "55  Delivery Metrics & KPIs",
+    "section": "55.4 Leading vs Lagging Indicators",
+    "text": "55.4 Leading vs Lagging Indicators\n\n\n\nType\nMeaning\n\n\n\n\nLeading\nPredict future problems\n\n\nLagging\nConfirm past performance\n\n\n\nExamples: - High query aging → leading indicator\n- Missed DBL → lagging indicator\nEffective PM prioritizes leading indicators.",
+    "crumbs": [
+      "<span class='chapter-number'>55</span>  <span class='chapter-title'>Delivery Metrics & KPIs</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/delivery_metrics_and_kpis.html#kpis-as-decision-inputs",
+    "href": "08_project_management/delivery_metrics_and_kpis.html#kpis-as-decision-inputs",
+    "title": "55  Delivery Metrics & KPIs",
+    "section": "55.5 KPIs as Decision Inputs",
+    "text": "55.5 KPIs as Decision Inputs\nMetrics are not for reporting. They are for decision-making.\nKPIs inform: - resource reallocation - escalation - vendor performance - risk prioritization\nKPIs are a control system, not a scoreboard.",
+    "crumbs": [
+      "<span class='chapter-number'>55</span>  <span class='chapter-title'>Delivery Metrics & KPIs</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/pm_templates_and_trackers.html",
+    "href": "08_project_management/pm_templates_and_trackers.html",
+    "title": "56  PM Templates & Trackers",
+    "section": "",
+    "text": "56.1 Purpose\nThis section provides reusable project management tools that can be instantiated for any real or mock clinical trial.\nThese templates convert the conceptual PM framework into a live project control system.",
+    "crumbs": [
+      "<span class='chapter-number'>56</span>  <span class='chapter-title'>PM Templates & Trackers</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/pm_templates_and_trackers.html#trial-timeline-template",
+    "href": "08_project_management/pm_templates_and_trackers.html#trial-timeline-template",
+    "title": "56  PM Templates & Trackers",
+    "section": "56.2 Trial Timeline Template",
+    "text": "56.2 Trial Timeline Template\n\n\n\nMilestone\nPlanned Date\nActual Date\nStatus\n\n\n\n\nFSI\n\n\n\n\n\nFPI\n\n\n\n\n\nLPI\n\n\n\n\n\nLPLV\n\n\n\n\n\nDBL\n\n\n\n\n\nCSR",
+    "crumbs": [
+      "<span class='chapter-number'>56</span>  <span class='chapter-title'>PM Templates & Trackers</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/pm_templates_and_trackers.html#risk-register-template",
+    "href": "08_project_management/pm_templates_and_trackers.html#risk-register-template",
+    "title": "56  PM Templates & Trackers",
+    "section": "56.3 Risk Register Template",
+    "text": "56.3 Risk Register Template\n\n\n\nRisk ID\nDescription\nProbability\nImpact\nMitigation\nStatus\n\n\n\n\nR-01\n\n\n\n\n\n\n\nR-02",
+    "crumbs": [
+      "<span class='chapter-number'>56</span>  <span class='chapter-title'>PM Templates & Trackers</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/pm_templates_and_trackers.html#issue-log-template",
+    "href": "08_project_management/pm_templates_and_trackers.html#issue-log-template",
+    "title": "56  PM Templates & Trackers",
+    "section": "56.4 Issue Log Template",
+    "text": "56.4 Issue Log Template\n\n\n\nIssue ID\nDescription\nSeverity\nOwner\nAction\nStatus\n\n\n\n\nI-01\n\n\n\n\n\n\n\nI-02",
+    "crumbs": [
+      "<span class='chapter-number'>56</span>  <span class='chapter-title'>PM Templates & Trackers</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/pm_templates_and_trackers.html#escalation-log",
+    "href": "08_project_management/pm_templates_and_trackers.html#escalation-log",
+    "title": "56  PM Templates & Trackers",
+    "section": "56.5 Escalation Log",
+    "text": "56.5 Escalation Log\n\n\n\nDate\nIssue\nEscalated To\nDecision\nOutcome",
+    "crumbs": [
+      "<span class='chapter-number'>56</span>  <span class='chapter-title'>PM Templates & Trackers</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/pm_templates_and_trackers.html#decision-log",
+    "href": "08_project_management/pm_templates_and_trackers.html#decision-log",
+    "title": "56  PM Templates & Trackers",
+    "section": "56.6 Decision Log",
+    "text": "56.6 Decision Log\n\n\n\nDate\nDecision\nRationale\nApproved By",
+    "crumbs": [
+      "<span class='chapter-number'>56</span>  <span class='chapter-title'>PM Templates & Trackers</span>"
+    ]
+  },
+  {
+    "objectID": "08_project_management/pm_templates_and_trackers.html#stakeholder-map",
+    "href": "08_project_management/pm_templates_and_trackers.html#stakeholder-map",
+    "title": "56  PM Templates & Trackers",
+    "section": "56.7 Stakeholder Map",
+    "text": "56.7 Stakeholder Map\n\n\n\nRole\nName\nResponsibility\n\n\n\n\nSponsor\n\n\n\n\nCTM\n\n\n\n\nCRA Lead\n\n\n\n\nSafety Lead\n\n\n\n\nData Manager",
+    "crumbs": [
+      "<span class='chapter-number'>56</span>  <span class='chapter-title'>PM Templates & Trackers</span>"
+    ]
+  },
+  {
+    "objectID": "09_inspection_readiness/index.html",
+    "href": "09_inspection_readiness/index.html",
+    "title": "57  Inspection Readiness & Audit Defense",
+    "section": "",
+    "text": "57.1 Purpose\nThis module defines how CRAs support inspection readiness, regulatory audits, and inspection responses across the clinical trial lifecycle. Inspection readiness spans the entire lifecycle, as illustrated in the Trial Lifecycle Map.",
+    "crumbs": [
+      "<span class='chapter-number'>57</span>  <span class='chapter-title'>Inspection Readiness & Audit Defense</span>"
+    ]
+  },
+  {
+    "objectID": "09_inspection_readiness/index.html#cra-accountability-practical",
+    "href": "09_inspection_readiness/index.html#cra-accountability-practical",
+    "title": "57  Inspection Readiness & Audit Defense",
+    "section": "57.2 CRA Accountability (Practical)",
+    "text": "57.2 CRA Accountability (Practical)\n\nMaintain inspection-ready documentation at all times\nSupport sites during audits and inspections\nVerify completeness and consistency of trial records\nTrack findings and remediation actions\nContribute to CAPA effectiveness",
+    "crumbs": [
+      "<span class='chapter-number'>57</span>  <span class='chapter-title'>Inspection Readiness & Audit Defense</span>"
+    ]
+  },
+  {
+    "objectID": "09_inspection_readiness/index.html#why-this-matters",
+    "href": "09_inspection_readiness/index.html#why-this-matters",
+    "title": "57  Inspection Readiness & Audit Defense",
+    "section": "57.3 Why This Matters",
+    "text": "57.3 Why This Matters\nInspections determine: - Regulatory trust - Sponsor credibility - Trial validity - Site eligibility for future studies",
+    "crumbs": [
+      "<span class='chapter-number'>57</span>  <span class='chapter-title'>Inspection Readiness & Audit Defense</span>"
+    ]
+  },
+  {
+    "objectID": "09_inspection_readiness/inspection_types_and_stakeholders.html",
+    "href": "09_inspection_readiness/inspection_types_and_stakeholders.html",
+    "title": "58  Inspection Types & Stakeholders",
+    "section": "",
+    "text": "58.1 Common Inspection Types",
+    "crumbs": [
+      "<span class='chapter-number'>58</span>  <span class='chapter-title'>Inspection Types & Stakeholders</span>"
+    ]
+  },
+  {
+    "objectID": "09_inspection_readiness/inspection_types_and_stakeholders.html#common-inspection-types",
+    "href": "09_inspection_readiness/inspection_types_and_stakeholders.html#common-inspection-types",
+    "title": "58  Inspection Types & Stakeholders",
+    "section": "",
+    "text": "Type\nConducted By\nPurpose\n\n\n\n\nRegulatory Inspection\nFDA / EMA / MHRA\nRegulatory compliance\n\n\nSponsor Audit\nSponsor QA\nOversight of CRO/site\n\n\nCRO Audit\nCRO QA\nInternal quality control\n\n\nIRB Audit\nIRB\nHuman subjects protection",
+    "crumbs": [
+      "<span class='chapter-number'>58</span>  <span class='chapter-title'>Inspection Types & Stakeholders</span>"
+    ]
+  },
+  {
+    "objectID": "09_inspection_readiness/inspection_types_and_stakeholders.html#cra-role-by-stakeholder",
+    "href": "09_inspection_readiness/inspection_types_and_stakeholders.html#cra-role-by-stakeholder",
+    "title": "58  Inspection Types & Stakeholders",
+    "section": "58.2 CRA Role by Stakeholder",
+    "text": "58.2 CRA Role by Stakeholder\n\n\n\nStakeholder\nCRA Role\n\n\n\n\nRegulatory Authority\nProvide documentation, clarify processes\n\n\nSponsor QA\nSupport evidence collection\n\n\nCRO QA\nEnsure SOP compliance\n\n\nSite\nGuide inspection logistics",
+    "crumbs": [
+      "<span class='chapter-number'>58</span>  <span class='chapter-title'>Inspection Types & Stakeholders</span>"
+    ]
+  },
+  {
+    "objectID": "09_inspection_readiness/inspection_readiness_framework.html",
+    "href": "09_inspection_readiness/inspection_readiness_framework.html",
+    "title": "59  Inspection Readiness Framework",
+    "section": "",
+    "text": "59.1 The Core Principle\nInspection readiness is not an event. It is a continuous operational state.",
+    "crumbs": [
+      "<span class='chapter-number'>59</span>  <span class='chapter-title'>Inspection Readiness Framework</span>"
+    ]
+  },
+  {
+    "objectID": "09_inspection_readiness/inspection_readiness_framework.html#readiness-domains",
+    "href": "09_inspection_readiness/inspection_readiness_framework.html#readiness-domains",
+    "title": "59  Inspection Readiness Framework",
+    "section": "59.2 Readiness Domains",
+    "text": "59.2 Readiness Domains\n\nRegulatory documentation\nMonitoring records\nSafety reporting\nDeviation/CAPA management\nData quality controls\nTraining and delegation",
+    "crumbs": [
+      "<span class='chapter-number'>59</span>  <span class='chapter-title'>Inspection Readiness Framework</span>"
+    ]
+  },
+  {
+    "objectID": "09_inspection_readiness/inspection_readiness_framework.html#cra-reality",
+    "href": "09_inspection_readiness/inspection_readiness_framework.html#cra-reality",
+    "title": "59  Inspection Readiness Framework",
+    "section": "59.3 CRA Reality",
+    "text": "59.3 CRA Reality\nYou prepare for inspections by how you work every day.",
+    "crumbs": [
+      "<span class='chapter-number'>59</span>  <span class='chapter-title'>Inspection Readiness Framework</span>"
+    ]
+  },
+  {
+    "objectID": "09_inspection_readiness/pre_inspection_preparation.html",
+    "href": "09_inspection_readiness/pre_inspection_preparation.html",
+    "title": "60  Pre-Inspection Preparation",
+    "section": "",
+    "text": "60.1 CRA Pre-Inspection Checklist",
+    "crumbs": [
+      "<span class='chapter-number'>60</span>  <span class='chapter-title'>Pre-Inspection Preparation</span>"
+    ]
+  },
+  {
+    "objectID": "09_inspection_readiness/pre_inspection_preparation.html#cra-pre-inspection-checklist",
+    "href": "09_inspection_readiness/pre_inspection_preparation.html#cra-pre-inspection-checklist",
+    "title": "60  Pre-Inspection Preparation",
+    "section": "",
+    "text": "Regulatory binder complete and current\nIRB approvals and version control verified\nMonitoring reports finalized and filed\nSafety documentation reconciled\nDeviation logs reviewed\nCAPAs implemented and closed\nTMF reconciled with site records",
+    "crumbs": [
+      "<span class='chapter-number'>60</span>  <span class='chapter-title'>Pre-Inspection Preparation</span>"
+    ]
+  },
+  {
+    "objectID": "09_inspection_readiness/pre_inspection_preparation.html#document-consistency-checks",
+    "href": "09_inspection_readiness/pre_inspection_preparation.html#document-consistency-checks",
+    "title": "60  Pre-Inspection Preparation",
+    "section": "60.2 Document Consistency Checks",
+    "text": "60.2 Document Consistency Checks\nVerify consistency between: - Source documents - EDC - Monitoring reports - TMF - Correspondence\n\n\n\n\n\n\nNoteOncology-Specific Considerations\n\n\n\n\nImaging data and tumor assessments often reviewed\nDose modifications scrutinized\n\n\n\n\n\n\n\n\n\nNoteVaccine Trial Considerations\n\n\n\n\nSpecimen collection timing, handling, and laboratory documentation are often reviewed to ensure validity of immunogenicity endpoints.\nVaccine accountability, storage conditions, and temperature monitoring records may receive focused inspection review.\nDocumentation supporting vaccination timing and follow-up visit windows should be complete and consistent with protocol requirements.",
+    "crumbs": [
+      "<span class='chapter-number'>60</span>  <span class='chapter-title'>Pre-Inspection Preparation</span>"
+    ]
+  },
+  {
+    "objectID": "09_inspection_readiness/on_site_inspection_support.html",
+    "href": "09_inspection_readiness/on_site_inspection_support.html",
+    "title": "61  On-Site Inspection Support",
+    "section": "",
+    "text": "61.1 CRA Role During Inspection",
+    "crumbs": [
+      "<span class='chapter-number'>61</span>  <span class='chapter-title'>On-Site Inspection Support</span>"
+    ]
+  },
+  {
+    "objectID": "09_inspection_readiness/on_site_inspection_support.html#cra-role-during-inspection",
+    "href": "09_inspection_readiness/on_site_inspection_support.html#cra-role-during-inspection",
+    "title": "61  On-Site Inspection Support",
+    "section": "",
+    "text": "Facilitate document access\nClarify trial workflows\nCoordinate site staff responses\nObserve inspection process\nDocument inspector questions",
+    "crumbs": [
+      "<span class='chapter-number'>61</span>  <span class='chapter-title'>On-Site Inspection Support</span>"
+    ]
+  },
+  {
+    "objectID": "09_inspection_readiness/on_site_inspection_support.html#cra-best-practices",
+    "href": "09_inspection_readiness/on_site_inspection_support.html#cra-best-practices",
+    "title": "61  On-Site Inspection Support",
+    "section": "61.2 CRA Best Practices",
+    "text": "61.2 CRA Best Practices\n\nBe factual and objective\nDo not speculate\nRefer to documented evidence\nEscalate questions you cannot answer",
+    "crumbs": [
+      "<span class='chapter-number'>61</span>  <span class='chapter-title'>On-Site Inspection Support</span>"
+    ]
+  },
+  {
+    "objectID": "09_inspection_readiness/on_site_inspection_support.html#inspection-logistics",
+    "href": "09_inspection_readiness/on_site_inspection_support.html#inspection-logistics",
+    "title": "61  On-Site Inspection Support",
+    "section": "61.3 Inspection Logistics",
+    "text": "61.3 Inspection Logistics\n\nInspection room setup\nDocument tracking log\nStaff availability schedule",
+    "crumbs": [
+      "<span class='chapter-number'>61</span>  <span class='chapter-title'>On-Site Inspection Support</span>"
+    ]
+  },
+  {
+    "objectID": "09_inspection_readiness/findings_responses_and_remediation.html",
+    "href": "09_inspection_readiness/findings_responses_and_remediation.html",
+    "title": "62  Findings, Responses & Remediation",
+    "section": "",
+    "text": "62.1 Types of Findings",
+    "crumbs": [
+      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Findings, Responses & Remediation</span>"
+    ]
+  },
+  {
+    "objectID": "09_inspection_readiness/findings_responses_and_remediation.html#types-of-findings",
+    "href": "09_inspection_readiness/findings_responses_and_remediation.html#types-of-findings",
+    "title": "62  Findings, Responses & Remediation",
+    "section": "",
+    "text": "Minor observations\nMajor observations\nCritical findings",
+    "crumbs": [
+      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Findings, Responses & Remediation</span>"
+    ]
+  },
+  {
+    "objectID": "09_inspection_readiness/findings_responses_and_remediation.html#cra-responsibilities",
+    "href": "09_inspection_readiness/findings_responses_and_remediation.html#cra-responsibilities",
+    "title": "62  Findings, Responses & Remediation",
+    "section": "62.2 CRA Responsibilities",
+    "text": "62.2 CRA Responsibilities\n\nReview inspection findings\nSupport root cause analysis\nAssist in CAPA development\nTrack remediation progress",
+    "crumbs": [
+      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Findings, Responses & Remediation</span>"
+    ]
+  },
+  {
+    "objectID": "09_inspection_readiness/findings_responses_and_remediation.html#response-principles",
+    "href": "09_inspection_readiness/findings_responses_and_remediation.html#response-principles",
+    "title": "62  Findings, Responses & Remediation",
+    "section": "62.3 Response Principles",
+    "text": "62.3 Response Principles\n\nObjective and factual\nSupported by evidence\nAction-oriented\nTimely",
+    "crumbs": [
+      "<span class='chapter-number'>62</span>  <span class='chapter-title'>Findings, Responses & Remediation</span>"
+    ]
+  },
+  {
+    "objectID": "09_inspection_readiness/mock_inspection_and_training.html",
+    "href": "09_inspection_readiness/mock_inspection_and_training.html",
+    "title": "63  Mock Inspections & Training",
+    "section": "",
+    "text": "63.1 Purpose of Mock Inspections",
+    "crumbs": [
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Mock Inspections & Training</span>"
+    ]
+  },
+  {
+    "objectID": "09_inspection_readiness/mock_inspection_and_training.html#purpose-of-mock-inspections",
+    "href": "09_inspection_readiness/mock_inspection_and_training.html#purpose-of-mock-inspections",
+    "title": "63  Mock Inspections & Training",
+    "section": "",
+    "text": "Identify gaps before regulators do\nTrain site staff\nTest documentation systems",
+    "crumbs": [
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Mock Inspections & Training</span>"
+    ]
+  },
+  {
+    "objectID": "09_inspection_readiness/mock_inspection_and_training.html#cra-role",
+    "href": "09_inspection_readiness/mock_inspection_and_training.html#cra-role",
+    "title": "63  Mock Inspections & Training",
+    "section": "63.2 CRA Role",
+    "text": "63.2 CRA Role\n\nParticipate in mock audits\nReview findings\nSupport corrective actions\nImprove readiness processes",
+    "crumbs": [
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Mock Inspections & Training</span>"
+    ]
+  },
+  {
+    "objectID": "09_inspection_readiness/mock_inspection_and_training.html#cra-interview-gold",
+    "href": "09_inspection_readiness/mock_inspection_and_training.html#cra-interview-gold",
+    "title": "63  Mock Inspections & Training",
+    "section": "63.3 CRA Interview Gold",
+    "text": "63.3 CRA Interview Gold\nExperience with mock inspections is highly valued by sponsors and CROs.",
+    "crumbs": [
+      "<span class='chapter-number'>63</span>  <span class='chapter-title'>Mock Inspections & Training</span>"
+    ]
+  },
+  {
+    "objectID": "09_inspection_readiness/inspection_templates_and_checklists.html",
+    "href": "09_inspection_readiness/inspection_templates_and_checklists.html",
+    "title": "64  Inspection Templates & Checklists",
+    "section": "",
+    "text": "64.1 Inspection Readiness Checklist (CRA)",
+    "crumbs": [
+      "<span class='chapter-number'>64</span>  <span class='chapter-title'>Inspection Templates & Checklists</span>"
+    ]
+  },
+  {
+    "objectID": "09_inspection_readiness/inspection_templates_and_checklists.html#inspection-readiness-checklist-cra",
+    "href": "09_inspection_readiness/inspection_templates_and_checklists.html#inspection-readiness-checklist-cra",
+    "title": "64  Inspection Templates & Checklists",
+    "section": "",
+    "text": "Regulatory binder current\nMonitoring documentation complete\nSafety documentation consistent\nDeviations tracked\nCAPAs closed\nTMF reconciled\nTraining documentation available",
+    "crumbs": [
+      "<span class='chapter-number'>64</span>  <span class='chapter-title'>Inspection Templates & Checklists</span>"
+    ]
+  },
+  {
+    "objectID": "09_inspection_readiness/inspection_templates_and_checklists.html#inspection-question-log",
+    "href": "09_inspection_readiness/inspection_templates_and_checklists.html#inspection-question-log",
+    "title": "64  Inspection Templates & Checklists",
+    "section": "64.2 Inspection Question Log",
+    "text": "64.2 Inspection Question Log\n\n\n\nQuestion\nAsked By\nDate\nResponse\nEvidence Provided\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExample inspection question log (mock data).",
+    "crumbs": [
+      "<span class='chapter-number'>64</span>  <span class='chapter-title'>Inspection Templates & Checklists</span>"
+    ]
+  },
+  {
+    "objectID": "09_inspection_readiness/inspection_templates_and_checklists.html#inspection-finding-log",
+    "href": "09_inspection_readiness/inspection_templates_and_checklists.html#inspection-finding-log",
+    "title": "64  Inspection Templates & Checklists",
+    "section": "64.3 Inspection Finding Log",
+    "text": "64.3 Inspection Finding Log\n\n\n\nFinding\nSeverity\nRoot Cause\nCAPA\nOwner\nDue Date\nStatus",
+    "crumbs": [
+      "<span class='chapter-number'>64</span>  <span class='chapter-title'>Inspection Templates & Checklists</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/oncology/index.html",
+    "href": "appendices/oncology/index.html",
+    "title": "65  Oncology Operations Appendix",
+    "section": "",
+    "text": "65.1 Purpose\nThis appendix provides oncology-specific operational guidance that supplements the core CRA modules.\nIt focuses on areas where oncology trials differ materially from general interventional studies.",
+    "crumbs": [
+      "<span class='chapter-number'>65</span>  <span class='chapter-title'>Oncology Operations Appendix</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/oncology/oncology_trial_designs.html",
+    "href": "appendices/oncology/oncology_trial_designs.html",
+    "title": "66  Oncology Trial Designs",
+    "section": "",
+    "text": "66.1 Common Oncology Designs",
+    "crumbs": [
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Oncology Trial Designs</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/oncology/oncology_trial_designs.html#common-oncology-designs",
+    "href": "appendices/oncology/oncology_trial_designs.html#common-oncology-designs",
+    "title": "66  Oncology Trial Designs",
+    "section": "",
+    "text": "Phase I dose escalation\nBasket trials\nUmbrella trials\nExpansion cohorts\nAdaptive designs",
+    "crumbs": [
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Oncology Trial Designs</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/oncology/oncology_trial_designs.html#cra-implications",
+    "href": "appendices/oncology/oncology_trial_designs.html#cra-implications",
+    "title": "66  Oncology Trial Designs",
+    "section": "66.2 CRA Implications",
+    "text": "66.2 CRA Implications\n\nMore frequent amendments\nComplex eligibility criteria\nRapid protocol evolution\nFrequent safety reviews",
+    "crumbs": [
+      "<span class='chapter-number'>66</span>  <span class='chapter-title'>Oncology Trial Designs</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/oncology/recist_and_tumor_assessment.html",
+    "href": "appendices/oncology/recist_and_tumor_assessment.html",
+    "title": "67  RECIST & Tumor Assessment",
+    "section": "",
+    "text": "67.1 What is RECIST?\nResponse Evaluation Criteria in Solid Tumors. Defines objective tumor response categories: - CR: Complete Response - PR: Partial Response - SD: Stable Disease - PD: Progressive Disease",
+    "crumbs": [
+      "<span class='chapter-number'>67</span>  <span class='chapter-title'>RECIST & Tumor Assessment</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/oncology/recist_and_tumor_assessment.html#cra-oversight",
+    "href": "appendices/oncology/recist_and_tumor_assessment.html#cra-oversight",
+    "title": "67  RECIST & Tumor Assessment",
+    "section": "67.2 CRA Oversight",
+    "text": "67.2 CRA Oversight\n\nVerify imaging dates align with visit windows\nConfirm measurements trace to source imaging\nEnsure central review processes followed",
+    "crumbs": [
+      "<span class='chapter-number'>67</span>  <span class='chapter-title'>RECIST & Tumor Assessment</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/oncology/recist_and_tumor_assessment.html#high-risk-areas",
+    "href": "appendices/oncology/recist_and_tumor_assessment.html#high-risk-areas",
+    "title": "67  RECIST & Tumor Assessment",
+    "section": "67.3 High-Risk Areas",
+    "text": "67.3 High-Risk Areas\n\nMissed imaging windows\nIncorrect target lesion selection\nMissing baseline scans",
+    "crumbs": [
+      "<span class='chapter-number'>67</span>  <span class='chapter-title'>RECIST & Tumor Assessment</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/oncology/dose_limiting_toxicity_and_escalation.html",
+    "href": "appendices/oncology/dose_limiting_toxicity_and_escalation.html",
+    "title": "68  Dose-Limiting Toxicity & Escalation",
+    "section": "",
+    "text": "68.1 What is a DLT?\nA toxicity that limits further dose escalation.",
+    "crumbs": [
+      "<span class='chapter-number'>68</span>  <span class='chapter-title'>Dose-Limiting Toxicity & Escalation</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/oncology/dose_limiting_toxicity_and_escalation.html#cra-implications",
+    "href": "appendices/oncology/dose_limiting_toxicity_and_escalation.html#cra-implications",
+    "title": "68  Dose-Limiting Toxicity & Escalation",
+    "section": "68.2 CRA Implications",
+    "text": "68.2 CRA Implications\n\nCritical documentation of timing and severity\nClose monitoring of Cycle 1\nSafety review committees (SRC/DSMB)",
+    "crumbs": [
+      "<span class='chapter-number'>68</span>  <span class='chapter-title'>Dose-Limiting Toxicity & Escalation</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/oncology/dose_limiting_toxicity_and_escalation.html#escalation-designs",
+    "href": "appendices/oncology/dose_limiting_toxicity_and_escalation.html#escalation-designs",
+    "title": "68  Dose-Limiting Toxicity & Escalation",
+    "section": "68.3 Escalation Designs",
+    "text": "68.3 Escalation Designs\n\n3+3\nBayesian adaptive models\nModified toxicity probability interval (mTPI)",
+    "crumbs": [
+      "<span class='chapter-number'>68</span>  <span class='chapter-title'>Dose-Limiting Toxicity & Escalation</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/oncology/immune_related_adverse_events.html",
+    "href": "appendices/oncology/immune_related_adverse_events.html",
+    "title": "69  Immune-Related Adverse Events (irAEs)",
+    "section": "",
+    "text": "69.1 What are irAEs?\nAdverse events caused by immune activation (e.g., checkpoint inhibitors).",
+    "crumbs": [
+      "<span class='chapter-number'>69</span>  <span class='chapter-title'>Immune-Related Adverse Events (irAEs)</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/oncology/immune_related_adverse_events.html#common-iraes",
+    "href": "appendices/oncology/immune_related_adverse_events.html#common-iraes",
+    "title": "69  Immune-Related Adverse Events (irAEs)",
+    "section": "69.2 Common irAEs",
+    "text": "69.2 Common irAEs\n\nColitis\nPneumonitis\nHepatitis\nEndocrinopathies",
+    "crumbs": [
+      "<span class='chapter-number'>69</span>  <span class='chapter-title'>Immune-Related Adverse Events (irAEs)</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/oncology/immune_related_adverse_events.html#cra-oversight",
+    "href": "appendices/oncology/immune_related_adverse_events.html#cra-oversight",
+    "title": "69  Immune-Related Adverse Events (irAEs)",
+    "section": "69.3 CRA Oversight",
+    "text": "69.3 CRA Oversight\n\nLong follow-up periods\nDelayed onset\nSteroid treatment documentation\nRe-challenge decisions",
+    "crumbs": [
+      "<span class='chapter-number'>69</span>  <span class='chapter-title'>Immune-Related Adverse Events (irAEs)</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/oncology/oncology_safety_workflows.html",
+    "href": "appendices/oncology/oncology_safety_workflows.html",
+    "title": "70  Oncology Safety Workflows",
+    "section": "",
+    "text": "70.1 Oncology Safety Characteristics\nOncology safety flow — irAE management (mock)",
+    "crumbs": [
+      "<span class='chapter-number'>70</span>  <span class='chapter-title'>Oncology Safety Workflows</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/oncology/oncology_safety_workflows.html#oncology-safety-characteristics",
+    "href": "appendices/oncology/oncology_safety_workflows.html#oncology-safety-characteristics",
+    "title": "70  Oncology Safety Workflows",
+    "section": "",
+    "text": "High SAE volume\nOverlapping disease symptoms\nHospitalizations often expected\nComplex causality assessments",
+    "crumbs": [
+      "<span class='chapter-number'>70</span>  <span class='chapter-title'>Oncology Safety Workflows</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/oncology/oncology_safety_workflows.html#cra-focus",
+    "href": "appendices/oncology/oncology_safety_workflows.html#cra-focus",
+    "title": "70  Oncology Safety Workflows",
+    "section": "70.2 CRA Focus",
+    "text": "70.2 CRA Focus\n\nEnsure expected events are still documented\nTrack prolonged toxicities\nMonitor dose modifications",
+    "crumbs": [
+      "<span class='chapter-number'>70</span>  <span class='chapter-title'>Oncology Safety Workflows</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/oncology/central_labs_and_imaging.html",
+    "href": "appendices/oncology/central_labs_and_imaging.html",
+    "title": "71  Central Labs & Imaging",
+    "section": "",
+    "text": "71.1 Oncology Dependencies",
+    "crumbs": [
+      "<span class='chapter-number'>71</span>  <span class='chapter-title'>Central Labs & Imaging</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/oncology/central_labs_and_imaging.html#oncology-dependencies",
+    "href": "appendices/oncology/central_labs_and_imaging.html#oncology-dependencies",
+    "title": "71  Central Labs & Imaging",
+    "section": "",
+    "text": "Central pathology review\nCentral biomarker labs\nCentral imaging review (CT/MRI/PET)",
+    "crumbs": [
+      "<span class='chapter-number'>71</span>  <span class='chapter-title'>Central Labs & Imaging</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/oncology/central_labs_and_imaging.html#cra-oversight",
+    "href": "appendices/oncology/central_labs_and_imaging.html#cra-oversight",
+    "title": "71  Central Labs & Imaging",
+    "section": "71.2 CRA Oversight",
+    "text": "71.2 CRA Oversight\n\nSample chain-of-custody\nImaging manuals followed\nLab turnaround times\nSpecimen integrity",
+    "crumbs": [
+      "<span class='chapter-number'>71</span>  <span class='chapter-title'>Central Labs & Imaging</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/oncology/oncology_inspection_hotspots.html",
+    "href": "appendices/oncology/oncology_inspection_hotspots.html",
+    "title": "72  Oncology Inspection Hotspots",
+    "section": "",
+    "text": "72.1 Areas Inspectors Scrutinize",
+    "crumbs": [
+      "<span class='chapter-number'>72</span>  <span class='chapter-title'>Oncology Inspection Hotspots</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/oncology/oncology_inspection_hotspots.html#areas-inspectors-scrutinize",
+    "href": "appendices/oncology/oncology_inspection_hotspots.html#areas-inspectors-scrutinize",
+    "title": "72  Oncology Inspection Hotspots",
+    "section": "",
+    "text": "RECIST source verification\nDose modification rationale\nSafety reporting completeness\nProtocol amendments\nInformed consent re-consent",
+    "crumbs": [
+      "<span class='chapter-number'>72</span>  <span class='chapter-title'>Oncology Inspection Hotspots</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/oncology/oncology_inspection_hotspots.html#cra-defense-strategy",
+    "href": "appendices/oncology/oncology_inspection_hotspots.html#cra-defense-strategy",
+    "title": "72  Oncology Inspection Hotspots",
+    "section": "72.2 CRA Defense Strategy",
+    "text": "72.2 CRA Defense Strategy\n\nStrong documentation\nVersion control discipline\nDeviation trend awareness",
+    "crumbs": [
+      "<span class='chapter-number'>72</span>  <span class='chapter-title'>Oncology Inspection Hotspots</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/oncology/oncology_quick_reference.html",
+    "href": "appendices/oncology/oncology_quick_reference.html",
+    "title": "73  Oncology Quick Reference",
+    "section": "",
+    "text": "73.1 High-Yield Oncology CRA Checklist",
+    "crumbs": [
+      "<span class='chapter-number'>73</span>  <span class='chapter-title'>Oncology Quick Reference</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/oncology/oncology_quick_reference.html#high-yield-oncology-cra-checklist",
+    "href": "appendices/oncology/oncology_quick_reference.html#high-yield-oncology-cra-checklist",
+    "title": "73  Oncology Quick Reference",
+    "section": "",
+    "text": "73.1.1 Monitoring\n\nCycle 1 SDV complete\nRECIST assessments verified\nDose changes documented\nImaging windows met\n\n\n\n73.1.2 Safety\n\nirAEs tracked\nHospitalizations documented\nFollow-up complete\n\n\n\n73.1.3 Regulatory\n\nAmendments approved\nRe-consent completed\nCentral lab manuals current",
+    "crumbs": [
+      "<span class='chapter-number'>73</span>  <span class='chapter-title'>Oncology Quick Reference</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/vaccine_trials/index.html",
+    "href": "appendices/vaccine_trials/index.html",
+    "title": "74  Vaccine Trials Operations Appendix",
+    "section": "",
+    "text": "74.1 Purpose\nThis appendix describes operational considerations specific to vaccine clinical trials within the Clinical Trial Operations System.\nThe core system remains unchanged. This appendix highlights where execution, governance, safety, and analytics priorities differ due to:",
+    "crumbs": [
+      "<span class='chapter-number'>74</span>  <span class='chapter-title'>Vaccine Trials Operations Appendix</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/vaccine_trials/index.html#purpose",
+    "href": "appendices/vaccine_trials/index.html#purpose",
+    "title": "74  Vaccine Trials Operations Appendix",
+    "section": "",
+    "text": "large enrollment scale,\nhealthy volunteer populations,\ntime-sensitive endpoints,\nand heightened safety sensitivity.",
+    "crumbs": [
+      "<span class='chapter-number'>74</span>  <span class='chapter-title'>Vaccine Trials Operations Appendix</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/vaccine_trials/enrollment_and_site_selection.html",
+    "href": "appendices/vaccine_trials/enrollment_and_site_selection.html",
+    "title": "75  Vaccine Trials Quick Reference",
+    "section": "",
+    "text": "Vaccine trials frequently require rapid enrollment of large subject populations. Site feasibility therefore emphasizes recruitment capacity, scheduling efficiency, and access to eligible populations rather than therapeutic specialization.\n\n\n\n\n\n\nNoteCRA Considerations\n\n\n\nDuring vaccine trials, CRAs should closely observe site workflow efficiency, screening throughput, and scheduling processes during early visits. Operational bottlenecks may emerge rapidly due to high enrollment volume and should be escalated early to project management.",
+    "crumbs": [
+      "<span class='chapter-number'>75</span>  <span class='chapter-title'>Vaccine Trials Quick Reference</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/vaccine_trials/safety_and_surveillance.html",
+    "href": "appendices/vaccine_trials/safety_and_surveillance.html",
+    "title": "76  Vaccine Trials Quick Reference",
+    "section": "",
+    "text": "76.1 Vaccine Accountability Flow\nBecause vaccine trials commonly enroll healthy participants, unexpected safety events may receive heightened regulatory attention even when event severity is low.\nVaccine accountability is a critical operational component of vaccine clinical trials due to the need to ensure traceability of administered doses and proper handling of temperature-sensitive investigational product.\nThe accountability process typically includes:\nMonitoring activities frequently focus on:\nBecause vaccine products are often administered to large populations, accountability discrepancies may have amplified regulatory significance.",
+    "crumbs": [
+      "<span class='chapter-number'>76</span>  <span class='chapter-title'>Vaccine Trials Quick Reference</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/vaccine_trials/safety_and_surveillance.html#vaccine-accountability-flow",
+    "href": "appendices/vaccine_trials/safety_and_surveillance.html#vaccine-accountability-flow",
+    "title": "76  Vaccine Trials Quick Reference",
+    "section": "",
+    "text": "Receipt and verification of vaccine shipment\nStorage under protocol-defined temperature conditions\nDocumentation of temperature monitoring\nDose preparation and administration\nDocumentation of subject-level accountability\nReconciliation of used and unused doses\n\n\n\nconsistency between accountability logs and administered doses,\ntemperature excursion documentation,\ncompleteness of dispensing records,\nand reconciliation accuracy.",
+    "crumbs": [
+      "<span class='chapter-number'>76</span>  <span class='chapter-title'>Vaccine Trials Quick Reference</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/vaccine_trials/safety_and_surveillance.html#safety-signal-review-cadence",
+    "href": "appendices/vaccine_trials/safety_and_surveillance.html#safety-signal-review-cadence",
+    "title": "76  Vaccine Trials Quick Reference",
+    "section": "76.2 Safety Signal Review Cadence",
+    "text": "76.2 Safety Signal Review Cadence\nVaccine trials frequently implement structured safety signal review processes due to the enrollment of healthy populations and heightened regulatory sensitivity to emerging safety trends.\nSafety review may occur at defined intervals and typically includes:\n\naggregate adverse event review,\ncomparison of event rates across sites,\nevaluation of unexpected event patterns,\nreview of medically attended events,\nand assessment of temporal relationships to vaccination.\n\nOperational implications include:\n\nrapid escalation pathways for emerging safety signals,\ncross-functional review involving safety, clinical, and project management,\nand documentation of governance decisions related to safety oversight.\n\nIn accelerated or large-scale vaccine trials, safety review cadence may increase during periods of rapid enrollment.",
+    "crumbs": [
+      "<span class='chapter-number'>76</span>  <span class='chapter-title'>Vaccine Trials Quick Reference</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/vaccine_trials/safety_and_surveillance.html#vaccine-safety-signal-review-workflow",
+    "href": "appendices/vaccine_trials/safety_and_surveillance.html#vaccine-safety-signal-review-workflow",
+    "title": "76  Vaccine Trials Quick Reference",
+    "section": "76.3 Vaccine Safety Signal Review Workflow",
+    "text": "76.3 Vaccine Safety Signal Review Workflow\n\n\n\n\n\nflowchart LR\n  A[\"Vaccination Administered\"] --&gt; B[\"Adverse Event Identification\"]\n  B --&gt; C[\"Site Documentation & Reporting\"]\n  C --&gt; D[\"Safety Database Entry\"]\n  D --&gt; E[\"Aggregate Safety Review\"]\n\n  E --&gt; F{\"Safety Signal Identified?\"}\n\n  F -- \"No\" --&gt; G[\"Continue Routine Surveillance\"]\n  G --&gt; A\n\n  F -- \"Yes\" --&gt; H[\"Safety Escalation\"]\n  H --&gt; I[\"Cross-Functional Review\\n(Safety, Clinical, PM)\"]\n  I --&gt; J[\"Governance Decision\"]\n  J --&gt; K[\"Protocol Clarification / Training /\\nMonitoring Adjustment\"]\n  K --&gt; A\n\n\n\n\n\n\n\n\n\n\n\n\nNoteCRA Considerations\n\n\n\nCRAs should verify that adverse events are documented and reported consistently, even when events are expected or non-serious. In vaccine trials involving healthy participants, incomplete AE documentation may receive heightened regulatory scrutiny.",
+    "crumbs": [
+      "<span class='chapter-number'>76</span>  <span class='chapter-title'>Vaccine Trials Quick Reference</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/vaccine_trials/visit_timing_and_endpoints.html",
+    "href": "appendices/vaccine_trials/visit_timing_and_endpoints.html",
+    "title": "77  Vaccine Trials Quick Reference",
+    "section": "",
+    "text": "Endpoint validity in vaccine trials is frequently dependent on precise timing of vaccination and follow-up visits.\n\n\n\n\n\n\nNoteCRA Considerations\n\n\n\nCRAs should pay particular attention to visit window compliance, vaccination timing, and specimen collection timing. Out-of-window visits may directly affect endpoint validity and should be documented and escalated appropriately.",
+    "crumbs": [
+      "<span class='chapter-number'>77</span>  <span class='chapter-title'>Vaccine Trials Quick Reference</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/vaccine_trials/regulatory_and_governance_considerations.html",
+    "href": "appendices/vaccine_trials/regulatory_and_governance_considerations.html",
+    "title": "78  Vaccine Trials Quick Reference",
+    "section": "",
+    "text": "Vaccine trials may operate under increased public and regulatory visibility, requiring disciplined governance and clear communication pathways.",
+    "crumbs": [
+      "<span class='chapter-number'>78</span>  <span class='chapter-title'>Vaccine Trials Quick Reference</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/case_studies/index.html",
+    "href": "appendices/case_studies/index.html",
+    "title": "79  Case Studies",
+    "section": "",
+    "text": "79.1 Purpose\nThe case studies in this section demonstrate how the Clinical Trial Operations System functions in real-world scenarios.\nClinical trials rarely proceed exactly as planned. Operational challenges, safety events, and regulatory findings require coordinated responses across execution and governance layers.\nThese case studies illustrate how operational signals are:",
+    "crumbs": [
+      "<span class='chapter-number'>79</span>  <span class='chapter-title'>Case Studies</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/case_studies/index.html#purpose",
+    "href": "appendices/case_studies/index.html#purpose",
+    "title": "79  Case Studies",
+    "section": "",
+    "text": "identified,\ninterpreted as risks or issues,\nescalated through governance structures,\nand resolved through execution and quality controls.",
+    "crumbs": [
+      "<span class='chapter-number'>79</span>  <span class='chapter-title'>Case Studies</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/case_studies/index.html#role-of-case-studies-in-this-system",
+    "href": "appendices/case_studies/index.html#role-of-case-studies-in-this-system",
+    "title": "79  Case Studies",
+    "section": "79.2 Role of Case Studies in This System",
+    "text": "79.2 Role of Case Studies in This System\nThe core modules of this system describe:\n\nhow clinical trials are structured,\nhow work is executed,\nand how governance is applied.\n\nCase studies demonstrate how those components interact when unexpected events occur.\nThey show how the system moves from:\nOperational signal → Risk assessment → Governance decision → Execution response",
+    "crumbs": [
+      "<span class='chapter-number'>79</span>  <span class='chapter-title'>Case Studies</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/case_studies/index.html#scope",
+    "href": "appendices/case_studies/index.html#scope",
+    "title": "79  Case Studies",
+    "section": "79.3 Scope",
+    "text": "79.3 Scope\nAll case studies are illustrative and use generalized scenarios. They are designed to demonstrate operational reasoning rather than document specific studies or organizations.\nThe scenarios reflect common challenges encountered in clinical trials:\n\ndelivery risks affecting timelines,\nsafety reporting challenges,\nand regulatory or inspection findings.",
+    "crumbs": [
+      "<span class='chapter-number'>79</span>  <span class='chapter-title'>Case Studies</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/case_studies/index.html#case-study-categories",
+    "href": "appendices/case_studies/index.html#case-study-categories",
+    "title": "79  Case Studies",
+    "section": "79.4 Case Study Categories",
+    "text": "79.4 Case Study Categories\nThe current case studies represent three major categories of trial risk:\n\n79.4.1 Delivery Risk\nEnrollment underperformance demonstrating project management, analytics, and operational coordination.\n\n\n79.4.2 Safety Risk\nLate SAE reporting demonstrating safety oversight, monitoring, and escalation pathways.\n\n\n79.4.3 Regulatory & Quality Risk\nInspection data quality findings demonstrating CAPA, monitoring strategy adjustment, and governance response.",
+    "crumbs": [
+      "<span class='chapter-number'>79</span>  <span class='chapter-title'>Case Studies</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/case_studies/index.html#how-to-read-these-case-studies",
+    "href": "appendices/case_studies/index.html#how-to-read-these-case-studies",
+    "title": "79  Case Studies",
+    "section": "79.5 How to Read These Case Studies",
+    "text": "79.5 How to Read These Case Studies\nEach case study follows a consistent structure:\n\nScenario description\n\nOperational signals\n\nRisk assessment\n\nSystem response across layers\n\nOutcome and lessons learned\n\nReaders are encouraged to reference the corresponding modules to understand how execution and governance interact within the system.",
+    "crumbs": [
+      "<span class='chapter-number'>79</span>  <span class='chapter-title'>Case Studies</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/case_studies/enrollment_underperformance.html",
+    "href": "appendices/case_studies/enrollment_underperformance.html",
+    "title": "80  Case Study: Enrollment Underperformance",
+    "section": "",
+    "text": "80.1 Scenario\nA multi-site clinical trial completed site activation according to plan. Enrollment was expected to reach steady-state within three months of First Patient In (FPI).\nAfter four months, enrollment remained significantly below forecast. Several activated sites had screened few or no subjects.\nThe projected Last Patient In (LPI) milestone was at risk.",
+    "crumbs": [
+      "<span class='chapter-number'>80</span>  <span class='chapter-title'>Case Study: Enrollment Underperformance</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/case_studies/enrollment_underperformance.html#operational-signals",
+    "href": "appendices/case_studies/enrollment_underperformance.html#operational-signals",
+    "title": "80  Case Study: Enrollment Underperformance",
+    "section": "80.2 Operational Signals",
+    "text": "80.2 Operational Signals\nMultiple indicators suggested emerging enrollment risk:\n\nLow screening activity at several sites\nHigh screen failure rates at enrolling sites\nIncreasing time between subject enrollments\nSite inactivity despite activation\nEnrollment projections diverging from actual performance\n\nThese signals were identified through:\n\nsite performance tracking,\nmonitoring visit observations,\nand enrollment analytics.",
+    "crumbs": [
+      "<span class='chapter-number'>80</span>  <span class='chapter-title'>Case Study: Enrollment Underperformance</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/case_studies/enrollment_underperformance.html#risk-assessment",
+    "href": "appendices/case_studies/enrollment_underperformance.html#risk-assessment",
+    "title": "80  Case Study: Enrollment Underperformance",
+    "section": "80.3 Risk Assessment",
+    "text": "80.3 Risk Assessment\nEnrollment underperformance represents a high-impact operational risk because it affects:\n\ntrial timelines,\nstudy costs,\nresource allocation,\nand regulatory deliverables.\n\nIf unresolved, delayed enrollment may lead to: - extension of study duration, - delayed database lock, - or reduced statistical power.\nIn vaccine trials, enrollment underperformance may have amplified impact due to narrow seasonal or epidemiologic enrollment windows.\nRisk classification:\n\n\n\nDimension\nAssessment\n\n\n\n\nProbability\nHigh\n\n\nImpact\nHigh\n\n\nPriority\nCritical",
+    "crumbs": [
+      "<span class='chapter-number'>80</span>  <span class='chapter-title'>Case Study: Enrollment Underperformance</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/case_studies/enrollment_underperformance.html#system-response",
+    "href": "appendices/case_studies/enrollment_underperformance.html#system-response",
+    "title": "80  Case Study: Enrollment Underperformance",
+    "section": "80.4 System Response",
+    "text": "80.4 System Response\nThe Clinical Trial Operations System addresses enrollment issues across execution, governance, and quality layers.\n\n80.4.1 Execution Layer (Site Operations)\nActions at the site level included:\n\nReview of inclusion and exclusion criteria interpretation\nAssessment of recruitment processes\nVerification of site engagement and staffing\nIdentification of operational barriers to screening\n\nMonitoring visits focused on identifying: - workflow inefficiencies, - misunderstandings of eligibility criteria, - and local recruitment challenges.\n\n\n\n80.4.2 Analytics Layer\nEnrollment metrics were reviewed to determine:\n\nsite-level variability,\nscreen failure drivers,\nenrollment trends over time,\ncomparison against forecast assumptions.\n\nLeading indicators included: - screening-to-enrollment ratio, - time between enrollments, - inactive site duration.\n\n\n\n80.4.3 Governance Layer (Project Management)\nEnrollment underperformance was entered into the risk register as a high-priority operational risk.\nGovernance actions included:\n\nescalation during study team meetings,\nenrollment mitigation planning,\nreassessment of enrollment forecasts,\nevaluation of additional site activation.\n\nPotential decisions included: - opening backup sites, - reallocating monitoring resources, - modifying recruitment strategies where permitted.\n\n\n\n80.4.4 Quality & CAPA Considerations\nIf enrollment challenges were linked to systemic issues (e.g., protocol complexity or eligibility interpretation), corrective actions were considered:\n\nadditional investigator training,\nclarification documents,\nor protocol amendment discussion.",
+    "crumbs": [
+      "<span class='chapter-number'>80</span>  <span class='chapter-title'>Case Study: Enrollment Underperformance</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/case_studies/enrollment_underperformance.html#outcome",
+    "href": "appendices/case_studies/enrollment_underperformance.html#outcome",
+    "title": "80  Case Study: Enrollment Underperformance",
+    "section": "80.5 Outcome",
+    "text": "80.5 Outcome\nSuccessful mitigation results in:\n\nstabilization of enrollment rates,\nalignment of projections with actual performance,\nand reduced timeline risk.\n\nEven when timelines require adjustment, early detection allows controlled decision-making rather than reactive crisis management.",
+    "crumbs": [
+      "<span class='chapter-number'>80</span>  <span class='chapter-title'>Case Study: Enrollment Underperformance</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/case_studies/enrollment_underperformance.html#modules-involved",
+    "href": "appendices/case_studies/enrollment_underperformance.html#modules-involved",
+    "title": "80  Case Study: Enrollment Underperformance",
+    "section": "80.6 Modules Involved",
+    "text": "80.6 Modules Involved\nThis case study integrates multiple components of the system:\n\nTrial Lifecycle\nSite Start-Up\nMonitoring Operations\nData Quality & Analytics\nProject Management\nRisk & Issue Management\nInspection Readiness",
+    "crumbs": [
+      "<span class='chapter-number'>80</span>  <span class='chapter-title'>Case Study: Enrollment Underperformance</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/case_studies/late_sae_reporting.html",
+    "href": "appendices/case_studies/late_sae_reporting.html",
+    "title": "81  Case Study: Late SAE Reporting",
+    "section": "",
+    "text": "81.1 Scenario\nDuring routine monitoring review, a Serious Adverse Event (SAE) was identified in source documentation that had not been reported to the sponsor within the protocol-defined reporting timeline.\nThe event was eventually reported, but outside the required reporting window.\nSubsequent review identified delayed follow-up documentation and uncertainty at the site regarding reporting responsibilities.\nThis raised concerns regarding both patient safety oversight and regulatory compliance.",
+    "crumbs": [
+      "<span class='chapter-number'>81</span>  <span class='chapter-title'>Case Study: Late SAE Reporting</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/case_studies/late_sae_reporting.html#operational-signals",
+    "href": "appendices/case_studies/late_sae_reporting.html#operational-signals",
+    "title": "81  Case Study: Late SAE Reporting",
+    "section": "81.2 Operational Signals",
+    "text": "81.2 Operational Signals\nSeveral indicators suggested an emerging safety oversight issue:\n\nSAE identified during monitoring rather than proactive reporting\nDelay between event occurrence and sponsor notification\nIncomplete or delayed follow-up information\nSite uncertainty regarding reporting timelines\nSimilar reporting delays observed at prior visits\n\nThese signals were identified through:\n\nsource data verification,\nmonitoring visit findings,\nand safety reconciliation activities.",
+    "crumbs": [
+      "<span class='chapter-number'>81</span>  <span class='chapter-title'>Case Study: Late SAE Reporting</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/case_studies/late_sae_reporting.html#risk-assessment",
+    "href": "appendices/case_studies/late_sae_reporting.html#risk-assessment",
+    "title": "81  Case Study: Late SAE Reporting",
+    "section": "81.3 Risk Assessment",
+    "text": "81.3 Risk Assessment\nLate SAE reporting represents a high-risk event because it impacts:\n\npatient safety oversight,\nsponsor pharmacovigilance responsibilities,\nregulatory compliance,\nand inspection readiness.\n\nPotential consequences include:\n\ndelayed safety signal evaluation,\nregulatory findings,\nor increased inspection scrutiny.\n\nRisk classification:\n\n\n\nDimension\nAssessment\n\n\n\n\nProbability\nModerate\n\n\nImpact\nHigh\n\n\nPriority\nHigh",
+    "crumbs": [
+      "<span class='chapter-number'>81</span>  <span class='chapter-title'>Case Study: Late SAE Reporting</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/case_studies/late_sae_reporting.html#system-response",
+    "href": "appendices/case_studies/late_sae_reporting.html#system-response",
+    "title": "81  Case Study: Late SAE Reporting",
+    "section": "81.4 System Response",
+    "text": "81.4 System Response\nThe Clinical Trial Operations System addresses safety issues through coordinated execution, governance, and quality actions.\n\n81.4.1 Execution Layer (Site Operations)\nImmediate actions included:\n\nverification of event details and timelines,\nconfirmation that the SAE was fully documented,\nclarification of reporting responsibilities with site staff,\nreinforcement of reporting procedures.\n\nMonitoring follow-up ensured: - complete safety documentation, - appropriate investigator awareness, - and prevention of recurrence.\n\n\n\n81.4.2 Safety Oversight Layer\nSafety personnel reviewed:\n\nseriousness and expectedness classification,\ncompleteness of safety narrative,\nfollow-up requirements,\nand potential impact on ongoing safety evaluation.\n\nReconciliation between EDC and safety systems ensured no additional unreported events existed.\n\n\n\n81.4.3 Governance Layer (Project Management)\nThe event was logged as an issue and reviewed for escalation.\nGovernance actions included:\n\nreview during study team meetings,\nassessment of whether issue was isolated or systemic,\nevaluation of additional site training needs,\nincreased oversight for affected site.\n\nEscalation decisions were based on: - recurrence risk, - site performance history, - and potential regulatory exposure.\n\n\n\n81.4.4 Quality & CAPA Considerations\nIf delayed reporting reflected systemic process failure, Corrective and Preventive Action (CAPA) was initiated.\nPossible CAPA actions included:\n\ntargeted retraining,\nclarification of reporting workflows,\nenhanced monitoring frequency,\ndocumentation of process improvements.\n\nCAPA ensured that corrective actions addressed root cause, not only the individual event.",
+    "crumbs": [
+      "<span class='chapter-number'>81</span>  <span class='chapter-title'>Case Study: Late SAE Reporting</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/case_studies/late_sae_reporting.html#outcome",
+    "href": "appendices/case_studies/late_sae_reporting.html#outcome",
+    "title": "81  Case Study: Late SAE Reporting",
+    "section": "81.5 Outcome",
+    "text": "81.5 Outcome\nSuccessful resolution resulted in:\n\nrestored compliance with reporting timelines,\nimproved site understanding of safety responsibilities,\nand strengthened safety oversight processes.\n\nEarly identification prevented escalation into a systemic safety compliance issue.",
+    "crumbs": [
+      "<span class='chapter-number'>81</span>  <span class='chapter-title'>Case Study: Late SAE Reporting</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/case_studies/late_sae_reporting.html#modules-involved",
+    "href": "appendices/case_studies/late_sae_reporting.html#modules-involved",
+    "title": "81  Case Study: Late SAE Reporting",
+    "section": "81.6 Modules Involved",
+    "text": "81.6 Modules Involved\nThis case study integrates:\n\nMonitoring Operations\nSafety & Pharmacovigilance\nDeviations & CAPA\nProject Management\nRisk & Issue Management\nInspection Readiness",
+    "crumbs": [
+      "<span class='chapter-number'>81</span>  <span class='chapter-title'>Case Study: Late SAE Reporting</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/case_studies/inspection_finding_data_quality.html",
+    "href": "appendices/case_studies/inspection_finding_data_quality.html",
+    "title": "82  Case Study: Inspection Finding – Data Quality & Source Documentation",
+    "section": "",
+    "text": "82.1 Scenario\nDuring a regulatory inspection, the auditor identified inconsistencies between source documentation and data entered in the Electronic Data Capture (EDC) system at multiple sites.\nExamples included:\nAlthough no evidence of intentional misconduct was identified, the findings raised concerns regarding data reliability and monitoring effectiveness.",
+    "crumbs": [
+      "<span class='chapter-number'>82</span>  <span class='chapter-title'>Case Study: Inspection Finding – Data Quality & Source Documentation</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/case_studies/inspection_finding_data_quality.html#scenario",
+    "href": "appendices/case_studies/inspection_finding_data_quality.html#scenario",
+    "title": "82  Case Study: Inspection Finding – Data Quality & Source Documentation",
+    "section": "",
+    "text": "incomplete source documentation supporting entered data,\ndiscrepancies between visit dates in source and EDC,\ndelayed data entry following subject visits.",
+    "crumbs": [
+      "<span class='chapter-number'>82</span>  <span class='chapter-title'>Case Study: Inspection Finding – Data Quality & Source Documentation</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/case_studies/inspection_finding_data_quality.html#operational-signals",
+    "href": "appendices/case_studies/inspection_finding_data_quality.html#operational-signals",
+    "title": "82  Case Study: Inspection Finding – Data Quality & Source Documentation",
+    "section": "82.2 Operational Signals",
+    "text": "82.2 Operational Signals\nPrior to inspection, several indicators suggested elevated data quality risk:\n\nincreased query rates at multiple sites,\nrepeated data clarification requests,\ndelayed query resolution,\nmonitoring findings related to documentation completeness,\nvariability in source documentation practices between sites.\n\nThese signals were visible through:\n\nmonitoring reports,\ndata management metrics,\nand query aging analytics.",
+    "crumbs": [
+      "<span class='chapter-number'>82</span>  <span class='chapter-title'>Case Study: Inspection Finding – Data Quality & Source Documentation</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/case_studies/inspection_finding_data_quality.html#risk-assessment",
+    "href": "appendices/case_studies/inspection_finding_data_quality.html#risk-assessment",
+    "title": "82  Case Study: Inspection Finding – Data Quality & Source Documentation",
+    "section": "82.3 Risk Assessment",
+    "text": "82.3 Risk Assessment\nInspection findings related to data quality represent high-impact risk because they affect:\n\ncredibility of study data,\nregulatory acceptance of results,\nsponsor reputation,\nand inspection outcomes.\n\nPotential consequences include:\n\ninspection observations,\nrequirement for corrective actions,\nor increased regulatory scrutiny.\n\nRisk classification:\n\n\n\nDimension\nAssessment\n\n\n\n\nProbability\nModerate\n\n\nImpact\nHigh\n\n\nPriority\nHigh",
+    "crumbs": [
+      "<span class='chapter-number'>82</span>  <span class='chapter-title'>Case Study: Inspection Finding – Data Quality & Source Documentation</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/case_studies/inspection_finding_data_quality.html#system-response",
+    "href": "appendices/case_studies/inspection_finding_data_quality.html#system-response",
+    "title": "82  Case Study: Inspection Finding – Data Quality & Source Documentation",
+    "section": "82.4 System Response",
+    "text": "82.4 System Response\nThe Clinical Trial Operations System responds through coordinated execution, governance, and quality actions.\n\n82.4.1 Execution Layer (Monitoring Operations)\nImmediate actions included:\n\nverification of affected data points,\nconfirmation of source documentation completeness,\nclarification of documentation expectations with site staff,\ntargeted review of similar data across subjects and visits.\n\nMonitoring focus shifted toward:\n\nsource documentation consistency,\ntimeliness of data entry,\nand documentation practices.\n\n\n\n\n82.4.2 Analytics Layer\nData trends were reviewed to determine scope:\n\nidentification of sites with elevated query rates,\nassessment of recurring data discrepancies,\ncomparison of affected variables across sites.\n\nAnalytics helped determine whether the issue was: - isolated, - site-specific, - or systemic.\n\n\n\n82.4.3 Governance Layer (Project Management)\nThe inspection finding was logged as a critical issue.\nGovernance actions included:\n\ncross-functional review with monitoring, data management, and quality,\nprioritization of remediation activities,\nreassessment of monitoring strategy,\ncommunication with sponsor leadership.\n\nDecision-making focused on: - risk containment, - documentation remediation timelines, - and prevention of recurrence.\n\n\n\n82.4.4 Quality & CAPA Response\nBecause findings affected multiple sites, the issue was treated as systemic.\nCAPA activities included:\n\nroot cause analysis of documentation practices,\nadditional training on source documentation expectations,\nupdated monitoring focus areas,\nenhanced oversight until corrective actions proved effective.\n\nCAPA effectiveness checks ensured that improvements were sustained.",
+    "crumbs": [
+      "<span class='chapter-number'>82</span>  <span class='chapter-title'>Case Study: Inspection Finding – Data Quality & Source Documentation</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/case_studies/inspection_finding_data_quality.html#outcome",
+    "href": "appendices/case_studies/inspection_finding_data_quality.html#outcome",
+    "title": "82  Case Study: Inspection Finding – Data Quality & Source Documentation",
+    "section": "82.5 Outcome",
+    "text": "82.5 Outcome\nSuccessful resolution resulted in:\n\ncorrection of affected data discrepancies,\nimproved documentation consistency,\nstrengthened monitoring focus,\nand improved inspection readiness.\n\nThe event reinforced the importance of early signal detection through monitoring and analytics.",
+    "crumbs": [
+      "<span class='chapter-number'>82</span>  <span class='chapter-title'>Case Study: Inspection Finding – Data Quality & Source Documentation</span>"
+    ]
+  },
+  {
+    "objectID": "appendices/case_studies/inspection_finding_data_quality.html#modules-involved",
+    "href": "appendices/case_studies/inspection_finding_data_quality.html#modules-involved",
+    "title": "82  Case Study: Inspection Finding – Data Quality & Source Documentation",
+    "section": "82.6 Modules Involved",
+    "text": "82.6 Modules Involved\nThis case study integrates:\n\nMonitoring Operations\nData Quality & Analytics\nDeviations & CAPA\nProject Management\nInspection Readiness",
+    "crumbs": [
+      "<span class='chapter-number'>82</span>  <span class='chapter-title'>Case Study: Inspection Finding – Data Quality & Source Documentation</span>"
+    ]
+  }
+]

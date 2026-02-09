@@ -1,0 +1,31 @@
+---
+title: "Regulatory Templates & Checklists"
+---
+
+## Template: Regulatory Document Tracker (Copy/Paste Table)
+Use this as a lightweight tracker for site-level oversight.
+
+| Document | Version/Date | Required? | Received Date | Verified By (CRA) | Filed (Site/TMF) | Notes/Actions |
+|---|---|---:|---|---|---|---|
+| Protocol |  | Yes |  |  |  |  |
+| ICF |  | Yes |  |  |  |  |
+| IRB Approval |  | Yes |  |  |  |  |
+| DOA Log |  | Yes |  |  |  |  |
+| Training Log |  | Yes |  |  |  |  |
+
+---
+
+## Checklist: Visit-Level Regulatory Review (CRA)
+- [ ] Current IRB approval present and not expired/lapsed
+- [ ] Correct ICF version in use; documentation complete
+- [ ] DOA covers staff performing trial tasks; dates aligned
+- [ ] Training evidence documented for key systems/processes
+- [ ] Essential documents filed and reconciled (site/TMF)
+- [ ] Open regulatory issues tracked with due dates
+
+---
+
+## Optional: Issue Log (Regulatory)
+| Issue | Category | Date Identified | Required Action | Owner | Due Date | Status |
+|---|---|---|---|---|---|---|
+|  |  |  |  |  |  |  |

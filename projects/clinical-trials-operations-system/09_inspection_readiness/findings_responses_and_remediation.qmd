@@ -1,0 +1,20 @@
+---
+title: "Findings, Responses & Remediation"
+---
+
+## Types of Findings
+- Minor observations
+- Major observations
+- Critical findings
+
+## CRA Responsibilities
+- Review inspection findings
+- Support root cause analysis
+- Assist in CAPA development
+- Track remediation progress
+
+## Response Principles
+- Objective and factual
+- Supported by evidence
+- Action-oriented
+- Timely

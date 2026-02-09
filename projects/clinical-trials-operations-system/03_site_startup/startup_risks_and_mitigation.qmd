@@ -1,0 +1,22 @@
+---
+title: "Start-Up Risks & Mitigation"
+---
+
+## Common Start-Up Risks
+- Delayed regulatory approvals
+- Incomplete training
+- System access issues
+- Staff turnover
+- Poor recruitment projections
+
+## CRA Risk Mitigation Strategies
+- Early regulatory tracking
+- Clear SIV follow-up
+- Proactive communication with sites
+- Escalation of delays
+
+## High-Risk Indicators
+- Repeated activation delays
+- Missing documentation
+- Inexperienced staff
+- Overcommitted investigators

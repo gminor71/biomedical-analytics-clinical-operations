@@ -1,0 +1,41 @@
+---
+title: "Follow-Up & Issue Management"
+---
+
+## Issue Identification
+Issues may include:
+- Protocol deviations
+- Data discrepancies
+- Missing documentation
+- Training gaps
+
+---
+
+## Issue Documentation
+Each issue should include:
+- Description
+- Reference (protocol / GCP)
+- Required action
+- Due date
+- Responsible party
+
+---
+
+## Follow-Up Letters
+**Purpose**
+- Summarize visit findings
+- Clearly document expectations
+- Establish accountability
+
+**CRA Best Practices**
+- Be factual and objective
+- Reference protocol sections
+- Track closure formally
+
+---
+
+## Escalation
+Escalate issues when:
+- Repeated noncompliance occurs
+- Subject safety is at risk
+- Site responsiveness is inadequate

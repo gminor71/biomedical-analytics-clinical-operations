@@ -1,0 +1,18 @@
+---
+title: "TMF Quality Control (CRA-Relevant)"
+---
+
+## Goal
+Ensure essential documents are filed in the TMF accurately and on time, and reconcile TMF vs site binder.
+
+## CRA TMF QC Responsibilities (Typical)
+- Confirm filing of approvals, ICF versions, key correspondence (as required)
+- Identify gaps and drive resolution (with documented follow-up)
+- Reconcile discrepancies between site binder and TMF
+
+## TMF Reconciliation Checklist
+- [ ] Protocol/ICF versions match between TMF and site
+- [ ] IRB approval letters present for each version used
+- [ ] Delegation logs and training evidence filed per plan
+- [ ] Site staff CV/licensure present if required
+- [ ] Audit trail: follow-up requests documented and closed

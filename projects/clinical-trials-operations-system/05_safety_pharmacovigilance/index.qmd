@@ -1,0 +1,17 @@
+---
+title: "Safety & Pharmacovigilance"
+---
+
+## Purpose
+This module defines the CRA’s role in safety oversight and pharmacovigilance
+during clinical trial conduct.
+
+## CRA Accountability (Practical)
+- Confirm site awareness of safety reporting obligations
+- Verify documentation of AEs/SAEs is complete and timely
+- Ensure follow-up information is obtained and documented
+- Identify safety trends or systemic issues and escalate appropriately
+
+## Scope
+Applies to all interventional trials. Therapeutic-area–specific considerations
+(oncology, infectious disease) are highlighted where relevant.

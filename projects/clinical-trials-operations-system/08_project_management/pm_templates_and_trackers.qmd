@@ -1,0 +1,69 @@
+---
+title: "PM Templates & Trackers"
+---
+
+## Purpose
+This section provides reusable project management tools
+that can be instantiated for any real or mock clinical trial.
+
+These templates convert the conceptual PM framework into
+a **live project control system**.
+
+---
+
+## Trial Timeline Template
+
+| Milestone | Planned Date | Actual Date | Status |
+|----------|-------------|------------|--------|
+| FSI | | | |
+| FPI | | | |
+| LPI | | | |
+| LPLV | | | |
+| DBL | | | |
+| CSR | | | |
+
+---
+
+## Risk Register Template
+
+| Risk ID | Description | Probability | Impact | Mitigation | Status |
+|--------|-------------|------------|--------|-----------|--------|
+| R-01 | | | | | |
+| R-02 | | | | | |
+
+---
+
+## Issue Log Template
+
+| Issue ID | Description | Severity | Owner | Action | Status |
+|---------|-------------|---------|------|--------|--------|
+| I-01 | | | | | |
+| I-02 | | | | | |
+
+---
+
+## Escalation Log
+
+| Date | Issue | Escalated To | Decision | Outcome |
+|------|------|-------------|----------|---------|
+| | | | | |
+
+---
+
+## Decision Log
+
+| Date | Decision | Rationale | Approved By |
+|------|---------|-----------|------------|
+| | | | |
+
+---
+
+## Stakeholder Map
+
+| Role | Name | Responsibility |
+|-----|------|---------------|
+| Sponsor | | |
+| CTM | | |
+| CRA Lead | | |
+| Safety Lead | | |
+| Data Manager | | |

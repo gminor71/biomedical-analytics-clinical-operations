@@ -1,0 +1,43 @@
+---
+title: "Source Data Verification & Risk-Based Monitoring"
+---
+
+## Source Data Verification (SDV)
+
+### Definition
+Comparison of data recorded in the EDC against source documents
+to ensure accuracy, completeness, and reliability.
+
+### Typical SDV Areas
+- Informed consent dates
+- Eligibility criteria
+- Primary endpoint data
+- Safety data (AEs / SAEs)
+- IP dosing records
+
+---
+
+## Risk-Based Monitoring (RBM)
+
+### Principles
+- Focus on critical data and processes
+- Reduce unnecessary SDV
+- Identify systemic risks early
+
+### CRA Responsibilities
+- Apply monitoring plan consistently
+- Escalate emerging risk trends
+- Document rationale for targeted SDV
+
+---
+
+::: {.callout-note title="Oncology-Specific Considerations"}
+- Cycle 1 often requires 100% SDV
+- Dose modifications and delays require close source review
+- Tumor assessments (e.g., RECIST) must be traceable to source
+:::
+
+::: {.callout-note title="Vaccine Trial Consideration"}
+Monitoring in vaccine trials may emphasize visit timing adherence,
+consent accuracy, and rapid data entry due to time-sensitive endpoints.
+:::

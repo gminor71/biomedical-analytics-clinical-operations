@@ -1,0 +1,11 @@
+---
+title: "Lifecycle to Binder Map"
+---
+
+| Lifecycle Phase | Binder Module |
+|----------------|--------------|
+| Start-Up | Module 3 |
+| Conduct | Modules 4, 5, 6 |
+| Quality Control | Module 7 |
+| Project Management | Module 8 |
+| Inspection | Module 9 |

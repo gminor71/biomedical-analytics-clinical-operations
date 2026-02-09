@@ -1,0 +1,26 @@
+---
+title: "Analytics Templates"
+---
+
+## Site Performance Tracker (Template)
+
+| Site | Enrolled | Target | Query Rate | Deviations | SAE Count | Risk Level |
+|------|---------|--------|------------|-----------|----------|-----------|
+|      |         |        |            |           |          |           |
+
+---
+
+## Query Trend Log
+
+| Site | Query Type | Count | Time Period | Action Required |
+|------|-----------|------|------------|-----------------|
+|      |           |      |            |                 |
+
+---
+
+## CRA Risk Flag Checklist
+- [ ] Repeated deviations
+- [ ] High query volume
+- [ ] Late data entry
+- [ ] Safety reporting delays
+- [ ] Staff turnover

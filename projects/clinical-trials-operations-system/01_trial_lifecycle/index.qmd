@@ -1,0 +1,16 @@
+---
+title: "Clinical Trial Lifecycle"
+---
+
+
+## Purpose
+This module provides a high-level view of the clinical trial lifecycle
+and situates CRA responsibilities within each phase.
+
+## Why This Matters
+This module explains how all other modules in this binder connect.
+It is the conceptual map of the system.
+
+::: {.center}
+![](../assets/images/trial_lifecycle_map.png){width=65%}
+:::

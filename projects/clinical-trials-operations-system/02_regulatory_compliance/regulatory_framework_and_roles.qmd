@@ -1,0 +1,20 @@
+---
+title: "Regulatory Framework & Roles"
+---
+
+## What “Compliance” Means Operationally
+Compliance is demonstrated through:
+- Correct approvals before study activities occur
+- Accurate delegation and training for staff performing trial tasks
+- Controlled versions of essential documents
+- Traceable decisions and corrective actions (audit trail)
+
+## CRA Role vs Site Role (Quick Map)
+
+| Area | Site Owns | CRA Verifies / Oversees |
+|---|---|---|
+| IRB submissions | Submission content/timing | Approval validity; no activity before approval |
+| Informed consent | Consent process + documentation | Version control; process adherence; documentation completeness |
+| Delegation | Assigning tasks | Alignment to qualifications + training |
+| Essential docs | Maintenance of site reg binder | Completeness; consistency; filing timeliness |
+| TMF | Sponsor/CRO filing | Completeness/QC; reconciliation with site docs |

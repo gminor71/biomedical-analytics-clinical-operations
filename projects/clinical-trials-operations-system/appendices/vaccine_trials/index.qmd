@@ -1,0 +1,17 @@
+---
+title: "Vaccine Trials Operations Appendix"
+---
+
+## Purpose
+
+This appendix describes operational considerations specific to
+vaccine clinical trials within the Clinical Trial Operations System.
+
+The core system remains unchanged.
+This appendix highlights where execution, governance, safety,
+and analytics priorities differ due to:
+
+- large enrollment scale,
+- healthy volunteer populations,
+- time-sensitive endpoints,
+- and heightened safety sensitivity.

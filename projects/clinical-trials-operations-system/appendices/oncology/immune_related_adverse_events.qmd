@@ -1,0 +1,19 @@
+---
+title: "Immune-Related Adverse Events (irAEs)"
+---
+
+## What are irAEs?
+Adverse events caused by immune activation
+(e.g., checkpoint inhibitors).
+
+## Common irAEs
+- Colitis
+- Pneumonitis
+- Hepatitis
+- Endocrinopathies
+
+## CRA Oversight
+- Long follow-up periods
+- Delayed onset
+- Steroid treatment documentation
+- Re-challenge decisions

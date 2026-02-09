@@ -1,0 +1,39 @@
+---
+title: "Risk-Based Monitoring (RBM) Analytics"
+---
+
+## RBM Concept
+Focus monitoring on:
+- Critical data
+- High-risk sites
+- Emerging trends
+
+## RBM Inputs (CRA Level)
+- Deviation frequency
+- Query patterns
+- Late data
+- Safety reporting delays
+- Staff turnover
+
+## Example RBM Risk Scoring
+
+| Site | Deviations | Late Data | Query Rate | Risk Level |
+|------|-----------|----------|------------|-----------|
+| A | Low | Low | Low | Low |
+| B | High | High | Medium | High |
+| C | Medium | Low | High | Medium |
+
+::: {.center}
+![](../assets/images/rbm_heatmap.png){width=60%}
+:::
+*Example RBM site risk heatmap (mock data)*
+
+## CRA Role
+- Interpret risk scores
+- Adjust monitoring focus
+- Escalate high-risk sites
+
+::: {.callout-note title="Vaccine Trial Consideration"}
+Enrollment rate and visit compliance metrics are often leading indicators
+of overall trial success in vaccine studies due to narrow endpoint windows.
+:::

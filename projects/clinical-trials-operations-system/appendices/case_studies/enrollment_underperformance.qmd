@@ -1,0 +1,156 @@
+---
+title: "Case Study: Enrollment Underperformance"
+---
+
+## Scenario
+
+A multi-site clinical trial completed site activation according to plan.
+Enrollment was expected to reach steady-state within three months of
+First Patient In (FPI).
+
+After four months, enrollment remained significantly below forecast.
+Several activated sites had screened few or no subjects.
+
+The projected Last Patient In (LPI) milestone was at risk.
+
+---
+
+## Operational Signals
+
+Multiple indicators suggested emerging enrollment risk:
+
+- Low screening activity at several sites
+- High screen failure rates at enrolling sites
+- Increasing time between subject enrollments
+- Site inactivity despite activation
+- Enrollment projections diverging from actual performance
+
+These signals were identified through:
+
+- site performance tracking,
+- monitoring visit observations,
+- and enrollment analytics.
+
+---
+
+## Risk Assessment
+
+Enrollment underperformance represents a high-impact operational risk
+because it affects:
+
+- trial timelines,
+- study costs,
+- resource allocation,
+- and regulatory deliverables.
+
+If unresolved, delayed enrollment may lead to:
+- extension of study duration,
+- delayed database lock,
+- or reduced statistical power.
+
+In vaccine trials, enrollment underperformance may have amplified
+impact due to narrow seasonal or epidemiologic enrollment windows.
+
+Risk classification:
+
+| Dimension | Assessment |
+|------------|-----------|
+| Probability | High |
+| Impact | High |
+| Priority | Critical |
+
+---
+
+## System Response
+
+The Clinical Trial Operations System addresses enrollment issues
+across execution, governance, and quality layers.
+
+### Execution Layer (Site Operations)
+
+Actions at the site level included:
+
+- Review of inclusion and exclusion criteria interpretation
+- Assessment of recruitment processes
+- Verification of site engagement and staffing
+- Identification of operational barriers to screening
+
+Monitoring visits focused on identifying:
+- workflow inefficiencies,
+- misunderstandings of eligibility criteria,
+- and local recruitment challenges.
+
+---
+
+### Analytics Layer
+
+Enrollment metrics were reviewed to determine:
+
+- site-level variability,
+- screen failure drivers,
+- enrollment trends over time,
+- comparison against forecast assumptions.
+
+Leading indicators included:
+- screening-to-enrollment ratio,
+- time between enrollments,
+- inactive site duration.
+
+---
+
+### Governance Layer (Project Management)
+
+Enrollment underperformance was entered into the risk register
+as a high-priority operational risk.
+
+Governance actions included:
+
+- escalation during study team meetings,
+- enrollment mitigation planning,
+- reassessment of enrollment forecasts,
+- evaluation of additional site activation.
+
+Potential decisions included:
+- opening backup sites,
+- reallocating monitoring resources,
+- modifying recruitment strategies where permitted.
+
+---
+
+### Quality & CAPA Considerations
+
+If enrollment challenges were linked to systemic issues
+(e.g., protocol complexity or eligibility interpretation),
+corrective actions were considered:
+
+- additional investigator training,
+- clarification documents,
+- or protocol amendment discussion.
+
+---
+
+## Outcome
+
+Successful mitigation results in:
+
+- stabilization of enrollment rates,
+- alignment of projections with actual performance,
+- and reduced timeline risk.
+
+Even when timelines require adjustment,
+early detection allows controlled decision-making
+rather than reactive crisis management.
+
+---
+
+## Modules Involved
+
+This case study integrates multiple components of the system:
+
+- Trial Lifecycle
+- Site Start-Up
+- Monitoring Operations
+- Data Quality & Analytics
+- Project Management
+- Risk & Issue Management
+- Inspection Readiness

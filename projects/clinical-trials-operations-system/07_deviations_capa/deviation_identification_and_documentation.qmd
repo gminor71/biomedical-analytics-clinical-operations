@@ -1,0 +1,33 @@
+---
+title: "Deviation Identification & Documentation"
+---
+
+## How Deviations Are Identified
+- Monitoring visits
+- Data review / listings
+- Safety review
+- Sponsor or CRO queries
+- Site self-reporting
+
+## CRA Responsibilities
+- Confirm deviation occurred (source verification)
+- Ensure site documents deviation
+- Verify required reporting pathways followed
+- Track deviation to resolution
+
+## Documentation Principles
+- Factual and objective
+- Traceable to source
+- Includes date, description, impact, action
+
+::: {.callout-note title="Oncology-Specific Considerations"}
+- Dose modifications and delays often generate deviations
+- Imaging windows frequently missed due to scheduling complexity
+:::
+
+::: {.callout-note title="Vaccine Trial Considerations"}
+- Missed or out-of-window visits may compromise immunogenicity or safety endpoint validity.
+- Vaccination timing and protocol-defined follow-up intervals are often critical to endpoint interpretation.
+- Deviations related to dosing schedule or specimen collection timing may require heightened review.
+:::
+

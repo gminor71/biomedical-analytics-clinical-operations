@@ -1,0 +1,21 @@
+---
+title: "Safety Framework & Roles"
+---
+
+## What “Safety Oversight” Means for a CRA
+CRAs do not perform medical assessment, but they:
+- Verify safety processes are followed
+- Confirm documentation supports reported events
+- Escalate incomplete, late, or inconsistent reporting
+
+## Roles (Simplified)
+
+| Role | Primary Responsibility |
+|------|------------------------|
+| Investigator | Medical assessment and reporting of AEs/SAEs |
+| Sponsor/CRO Safety | Regulatory reporting and aggregate analysis |
+| CRA | Oversight, verification, and follow-up documentation |
+
+## Inspection Reality
+Inspectors will not ask CRAs to judge medical causality,
+but **will ask whether safety processes were followed and documented.**

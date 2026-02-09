@@ -1,0 +1,21 @@
+---
+title: "Oncology Quick Reference"
+---
+
+## High-Yield Oncology CRA Checklist
+
+### Monitoring
+- [ ] Cycle 1 SDV complete
+- [ ] RECIST assessments verified
+- [ ] Dose changes documented
+- [ ] Imaging windows met
+
+### Safety
+- [ ] irAEs tracked
+- [ ] Hospitalizations documented
+- [ ] Follow-up complete
+
+### Regulatory
+- [ ] Amendments approved
+- [ ] Re-consent completed
+- [ ] Central lab manuals current

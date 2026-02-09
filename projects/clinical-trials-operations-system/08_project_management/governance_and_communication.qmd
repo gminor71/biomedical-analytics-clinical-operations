@@ -1,0 +1,99 @@
+---
+title: "Governance & Communication"
+---
+
+## Purpose
+Governance defines **how decisions are made** in a clinical trial.
+
+While CRA operations generate information,
+governance structures determine:
+- who reviews it,
+- who decides,
+- and how actions are authorized.
+
+Effective governance prevents:
+- unclear accountability,
+- delayed decisions,
+- and unmanaged escalation.
+
+---
+
+## Governance Structures
+
+Typical governance layers include:
+
+| Level | Purpose |
+|------|--------|
+| Study Team | Operational coordination |
+| Safety Review Committee | Safety oversight |
+| Vendor Governance | CRO / vendor performance |
+| Steering Committee | Strategic decisions |
+
+Not all trials require all layers,
+but every trial requires **defined decision pathways**.
+
+---
+
+## Study Team Meetings
+
+Study team meetings typically occur:
+- weekly or biweekly during conduct
+
+Common agenda:
+- enrollment status
+- monitoring progress
+- safety updates
+- data quality issues
+- risk register review
+
+These meetings are the **operational heartbeat** of the trial.
+
+---
+
+## RACI Framework
+
+RACI defines roles:
+
+| Role | Meaning |
+|------|--------|
+| R | Responsible (does the work) |
+| A | Accountable (owns outcome) |
+| C | Consulted |
+| I | Informed |
+
+Example:
+- CRA: Responsible for monitoring
+- CTM: Accountable for monitoring quality
+- Safety: Consulted on AE issues
+- Sponsor: Informed of status
+
+---
+
+## Decision Logs
+
+All major trial decisions should be documented:
+
+- protocol amendments
+- enrollment strategy changes
+- vendor replacements
+- escalation outcomes
+
+Decision logs provide:
+- transparency
+- accountability
+- audit trail
+
+---
+
+## Communication as Risk Control
+
+Poor communication is itself a risk.
+
+Governance ensures:
+- consistent information flow,
+- documented decisions,
+- controlled escalation,
+- and stakeholder alignment.
+
+Communication is not soft skill.
+It is a **control mechanism**.

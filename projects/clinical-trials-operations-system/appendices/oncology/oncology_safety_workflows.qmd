@@ -1,0 +1,17 @@
+---
+title: "Oncology Safety Workflows"
+---
+
+## Oncology Safety Characteristics
+- High SAE volume
+- Overlapping disease symptoms
+- Hospitalizations often expected
+- Complex causality assessments
+
+![](../../assets/images/oncology_safety_flow.png)
+*Oncology safety flow — irAE management (mock)*
+
+## CRA Focus
+- Ensure expected events are still documented
+- Track prolonged toxicities
+- Monitor dose modifications

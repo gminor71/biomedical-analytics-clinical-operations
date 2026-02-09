@@ -1,0 +1,32 @@
+---
+title: "Monitoring Workflow"
+---
+
+## End-to-End Monitoring Workflow
+
+```{mermaid}
+flowchart LR
+  A[Pre-Visit Preparation] --> B[On-Site / Remote Monitoring]
+  B --> C[Issue Identification]
+  C --> D[Follow-Up Letter]
+  D --> E[Issue Resolution]
+  E --> F[Documentation Complete]
+```
+
+## Pre-Visit Preparation
+- Review protocol and amendments
+- Review prior visit reports
+- Identify outstanding issues
+- Review EDC listings and queries
+
+## On-Site / Remote Monitoring
+- Informed consent review
+- SDV per monitoring plan
+- Safety review (AEs / SAEs)
+- IP accountability
+- Facility and staff assessment
+
+## Post-Visit Activities
+- Draft Monitoring Visit Report (MVR)
+- Issue Follow-Up Letter
+- Track action items to resolution

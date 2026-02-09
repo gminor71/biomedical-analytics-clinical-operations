@@ -1,0 +1,22 @@
+---
+title: "Site Performance Dashboards"
+---
+
+## Why Dashboards Matter
+Dashboards convert raw data into:
+- Situational awareness
+- Prioritization
+- Decision support
+
+## Common Dashboard Elements
+- Enrollment vs target
+- Query volume over time
+- Deviation trends
+- SAE counts
+- Visit compliance
+
+## CRA Use Cases
+- Weekly study team calls
+- Site performance reviews
+- Escalation justification
+- Monitoring planning

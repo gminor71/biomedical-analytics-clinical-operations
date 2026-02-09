@@ -1,0 +1,86 @@
+---
+title: "Resource & Capacity Planning"
+---
+
+## Purpose
+Resource planning ensures that the trial has **sufficient human capacity**
+to execute planned activities.
+
+In clinical trials, resources are primarily:
+- CRAs
+- CTMs
+- data managers
+- safety staff
+- vendors
+
+---
+
+## CRA Capacity
+
+CRA workload is driven by:
+- number of sites
+- visit frequency
+- complexity
+- risk level
+
+Overloaded CRAs lead to:
+- missed visits
+- delayed follow-up
+- quality issues
+- burnout
+
+---
+
+## Site Load
+
+Sites differ in:
+- enrollment volume
+- data quality
+- deviation rate
+- support needs
+
+High-burden sites require:
+- increased monitoring
+- more communication
+- escalation readiness
+
+---
+
+## Vendor Oversight
+
+External vendors include:
+- CROs
+- labs
+- imaging vendors
+- EDC providers
+
+PM must monitor:
+- performance metrics
+- deliverable timelines
+- contract obligations
+
+Vendors are resources, not black boxes.
+
+---
+
+## Scaling and Reallocation
+
+Resource plans must adapt to:
+- new sites
+- delayed enrollment
+- emerging risks
+- staff turnover
+
+PM’s role is to:
+- anticipate overload,
+- redistribute work,
+- and prevent systemic failure.
+
+---
+
+## Resource Planning as Risk Management
+
+In practice, most trial failures result from:
+> insufficient or misaligned resources.
+
+Resource planning is therefore a **primary risk control activity**.

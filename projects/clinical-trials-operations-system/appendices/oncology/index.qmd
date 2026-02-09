@@ -1,0 +1,10 @@
+---
+title: "Oncology Operations Appendix"
+---
+
+## Purpose
+This appendix provides oncology-specific operational guidance
+that supplements the core CRA modules.
+
+It focuses on areas where oncology trials differ materially
+from general interventional studies.

@@ -1,0 +1,27 @@
+---
+title: "Start-Up Templates & Checklists"
+---
+
+## SIV Checklist (CRA)
+- [ ] Regulatory documents complete
+- [ ] Protocol training conducted
+- [ ] Safety reporting reviewed
+- [ ] EDC/IRT training completed
+- [ ] IP handling reviewed
+- [ ] Lab/imaging workflows reviewed
+
+---
+
+## Site Activation Tracker (Template)
+
+| Site | IRB Approved | Training Complete | Systems Access | IP Available | Activation Date | Notes |
+|------|-------------|-------------------|----------------|-------------|-----------------|-------|
+|      |             |                   |                |             |                 |       |
+
+---
+
+## Start-Up Issue Log
+
+| Issue | Site | Date Identified | Impact | Action Required | Owner | Due Date |
+|-------|------|----------------|--------|-----------------|-------|---------|
+|       |      |                |        |                 |       |         |

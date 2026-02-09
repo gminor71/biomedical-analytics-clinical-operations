@@ -1,0 +1,19 @@
+---
+title: "Deviation Framework & Definitions"
+---
+
+## What is a Protocol Deviation?
+Any instance where study conduct differs from the approved protocol,
+GCP, or regulatory requirements.
+
+## Common Deviation Categories
+- Informed consent errors
+- Eligibility violations
+- Missed or out-of-window visits
+- Incorrect dosing or IP handling
+- Missing assessments
+- Safety reporting delays
+
+## CRA Reality Check
+Not all deviations are catastrophic,
+but **all must be documented, assessed, and addressed.**

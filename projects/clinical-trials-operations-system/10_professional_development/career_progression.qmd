@@ -1,0 +1,10 @@
+---
+title: "Career Progression"
+---
+
+| Level | Typical Focus |
+|------|---------------|
+| CRA I | Monitoring execution |
+| CRA II | Independent site oversight |
+| Senior CRA | Risk & quality leadership |
+| CTM | Study leadership |

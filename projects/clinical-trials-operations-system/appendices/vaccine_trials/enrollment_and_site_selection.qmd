@@ -1,0 +1,15 @@
+---
+title: "Vaccine Trials Quick Reference"
+---
+
+Vaccine trials frequently require rapid enrollment of large
+subject populations. Site feasibility therefore emphasizes
+recruitment capacity, scheduling efficiency, and access to
+eligible populations rather than therapeutic specialization.
+
+::: {.callout-note title="CRA Considerations"}
+During vaccine trials, CRAs should closely observe site workflow efficiency,
+screening throughput, and scheduling processes during early visits.
+Operational bottlenecks may emerge rapidly due to high enrollment volume
+and should be escalated early to project management.
+:::

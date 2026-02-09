@@ -1,0 +1,29 @@
+---
+title: "Site Activation & Readiness"
+---
+
+## Activation Criteria (Typical)
+- IRB/IEC approval in place
+- Regulatory documents complete
+- Training completed and documented
+- EDC/IRT access granted
+- IP available on-site (if applicable)
+
+## CRA Activation Verification
+- [ ] All approvals current
+- [ ] DOA completed
+- [ ] Training logs complete
+- [ ] Systems access verified
+- [ ] Pharmacy/lab ready
+
+::: {.callout-note title="Oncology-Specific Considerations"}
+- Central imaging and lab activation may be gating items
+- Pharmacy readiness for cytotoxic handling
+:::
+
+::: {.callout-note title="Vaccine Trial Consideration"}
+Vaccine trials often require rapid site activation and high enrollment
+capacity. Site selection may prioritize throughput and population access
+over therapeutic specialization.
+:::
+

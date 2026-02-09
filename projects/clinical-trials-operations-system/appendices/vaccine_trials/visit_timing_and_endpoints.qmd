@@ -1,0 +1,13 @@
+---
+title: "Vaccine Trials Quick Reference"
+---
+
+Endpoint validity in vaccine trials is frequently dependent on
+precise timing of vaccination and follow-up visits.
+
+::: {.callout-note title="CRA Considerations"}
+CRAs should pay particular attention to visit window compliance,
+vaccination timing, and specimen collection timing.
+Out-of-window visits may directly affect endpoint validity
+and should be documented and escalated appropriately.
+:::

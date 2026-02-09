@@ -1,0 +1,41 @@
+---
+title: "CAPA Workflow & Root Cause Analysis"
+---
+
+## What is CAPA?
+CAPA = Corrective and Preventive Action
+
+- **Corrective:** Fix what went wrong
+- **Preventive:** Prevent it from happening again
+
+## CAPA Workflow
+
+```{mermaid}
+flowchart LR
+  A[Deviation Identified] --> B[Root Cause Analysis]
+  B --> C[Corrective Action]
+  C --> D[Preventive Action]
+  D --> E[Effectiveness Check]
+  E --> F[Closure]
+```
+
+## Root Cause Analysis (CRA Lens)
+
+Ask:
+
+- Was this a training issue?
+- Process failure?
+- System limitation?
+- Resource problem?
+- Human error?
+
+::: {.center}
+![](../assets/images/capa_workflow.png){width=55%}
+:::
+*CAPA lifecycle — quality management framework*
+
+## CRA Responsibilities
+
+- Ensure CAPA is documented
+- Track implementation
+- Verify closure evidence

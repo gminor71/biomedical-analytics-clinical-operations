@@ -1,0 +1,131 @@
+---
+title: "Risk & Issue Management"
+---
+
+## Purpose
+Risk and issue management is the primary mechanism by which
+project management maintains **control over trial execution**.
+
+The goal is not to eliminate problems, but to:
+- anticipate them,
+- detect them early,
+- mitigate their impact,
+- and escalate appropriately.
+
+---
+
+## Risk vs Issue vs Deviation
+
+These terms are often confused but represent different concepts:
+
+| Concept | Meaning |
+|--------|--------|
+| Risk | A potential future problem |
+| Issue | A current active problem |
+| Deviation | A compliance failure |
+
+Examples:
+
+- Risk: Sites may fail to enroll on time  
+- Issue: Site A missed enrollment target  
+- Deviation: Site A violated protocol inclusion criteria  
+
+Each requires a different response.
+
+---
+
+## The Risk Register
+
+A risk register is a structured list of:
+
+- identified risks
+- probability of occurrence
+- potential impact
+- mitigation strategies
+- current status
+
+Typical risk categories:
+
+- Operational (enrollment, monitoring)
+- Regulatory (IRB delays)
+- Safety (late SAE reporting)
+- Data quality (high query rates)
+- Vendor performance
+
+---
+
+## Risk Assessment Dimensions
+
+Risks are assessed using two primary dimensions:
+
+| Dimension | Question |
+|----------|----------|
+| Probability | How likely is this to occur? |
+| Impact | How severe would the effect be? |
+
+High-probability, high-impact risks receive **highest priority**.
+
+---
+
+## Issues and Escalation
+
+An issue represents a risk that has **materialized**.
+
+Issues require:
+- immediate attention,
+- root cause analysis,
+- and often escalation.
+
+Common escalation triggers:
+- missed critical milestones
+- repeated protocol deviations
+- systemic safety reporting failures
+- data integrity concerns
+
+---
+
+## Escalation Pathways
+
+Escalation typically flows:
+
+CRA → CTM → CPM / Trial Lead → Sponsor → Steering Committee
+
+Escalation is not failure.
+It is a **control mechanism**.
+
+---
+
+## Relationship to CAPA
+
+Issues that represent:
+- systemic failures,
+- repeated deviations,
+- or quality breakdowns
+
+often require **Corrective and Preventive Actions (CAPA)**.
+
+Risk management identifies problems.  
+CAPA resolves root causes.
+
+---
+
+## Risk Management as a Living Process
+
+Risk management is not a one-time activity.
+
+It evolves throughout the trial:
+- new risks emerge,
+- priorities shift,
+- mitigations change.
+
+The risk register should be reviewed:
+- at every study team meeting,
+- before major milestones,
+- and during inspection preparation.
+
+::: {.callout-note title="Vaccine Trial Consideration"}
+Vaccine trials frequently require accelerated decision-making cycles
+due to enrollment speed and public health timelines.
+Governance structures must support rapid escalation and response.
+:::
+

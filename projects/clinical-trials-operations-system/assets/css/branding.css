@@ -1,0 +1,29 @@
+/* Typography: make it feel like a professional manual */
+body {
+  font-family: "Inter", "Segoe UI", Arial, sans-serif;
+  line-height: 1.55;
+}
+
+/* Subtle color for headings */
+h1, h2, h3 {
+  color: #1f3a5f;  /* deep clinical blue */
+}
+
+/* Callouts look like regulatory guidance */
+.callout {
+  border-left-width: 4px;
+  background-color: #f8fafc;
+}
+
+/* Clean tables */
+table {
+  font-size: 0.95em;
+}
+
+/* Center the book cover image */
+.book-cover img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 70%;
+}

@@ -1,0 +1,75 @@
+---
+title: "Key CRA Metrics"
+---
+
+## Core Operational Metrics
+
+| Metric | What It Tells You |
+|--------|-------------------|
+| Query rate | Data quality burden |
+| SDV completion % | Monitoring compliance |
+| Enrollment rate | Site performance |
+| Screen failure rate | Eligibility issues |
+| Protocol deviations | Process failures |
+| SAE rate | Safety signal volume |
+| Data entry lag | Timeliness risk |
+
+## CRA Insight
+Metrics are not performance scores.
+They are **risk indicators.**
+
+---
+
+## How to Use These Metrics (Signal → Action)
+
+These metrics should trigger structured follow-up, not isolated reactions.
+Use them to determine whether a concern is:
+
+- **site-specific** (one site deviating), or
+- **systemic** (trend across sites or over time).
+
+When a metric shifts, interpret it as:
+
+**Operational Signal → Risk Interpretation → Next Action**
+
+---
+
+## Metric Interpretation and Typical Actions
+
+| Metric | Operational Signal | Potential Risk | Typical Next Action / Escalation |
+|--------|-------------------|---------------|----------------------------------|
+| Query rate | Increased data clarification burden | Data quality risk; monitoring burden | Review query drivers; coordinate with DM; focus monitoring on recurring fields |
+| SDV completion % | Visit backlog or incomplete verification | Oversight and inspection risk | Reprioritize SDV to critical data; escalate resourcing constraints to CTM/PM |
+| Enrollment rate | Enrollment below forecast | Timeline risk | Confirm screening workflow; escalate persistent underperformance; consider mitigation plan (additional sites, recruitment support) |
+| Screen failure rate | Eligibility mismatch or pre-screening gaps | Inefficient enrollment; feasibility risk | Review criteria interpretation; retrain on eligibility; improve pre-screening workflow |
+| Protocol deviations | Process inconsistency | Quality risk; endpoint validity risk | Trend deviations; determine root cause; escalate systemic patterns for CAPA consideration |
+| SAE rate | Increased safety event volume | Potential safety signal | Verify documentation/reporting timeliness; coordinate with safety for trend review |
+| Data entry lag | Delayed data availability | Downstream delays (queries, DBL) | Reinforce entry expectations; prioritize time-critical forms; escalate persistent lag |
+
+---
+
+## Leading vs Lagging Indicators
+
+| Type | Meaning | Examples |
+|------|--------|----------|
+| Leading indicator | Predicts future issues | Increasing query aging, growing data entry lag, declining SDV completion |
+| Lagging indicator | Confirms issues already occurred | Missed visits, missed milestones, inspection findings |
+
+Prioritize **leading indicators** to prevent downstream failures.
+
+---
+
+## Governance Link
+
+Metrics become most useful when they feed into:
+
+- the **risk register** (risk & issue management),
+- **monitoring strategy adjustments** (RBM emphasis),
+- and **governance decisions** (resource allocation, escalation, CAPA initiation).
+
+Use metrics to support clear communication:
+- what changed,
+- why it matters,
+- what action is recommended,
+- and what support is needed.
+

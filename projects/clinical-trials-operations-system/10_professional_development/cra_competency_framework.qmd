@@ -1,0 +1,11 @@
+---
+title: "CRA Competency Framework"
+---
+
+## Core Competencies
+- Regulatory knowledge
+- Monitoring execution
+- Safety oversight
+- Quality systems
+- Communication
+- Data literacy

@@ -1,0 +1,22 @@
+---
+title: "Data Quality Framework"
+---
+
+## What is Data Quality?
+High-quality clinical data is:
+- Accurate
+- Complete
+- Timely
+- Consistent
+- Traceable to source
+
+## CRA Data Quality Domains
+- Data entry (EDC)
+- Source documentation
+- Query management
+- Protocol adherence
+- Safety reporting
+
+## Inspection Reality
+Inspectors assess not just errors,
+but whether the **data quality system itself is effective.**

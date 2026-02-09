@@ -1,0 +1,21 @@
+---
+title: "Inspection Types & Stakeholders"
+---
+
+## Common Inspection Types
+
+| Type | Conducted By | Purpose |
+|------|-------------|--------|
+| Regulatory Inspection | FDA / EMA / MHRA | Regulatory compliance |
+| Sponsor Audit | Sponsor QA | Oversight of CRO/site |
+| CRO Audit | CRO QA | Internal quality control |
+| IRB Audit | IRB | Human subjects protection |
+
+## CRA Role by Stakeholder
+
+| Stakeholder | CRA Role |
+|------------|---------|
+| Regulatory Authority | Provide documentation, clarify processes |
+| Sponsor QA | Support evidence collection |
+| CRO QA | Ensure SOP compliance |
+| Site | Guide inspection logistics |

@@ -1,0 +1,82 @@
+---
+title: "Project Management in Clinical Trials"
+---
+
+## Purpose of Project Management
+Project management in clinical trials functions as the **control layer**
+over operational execution.
+
+While CRA operations focus on *what happens at sites*, project management
+focuses on:
+
+- how work is planned,
+- how progress is monitored,
+- how risks are managed,
+- and how decisions are made.
+
+Project management does not replace clinical operations.  
+It coordinates and steers them.
+
+---
+
+## Execution Layer vs Control Layer
+
+| Layer | Function |
+|------|---------|
+| Execution (CRA Ops) | Conduct visits, verify data, manage safety |
+| Quality & Safety | CAPA, TMF, pharmacovigilance |
+| Control (PM) | Planning, prioritization, escalation, decision-making |
+
+The PM layer exists to ensure that:
+- timelines are realistic,
+- resources are aligned,
+- risks are anticipated,
+- and the trial remains on track.
+
+---
+
+## PM Across the Trial Lifecycle
+
+Project management spans the entire lifecycle:
+
+- Start-Up: site selection, activation planning  
+- Conduct: monitoring cadence, enrollment tracking  
+- Quality: deviation trends, CAPA oversight  
+- Close-Out: database lock, CSR delivery  
+- Inspection: readiness, response coordination  
+
+PM is continuous, not a single phase.
+
+---
+
+## Information Flow
+
+Clinical trials generate signals:
+
+- missed visits
+- delayed data
+- protocol deviations
+- safety events
+
+These signals flow upward into the PM layer, where they become:
+
+- risks
+- issues
+- escalations
+- decisions
+
+PM converts operational signals into **governance actions**.
+
+---
+
+## Relationship to Other Modules
+
+Project management interfaces with:
+
+- Monitoring Operations → delivery tracking  
+- Safety & Pharmacovigilance → escalation thresholds  
+- Data Quality & Analytics → performance metrics  
+- Deviations & CAPA → systemic risk  
+- Inspection Readiness → response coordination  
+
+PM is the **integrating layer** of the entire binder.

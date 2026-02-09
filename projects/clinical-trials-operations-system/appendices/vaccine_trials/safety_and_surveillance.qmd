@@ -1,0 +1,83 @@
+---
+title: "Vaccine Trials Quick Reference"
+---
+
+Because vaccine trials commonly enroll healthy participants,
+unexpected safety events may receive heightened regulatory
+attention even when event severity is low.
+
+## Vaccine Accountability Flow
+
+Vaccine accountability is a critical operational component of vaccine
+clinical trials due to the need to ensure traceability of administered doses
+and proper handling of temperature-sensitive investigational product.
+
+The accountability process typically includes:
+
+1. Receipt and verification of vaccine shipment
+2. Storage under protocol-defined temperature conditions
+3. Documentation of temperature monitoring
+4. Dose preparation and administration
+5. Documentation of subject-level accountability
+6. Reconciliation of used and unused doses
+
+Monitoring activities frequently focus on:
+
+- consistency between accountability logs and administered doses,
+- temperature excursion documentation,
+- completeness of dispensing records,
+- and reconciliation accuracy.
+
+Because vaccine products are often administered to large populations,
+accountability discrepancies may have amplified regulatory significance.
+
+## Safety Signal Review Cadence
+
+Vaccine trials frequently implement structured safety signal review
+processes due to the enrollment of healthy populations and heightened
+regulatory sensitivity to emerging safety trends.
+
+Safety review may occur at defined intervals and typically includes:
+
+- aggregate adverse event review,
+- comparison of event rates across sites,
+- evaluation of unexpected event patterns,
+- review of medically attended events,
+- and assessment of temporal relationships to vaccination.
+
+Operational implications include:
+
+- rapid escalation pathways for emerging safety signals,
+- cross-functional review involving safety, clinical, and project management,
+- and documentation of governance decisions related to safety oversight.
+
+In accelerated or large-scale vaccine trials, safety review cadence may
+increase during periods of rapid enrollment.
+
+## Vaccine Safety Signal Review Workflow
+
+```{mermaid}
+flowchart LR
+  A["Vaccination Administered"] --> B["Adverse Event Identification"]
+  B --> C["Site Documentation & Reporting"]
+  C --> D["Safety Database Entry"]
+  D --> E["Aggregate Safety Review"]
+
+  E --> F{"Safety Signal Identified?"}
+
+  F -- "No" --> G["Continue Routine Surveillance"]
+  G --> A
+
+  F -- "Yes" --> H["Safety Escalation"]
+  H --> I["Cross-Functional Review\n(Safety, Clinical, PM)"]
+  I --> J["Governance Decision"]
+  J --> K["Protocol Clarification / Training /\nMonitoring Adjustment"]
+  K --> A
+```
+
+::: {.callout-note title="CRA Considerations"}
+CRAs should verify that adverse events are documented and reported
+consistently, even when events are expected or non-serious.
+In vaccine trials involving healthy participants, incomplete AE
+documentation may receive heightened regulatory scrutiny.
+:::

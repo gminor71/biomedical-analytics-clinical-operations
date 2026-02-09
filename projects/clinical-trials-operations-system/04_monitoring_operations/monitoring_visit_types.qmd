@@ -1,0 +1,65 @@
+---
+title: "Monitoring Visit Types"
+---
+
+## Overview
+Monitoring visits are conducted at defined intervals to evaluate site
+performance and trial compliance.
+
+## Visit Types
+
+### Pre-Study Visit (PSV)
+**Purpose**
+- Assess site suitability
+- Confirm infrastructure and staff readiness
+
+**CRA Focus**
+- Source documentation systems
+- Pharmacy and lab capabilities
+- Staff availability and experience
+
+---
+
+### Site Initiation Visit (SIV)
+**Purpose**
+- Train site staff
+- Confirm readiness to enroll
+
+**CRA Focus**
+- Protocol training documentation
+- Delegation of Authority (DOA)
+- EDC access and training
+
+---
+
+### Interim Monitoring Visit (IMV)
+**Purpose**
+- Ongoing oversight during trial conduct
+
+**CRA Focus**
+- Source Data Verification (SDV)
+- Informed consent compliance
+- Safety reporting
+- Protocol deviations
+
+---
+
+### For-Cause Visit
+**Purpose**
+- Address identified risks or noncompliance
+
+**Triggers**
+- Repeated deviations
+- Data quality concerns
+- Safety signal escalation
+
+---
+
+### Close-Out Visit (COV)
+**Purpose**
+- Ensure trial completion and documentation readiness
+
+**CRA Focus**
+- IP reconciliation
+- Data query resolution
+- Document archiving

@@ -1,0 +1,38 @@
+---
+title: "Monitoring Operations"
+---
+
+## Purpose
+This module defines the Clinical Research Associate (CRA) responsibilities
+for monitoring clinical trial sites to ensure subject safety, data integrity,
+and regulatory compliance.
+
+## Scope
+Applies to on-site and remote monitoring across all interventional clinical trials.
+Therapeutic-area–specific considerations (e.g., oncology, vaccine trials)
+are highlighted where applicable.
+
+::: {.callout-note title="Therapeutic Area Considerations"}
+The monitoring framework described in this module represents the
+core execution model for clinical trials.
+
+Therapeutic area appendices (e.g., oncology or vaccine trials)
+do not change monitoring principles or responsibilities.
+Instead, they modify the **areas of emphasis** within monitoring
+activities based on differences in safety profiles, endpoint timing,
+and operational risk.
+
+CRAs should apply the same monitoring framework while adjusting
+focus according to study-specific risks and therapeutic context.
+:::
+
+::: {.center}
+![](../assets/images/mock_monitoring_report.png){width=65%}
+:::
+
+
+## CRA Accountability
+- Oversight of protocol compliance
+- Verification of critical data and processes
+- Identification, documentation, and follow-up of issues
+- Maintenance of inspection-ready documentation

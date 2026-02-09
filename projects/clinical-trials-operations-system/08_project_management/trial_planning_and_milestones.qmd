@@ -1,0 +1,75 @@
+---
+title: "Trial Planning & Milestones"
+---
+
+## What is Being Planned?
+In clinical trials, the “project” is the **delivery of evidence**.
+
+The primary planning objectives are:
+
+- activate sites,
+- enroll subjects,
+- generate clean data,
+- analyze outcomes,
+- deliver regulatory-grade results.
+
+---
+
+## Major Trial Milestones
+
+Typical high-level milestones:
+
+| Milestone | Meaning |
+|----------|--------|
+| FSI | First Site Initiated |
+| FPI | First Patient In |
+| LPI | Last Patient In |
+| LPLV | Last Patient Last Visit |
+| DBL | Database Lock |
+| CSR | Clinical Study Report |
+
+These milestones define the **critical path** of the trial.
+
+---
+
+## Critical Path Concept
+
+The critical path represents:
+> the sequence of activities that determines the earliest possible
+> completion date of the trial.
+
+Common critical path blockers:
+- slow site activation
+- poor enrollment
+- delayed monitoring
+- unresolved data queries
+- late safety reporting
+
+---
+
+## Dependencies
+
+Many tasks depend on others:
+
+| Task | Depends On |
+|------|-----------|
+| Monitoring | Site activation |
+| Enrollment | IRB approval |
+| Database lock | Query resolution |
+| CSR | Final analyses |
+
+PM’s role is to identify and manage these dependencies.
+
+---
+
+## What Does “On Track” Mean?
+
+A trial is considered “on track” when:
+
+- milestones are met on time,
+- risks are controlled,
+- data quality is acceptable,
+- safety reporting is timely,
+- and no unresolved critical issues exist.
+
+“On track” is not just schedule — it is **system health**.

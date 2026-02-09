@@ -1,0 +1,32 @@
+---
+title: "Pre-Inspection Preparation"
+---
+
+## CRA Pre-Inspection Checklist
+- [ ] Regulatory binder complete and current
+- [ ] IRB approvals and version control verified
+- [ ] Monitoring reports finalized and filed
+- [ ] Safety documentation reconciled
+- [ ] Deviation logs reviewed
+- [ ] CAPAs implemented and closed
+- [ ] TMF reconciled with site records
+
+## Document Consistency Checks
+Verify consistency between:
+- Source documents
+- EDC
+- Monitoring reports
+- TMF
+- Correspondence
+
+::: {.callout-note title="Oncology-Specific Considerations"}
+- Imaging data and tumor assessments often reviewed
+- Dose modifications scrutinized
+:::
+
+::: {.callout-note title="Vaccine Trial Considerations"}
+- Specimen collection timing, handling, and laboratory documentation are often reviewed to ensure validity of immunogenicity endpoints.
+- Vaccine accountability, storage conditions, and temperature monitoring records may receive focused inspection review.
+- Documentation supporting vaccination timing and follow-up visit windows should be complete and consistent with protocol requirements.
+:::
+
