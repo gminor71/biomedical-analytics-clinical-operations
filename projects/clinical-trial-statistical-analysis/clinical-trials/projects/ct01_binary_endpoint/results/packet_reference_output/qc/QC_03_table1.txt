@@ -1,0 +1,33 @@
+QC: 03_eda.R (Table 1)
+Run at: 2026-01-23 11:05:53.847659
+
+N by treatment (must match Table 1 headers):
+
+Control  Active 
+    246     254 
+
+Continuous spot-checks (mean, sd):
+  var     trt     mean       sd
+1 age Control 56.69106 13.23393
+2 age  Active 57.72835 11.60759
+
+                var     trt     mean        sd
+1 baseline_severity Control 49.72276  9.914189
+2 baseline_severity  Active 49.92205 10.195430
+
+  var     trt     mean       sd
+1 bmi Control 28.79959 5.518322
+2 bmi  Active 29.18583 5.899490
+
+Categorical spot-checks (counts, %):
+Var: sex
+Counts:
+   
+    Control Active
+  F     128    133
+  M     118    121
+Percent:
+   
+    Control Active
+  F    52.0   52.4
+  M    48.0   47.6

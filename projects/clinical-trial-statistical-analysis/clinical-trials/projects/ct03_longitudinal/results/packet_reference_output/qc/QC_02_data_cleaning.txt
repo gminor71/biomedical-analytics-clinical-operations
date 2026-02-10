@@ -1,0 +1,28 @@
+QC: 02_data_cleaning.R (CT03 longitudinal)
+Run at: 2026-02-06 16:18:49.100902
+
+Subjects (ITT): 500
+Rows (visits): 2500
+
+N by treatment (subjects):
+Control: 1230
+Active: 1270
+
+Visits per subject (summary):
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+      5       5       5       5       5       5 
+
+Missing biomarker by trt and visit_day:
+# A tibble: 10 × 5
+   trt     visit_day     n n_missing pct_missing
+   <fct>       <dbl> <int>     <int>       <dbl>
+ 1 Control         0   246         0      0     
+ 2 Control        30   246        14      0.0569
+ 3 Control        90   246        17      0.0691
+ 4 Control       180   246        41      0.167 
+ 5 Control       365   246        73      0.297 
+ 6 Active          0   254         0      0     
+ 7 Active         30   254        14      0.0551
+ 8 Active         90   254        18      0.0709
+ 9 Active        180   254        27      0.106 
+10 Active        365   254        76      0.299 

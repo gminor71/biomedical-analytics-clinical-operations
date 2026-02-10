@@ -1,0 +1,10 @@
+QC: 06_diagnostics.R (CT03 mixed model diagnostics)
+Run at: 2026-02-06 16:19:16.112882
+
+Model rows (mf): 2220
+
+Saved residual table: C:/Users/grant/OneDrive/Documents/GitHub/bio-epi-portfolio/projects/clinical-trials/projects/ct03_longitudinal/results/diagnostics_residuals_summary.csv
+Saved figures:
+  C:/Users/grant/OneDrive/Documents/GitHub/bio-epi-portfolio/projects/clinical-trials/projects/ct03_longitudinal/figures/diag_resid_vs_fitted.png
+  C:/Users/grant/OneDrive/Documents/GitHub/bio-epi-portfolio/projects/clinical-trials/projects/ct03_longitudinal/figures/diag_resid_qq.png
+  C:/Users/grant/OneDrive/Documents/GitHub/bio-epi-portfolio/projects/clinical-trials/projects/ct03_longitudinal/figures/diag_ranef_intercepts.png

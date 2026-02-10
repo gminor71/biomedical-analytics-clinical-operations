@@ -1,0 +1,27 @@
+QC: 02_data_cleaning.R
+Run at: 2026-01-23 11:05:53.803829
+
+Rows: 500
+
+N by treatment:
+
+Control  Active 
+    246     254 
+
+Event rate by treatment (sanity only):
+Control: 0.1341
+Active: 0.0827
+
+Missingness by column (descending):
+pp: 500
+usubjid: 0
+trt: 0
+age: 0
+sex: 0
+baseline_severity: 0
+event_bin: 0
+site: 0
+bmi: 0
+tte_days: 0
+tte_event: 0
+itt: 0

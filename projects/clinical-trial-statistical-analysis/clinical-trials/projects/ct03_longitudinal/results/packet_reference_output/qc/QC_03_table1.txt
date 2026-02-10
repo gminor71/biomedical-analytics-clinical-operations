@@ -1,0 +1,7 @@
+QC: 03_eda.R (CT03 Table 1 baseline-only)
+Run at: 2026-02-06 16:18:49.761294
+
+N by treatment (baseline; must match Table 1 headers):
+
+Control  Active 
+    246     254 

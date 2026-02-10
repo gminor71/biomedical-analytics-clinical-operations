@@ -1,0 +1,37 @@
+QC: 02_data_cleaning.R (CT02 time-to-event)
+Run at: 2026-02-04 17:51:50.299359
+
+Rows (ITT): 500
+
+Q by treatment:
+      trt   n
+1 Control 246
+2  Active 254
+
+Events by treatment (sanity only):
+Control: 196
+Active: 168
+
+Event rate by treatment (sanity only):
+Control: 0.7967
+Active: 0.6614
+
+Median follow-up time by treatment (sanity only):
+Control: 165.4
+Active: 244.1
+
+Missingness by column (descending):
+pp: 500
+usubjid: 0
+trt: 0
+age: 0
+sex: 0
+baseline_severity: 0
+time: 0
+status: 0
+site: 0
+bmi: 0
+event_bin: 0
+tte_days: 0
+tte_event: 0
+itt: 0

@@ -1,0 +1,58 @@
+QC: 06_diagnostics.R (Primary model diagnostics)
+Run at: 2026-01-23 11:05:57.790323
+
+Primary model: event_bin ~ trt + age + sex + baseline_severity (binomial/logit)
+Complete-case N used here: 500
+Parameters p: 5
+
+Influence thresholds (rules of thumb):
+  Cook's D > 4/n = 0.008
+  Leverage > 2p/n = 0.02
+
+Flag counts: high Cook's D = 52 ; high leverage = 27
+
+Top 10 by Cook's D:
+     usubjid   fitted_p  res_dev res_pear
+1  SUBJ-0140 0.07216562 2.292942 3.585668
+2  SUBJ-0496 0.10024769 2.144813 2.995879
+3  SUBJ-0460 0.15259479 1.939056 2.356545
+4  SUBJ-0161 0.19755791 1.800957 2.015393
+5  SUBJ-0061 0.15043539 1.946392 2.376420
+6  SUBJ-0261 0.12914972 2.023256 2.596719
+7  SUBJ-0487 0.05167040 2.434284 4.284092
+8  SUBJ-0352 0.17416682 1.869621 2.177527
+9  SUBJ-0284 0.08769851 2.206287 3.225322
+10 SUBJ-0204 0.06026174 2.370256 3.948959
+      leverage    cooks_d dfbeta_trtActive
+1  0.012748158 0.03363270      -0.09061889
+2  0.017401880 0.03235362      -0.08285697
+3  0.026139044 0.03061098       0.14741959
+4  0.034562831 0.03012386      -0.09761220
+5  0.022669134 0.02680576      -0.09181247
+6  0.018210714 0.02547830      -0.09358531
+7  0.006233551 0.02316938       0.11840424
+8  0.023185439 0.02304348      -0.11884054
+9  0.009863254 0.02093177      -0.09504609
+10 0.006430649 0.02031673       0.12590246
+   flag_high_leverage flag_high_cooks
+1               FALSE            TRUE
+2               FALSE            TRUE
+3                TRUE            TRUE
+4                TRUE            TRUE
+5                TRUE            TRUE
+6               FALSE            TRUE
+7               FALSE            TRUE
+8                TRUE            TRUE
+9               FALSE            TRUE
+10              FALSE            TRUE
+
+Collinearity (VIF/GVIF):
+Max VIF: 1.011 (rule-of-thumb concern often > 5–10)
+
+Saved VIF table: C:/Users/grant/OneDrive/Documents/GitHub/bio-epi-portfolio/projects/clinical-trials/projects/ct01_binary_endpoint/tables/diagnostics_vif.csv
+Saved influence table: C:/Users/grant/OneDrive/Documents/GitHub/bio-epi-portfolio/projects/clinical-trials/projects/ct01_binary_endpoint/results/diagnostics_influence_summary.csv
+Saved figures:
+  C:/Users/grant/OneDrive/Documents/GitHub/bio-epi-portfolio/projects/clinical-trials/projects/ct01_binary_endpoint/figures/diag_residuals_vs_fitted.png
+  C:/Users/grant/OneDrive/Documents/GitHub/bio-epi-portfolio/projects/clinical-trials/projects/ct01_binary_endpoint/figures/diag_std_residuals_qq.png
+  C:/Users/grant/OneDrive/Documents/GitHub/bio-epi-portfolio/projects/clinical-trials/projects/ct01_binary_endpoint/figures/diag_cooks_distance.png
+  C:/Users/grant/OneDrive/Documents/GitHub/bio-epi-portfolio/projects/clinical-trials/projects/ct01_binary_endpoint/figures/diag_leverage.png
