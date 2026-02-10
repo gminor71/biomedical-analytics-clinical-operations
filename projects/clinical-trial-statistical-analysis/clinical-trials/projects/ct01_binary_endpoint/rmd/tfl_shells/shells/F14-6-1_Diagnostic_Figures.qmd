@@ -1,0 +1,33 @@
+---
+title: "Figure 14.6.1"
+subtitle: "Primary Model Diagnostics – Logistic Regression (ITT / Analysis Dataset)"
+format: pdf
+execute:
+  echo: false
+  warning: false
+---
+Purpose
+
+Provide standard diagnostic figures supporting the adequacy of the prespecified primary logistic regression model.
+
+Population
+
+Primary analysis dataset (typically complete-case for prespecified covariates).
+
+Output Shell
+
+The following diagnostic figures are presented:
+
+Deviance residuals vs fitted probability
+
+Q–Q plot of standardized deviance residuals
+
+Cook’s distance
+
+Leverage (hat values)
+
+Notes / Footnotes
+
+Diagnostic figures are reviewed to identify potential model fit issues, influential observations, and departures from assumptions.
+
+Thresholds for influence (e.g., Cook’s D, leverage) are heuristic and used for review; observations are not excluded unless prespecified.

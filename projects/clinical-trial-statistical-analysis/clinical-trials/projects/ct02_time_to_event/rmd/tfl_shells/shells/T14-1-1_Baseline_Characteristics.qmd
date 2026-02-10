@@ -1,0 +1,26 @@
+---
+title: "Table 14.1.1"
+subtitle: "Baseline Characteristics by Treatment (ITT Population)"
+format: pdf
+execute:
+  echo: false
+  warning: false
+---
+## Population
+Intention-to-treat (ITT): all randomized subjects analyzed by assigned treatment.
+
+## Output Shell
+
+| Characteristic | Control (N=XXX) | Active (N=XXX) | Overall (N=XXX) |
+|---|---:|---:|---:|
+| **Age (years)** | xx.x (x.x) | xx.x (x.x) | xx.x (x.x) |
+| **Sex, n (%)** |  |  |  |
+| &nbsp;&nbsp;Female | xx (xx.x%) | xx (xx.x%) | xx (xx.x%) |
+| &nbsp;&nbsp;Male | xx (xx.x%) | xx (xx.x%) | xx (xx.x%) |
+| **Baseline severity** | xx.x (x.x) | xx.x (x.x) | xx.x (x.x) |
+| **BMI** | xx.x (x.x) | xx.x (x.x) | xx.x (x.x) |
+
+## Notes / Footnotes
+- Continuous variables summarized as mean (SD).
+- Categorical variables summarized as n (%).
+- No hypothesis testing is performed for baseline comparisons.

@@ -1,0 +1,24 @@
+---
+title: "Table 14.6.1"
+subtitle: "Model Diagnostics Summary (Cox PH)"
+format: pdf
+execute:
+  echo: false
+  warning: false
+---
+
+## Diagnostics Output Shell
+
+### Proportional Hazards Test (cox.zph)
+
+| Term | Chisq | df | p-value |
+|---|---:|---:|---:|
+| trt | x.xx | x | x.xxx |
+| age | x.xx | x | x.xxx |
+| sex | x.xx | x | x.xxx |
+| baseline_severity | x.xx | x | x.xxx |
+| GLOBAL | x.xx | x | x.xxx |
+
+## Notes / Footnotes
+- p-values are from Schoenfeld residual-based tests.
+- A small p-value suggests potential PH violation for the corresponding term.

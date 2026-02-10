@@ -1,0 +1,19 @@
+---
+title: "Figure F14-2-1: Biomarker Trajectory by Treatment"
+format:
+  html:
+    toc: false
+    code-fold: true
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+source("00_tfl_setup.R")
+
+fig <- req_file(file.path(PATHS$figures, "biomarker_mean_over_time.png"))
+
+cat("**Generated:** ", stamp_time(), "\n\n")
+cat("**Source:** `figures/biomarker_mean_over_time.png`\n\n")
+
+knitr::include_graphics(fig)

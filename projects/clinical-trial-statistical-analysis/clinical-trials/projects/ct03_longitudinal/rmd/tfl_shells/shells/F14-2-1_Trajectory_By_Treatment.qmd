@@ -1,0 +1,18 @@
+---
+title: "Figure 14.2.1"
+subtitle: "Model-based Biomarker Trajectory by Treatment (ITT)"
+format: pdf
+execute:
+  echo: false
+  warning: false
+---
+
+## Description
+A line plot showing model-based mean biomarker trajectory over time for Active and Control, with 95% confidence bands.
+
+## Figure Placeholder
+[Insert figure here: Model-based trajectory by treatment with CI bands]
+
+## Notes
+- Derived from primary mixed model (Table 14.2.1).
+- Time axis reflects prespecified visit schedule (0, 30, 90, 180, 365 days).

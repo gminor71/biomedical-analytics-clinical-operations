@@ -1,0 +1,42 @@
+---
+title: "Table 14.2.1"
+subtitle: "Primary Efficacy Analysis – Logistic Regression (ITT Population)"
+format: pdf
+execute:
+  echo: false
+  warning: false
+---
+Objective
+
+Evaluate whether Active treatment reduces the odds of the binary clinical event by Day 365 compared with Control.
+
+Population
+
+Intention-to-treat (ITT): all randomized subjects analyzed by assigned treatment.
+
+Endpoint
+
+Binary indicator of event occurrence by Day 365 (event_bin; 1=event, 0=no event).
+
+Model
+
+Logistic regression with fixed effects for treatment group and prespecified covariates.
+
+Output Shell (Adjusted Treatment Effect)
+Comparison	Effect Measure	Estimate	95% CI	p-value
+Active vs Control	Odds Ratio	x.xx	(x.xx, x.xx)	x.xxx
+Model Covariates (Prespecified)
+
+Age
+
+Sex
+
+Baseline severity
+
+Notes / Footnotes
+
+Treatment effect reported as adjusted Odds Ratio (OR) with 95% confidence interval from the fitted model.
+
+Reference group: Control.
+
+Analysis uses complete cases for prespecified covariates unless otherwise specified in the SAP.

@@ -1,0 +1,22 @@
+---
+title: "Figure 14.2.1"
+subtitle: "Kaplan–Meier Curve by Treatment (ITT Population)"
+format: pdf
+execute:
+  echo: false
+  warning: false
+---
+
+## Population
+Intention-to-treat (ITT): all randomized subjects analyzed by assigned treatment.
+
+## Output Shell
+
+**[Kaplan–Meier Plot Placeholder]**
+
+- Control vs Active curves displayed over follow-up
+- Number at risk table shown beneath plot (if available)
+
+## Notes / Footnotes
+- Time-to-event endpoint is defined as time from baseline to event or censoring.
+- Censoring is assumed non-informative unless otherwise stated.

@@ -1,0 +1,21 @@
+---
+title: "Table T14-1-1: Baseline Characteristics (ITT)"
+format:
+  html:
+    toc: false
+    code-fold: true
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+source("00_tfl_setup.R")
+
+tbl1_rds <- req_file(file.path(PATHS$results, "table1_baseline.rds"))
+tbl1 <- readRDS(tbl1_rds)
+
+cat("**Generated:** ", stamp_time(), "\n\n")
+cat("**Source:** `results/table1_baseline.rds`\n\n")
+
+# tbl1 is a gtsummary object
+gtsummary::as_gt(tbl1)

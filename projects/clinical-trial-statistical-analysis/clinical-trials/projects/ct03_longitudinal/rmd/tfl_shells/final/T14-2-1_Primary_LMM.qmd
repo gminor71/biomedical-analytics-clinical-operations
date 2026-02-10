@@ -1,0 +1,34 @@
+---
+title: "Table T14-2-1: Primary Linear Mixed-Effects Model (ITT)"
+format:
+  html:
+    toc: false
+    code-fold: true
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+source("00_tfl_setup.R")
+
+model_rds <- req_file(file.path(PATHS$results, "primary_model.rds"))
+m <- readRDS(model_rds)
+
+cat("**Generated:** ", stamp_time(), "\n\n")
+cat("**Source:** `results/primary_model.rds`\n\n")
+
+# Create a clean coefficient table from the frozen model object
+# For lmer models, broom.mixed is nice; if not installed, fallback.
+if (requireNamespace("broom.mixed", quietly = TRUE)) {
+  tab <- broom.mixed::tidy(m, effects = "fixed", conf.int = TRUE)
+  gt::gt(tab) |>
+    gt::fmt_number(columns = where(is.numeric), decimals = 3)
+} else {
+  # Fallback: show gtsummary output
+  gtsummary::tbl_regression(m) |>
+    gtsummary::modify_header(label ~ "**Term**") |>
+    gtsummary::bold_labels() |>
+    gtsummary::as_gt()
+}
+
+cat("\n\n**Primary estimand:** treatment-by-time interaction (e.g., `trtActive:time30`).\n")

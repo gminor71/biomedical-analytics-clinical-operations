@@ -1,0 +1,37 @@
+---
+title: "Table 14.2.1"
+subtitle: "Primary Efficacy Analysis – Linear Mixed-Effects Model (ITT)"
+format: pdf
+execute:
+  echo: false
+  warning: false
+---
+
+## Objective
+Evaluate whether Active treatment changes the longitudinal trajectory of the biomarker over 365 days compared with Control.
+
+## Estimand (Primary)
+Difference in biomarker trajectory over time between Active vs Control, quantified by the **treatment-by-time interaction**.
+
+## Model
+Linear mixed-effects model with:
+- Fixed effects: treatment, time (continuous), treatment × time, age, sex, baseline severity, BMI
+- Random effects: subject-level random intercept
+- Estimation: maximum likelihood under MAR
+
+## Output Shell
+
+| Effect / Term | Estimate (SE) | 95% CI | p-value |
+|---|---:|---:|---:|
+| **Treatment × Time (primary estimand)** | β = x.xxxx (x.xxxx) | (x.xxxx, x.xxxx) | p=0.xxx |
+| Treatment (Active vs Control) | β = x.xxxx (x.xxxx) | (x.xxxx, x.xxxx) | p=0.xxx |
+| Time (per unit) | β = x.xxxx (x.xxxx) | (x.xxxx, x.xxxx) | p=0.xxx |
+| Age | β = x.xxxx (x.xxxx) | (x.xxxx, x.xxxx) | p=0.xxx |
+| Sex (M vs F) | β = x.xxxx (x.xxxx) | (x.xxxx, x.xxxx) | p=0.xxx |
+| Baseline severity | β = x.xxxx (x.xxxx) | (x.xxxx, x.xxxx) | p=0.xxx |
+| BMI | β = x.xxxx (x.xxxx) | (x.xxxx, x.xxxx) | p=0.xxx |
+
+## Notes / Footnotes
+- Primary interpretation focuses on **Treatment × Time**.
+- Time scaling must be stated (e.g., per 30 days if modeled as time30).
+- Model uses all available repeated measures under a Missing At Random (MAR) assumption.

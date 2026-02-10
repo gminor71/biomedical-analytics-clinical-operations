@@ -1,0 +1,42 @@
+---
+title: "Table 14.2.2"
+subtitle: "Sensitivity and Exploratory Analyses – Logistic Regression (ITT Population)"
+format: pdf
+execute:
+  echo: false
+  warning: false
+---
+Purpose
+
+Provide supportive analyses to assess robustness of the primary conclusion and explore potential effect modification.
+
+Population
+
+Intention-to-treat (ITT): all randomized subjects analyzed by assigned treatment.
+
+Output Shell
+(A) Sensitivity Analysis: Alternative Covariate Specification
+
+(e.g., remove baseline severity from adjustment set)
+
+Model	Comparison	Effect Measure	Estimate	95% CI	p-value
+Sensitivity: Adjusted (Age + Sex)	Active vs Control	Odds Ratio	x.xx	(x.xx, x.xx)	x.xxx
+(B) Exploratory Effect Modification: Treatment × Baseline Severity
+Term	Effect Measure	Estimate	95% CI	p-value
+Treatment × Baseline severity interaction	Ratio of ORs*	x.xx	(x.xx, x.xx)	x.xxx
+(C) Exploratory OR at Representative Baseline Severity Values
+Baseline severity	OR (Active vs Control)	95% CI
+40	x.xx	(x.xx, x.xx)
+50	x.xx	(x.xx, x.xx)
+60	x.xx	(x.xx, x.xx)
+Notes / Footnotes
+
+Sensitivity model: logistic regression adjusting for treatment, age, sex.
+
+Exploratory interaction model adds baseline severity and treatment × baseline severity interaction.
+
+“OR at representative severities” may be computed using the fitted interaction model (e.g., delta method).
+
+Exploratory analyses are hypothesis-generating and interpreted cautiously.
+
+* The interaction term is typically interpreted as the multiplicative change in the treatment OR per 1-unit increase in baseline severity.

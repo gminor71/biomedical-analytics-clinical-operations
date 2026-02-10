@@ -1,0 +1,16 @@
+## Notes / Footnotes
+- Sensitivity analyses assess robustness of the primary estimand.
+- Interaction analyses are exploratory and not confirmatory.
+
+source("00_tfl_setup.R")
+
+fig <- file.path(TFL$figures, "ph_schoenfeld_trt.png")
+
+tfl_assert_files(fig)
+
+knitr::include_graphics(fig)
+
+## Notes
+- Schoenfeld residuals are plotted to assess the proportional hazards assumption.
+- A non-zero slope indicates potential violation of proportional hazards.
+- Formal testing results are provided in Table 14.6.1.

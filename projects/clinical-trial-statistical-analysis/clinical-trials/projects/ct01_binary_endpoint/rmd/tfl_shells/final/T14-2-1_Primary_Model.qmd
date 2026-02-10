@@ -1,0 +1,34 @@
+---
+title: "T14-2-1 Primary Efficacy Model (Logistic Regression)"
+format: html
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r}
+source("rmd/tfl_shells/final/00_tfl_setup.R")
+
+model_rds <- file.path(TFL$results, "primary_model.rds")
+tfl_assert_files(model_rds)
+
+m <- readRDS(model_rds)
+
+tab <- summary(m)$coefficients
+beta <- tab["trtActive","Estimate"]
+se   <- tab["trtActive","Std. Error"]
+p    <- tab["trtActive","Pr(>|z|)"]
+
+or <- exp(beta)
+ci <- exp(beta + c(-1,1)*1.96*se)
+
+html_path <- file.path(TFL$tables, "primary_model.html")
+
+if (file.exists(html_path)) {
+  htmltools::includeHTML(html_path)
+} else {
+  gtsummary::tbl_regression(m, exponentiate = TRUE)
+}
+
+```

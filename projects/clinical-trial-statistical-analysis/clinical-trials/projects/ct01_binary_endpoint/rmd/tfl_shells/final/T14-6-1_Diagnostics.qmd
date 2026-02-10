@@ -1,0 +1,27 @@
+title: "T14-6-1 Diagnostics"
+format: html
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r}
+source("rmd/tfl_shells/final/00_tfl_setup.R")
+
+figs <- c(
+  file.path(TFL$figures, "diag_residuals_vs_fitted.png"),
+  file.path(TFL$figures, "diag_std_residuals_qq.png"),
+  file.path(TFL$figures, "diag_cooks_distance.png"),
+  file.path(TFL$figures, "diag_leverage.png")
+)
+tfl_assert_files(figs)
+
+vif_csv <- file.path(TFL$tables, "diagnostics_vif.csv")
+vif_tbl <- if (file.exists(vif_csv)) readr::read_csv(vif_csv, show_col_types = FALSE) else NULL
+
+knitr::include_graphics(figs)
+
+if (!is.null(vif_tbl)) knitr::kable(vif_tbl, digits = 3)
+
+```

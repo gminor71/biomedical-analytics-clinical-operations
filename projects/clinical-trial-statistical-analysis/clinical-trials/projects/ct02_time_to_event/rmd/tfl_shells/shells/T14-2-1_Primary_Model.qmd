@@ -1,0 +1,24 @@
+---
+title: "Table 14.2.1"
+subtitle: "Primary Cox Proportional Hazards Model"
+format: pdf
+execute:
+  echo: false
+  warning: false
+---
+## Model
+Cox proportional hazards model adjusted for age, sex, and baseline severity.
+
+## Output Shell
+
+| Variable | Hazard Ratio | 95% CI | p-value |
+|---|---:|---:|---:|
+| Treatment (Active vs Control) | x.xx | (x.xx, x.xx) | 0.xxx |
+| Age | x.xx | (x.xx, x.xx) | 0.xxx |
+| Sex (Male vs Female) | x.xx | (x.xx, x.xx) | 0.xxx |
+| Baseline severity | x.xx | (x.xx, x.xx) | 0.xxx |
+
+## Notes / Footnotes
+- Hazard ratios derived from Cox proportional hazards model.
+- Hazard ratio <1 favors Active treatment.
+- Model adjusted for prespecified baseline covariates.

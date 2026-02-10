@@ -1,0 +1,28 @@
+## Notes / Footnotes
+- Hazard ratios derived from Cox proportional hazards model.
+- Hazard ratio <1 favors Active treatment.
+- Model adjusted for prespecified baseline covariates.
+
+## Analyses
+Sensitivity and exploratory analyses supporting the primary Cox model.
+
+## Output Shell
+
+### Sensitivity Analysis (Adjusted for Age and Sex Only)
+
+| Variable | Hazard Ratio | 95% CI | p-value |
+|---|---:|---:|---:|
+| Treatment (Active vs Control) | x.xx | (x.xx, x.xx) | 0.xxx |
+
+---
+
+### Exploratory Interaction Model
+
+| Variable | Hazard Ratio | 95% CI | p-value |
+|---|---:|---:|---:|
+| Treatment (Active vs Control) | x.xx | (x.xx, x.xx) | 0.xxx |
+| Treatment × Baseline Severity | x.xx | (x.xx, x.xx) | 0.xxx |
+
+## Notes / Footnotes
+- Sensitivity analyses assess robustness of the primary estimand.
+- Interaction analyses are exploratory and not confirmatory.

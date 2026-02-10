@@ -1,0 +1,22 @@
+---
+title: "Figure 14.6.1"
+subtitle: "Schoenfeld Residual Plot for Treatment (Cox PH Assumption)"
+format: pdf
+execute:
+  echo: false
+  warning: false
+---
+
+## Model
+Primary Cox proportional hazards model.
+
+## Output Shell
+
+**[Schoenfeld Residual Plot Placeholder]**
+
+- Treatment effect Schoenfeld residual trend
+- Reference line at 0
+
+## Notes / Footnotes
+- Proportional hazards assessed via Schoenfeld residuals (cox.zph).
+- Global test and covariate-specific p-values are presented in Table 14.6.1.

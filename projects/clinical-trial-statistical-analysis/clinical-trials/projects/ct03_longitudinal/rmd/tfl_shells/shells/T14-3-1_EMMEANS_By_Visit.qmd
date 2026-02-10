@@ -1,0 +1,26 @@
+---
+title: "Table 14.3.1"
+subtitle: "Estimated Marginal Means of Biomarker by Treatment and Visit (ITT)"
+format: pdf
+execute:
+  echo: false
+  warning: false
+---
+
+## Purpose
+Provide model-based estimates of mean biomarker levels by treatment at prespecified visits to support interpretation of the trajectory.
+
+## Output Shell
+
+| Visit Day | Control Mean (SE) | Active Mean (SE) | Active − Control (SE) | 95% CI | p-value |
+|---:|---:|---:|---:|---:|---:|
+| 0 | xx.x (x.x) | xx.x (x.x) | x.x (x.x) | (x.x, x.x) | p=0.xxx |
+| 30 | xx.x (x.x) | xx.x (x.x) | x.x (x.x) | (x.x, x.x) | p=0.xxx |
+| 90 | xx.x (x.x) | xx.x (x.x) | x.x (x.x) | (x.x, x.x) | p=0.xxx |
+| 180 | xx.x (x.x) | xx.x (x.x) | x.x (x.x) | (x.x, x.x) | p=0.xxx |
+| 365 | xx.x (x.x) | xx.x (x.x) | x.x (x.x) | (x.x, x.x) | p=0.xxx |
+
+## Notes / Footnotes
+- Estimates derived from the primary mixed model (Table 14.2.1).
+- Differences are Active minus Control at each visit.
+- These are supportive/interpretive summaries, not separate primary tests.

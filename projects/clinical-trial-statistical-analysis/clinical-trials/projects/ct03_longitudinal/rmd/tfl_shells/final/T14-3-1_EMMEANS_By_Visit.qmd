@@ -1,0 +1,22 @@
+---
+title: "Table T14-3-1: Estimated Marginal Means by Visit"
+format:
+  html:
+    toc: false
+    code-fold: true
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+source("00_tfl_setup.R")
+
+emm_csv <- req_file(file.path(PATHS$tables, "primary_emmeans_by_visit.csv"))
+emm <- readr::read_csv(emm_csv, show_col_types = FALSE)
+
+cat("**Generated:** ", stamp_time(), "\n\n")
+cat("**Source:** `tables/primary_emmeans_by_visit.csv`\n\n")
+
+# Standardize and present nicely
+gt::gt(emm) |>
+  gt::fmt_number(columns = where(is.numeric), decimals = 3)

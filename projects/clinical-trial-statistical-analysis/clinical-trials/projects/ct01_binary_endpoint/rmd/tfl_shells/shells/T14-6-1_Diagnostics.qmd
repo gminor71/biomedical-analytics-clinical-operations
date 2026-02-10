@@ -1,0 +1,45 @@
+---
+title: "Table 14.6.1"
+subtitle: "Model Diagnostics – Primary Logistic Regression (ITT Population)"
+format: pdf
+execute:
+  echo: false
+  warning: false
+---
+Purpose
+
+Summarize diagnostic checks for the prespecified primary logistic regression model.
+
+Population
+
+Primary analysis dataset (typically complete-case for prespecified covariates).
+
+Output Shell
+(A) Collinearity Assessment (VIF / GVIF)
+Term	VIF (or GVIF^(1/(2*Df)))	Flag (Y/N)
+Treatment	x.xx	N
+Age	x.xx	N
+Sex	x.xx	N
+Baseline severity	x.xx	N
+(B) Influence Assessment (Cook’s Distance / Leverage)
+Summary Item	Result
+High Cook’s D count (rule-of-thumb)	xx
+High leverage count (rule-of-thumb)	xx
+Top influential subjects reviewed	Yes/No
+(C) Diagnostic Figures
+
+Deviance residuals vs fitted probability
+
+Q–Q plot of standardized deviance residuals
+
+Cook’s distance plot
+
+Leverage plot
+
+Notes / Footnotes
+
+VIF interpretation: rule-of-thumb concern often > 5–10 (context dependent).
+
+Influence thresholds are heuristic and used for review, not automatic exclusion.
+
+Diagnostics are used to support model adequacy; no data points are excluded unless prespecified.

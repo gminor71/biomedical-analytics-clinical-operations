@@ -1,0 +1,40 @@
+---
+title: "Table T14-2-2: Sensitivity / Supportive Analyses (ITT)"
+format:
+  html:
+    toc: false
+    code-fold: true
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+source("00_tfl_setup.R")
+
+sec_rds <- req_file(file.path(PATHS$results, "secondary_models.rds"))
+obj <- readRDS(sec_rds)
+
+cat("**Generated:** ", stamp_time(), "\n\n")
+cat("**Source:** `results/secondary_models.rds`\n\n")
+
+# Expect list of model objects; adapt as needed
+models <- obj
+if (is.list(obj) && !is.null(obj$m_sens)) models <- list(obj$m_sens, obj$m_int)
+
+# Render each model as a separate section
+for (i in seq_along(models)) {
+  cat("\n\n## Model ", i, "\n\n")
+  m <- models[[i]]
+
+  if (inherits(m, "lmerMod")) {
+    if (requireNamespace("broom.mixed", quietly = TRUE)) {
+      tab <- broom.mixed::tidy(m, effects = "fixed", conf.int = TRUE)
+      print(gt::gt(tab) |> gt::fmt_number(columns = where(is.numeric), decimals = 3))
+    } else {
+      print(gtsummary::as_gt(gtsummary::tbl_regression(m)))
+    }
+  } else {
+    # glm/coxph fallbacks
+    print(gtsummary::as_gt(gtsummary::tbl_regression(m, exponentiate = FALSE)))
+  }
+}
