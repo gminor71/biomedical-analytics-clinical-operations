@@ -43,3 +43,35 @@ temp/
 data/raw/
 *.zip
 *.tar.gz
+
+# renv (keep lockfile, ignore local library/cache)
+renv/library/
+renv/local/
+renv/staging/
+renv/python/
+renv.lock
+!renv.lock
+
+# -----------------------------
+# Generated analysis outputs
+# -----------------------------
+
+# Raw data (not version controlled)
+projects/*/data/raw/
+
+# Generated reports and packets
+projects/*/results/packet_*/
+projects/*/results/*.html
+projects/*/results/*.txt
+projects/*/results/*.csv
+
+ ---- Rendered TFL outputs ----
+projects/*/rmd/tfl_shells/final/
+
+# CT project raw data & generated outputs (nested under clinical-trials)
+projects/clinical-trial-statistical-analysis/**/projects/*/data/raw/
+
+projects/clinical-trial-statistical-analysis/**/projects/*/results/packet_*/
+projects/clinical-trial-statistical-analysis/**/projects/*/results/*.html
+projects/clinical-trial-statistical-analysis/**/projects/*/results/*.txt
+projects/clinical-trial-statistical-analysis/**/projects/*/results/*.csv
