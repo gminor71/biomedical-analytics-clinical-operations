@@ -29,7 +29,7 @@ This workflow reflects common clinical trial analysis practices in which statist
 This workspace represents a single clinical trial analysis environment
 organized by endpoint type. Analyses follow a common workflow:
 
-1. Study design and analysis planning (`ct00_design`)
+1. Study design and analysis planning (`ct00_design`) - future
 2. Endpoint-specific statistical analysis
    - Binary endpoints (`ct01_binary_endpoint`)
    - Time-to-event endpoints (`ct02_time_to_event`)
