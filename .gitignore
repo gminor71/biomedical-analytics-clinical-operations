@@ -65,6 +65,14 @@ projects/*/results/*.html
 projects/*/results/*.txt
 projects/*/results/*.csv
 
+# Allow curated reference output packets
+!projects/*/results/packet_reference_output/
+!projects/*/results/packet_reference_output/**
+
+# Allow files inside the reference packet
+!projects/*/results/packet_reference_output/*.html
+!projects/*/results/packet_reference_output/*.txt
+!projects/*/results/packet_reference_output/*.csv
  ---- Rendered TFL outputs ----
 projects/*/rmd/tfl_shells/final/
 
