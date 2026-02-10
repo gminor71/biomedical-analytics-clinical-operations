@@ -39,9 +39,11 @@ Work in this portfolio follows core biostatistical and clinical research princip
 The projects below demonstrate complementary components of clinical research workflows, spanning clinical trial operations, statistical analysis, and reproducible reporting. Together they illustrate how study execution and biostatistical analysis interact within modern clinical research environments.
 
 - Clinical Trials Operations System
+
 Documentation-driven clinical trial operations framework demonstrating study organization, site management structure, and operational workflows aligned with clinical research execution.
 
 - Clinical Trial Statistical Analysis
+
 Demonstrates a structured clinical trial analysis workflow including binary, time-to-event, and longitudinal endpoint analyses using reproducible Tables, Figures, and Listings (TFL)-oriented reporting.
 
 - Clinical Outcome Prediction (in progress)
