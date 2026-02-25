@@ -1,0 +1,30 @@
+CT04 EDA QC Summary
+Subjects: 500 (unique 500)
+PK rows: 4500 (unique subjects 500)
+
+Counts by dose group:
+# A tibble: 4 × 2
+  dosegrp     n
+  <fct>   <int>
+1 Placebo   246
+2 Low        85
+3 Medium     89
+4 High       80
+
+Response rate by dose group:
+# A tibble: 4 × 2
+  dosegrp resp_rate
+  <fct>       <dbl>
+1 Placebo     0.224
+2 Low         0.306
+3 Medium      0.236
+4 High        0.225
+
+AE rate by dose group:
+# A tibble: 4 × 2
+  dosegrp ae_rate
+  <fct>     <dbl>
+1 Placebo   0.248
+2 Low       0.341
+3 Medium    0.270
+4 High      0.275

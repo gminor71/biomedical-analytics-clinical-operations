@@ -1,0 +1,26 @@
+---
+title: "Table 14.2.1"
+subtitle: "PK Parameters by Dose Group (PK Population)"
+format: pdf
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+## Population
+PK population: all subjects with sufficient concentration–time data to derive PK parameters.
+
+## Output Shell
+
+| Parameter | Placebo (N=XXX) | Low (N=XXX) | Medium (N=XXX) | High (N=XXX) | Overall (N=XXX) |
+|---|---:|---:|---:|---:|---:|
+| **AUC** – Mean (SD) | xx.x (x.x) | xx.x (x.x) | xx.x (x.x) | xx.x (x.x) | xx.x (x.x) |
+| AUC – Median (IQR) | xx.x (x.x) | xx.x (x.x) | xx.x (x.x) | xx.x (x.x) | xx.x (x.x) |
+| **Cmax** – Mean (SD) | xx.x (x.x) | xx.x (x.x) | xx.x (x.x) | xx.x (x.x) | xx.x (x.x) |
+| Cmax – Median (IQR) | xx.x (x.x) | xx.x (x.x) | xx.x (x.x) | xx.x (x.x) | xx.x (x.x) |
+| **Tmax (hours)** – Median (IQR) | xx.x (x.x) | xx.x (x.x) | xx.x (x.x) | xx.x (x.x) | xx.x (x.x) |
+
+## Notes / Footnotes
+- AUC and Cmax summarized as **mean (SD)** and **median (IQR)**.
+- Tmax summarized as **median (IQR)**.

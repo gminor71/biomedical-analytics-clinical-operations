@@ -1,0 +1,26 @@
+---
+title: "Figure 14.2.1"
+subtitle: "Mean Concentration–Time Profiles by Dose Group (PK Population)"
+format: pdf
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+## Population
+PK population: all subjects with observed concentration–time data sufficient for plotting mean profiles.
+
+## Output Shell
+
+**Figure placeholder:** Mean concentration–time profiles by dose group.
+
+- X-axis: Time (hours post-dose)
+- Y-axis: Mean concentration (units)
+- Separate lines for Placebo, Low, Medium, High
+- Optional: error bands (SE or 95% CI) at nominal timepoints
+
+## Notes / Footnotes
+- Mean concentration computed at each nominal timepoint within dose group.
+- Concentrations below LLOQ handling (if applicable) should be prespecified.
+- Plot should indicate whether values are arithmetic mean or geometric mean.

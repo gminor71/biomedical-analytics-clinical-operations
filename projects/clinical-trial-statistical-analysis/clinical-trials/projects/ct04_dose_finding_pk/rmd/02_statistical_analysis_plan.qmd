@@ -1,0 +1,115 @@
+---
+title: "Statistical Analysis Plan"
+subtitle: "CT04 - Dose Finding and Pharmacokinetics Trial Analysis"
+format: pdf
+execute:
+  echo: false
+  warning: false
+---
+## Objectives
+Characterize pharmacokinetic exposure across dose levels and evaluate dose/exposure relationships with clinical response and safety in an early-phase dose-finding trial.
+
+## Estimand Definition
+
+**Population:**
+All randomized subjects with at least one post-dose PK sample (PK analysis population). Analyses of clinical response and safety will be conducted in the intention-to-treat (ITT) population unless otherwise specified.
+
+## Primary Endpoint (Pharmacokinetic Exposure)
+Pharmacokinetic exposure summarized using derived parameters:
+- Area Under the Concentration–Time Curve (AUC)
+- Maximum observed concentration (Cmax)
+
+PK parameters will be derived from concentration–time data using standardized procedures defined in the analysis scripts. Exposure summaries will be evaluated by dose group.
+
+## Key Secondary Endpoint 1 (Dose Proportionality)
+- Relationship between administered dose and pharmacokinetic exposure.
+- Dose proportionality will be assessed using log-transformed exposure metrics (AUC and/or Cmax) evaluated against log-transformed dose levels.
+
+## Key Secondary Endpoint 2 (Exposure–Response)
+Clinical response evaluated as a function of pharmacokinetic exposure.
+The response endpoint is defined as:
+- Responder status, defined as achievement of a prespecified clinical improvement threshold at the primary assessment timepoint.
+
+Exposure–response analyses will evaluate the association between exposure (AUC or Cmax) and probability of response.
+
+## Key Secondary Endpoint 3 (Safety)
+Safety endpoints include:
+
+- ccurrence of dose-limiting toxicity (DLT) during the observation period
+- Treatment-emergent adverse events (TEAEs)
+
+Safety outcomes will be summarized descriptively by dose group.
+
+**Intercurrent Events:**
+- Missing PK samples due to missed draws, withdrawal, or assay failure
+- Dose interruptions/reductions or non-adherence affecting exposure
+- Early discontinuation prior to planned response assessment
+
+**Strategy for Intercurrent Events:**
+Treatment policy strategy: analyses will use all available observed data collected post-dose. Dose modifications and discontinuations will not lead to censoring of available PK samples or outcome measurements; they will be reflected in the observed exposure and outcomes.
+
+**Summary Measures (Estimands):**
+- Primary estimand: Difference in mean exposure (AUC and/or Cmax) across dose levels.
+- Dose proportionality estimand: Slope from log(exposure) on log(dose), where a slope near 1 indicates proportional exposure increase with dose.
+- Exposure–response estimand: Change in probability of response associated with increasing exposure.
+- Safety estimand: Differences in DLT or TEAE incidence across dose levels.
+
+## Intercurrent Events and Missing Data
+
+### Intercurrent Events
+Intercurrent events include missed PK draws, withdrawal prior to PK completion, dose interruptions/reductions, and early discontinuation.
+
+### Strategy for Intercurrent Events
+A treatment policy strategy will be used: all observed post-dose PK concentrations and clinical outcomes will be included in the relevant analyses.
+
+### Missing Data Assumptions
+PK parameters are assumed Missing At Random (MAR), conditional on observed dose, visit/time, and available concentration history.
+Clinical response missingness is assumed MAR conditional on baseline covariates and observed follow-up data.
+
+### Primary Handling Method
+- PK parameter derivation will use available concentration–time data. Subjects with insufficient PK samples to derive a parameter may be excluded from that specific PK parameter summary, with counts reported.
+- Regression-based analyses will use complete-case data for the variables required in each model, with missingness summarized by dose group.
+- (Sensitivity analyses evaluating robustness to missingness mechanisms and influential observations are described below.)
+
+### Analysis Populations
+- PK analysis population: Subjects with at least one post-dose PK measurement; derivation of AUC/Cmax requires sufficient sampling for calculation.
+- ITT population: All randomized subjects for clinical response and safety summaries.
+
+### Primary Statistical Methods
+PK Exposure Summaries by Dose
+PK parameters (AUC and/or Cmax) will be summarized by dose level using descriptive statistics (n, mean, SD, median, IQR, min, max). Exposure will be visualized across dose groups using boxplots and concentration–time profiles (as applicable).
+A regression-based comparison of exposure by dose group will be performed:
+Model: exposure ~ dose_group (and prespecified covariates if applicable)
+If exposure is right-skewed, log-transformation may be used; results may be reported as geometric mean ratios.
+
+Dose Proportionality (Key Secondary)
+Dose proportionality will be assessed using a log–log regression model:
+Model: log(exposure) = α + β * log(dose) + ε
+Interpretation: β ≈ 1 suggests approximate proportionality across the tested dose range.
+Results will be reported as β with standard error, confidence interval, and p-value.
+
+Exposure–Response (Key Secondary)
+The exposure–response relationship will be assessed using regression models with exposure as a continuous predictor:
+If response is continuous: response ~ exposure (+ covariates as prespecified)
+If response is binary: logit(P(response)) ~ exposure (+ covariates as prespecified)
+Exposure metrics may include AUC and/or Cmax. The primary exposure metric used for modeling will be prespecified in the TFL shells; alternative metrics may be explored descriptively.
+
+### Safety Summaries by Dose
+Safety endpoints (DLT and/or TEAEs) will be summarized by dose group using counts and percentages. Where appropriate, dose group comparisons will be presented using risk differences and/or odds ratios with confidence intervals.
+
+### Sensitivity Analyses
+To assess robustness of the primary and key secondary estimands, the following sensitivity analyses will be conducted:
+Transformation / distributional sensitivity
+Evaluate model fit with exposure modeled on the original and log scale. Summaries may include geometric means when log-normality is plausible.
+
+### Influential observations
+Examine exposure outliers and influential points in dose proportionality and exposure–response models (e.g., leverage/Cook’s distance). Refit models excluding influential observations as a sensitivity check.
+
+Alternative exposure metric
+Repeat exposure–response analysis using an alternative exposure metric (e.g., Cmax instead of AUC) when both are available, to assess consistency of inference.
+
+### Missing data sensitivity (exploratory)
+Summarize missing PK parameters and missing response by dose group. Conduct simple exploratory sensitivity analyses (e.g., best/worst case for binary response, or baseline carry-forward for continuous response) to assess robustness to departures from MAR.
+
+## Software
+All analyses will be conducted in R using version-controlled, reproducible scripts and renv for dependency management. Quarto will be used for report generation and TFL development.

@@ -1,0 +1,72 @@
+---
+title: "Statistical Analysis Plan"
+subtitle: "CT03 - Longitudinal Biomarker Trial Analysis"
+format: pdf
+execute:
+  echo: false
+  warning: false
+---
+
+## Objectives
+Evaluate the effect of treatment on the longitudinal trajectory of the biomarker within a randomized clinical trial setting.
+
+## Estimand Definition
+
+**Population:**  
+All randomized subjects (intention-to-treat population).
+
+**Variable (Endpoint):**  
+Continuous biomarker measured repeatedly at prespecified visit days (0, 30, 90, 180, 365).
+
+**Intercurrent Events:**  
+Missing biomarker measurements due to dropout, missed visits, or early withdrawal.
+
+**Strategy for Intercurrent Events:**  
+Treatment policy strategy: all observed post-baseline biomarker measurements will be used regardless of missingness patterns.
+
+**Summary Measure (Primary Estimand):**  
+Difference in biomarker trajectory between treatment groups, quantified by the treatment-by-time interaction (difference in slope) from a linear mixed-effects model.For interpretability, time will be scaled in 30-day units (`time30 = visit_day/30`) so the estimand is expressed per 30 days.
+
+
+**Secondary Summaries:**  
+Treatment differences at prespecified timepoints (visit days), estimated from an alternative mixed-effects model with time treated as categorical.
+
+## Intercurrent Events and Missing Data
+
+### Intercurrent Events
+Intercurrent events include missed visits, early withdrawal, or loss to follow-up leading to missing biomarker measurements.
+
+### Strategy for Intercurrent Events
+A treatment policy strategy will be used: all observed post-baseline biomarker measurements will be included in the analysis regardless of missingness patterns.
+
+### Missing Data Assumption
+The primary analysis assumes data are Missing At Random (MAR), conditional on observed covariates and observed biomarker history.
+
+### Primary Handling Method
+Missing data will be handled implicitly through maximum likelihood estimation in the mixed-effects model under the MAR assumption.
+
+(Planned sensitivity analyses to assess robustness to departures from MAR and model assumptions are described in the Sensitivity Analyses section.)
+
+## Analysis Population
+Primary analysis will be conducted in the intention-to-treat (ITT) population.
+
+## Primary Statistical Methods
+A linear mixed-effects model will be fit with fixed effects for treatment, time (modeled continuously), and a treatment-by-time interaction, adjusting for age, sex, baseline severity (and other prespecified baseline covariates as applicable). A subject-level random intercept will account for within-subject correlation. Estimation will use maximum likelihood under the MAR assumption.
+
+Time scaling (implementation detail for interpretability): Time will be represented as time30 = visit_day / 30, so that the treatment-by-time interaction corresponds to the difference in biomarker change per 30 days between Active and Control. Results will be reported as the estimated interaction coefficient (Δ slope per 30 days) with standard error and p-value.
+
+## Sensitivity Analyses
+
+To assess robustness of the primary estimand, the following sensitivity analyses will be conducted:
+
+1. **Alternative time specification**  
+   Time will be modeled as a categorical factor to estimate treatment differences at each visit without assuming linear change.
+
+2. **Random slope model**  
+   A random slope for time will be added to allow subject-specific trajectories, contingent on model convergence.
+
+3. **Missing data sensitivity**  
+   Patterns of missingness will be examined by treatment and visit. Exploratory analyses using alternative strategies (e.g., baseline carry-forward or other simple imputations) will be used to assess sensitivity to departures from MAR.
+
+## Software
+All analyses will be conducted in R using version-controlled, reproducible scripts and renv for dependency management.

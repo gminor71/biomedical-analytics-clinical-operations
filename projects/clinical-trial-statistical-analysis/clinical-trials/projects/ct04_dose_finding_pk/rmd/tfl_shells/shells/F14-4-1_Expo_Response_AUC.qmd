@@ -1,0 +1,25 @@
+---
+title: "Figure 14.4.1"
+subtitle: "Exposure–Response Relationship (AUC, Primary Exposure)"
+format: pdf
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+## Population
+PK population with derived AUC and non-missing binary response outcome.
+
+## Output Shell
+
+**Figure placeholder:** Exposure–response relationship using AUC (primary exposure).
+
+- Scatter/jitter of observed binary responses vs AUC
+- Overlay fitted logistic regression curve
+- Optional: 95% confidence band for predicted probability
+
+## Notes / Footnotes
+- AUC is the primary exposure metric for exposure–response evaluation.
+- Binary responses may be jittered vertically for visualization only.
+- If exposure is transformed/scaled in the model, the plot should reflect that scale.

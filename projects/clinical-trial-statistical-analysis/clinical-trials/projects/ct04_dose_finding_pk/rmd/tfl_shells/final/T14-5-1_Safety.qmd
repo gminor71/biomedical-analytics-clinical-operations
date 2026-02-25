@@ -1,0 +1,24 @@
+---
+title: "Table T14-5-1: Safety Summary by Dose Group"
+format:
+  html:
+    toc: false
+    code-fold: true
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+source("00_tfl_setup.R")
+
+csv <- req_file(file.path(PATHS$tables, "Table_14_5_1_Safety.csv"))
+tab <- readr::read_csv(csv, show_col_types = FALSE)
+
+cat("**Generated:** ", stamp_time(), "\n\n")
+cat("**Source:** `tables/Table_14_5_1_Safety.csv`\n\n")
+
+gt::gt(tab) |>
+  gt::fmt_number(columns = where(is.numeric), decimals = 2)
+
+cat("\n\n**Notes:** Descriptive safety summaries by dose group (AE and DLT).\n")

@@ -1,0 +1,23 @@
+---
+title: "Table 14.4.1"
+subtitle: "Exposure–Response Model Results (Binary Response)"
+format: pdf
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+## Population
+PK population with derived exposure metric(s) and non-missing response.
+
+## Output Shell
+
+| Exposure Metric | Model | Odds Ratio | 95% CI for OR | p-value |
+|---|---|---:|---:|---:|
+| AUC (primary) | logit(P(Response)) ~ AUC | x.xxx | [x.xxx, x.xxx] | x.xxx |
+| Cmax (sensitivity) | logit(P(Response)) ~ Cmax | x.xxx | [x.xxx, x.xxx] | x.xxx |
+
+## Notes / Footnotes
+- Binary response modeled using logistic regression.
+- OR represents multiplicative change in odds of response per unit increase in exposure (as modeled).

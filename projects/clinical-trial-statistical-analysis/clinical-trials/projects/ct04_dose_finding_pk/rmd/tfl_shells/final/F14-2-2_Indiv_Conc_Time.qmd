@@ -1,0 +1,22 @@
+---
+title: "Figure F14-2-2: Individual Concentration–Time Profiles by Dose Group"
+format:
+  html:
+    toc: false
+    code-fold: true
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+source("00_tfl_setup.R")
+
+img <- req_file(file.path(PATHS$figures, "Figure_14_2_2_Indiv_Conc_Time.png"))
+
+cat("**Generated:** ", stamp_time(), "\n\n")
+cat("**Source:** `figures/", basename(img), "`\n\n", sep = "")
+
+knitr::include_graphics(img)
+
+cat("\n\n**Notes:** One line per subject, faceted by dose group.\n")

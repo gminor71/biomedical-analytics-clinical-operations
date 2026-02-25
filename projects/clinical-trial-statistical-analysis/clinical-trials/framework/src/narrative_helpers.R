@@ -4,10 +4,16 @@
 
 # ---- Formatting helpers ----
 
-fmt_p <- function(p) {
-  if (is.null(p) || length(p) == 0 || is.na(p)) return("NA")
-  if (p < 0.001) return("<0.001")
-  sprintf("%.3f", p)
+fmt_p <- function(p, digits = 3) {
+  if (is.null(p)) return(NA_character_)
+  if (length(p) == 0) return(character(0))
+  p <- suppressWarnings(as.numeric(p))
+  out <- rep(NA_character_, length(p))
+  ok <- !is.na(p)
+  out[ok] <- ifelse(p[ok] < 10^(-digits),
+                    paste0("<", formatC(10^(-digits), format="f", digits=digits)),
+                    formatC(p[ok], format="f", digits=digits))
+  out
 }
 
 fmt_n <- function(n) {
@@ -15,9 +21,18 @@ fmt_n <- function(n) {
   format(as.integer(n), big.mark = ",")
 }
 
-fmt_num <- function(x, digits = 2) {
-  if (is.null(x) || length(x) == 0 || is.na(x)) return("NA")
-  sprintf(paste0("%.", digits, "f"), as.numeric(x))
+fmt_num <- function(x, digits = 1) {
+  # Vector-safe numeric formatter; returns character vector
+  if (is.null(x)) return(NA_character_)
+  if (length(x) == 0) return(character(0))
+  
+  x_num <- suppressWarnings(as.numeric(x))
+  out <- rep(NA_character_, length(x_num))
+  
+  ok <- !is.na(x_num)
+  out[ok] <- formatC(x_num[ok], format = "f", digits = digits)
+  
+  out
 }
 
 fmt_ci <- function(est, lo, hi, digits = 2, label = NULL) {
@@ -93,16 +108,20 @@ sent_conclusion_generic <- function() {
 }
 
 # ---- Traceability helpers ----
-trace_lines <- function(paths_named) {
-  # paths_named: named character vector: c("Primary model"=".../primary_model.rds", ...)
-  out <- character(0)
-  for (nm in names(paths_named)) {
-    p <- paths_named[[nm]]
-    if (isTRUE(file.exists(p))) {
-      out <- c(out, paste0("- ", nm, ": `", p, "`"))
-    } else {
-      out <- c(out, paste0("- ", nm, ": (missing) `", p, "`"))
-    }
+trace_lines <- function(named_paths) {
+  # named_paths: named character vector, e.g. c("Label" = "path/to/file", ...)
+  if (is.null(named_paths) || length(named_paths) == 0) return(character(0))
+  
+  labs <- names(named_paths)
+  paths <- unname(as.character(named_paths))
+  if (is.null(labs) || any(labs == "")) labs <- rep("Output", length(paths))
+  
+  exists_flag <- file.exists(paths)
+  
+  out <- character(length(paths))
+  for (i in seq_along(paths)) {
+    status <- if (isTRUE(exists_flag[i])) "OK" else "MISSING"
+    out[i] <- paste0("- **", labs[i], "**: `", paths[i], "` (", status, ")")
   }
   out
 }
@@ -113,12 +132,25 @@ safe_read_csv <- function(path) {
 }
 
 # ---- Slots support (project-specific text + term names) ----
-
-validate_narrative_slots <- function(slots, required) {
-  missing <- setdiff(required, names(slots))
-  if (length(missing) > 0) {
-    stop("NARRATIVE_SLOTS missing required fields: ", paste(missing, collapse = ", "))
+validate_narrative_slots <- function(slots, required = character()) {
+  # slots must be a list
+  if (is.null(slots) || !is.list(slots)) {
+    stop("NARRATIVE_SLOTS must be a non-null list.")
   }
+  
+  # If no required keys, nothing to validate
+  if (length(required) == 0) return(invisible(TRUE))
+  
+  have <- names(slots)
+  missing <- setdiff(required, have)
+  
+  if (length(missing) > 0) {
+    stop(
+      "NARRATIVE_SLOTS is missing required keys: ",
+      paste(missing, collapse = ", ")
+    )
+  }
+  
   invisible(TRUE)
 }
 

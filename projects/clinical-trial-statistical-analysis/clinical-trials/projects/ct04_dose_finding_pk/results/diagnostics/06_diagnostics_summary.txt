@@ -1,0 +1,15 @@
+CT04 Diagnostics Summary
+
+Files generated in results/diagnostics/:
+- Dose proportionality (AUC/Cmax): residual vs fitted, QQ plot, Cook's distance
+- Exposure-response (AUC/Cmax): binned calibration, Cook's distance, predicted probability vs exposure
+
+Top influential observations exported as CSV:
+- TopInfluence_DoseProp_AUC.csv
+- TopInfluence_DoseProp_Cmax.csv
+- TopInfluence_ExposureResponse_AUC.csv
+- TopInfluence_ExposureResponse_Cmax.csv
+
+Interpretation note:
+These diagnostics are intended to flag influential subjects and model-fit issues for follow-up.
+They do not automatically imply exclusion; sensitivity refits may be performed if warranted.

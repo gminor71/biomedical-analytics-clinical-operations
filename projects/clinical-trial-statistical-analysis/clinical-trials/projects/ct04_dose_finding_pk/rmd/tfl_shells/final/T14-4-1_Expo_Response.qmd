@@ -1,0 +1,24 @@
+---
+title: "Table T14-4-1: Exposure–Response Model Results"
+format:
+  html:
+    toc: false
+    code-fold: true
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+source("00_tfl_setup.R")
+
+csv <- req_file(file.path(PATHS$tables, "Table_14_4_1_Expo_Response.csv"))
+tab <- readr::read_csv(csv, show_col_types = FALSE)
+
+cat("**Generated:** ", stamp_time(), "\n\n")
+cat("**Source:** `tables/Table_14_4_1_Exposure_Response.csv`\n\n")
+
+gt::gt(tab) |>
+  gt::fmt_number(columns = where(is.numeric), decimals = 3)
+
+cat("\n\n**Notes:** Logistic exposure–response models; AUC is primary exposure, Cmax is sensitivity exposure.\n")

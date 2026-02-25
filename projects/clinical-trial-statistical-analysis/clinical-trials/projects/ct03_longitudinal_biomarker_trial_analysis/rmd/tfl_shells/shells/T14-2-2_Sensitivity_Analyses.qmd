@@ -1,0 +1,31 @@
+---
+title: "Table 14.2.2"
+subtitle: "Sensitivity Analyses – Primary Endpoint (ITT Population)"
+format: pdf
+execute:
+  echo: false
+  warning: false
+---
+
+## Population
+Intention-to-treat (ITT): all randomized subjects analyzed by assigned treatment.
+
+## Purpose
+This table summarizes sensitivity analyses performed to evaluate robustness of the primary efficacy results.
+
+## Output Shell
+
+| Analysis | Model / Method | Effect Estimate | 95% CI | p-value | Interpretation |
+|---|---|---:|---:|---:|---|
+| Primary analysis | [Primary model description] | xx.xx | xx.xx – xx.xx | 0.xxx | Reference |
+| Sensitivity 1 | Alternative covariate adjustment | xx.xx | xx.xx – xx.xx | 0.xxx | Consistent / Not consistent |
+| Sensitivity 2 | Alternative time specification / model form | xx.xx | xx.xx – xx.xx | 0.xxx | Consistent / Not consistent |
+| Sensitivity 3 | Missing data approach | xx.xx | xx.xx – xx.xx | 0.xxx | Consistent / Not consistent |
+
+## Notes / Footnotes
+- Sensitivity analyses are prespecified in the Statistical Analysis Plan (SAP).
+- Effect estimates correspond to:
+  - Odds Ratio (CT01)
+  - Hazard Ratio (CT02)
+  - Treatment-by-time coefficient (CT03)
+- Analyses are exploratory and intended to assess robustness rather than multiplicity-controlled inference.

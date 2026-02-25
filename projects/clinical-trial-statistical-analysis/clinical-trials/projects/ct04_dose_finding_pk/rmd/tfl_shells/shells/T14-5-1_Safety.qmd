@@ -1,0 +1,24 @@
+---
+title: "Table 14.5.1"
+subtitle: "Safety Summary by Dose Group"
+format: pdf
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+## Population
+Safety population: all subjects receiving at least one dose (or all randomized, per SAP definition).
+
+## Output Shell
+
+| Safety Endpoint | Placebo (N=XXX) | Low (N=XXX) | Medium (N=XXX) | High (N=XXX) | Overall (N=XXX) |
+|---|---:|---:|---:|---:|---:|
+| **Any AE**, n (%) | xx (xx.x%) | xx (xx.x%) | xx (xx.x%) | xx (xx.x%) | xx (xx.x%) |
+| **Any DLT**, n (%) | xx (xx.x%) | xx (xx.x%) | xx (xx.x%) | xx (xx.x%) | xx (xx.x%) |
+
+## Notes / Footnotes
+- AE: adverse event (any grade/any relationship unless otherwise specified).
+- DLT: dose-limiting toxicity as defined in the protocol/SAP.
+- Descriptive summaries only; no formal hypothesis testing.

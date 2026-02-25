@@ -1,0 +1,25 @@
+---
+title: "Figure 14.2.2"
+subtitle: "Individual Concentration–Time Profiles by Dose Group (PK Population)"
+format: pdf
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+## Population
+PK population: all subjects with observed concentration–time data.
+
+## Output Shell
+
+**Figure placeholder:** Individual (spaghetti) concentration–time profiles by dose group.
+
+- Facet panels: Placebo, Low, Medium, High
+- One line per subject
+- Optional: overlay mean profile per panel
+
+## Notes / Footnotes
+- Spaghetti plot displays subject-level concentration–time curves.
+- Y-axis scaling may be linear or log-scale; choice should be consistent with SAP.
+- Consider transparency (alpha) to reduce overplotting in larger N.

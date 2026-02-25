@@ -1,0 +1,24 @@
+---
+title: "Table T14-2-1: PK Parameters by Dose Group (PK Population)"
+format:
+  html:
+    toc: false
+    code-fold: true
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+source("00_tfl_setup.R")
+
+csv <- req_file(file.path(PATHS$tables, "Table_14_2_1_PK_Params.csv"))
+tab <- readr::read_csv(csv, show_col_types = FALSE)
+
+cat("**Generated:** ", stamp_time(), "\n\n")
+cat("**Source:** `tables/Table_14_2_1_PK_Parameters.csv`\n\n")
+
+gt::gt(tab) |>
+  gt::fmt_number(columns = where(is.numeric), decimals = 3)
+
+cat("\n\n**Notes:** PK population; descriptive summaries of derived parameters (AUC, Cmax, Tmax).\n")

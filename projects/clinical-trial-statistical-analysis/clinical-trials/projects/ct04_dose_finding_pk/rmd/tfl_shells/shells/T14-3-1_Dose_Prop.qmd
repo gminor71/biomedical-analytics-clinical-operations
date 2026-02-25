@@ -1,0 +1,24 @@
+---
+title: "Table 14.3.1"
+subtitle: "Dose Proportionality Assessment (Log–Log Model)"
+format: pdf
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+## Population
+PK population excluding placebo (Dose > 0), unless otherwise specified.
+
+## Output Shell
+
+| Metric | Model | Slope β | SE | 95% CI for β | p-value |
+|---|---|---:|---:|---:|---:|
+| AUC | log(AUC) ~ log(Dose) | x.xxx | x.xxx | [x.xxx, x.xxx] | x.xxx |
+| Cmax | log(Cmax) ~ log(Dose) | x.xxx | x.xxx | [x.xxx, x.xxx] | x.xxx |
+
+## Notes / Footnotes
+- Dose proportionality evaluated using the power model: **log(PK) = α + β·log(Dose)**.
+- **β ≈ 1** is consistent with dose proportionality.
+- Placebo excluded from the log–log model.
