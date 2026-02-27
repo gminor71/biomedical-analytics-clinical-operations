@@ -210,9 +210,26 @@ qc_write(c(
 message("✅ Narrative written: ", out_md)
 message("✅ QC written: ", qc_path)
 
-# Also drop narrative into the reference packet (if it exists)
+# ---- Also drop narrative into the reference packet (if it exists) ----
 ref_misc <- file.path(PATHS$results, "packet_reference_output", "misc")
 if (dir.exists(ref_misc)) {
   file.copy(out_md,  file.path(ref_misc, basename(out_md)),  overwrite = TRUE)
   file.copy(out_txt, file.path(ref_misc, basename(out_txt)), overwrite = TRUE)
+}
+
+# ---- Also drop narrative into the latest timestamped packet (if it exists) ----
+packet_glob <- list.dirs(PATHS$results, full.names = TRUE, recursive = FALSE)
+packet_dirs <- packet_glob[grepl("packet_[0-9]{8}_[0-9]{6}$", basename(packet_glob))]
+
+if (length(packet_dirs) > 0) {
+  latest_packet <- packet_dirs[which.max(file.info(packet_dirs)$mtime)]
+  latest_misc <- file.path(latest_packet, "misc")
+  dir.create(latest_misc, recursive = TRUE, showWarnings = FALSE)
+  
+  file.copy(out_md,  file.path(latest_misc, basename(out_md)),  overwrite = TRUE)
+  file.copy(out_txt, file.path(latest_misc, basename(out_txt)), overwrite = TRUE)
+  
+  message("✅ Narrative copied into latest packet misc: ", latest_misc)
+} else {
+  message("ℹ No timestamped packet found to receive narrative (run 07 first).")
 }

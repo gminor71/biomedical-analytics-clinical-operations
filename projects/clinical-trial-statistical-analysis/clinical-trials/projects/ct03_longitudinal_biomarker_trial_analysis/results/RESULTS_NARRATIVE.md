@@ -1,6 +1,6 @@
 # CT03 - Longitudinal Biomarker Trial Results Narrative
 
-Generated: 2026-02-25 09:57:13
+Generated: 2026-02-27 16:19:03
 
 ## Executive Summary
 - Primary estimand: Treatment-by-time interaction (per 30 days): beta=-1.7710 (SE=0.0676); p=<0.001.
@@ -29,16 +29,16 @@ Overall, the primary model and prespecified supportive analyses provide the basi
 
 ## Appendix: Output Traceability (No Re-run)
 This narrative was created by reading the following frozen outputs (not by refitting models):
-- **Primary model (RDS)**: `C:/Users/grant/OneDrive/Documents/GitHub/biomedical-analytics-clinical-operations/projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct03_longitudinal_biomarker_trial_analysis/results/primary_model.rds` (OK)
-- **Secondary models (RDS)**: `C:/Users/grant/OneDrive/Documents/GitHub/biomedical-analytics-clinical-operations/projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct03_longitudinal_biomarker_trial_analysis/results/secondary_models.rds` (OK)
-- **Table 1 object (RDS)**: `C:/Users/grant/OneDrive/Documents/GitHub/biomedical-analytics-clinical-operations/projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct03_longitudinal_biomarker_trial_analysis/results/table1_baseline.rds` (OK)
-- **EMMEANS (CSV)**: `C:/Users/grant/OneDrive/Documents/GitHub/biomedical-analytics-clinical-operations/projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct03_longitudinal_biomarker_trial_analysis/tables/primary_emmeans_by_visit.csv` (OK)
-- **PH test (CSV)**: `C:/Users/grant/OneDrive/Documents/GitHub/biomedical-analytics-clinical-operations/projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct03_longitudinal_biomarker_trial_analysis/tables/diagnostics_ph_test.csv` (MISSING)
-- **CT01 interaction OR (CSV)**: `C:/Users/grant/OneDrive/Documents/GitHub/biomedical-analytics-clinical-operations/projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct03_longitudinal_biomarker_trial_analysis/tables/interaction_or_by_severity.csv` (MISSING)
-- **CT02 interaction HR (CSV)**: `C:/Users/grant/OneDrive/Documents/GitHub/biomedical-analytics-clinical-operations/projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct03_longitudinal_biomarker_trial_analysis/tables/interaction_hr_by_severity.csv` (MISSING)
+- **Primary model (RDS)**: `C:/Dev/biomedical-analytics-clinical-operations/projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct03_longitudinal_biomarker_trial_analysis/results/primary_model.rds` (OK)
+- **Secondary models (RDS)**: `C:/Dev/biomedical-analytics-clinical-operations/projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct03_longitudinal_biomarker_trial_analysis/results/secondary_models.rds` (OK)
+- **Table 1 object (RDS)**: `C:/Dev/biomedical-analytics-clinical-operations/projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct03_longitudinal_biomarker_trial_analysis/results/table1_baseline.rds` (OK)
+- **EMMEANS (CSV)**: `C:/Dev/biomedical-analytics-clinical-operations/projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct03_longitudinal_biomarker_trial_analysis/tables/primary_emmeans_by_visit.csv` (OK)
+- **PH test (CSV)**: `C:/Dev/biomedical-analytics-clinical-operations/projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct03_longitudinal_biomarker_trial_analysis/tables/diagnostics_ph_test.csv` (MISSING)
+- **CT01 interaction OR (CSV)**: `C:/Dev/biomedical-analytics-clinical-operations/projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct03_longitudinal_biomarker_trial_analysis/tables/interaction_or_by_severity.csv` (MISSING)
+- **CT02 interaction HR (CSV)**: `C:/Dev/biomedical-analytics-clinical-operations/projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct03_longitudinal_biomarker_trial_analysis/tables/interaction_hr_by_severity.csv` (MISSING)
 
 QC artifacts referenced:
-- `C:/Users/grant/OneDrive/Documents/GitHub/biomedical-analytics-clinical-operations/projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct03_longitudinal_biomarker_trial_analysis/results/QC_02_data_cleaning.txt`
-- `C:/Users/grant/OneDrive/Documents/GitHub/biomedical-analytics-clinical-operations/projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct03_longitudinal_biomarker_trial_analysis/results/QC_03_table1.txt` (if present)
-- `C:/Users/grant/OneDrive/Documents/GitHub/biomedical-analytics-clinical-operations/projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct03_longitudinal_biomarker_trial_analysis/results/QC_04_primary_analysis.txt`
-- `C:/Users/grant/OneDrive/Documents/GitHub/biomedical-analytics-clinical-operations/projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct03_longitudinal_biomarker_trial_analysis/results/QC_05_secondary_analyses.txt`
+- `C:/Dev/biomedical-analytics-clinical-operations/projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct03_longitudinal_biomarker_trial_analysis/results/QC_02_data_cleaning.txt`
+- `C:/Dev/biomedical-analytics-clinical-operations/projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct03_longitudinal_biomarker_trial_analysis/results/QC_03_table1.txt` (if present)
+- `C:/Dev/biomedical-analytics-clinical-operations/projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct03_longitudinal_biomarker_trial_analysis/results/QC_04_primary_analysis.txt`
+- `C:/Dev/biomedical-analytics-clinical-operations/projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct03_longitudinal_biomarker_trial_analysis/results/QC_05_secondary_analyses.txt`

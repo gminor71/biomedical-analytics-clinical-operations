@@ -215,3 +215,18 @@ if (dir.exists(ref_misc)) {
   file.copy(out_md,  file.path(ref_misc, basename(out_md)),  overwrite = TRUE)
   file.copy(out_txt, file.path(ref_misc, basename(out_txt)), overwrite = TRUE)
 }
+
+# Also drop narrative into the latest timestamped packet misc (if known)
+latest_file <- file.path(PATHS$results, "LATEST_PACKET_DIR.txt")
+latest_packet <- NA_character_
+
+if (file.exists(latest_file)) {
+  latest_packet <- readLines(latest_file, warn = FALSE)[1]
+}
+
+if (!is.na(latest_packet) && dir.exists(latest_packet)) {
+  latest_misc <- file.path(latest_packet, "misc")
+  dir.create(latest_misc, recursive = TRUE, showWarnings = FALSE)
+  file.copy(out_md,  file.path(latest_misc, basename(out_md)),  overwrite = TRUE)
+  file.copy(out_txt, file.path(latest_misc, basename(out_txt)), overwrite = TRUE)
+}

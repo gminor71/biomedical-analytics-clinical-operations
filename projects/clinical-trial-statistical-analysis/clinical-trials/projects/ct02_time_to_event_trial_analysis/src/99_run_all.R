@@ -1,5 +1,5 @@
 # src/99_run_all.R
-# Purpose: Run full CT03 analysis pipeline and verify QC completion
+# Purpose: Run full CT02 analysis pipeline and verify QC completion
 
 scripts <- c(
   "src/01_data_import.R",

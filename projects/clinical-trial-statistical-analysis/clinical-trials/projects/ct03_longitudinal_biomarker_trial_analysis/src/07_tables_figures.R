@@ -58,8 +58,10 @@ qc_assert(length(missing_required) == 0,
 # Narrative is optional here (08 may create it after 07 runs)
 narrative_existing <- artifacts$narrative[file.exists(artifacts$narrative)]
 
-copy_into_checked <- function(paths, out_dir) {
+copy_into <- function(paths, root_dir, subdir) {
+  out_dir <- file.path(root_dir, subdir)
   dir.create(out_dir, recursive = TRUE, showWarnings = FALSE)
+  
   ok <- file.copy(paths, out_dir, overwrite = TRUE)
   if (!all(ok)) {
     stop(
@@ -73,23 +75,27 @@ copy_into_checked <- function(paths, out_dir) {
 Sys.sleep(1)
 
 # ---- Copy into timestamped packet ----
-copy_into_checked(artifacts$tables,  file.path(packet_dir, "tables"))
-copy_into_checked(artifacts$figures, file.path(packet_dir, "figures"))
-copy_into_checked(artifacts$models,  file.path(packet_dir, "models"))
-copy_into_checked(artifacts$qc,      file.path(packet_dir, "qc"))
-copy_into_checked(artifacts$misc,    file.path(packet_dir, "misc"))
+# ---- Copy into timestamped packet ----
+copy_into(artifacts$tables,  packet_dir, "tables")
+copy_into(artifacts$figures, packet_dir, "figures")
+copy_into(artifacts$models,  packet_dir, "models")
+copy_into(artifacts$qc,      packet_dir, "qc")
+copy_into(artifacts$misc,    packet_dir, "misc")
+
 if (length(narrative_existing) > 0) {
-  copy_into_checked(narrative_existing, file.path(packet_dir, "misc"))
+  copy_into(narrative_existing, packet_dir, "misc")
 }
 
 # ---- Copy into reference packet (portfolio) ----
-copy_into_checked(artifacts$tables,  file.path(ref_dir, "tables"))
-copy_into_checked(artifacts$figures, file.path(ref_dir, "figures"))
-copy_into_checked(artifacts$models,  file.path(ref_dir, "models"))
-copy_into_checked(artifacts$qc,      file.path(ref_dir, "qc"))
-copy_into_checked(artifacts$misc,    file.path(ref_dir, "misc"))
+# ---- Copy into reference packet (portfolio) ----
+copy_into(artifacts$tables,  ref_dir, "tables")
+copy_into(artifacts$figures, ref_dir, "figures")
+copy_into(artifacts$models,  ref_dir, "models")
+copy_into(artifacts$qc,      ref_dir, "qc")
+copy_into(artifacts$misc,    ref_dir, "misc")
+
 if (length(narrative_existing) > 0) {
-  copy_into_checked(narrative_existing, file.path(ref_dir, "misc"))
+  copy_into(narrative_existing, ref_dir, "misc")
 }
 
 # ---- INDEX (write in both places) ----
@@ -154,3 +160,39 @@ qc_write(c(
 message("✅ Timestamped packet created: ", packet_dir)
 message("✅ Reference packet refreshed: ", ref_dir)
 message("✅ QC report written: ", qc_path)
+
+# Record latest packet directory for downstream steps (08)
+latest_path <- file.path(PATHS$results, "LATEST_PACKET_DIR.txt")
+writeLines(packet_dir, latest_path, useBytes = TRUE)
+
+# =========================
+# Refresh packet_reference_output to mirror latest packet (no narrative yet)
+# =========================
+ref_dir <- file.path(PATHS$results, "packet_reference_output")
+
+if (dir.exists(ref_dir)) {
+  unlink(
+    list.files(ref_dir, full.names = TRUE, all.files = TRUE, no.. = TRUE),
+    recursive = TRUE,
+    force = TRUE
+  )
+} else {
+  dir.create(ref_dir, recursive = TRUE, showWarnings = FALSE)
+}
+
+copy_recursive <- function(from, to) {
+  dir.create(to, recursive = TRUE, showWarnings = FALSE)
+  items <- list.files(from, full.names = TRUE, all.files = TRUE, no.. = TRUE)
+  for (p in items) {
+    dest <- file.path(to, basename(p))
+    if (dir.exists(p)) {
+      copy_recursive(p, dest)
+    } else {
+      ok <- file.copy(p, dest, overwrite = TRUE)
+      if (!isTRUE(ok)) warning("Failed to copy into reference packet: ", p)
+    }
+  }
+}
+
+copy_recursive(packet_dir, ref_dir)
+message("✅ Reference packet refreshed: ", ref_dir)

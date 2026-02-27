@@ -307,33 +307,6 @@ message("✅ Results packet created: ", packet_dir)
 message("✅ INDEX written: ", index_path)
 message("✅ QC report written: ", qc_path)
 
-# =========================
-# Update packet_reference_output to mirror latest packet
-# =========================
-ref_dir <- file.path(PATHS$results, "packet_reference_output")
-
-# Clean reference dir (but keep the folder)
-if (dir.exists(ref_dir)) {
-  unlink(list.files(ref_dir, full.names = TRUE, all.files = TRUE, no.. = TRUE), recursive = TRUE, force = TRUE)
-} else {
-  dir.create(ref_dir, recursive = TRUE, showWarnings = FALSE)
-}
-
-# Copy the entire packet structure into reference dir
-copy_recursive <- function(from, to) {
-  dir.create(to, recursive = TRUE, showWarnings = FALSE)
-  items <- list.files(from, full.names = TRUE, all.files = TRUE, no.. = TRUE)
-  for (p in items) {
-    dest <- file.path(to, basename(p))
-    if (dir.exists(p)) {
-      copy_recursive(p, dest)
-    } else {
-      ok <- file.copy(p, dest, overwrite = TRUE)
-      if (!isTRUE(ok)) warning("Failed to copy into reference packet: ", p)
-    }
-  }
-}
-
-copy_recursive(packet_dir, ref_dir)
-
-message("✅ Reference packet refreshed: ", ref_dir)
+# Record latest packet directory for downstream steps (08)
+latest_path <- file.path(PATHS$results, "LATEST_PACKET_DIR.txt")
+writeLines(packet_dir, latest_path, useBytes = TRUE)
