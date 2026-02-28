@@ -1,0 +1,4 @@
+QC_02_data_cleaning: OK
+02_analysis_ready.rds exists: TRUE
+Subjects: 500 (unique 500)
+PK rows: 4500 (unique 500)

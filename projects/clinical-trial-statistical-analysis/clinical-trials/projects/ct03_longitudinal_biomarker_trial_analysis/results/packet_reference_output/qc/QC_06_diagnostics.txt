@@ -1,0 +1,10 @@
+QC: 06_diagnostics.R (CT03 mixed model diagnostics)
+Run at: 2026-02-27 16:19:00.166799
+
+Model rows (mf): 2220
+
+Saved residual table: C:/Dev/biomedical-analytics-clinical-operations/projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct03_longitudinal_biomarker_trial_analysis/results/diagnostics_residuals_summary.csv
+Saved figures:
+  C:/Dev/biomedical-analytics-clinical-operations/projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct03_longitudinal_biomarker_trial_analysis/figures/diag_resid_vs_fitted.png
+  C:/Dev/biomedical-analytics-clinical-operations/projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct03_longitudinal_biomarker_trial_analysis/figures/diag_resid_qq.png
+  C:/Dev/biomedical-analytics-clinical-operations/projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct03_longitudinal_biomarker_trial_analysis/figures/diag_ranef_intercepts.png

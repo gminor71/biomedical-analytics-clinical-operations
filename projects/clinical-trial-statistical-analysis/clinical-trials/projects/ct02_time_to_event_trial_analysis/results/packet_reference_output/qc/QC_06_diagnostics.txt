@@ -1,0 +1,29 @@
+QC: 06_diagnostics.R (CT02 Cox model diagnostics)
+Run at: 2026-02-27 16:17:48.328075
+
+Model class: coxph
+Complete-case N used by model (model.frame): 500
+
+Artifacts saved:
+  KM plot: C:/Dev/biomedical-analytics-clinical-operations/projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct02_time_to_event_trial_analysis/figures/km_by_trt.png
+  PH test table: C:/Dev/biomedical-analytics-clinical-operations/projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct02_time_to_event_trial_analysis/tables/diagnostics_ph_test.csv
+  Schoenfeld plot (trt): C:/Dev/biomedical-analytics-clinical-operations/projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct02_time_to_event_trial_analysis/figures/ph_schoenfeld_trt.png
+  Influence summary: C:/Dev/biomedical-analytics-clinical-operations/projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct02_time_to_event_trial_analysis/results/diagnostics_influence_summary.csv
+
+PH test GLOBAL p-value: 0.6305 (rule-of-thumb concern if < 0.05)
+
+Influence rule-of-thumb: |dfbeta_trtActive| > 2/sqrt(n) = 0.08944
+Flagged observations: 0
+
+Top 10 by |dfbeta_trtActive|:
+   row_id usubjid dfbeta_trtActive flag_high_dfbeta
+1       1    <NA>               NA               NA
+2       2    <NA>               NA               NA
+3       3    <NA>               NA               NA
+4       4    <NA>               NA               NA
+5       5    <NA>               NA               NA
+6       6    <NA>               NA               NA
+7       7    <NA>               NA               NA
+8       8    <NA>               NA               NA
+9       9    <NA>               NA               NA
+10     10    <NA>               NA               NA

@@ -1,0 +1,37 @@
+QC: 05_secondary_analyses.R (Secondary / Sensitivity Analyses - Cox PH)
+Run at: 2026-02-27 16:15:37.708574
+
+N (analysis-ready ITT): 500
+N (complete-case used in secondary models): 500
+
+N by treatment (analysis-ready ITT):
+Control: 246
+Active: 254
+
+Events by treatment (analysis-ready ITT; sanity only):
+Control: 196
+Active: 168
+
+Event rate by treatment (analysis-ready ITT; sanity only):
+Control: 0.7967
+Active: 0.6614
+
+Median follow-up time by treatment (analysis-ready ITT; sanity only):
+Control: 165.4
+Active: 244.1
+
+Sensitivity Cox model: Surv(time,status) ~ trt + age + sex
+  HR (Active vs Control) = 0.6737 | 95% CI [0.5478, 0.8286]
+
+Exploratory interaction Cox model: ... + baseline_severity + trt:baseline_severity
+  Interaction term HR per 1-unit severity = 1.0038 | 95% CI [0.9832, 1.0248]
+
+HR(Active vs Control) at representative baseline severities (delta method):
+  sev        HR    CI_low   CI_high
+1  40 0.6461887 0.4760448 0.8771441
+2  50 0.6712365 0.5453552 0.8261741
+3  60 0.6972551 0.5264836 0.9234186
+
+Saved: C:/Dev/biomedical-analytics-clinical-operations/projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct01_binary_endpoint_trial_analysis/tables/secondary_models.html
+Saved: C:/Dev/biomedical-analytics-clinical-operations/projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct01_binary_endpoint_trial_analysis/tables/interaction_hr_by_severity.csv
+Saved: C:/Dev/biomedical-analytics-clinical-operations/projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct01_binary_endpoint_trial_analysis/results/secondary_models.rds

@@ -1,0 +1,10 @@
+QC: 05_secondary_analyses.R (CT03 longitudinal)
+Run at: 2026-02-27 16:18:58.228081
+
+Rows used: 2220
+Subjects used: 500
+
+Random slope model fit: OK
+
+Saved table: C:/Dev/biomedical-analytics-clinical-operations/projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct03_longitudinal_biomarker_trial_analysis/tables/secondary_models.html
+Saved models: C:/Dev/biomedical-analytics-clinical-operations/projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct03_longitudinal_biomarker_trial_analysis/results/secondary_models.rds

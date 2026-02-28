@@ -56,30 +56,31 @@ renv.lock
 # Generated analysis outputs
 # -----------------------------
 
-# Raw data (not version controlled)
-projects/*/data/raw/
+# Ignore ALL results outputs by default
+projects/*/results/**
+projects/clinical-trial-statistical-analysis/**/projects/*/results/**
 
-# Generated reports and packets
-projects/*/results/packet_*/
-projects/*/results/*.html
-projects/*/results/*.txt
-projects/*/results/*.csv
+# Re-include results/ folders so exceptions below can apply
+!projects/*/results/
+!projects/clinical-trial-statistical-analysis/**/projects/*/results/
 
-# Allow curated reference output packets
+# Keep results README files
+!projects/*/results/README.md
+!projects/*/results/README.MD
+!projects/*/results/README.txt
+!projects/*/results/README.Rmd
+
+!projects/clinical-trial-statistical-analysis/**/projects/*/results/README.md
+!projects/clinical-trial-statistical-analysis/**/projects/*/results/README.MD
+!projects/clinical-trial-statistical-analysis/**/projects/*/results/README.txt
+!projects/clinical-trial-statistical-analysis/**/projects/*/results/README.Rmd
+
+# Keep curated reference packets ONLY
 !projects/*/results/packet_reference_output/
 !projects/*/results/packet_reference_output/**
 
-# Allow files inside the reference packet
-!projects/*/results/packet_reference_output/*.html
-!projects/*/results/packet_reference_output/*.txt
-!projects/*/results/packet_reference_output/*.csv
- ---- Rendered TFL outputs ----
-projects/*/rmd/tfl_shells/final/
+!projects/clinical-trial-statistical-analysis/**/projects/*/results/packet_reference_output/
+!projects/clinical-trial-statistical-analysis/**/projects/*/results/packet_reference_output/**
 
-# CT project raw data & generated outputs (nested under clinical-trials)
-projects/clinical-trial-statistical-analysis/**/projects/*/data/raw/
-
-projects/clinical-trial-statistical-analysis/**/projects/*/results/packet_*/
-projects/clinical-trial-statistical-analysis/**/projects/*/results/*.html
-projects/clinical-trial-statistical-analysis/**/projects/*/results/*.txt
-projects/clinical-trial-statistical-analysis/**/projects/*/results/*.csv
+# Raw data (ignore)
+projects/clinical-trial-statistical-analysis/clinical-trials/projects/*/data/raw/

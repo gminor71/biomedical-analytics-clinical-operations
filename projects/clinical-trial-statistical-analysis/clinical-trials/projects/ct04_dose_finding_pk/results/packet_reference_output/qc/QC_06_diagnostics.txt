@@ -1,0 +1,3 @@
+QC_06_diagnostics: OK
+Diagnostics dir exists: TRUE
+Summary note exists: TRUE

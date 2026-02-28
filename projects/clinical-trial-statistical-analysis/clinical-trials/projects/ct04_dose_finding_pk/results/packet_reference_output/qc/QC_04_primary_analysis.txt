@@ -1,0 +1,4 @@
+QC_04_primary_analysis: OK
+04_pk_params.rds exists: TRUE
+04_primary_exposure_summary.csv exists: TRUE
+PK params rows: 500

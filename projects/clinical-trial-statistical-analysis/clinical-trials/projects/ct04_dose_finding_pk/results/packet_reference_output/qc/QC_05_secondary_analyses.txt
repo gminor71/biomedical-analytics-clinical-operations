@@ -1,0 +1,6 @@
+QC_05_secondary_analyses: OK
+05_dose_proportionality_results.csv exists: TRUE
+05_exposure_response_results.csv exists: TRUE
+05_safety_by_dose_summary.csv exists: TRUE
+Dose proportionality model RDS exists: TRUE
+Exposure-response model RDS exists: TRUE
