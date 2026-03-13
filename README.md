@@ -78,6 +78,7 @@ Together these components model the full clinical research lifecycle:
 **operations → data generation → statistical analysis → analytical decision support**.
 
 # Program map
+
 ```mermaid
 flowchart LR
     A[Clinical Trials Operations System<br/>Handbook and Operational Reference]
