@@ -1,21 +1,22 @@
-# CT02 Results Packet
+# CT01 Results Packet
 
-Generated: 2026-02-27 16:15:39.150328
+Generated: 2026-02-28 11:42:49.945801
 
 ## Tables
 - [Table 1 – Baseline](tables/table1_baseline.html)
-- [Primary Cox model – HRs](tables/primary_model.html)
-- [Secondary Cox models](tables/secondary_models.html)
+- [Primary model – ORs](tables/primary_model.html)
+- [Secondary models](tables/secondary_models.html)
 
-## Figures
-- [Kaplan–Meier curve by treatment](figures/km_by_trt.png)
-- [Kaplan–Meier risk table](figures/km_by_trt_risktable.png)
-- [Schoenfeld residuals: trt (PH check)](figures/ph_schoenfeld_trt.png)
+## Figures (Diagnostics)
+- [Residuals vs fitted](figures/diag_residuals_vs_fitted.png)
+- [Q-Q standardized deviance residuals](figures/diag_std_residuals_qq.png)
+- [Cook's distance](figures/diag_cooks_distance.png)
+- [Leverage](figures/diag_leverage.png)
 
 ## Key CSVs
-- [Interaction HR by baseline severity](misc/interaction_hr_by_severity.csv)
-- [Proportional hazards test (cox.zph)](misc/diagnostics_ph_test.csv)
-- [Influence summary (dfbeta)](misc/diagnostics_influence_summary.csv)
+- [Interaction OR by baseline severity](misc/interaction_or_by_severity.csv)
+- [Influence summary](misc/diagnostics_influence_summary.csv)
+- [VIF / GVIF](misc/diagnostics_vif.csv)
 
 ## Model Objects (RDS)
 - `models/primary_model.rds`
@@ -30,5 +31,5 @@ Generated: 2026-02-27 16:15:39.150328
 
 ## Notes
 - Table 1 is descriptive only (no p-values).
-- Primary model aligns to SAP: Cox proportional hazards adjusted for age, sex, baseline severity.
+- Primary model aligns to SAP: logistic regression adjusted for age, sex, baseline severity.
 - Secondary includes sensitivity (drop baseline severity) and exploratory interaction.

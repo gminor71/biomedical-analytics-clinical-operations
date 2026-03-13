@@ -1,5 +1,5 @@
 QC: 03_eda.R (Table 1)
-Run at: 2026-02-27 16:15:31.050401
+Run at: 2026-02-28 11:42:40.186632
 
 N by treatment (must match Table 1 headers):
 

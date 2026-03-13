@@ -1,11 +1,11 @@
-# CT02 - TIME-TO-EVENT TRIAL Results Narrative
+# CT01 - BINARY ENDPOINT TRIAL Results Narrative
 
-Generated: 2026-02-27 16:15:44
+Generated: 2026-02-28 11:42:50
 
 ## Executive Summary
-- Primary estimand: Adjusted HR (Active vs Control): 0.67 (95% CI 0.55–0.83); p=<0.001.
+- Primary estimand: Adjusted OR (Active vs Control): 0.58 (95% CI 0.32–1.03); p=0.065.
 - Sensitivity and secondary analyses were reviewed for consistency with the primary conclusion.
-- Diagnostics: The proportional hazards assumption was assessed using Schoenfeld residuals (global p=0.630).
+- Diagnostics: The primary model converged and standard model checks were reviewed (influence and collinearity outputs).
 
 ## Analysis Set and Data Overview
 The primary analysis was conducted in the intention-to-treat (ITT) population (all randomized subjects analyzed by assigned treatment).
@@ -15,13 +15,13 @@ Key QC outputs were used as the source of truth for dataset integrity and analys
 Baseline characteristics were summarized descriptively by treatment group (Table 1). No hypothesis testing was performed for baseline comparisons.
 
 ## Primary Efficacy Results
-In the primary adjusted Cox proportional hazards model (adjusted for age, sex, and baseline severity), Active treatment was associated with a hazard ratio of 0.67 (95% CI 0.55–0.83) compared with Control (p=<0.001).
+In the primary adjusted logistic regression model (adjusted for age, sex, and baseline severity), Active treatment was associated with an adjusted odds ratio of 0.58 (95% CI 0.32–1.03) compared with Control (p=0.065).
 
 ## Secondary and Sensitivity Analyses
 Secondary and sensitivity analyses (as prespecified) were generated to evaluate robustness of the primary findings and explore effect modification.
 
 ## Model Diagnostics and Assumptions
-The proportional hazards assumption was assessed using Schoenfeld residuals (global p=0.630).
+The primary model converged and standard model checks were reviewed (influence and collinearity outputs).
 
 ## Conclusion
 Overall, the primary model and prespecified supportive analyses provide the basis for the study interpretation. Results should be interpreted in the context of model assumptions and the exploratory nature of interaction assessments.
