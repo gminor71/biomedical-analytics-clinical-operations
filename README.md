@@ -83,7 +83,7 @@ Together these components model the full clinical research lifecycle:
 flowchart LR
     A[Clinical Trials Operations System<br/>Handbook and Operational Reference]
       --> B[Clinical Operations Simulations<br/>CRA Training and Execution Practice]
-      --> C[Clinical Trial Statistical Analysis (CT Projects)<br/>Biostatistical Workflows and TFL Reporting]
+      --> C[Clinical Trial Statistical Analysis<br/>CT Projects, Biostatistical Workflows, and TFL Reporting]
       --> D[AI and Advanced Analytics Projects<br/>Decision Support and Predictive Modeling]
 ```
 
