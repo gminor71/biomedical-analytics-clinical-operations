@@ -1,25 +1,102 @@
-Biomedical Analytics & Clinical Operations
+# Biomedical Analytics and Clinical Operations
 
-Focused on entry-level biostatistics and clinical research roles supporting data-driven clinical trial execution and analysis.
+Integrated portfolio demonstrating clinical research operations, biostatistics, 
+and analytics workflows across the clinical trial lifecycle.
+Focused on entry-level clinical research operations (CRA pathway) and 
+biostatistics roles supporting data-driven clinical trial execution and analysis.
 
-Portfolio demonstrating applied biostatistical analysis, clinical trial analytics, and responsible use of machine learning and AI in regulated biomedical research environments. Projects demonstrate statistical modeling, clinical operations workflows, and responsible use of AI for clinical research and decision support.
 
 Quick Navigation
 
 -  [Clinical Analytics Workflow](#clinical-analytics-workflow)
--  [Clinical Analytics Projects](#clinical-analytics-projects)
+-  [Clinical Operations and Analytics Projects](#clinical-operations-and-analytics-projects)
 -  [Methods Library](#methods-library)
 -  [Clinical Context](#clinical-context)
--  [Tools & Technologies](#tools--technologies)
+-  [Tools and Technologies](#tools-and-technologies)
 -  [About](#about)
+
+## Program Narrative
+
+This repository is structured as an integrated clinical research learning
+program that follows the lifecycle of modern clinical trials — 
+from operational execution to statistical analysis and advanced analytics.
+
+The program begins with clinical operations frameworks and CRA-oriented 
+simulations that model how studies are executed at the site and project level. 
+These activities generate the clinical data foundation that supports downstream 
+biostatistical analysis, reproducible reporting, and analytical decision-making.
+
+Clinical trial statistical analysis projects demonstrate how operationally 
+generated data is transformed into evidence through structured workflows, 
+Tables/Figures/Listings (TFLs), and validated analytical methods. 
+Advanced analytics and AI projects extend this work by exploring how 
+machine learning can responsibly support — but not replace — statistical 
+reasoning and clinical decision-making.
+
+Together, these components represent a systems-level approach to clinical 
+research where operations, data quality, biostatistics, and analytics are 
+treated as interconnected parts of a single clinical development process.
+
+## Program Structure
+
+The repository is organized as a modular clinical research program where 
+each component represents a stage in the clinical trial lifecycle.
+
+biomedical-analytics-clinical-operations/
+│
+├── clinical-trials-operations-system
+│   Operational handbook and reference framework for clinical trial execution
+│
+├── projects
+│   ├── clinical-operations-simulations
+│   │   CRA monitoring simulations and operational scenario exercises
+│   │
+│   └── clinical-trial-statistical-analysis
+│       Reproducible clinical trial statistical workflows and TFL reporting
+│
+├── methods-library
+│   Reusable statistical methods and project templates
+│
+└── resources
+    Program-level documentation standards and references
+
+### Program Orientation
+
+* **[Clinical Trials Operations System](clinical-trials-operations-system)**  
+  Operational handbook and reference framework for clinical trial execution.
+
+* **[Clinical Operations Simulations](projects/clinical-operations-simulations)**  
+  CRA-focused monitoring simulations modeling realistic site oversight and operational workflows.
+
+* **[Clinical Trial Statistical Analysis (CT Projects)](projects/clinical-trial-statistical-analysis)**  
+  Reproducible biostatistical analysis workflows including TFL generation and clinical reporting.
+
+* **AI and Advanced Analytics Projects** *(in development)*  
+  Exploration of responsible machine learning approaches supporting clinical research decision-making.
+
+Together these components model the full clinical research lifecycle:
+**operations → data generation → statistical analysis → analytical decision support**.
+
+# Program map
+```mermaid
+flowchart LR
+    A[Clinical Trials Operations System<br/>Handbook and Operational Reference]
+      --> B[Clinical Operations Simulations<br/>CRA Training and Execution Practice]
+      --> C[Clinical Trial Statistical Analysis (CT Projects)<br/>Biostatistical Workflows and TFL Reporting]
+      --> D[AI and Advanced Analytics Projects<br/>Decision Support and Predictive Modeling]
+```
 
 # Clinical Analytics Workflow
 
 ```mermaid
 flowchart LR
-    A[Clinical Trial Data<br/>EDC, Labs, Outcomes] --> B[Biostatistical Analysis<br/>Modeling & Validation]
-    B --> C[Machine Learning & AI Support<br/>Prediction & Pattern Detection]
-    C --> D[Clinical & Operational Decisions<br/>Monitoring, Risk Assessment, Study Execution]
+    A[Clinical Operations<br/>Sites, Monitoring, Protocol Compliance]
+      --> B[Clinical Trial Data<br/>EDC, Labs, Outcomes]
+      --> C[Biostatistical Analysis<br/>Modeling and Validation]
+      --> D[AI and Machine Learning Support<br/>Prediction and Pattern Detection]
+      --> E[Clinical and Operational Decisions<br/>Risk Assessment and Study Execution]
+
+    E --> A
 ```
 
 # Analytical Principles
@@ -28,36 +105,52 @@ Work in this portfolio follows core biostatistical and clinical research princip
 
 - Statistical validity and reproducibility prioritized over model complexity
 - Clinical interpretability emphasized in model selection and evaluation
-- AI and machine learning used as decision-support tools, not replacements for statistical reasoning
-- Analytical methods aligned with clinical trial workflows and regulatory expectations
+- AI and machine learning used as decision-support tools, not replacements 
+for statistical reasoning
+- Analytical methods aligned with clinical trial workflows and 
+regulatory expectations
 - Transparent documentation and reproducible analysis pipelines
 
 ## Areas of Work
 
-# Clinical Analytics Projects
+## Clinical Operations and Analytics Projects
 
-The projects below demonstrate complementary components of clinical research workflows, spanning clinical trial operations, statistical analysis, and reproducible reporting. Together they illustrate how study execution and biostatistical analysis interact within modern clinical research environments.
+### Clinical Trials Operations System
+Documentation-driven clinical trial operations framework demonstrating study 
+organization, site management structure, and operational workflows 
+aligned with clinical research execution.
 
-- Clinical Trials Operations System
+### Clinical Operations Simulations
+Scenario-based CRA monitoring simulations modeling realistic trial environments
+including site oversight, query management, and risk-based monitoring.
 
-Documentation-driven clinical trial operations framework demonstrating study organization, site management structure, and operational workflows aligned with clinical research execution.
+### Clinical Trial Statistical Analysis
+Structured clinical trial analysis workflows demonstrating reproducible
+statistical modeling, Tables/Figures/Listings (TFL) generation,
+and clinical reporting.
 
-- Clinical Trial Statistical Analysis
+### Clinical Outcome Prediction *(in progress)*
+Exploration of predictive modeling approaches for clinical outcomes using 
+trial-derived datasets.
 
-Demonstrates a structured clinical trial analysis workflow including binary, time-to-event, and longitudinal endpoint analyses using reproducible Tables, Figures, and Listings (TFL)-oriented reporting.
+### AI-Assisted Clinical Risk Monitoring *(planned)*
+Investigation of machine learning approaches to support risk-based monitoring 
+and site performance assessment.
 
-- Clinical Outcome Prediction (in progress)
-- AI-Assisted Clinical Risk Monitoring (planned)
-- Clinical NLP Tools (planned)
+### Clinical NLP Tools *(planned)*
+Exploration of natural language processing approaches for clinical documentation
+and research data extraction.
 
 # Methods Library
 
-Reusable analytical methods supporting project work.
+### Survival Analysis Workflows
+Reusable implementations of time-to-event analysis methods commonly used in clinical trials.
 
-- Survival analysis workflows
-- Model validation & calibration
-- Missing data approaches
-- Reproducible analysis templates
+### Model Validation and Calibration
+Methods supporting evaluation of predictive models in biomedical datasets.
+
+### Missing Data Approaches
+Strategies for handling incomplete clinical data within reproducible analysis pipelines.
 
 # Clinical Context
 
@@ -68,7 +161,7 @@ Short technical notes connecting analytics to trial execution.
 - AI considerations in regulated research
 
 
-# Tools & Technologies
+# Tools and Technologies
 - Python (pandas, scikit-learn)
 - R (survival, tidyverse)
 - Quarto
@@ -78,7 +171,12 @@ Short technical notes connecting analytics to trial execution.
 
 # About
 
-Biomedical sciences and biostatistics-focused professional with academic training in clinical research and project management experience. Portfolio emphasizes practical application of statistical and AI methods within clinical trial environments.
+Biomedical sciences and biostatistics-focused professional with academic training 
+in clinical research and project management experience. 
+Portfolio emphasizes practical application of statistical and 
+AI methods within clinical trial environments.
+Current focus is building practical clinical research associate (CRA) 
+competencies alongside biostatistical analysis skills. 
 
 # Related Project
 
