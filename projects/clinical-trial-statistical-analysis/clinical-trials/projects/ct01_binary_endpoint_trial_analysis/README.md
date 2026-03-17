@@ -44,3 +44,14 @@ From the project root:
 1. `source("src/00_setup.R")`
 2. `source("src/01_data_import.R")`
 3. Run remaining scripts in numeric order
+
+## Related Methods
+
+- Logistic Regression Assumptions  
+  → ../../methods-library/model-assumptions/logistic_regression_assumptions.md
+
+- How to Read Logistic Output  
+  → ../../methods-library/tfl-interpretation/how_to_read_logistic_output.md
+
+- Binary Endpoint Method Selection  
+  → ../../methods-library/statistical-decision-guides/binary_endpoint_method_selection.md

@@ -44,3 +44,14 @@ Time from randomization to event or censoring.
 ## How to run
 From the project root:
 1. `source("src/99_run_all.R")`
+
+## Related Methods
+
+- Cox PH Assumptions & Diagnostics  
+  → ../../methods-library/model-assumptions/cox_ph_assumptions.md
+
+- Kaplan-Meier Interpretation  
+  → ../../methods-library/tfl-interpretation/how_to_read_kaplan_meier.md
+
+- Time-to-Event Method Selection  
+  → ../../methods-library/statistical-decision-guides/time_to_event_method_selection.md
