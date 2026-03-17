@@ -2,7 +2,8 @@
 
 ## Phase Purpose
 
-This phase represents steady-state trial execution with active enrollment and routine monitoring activities.
+This phase represents steady-state trial execution with active enrollment and 
+routine monitoring activities.
 
 Operational trends become clearer and workload increases.
 
