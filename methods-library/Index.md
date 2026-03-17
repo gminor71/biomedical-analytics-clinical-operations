@@ -52,11 +52,11 @@ Guides for interpreting Tables, Listings, and Figures (TFLs).
 
 ### Binary Outcomes
 
-* [How to Read Logistic Regression Output](./tfl-interpretation/how_to_read_logistic_output.md)
+* [How to Read Logistic Regression Output](./tfl-interpretation/reading_logistic_regression_output.md)
 
 ### Time-to-Event Outcomes
 
-* [How to Read a Kaplan-Meier Curve](./tfl-interpretation/how_to_read_kaplan_meier.md)
+* [How to Read a Kaplan-Meier Curve](./tfl-interpretation/reading_kaplan_meier_curve.md)
 
 ---
 
