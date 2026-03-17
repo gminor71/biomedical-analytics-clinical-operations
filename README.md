@@ -44,10 +44,10 @@ each component represents a stage in the clinical trial lifecycle.
 
 biomedical-analytics-clinical-operations/
 │
-├── clinical-trials-operations-system
-│   Operational handbook and reference framework for clinical trial execution
-│
 ├── projects
+│   ├── clinical-trials-operations-system
+│   │   Operational handbook and reference framework for clinical trial execution
+│   │
 │   ├── clinical-operations-simulations
 │   │   CRA monitoring simulations and operational scenario exercises
 │   │
@@ -62,7 +62,7 @@ biomedical-analytics-clinical-operations/
 
 ### Program Orientation
 
-* **[Clinical Trials Operations System](clinical-trials-operations-system)**  
+* **[Clinical Trials Operations System](projects/clinical-trials-operations-system)**  
   Operational handbook and reference framework for clinical trial execution.
 
 * **[Clinical Operations Simulations](projects/clinical-operations-simulations)**  
@@ -117,9 +117,10 @@ regulatory expectations
 ## Clinical Operations and Analytics Projects
 
 ### Clinical Trials Operations System
-Documentation-driven clinical trial operations framework demonstrating study 
-organization, site management structure, and operational workflows 
-aligned with clinical research execution.
+A structured clinical trial operations framework that serves as the 
+operational foundation of this program. Includes monitoring workflows, 
+site management structures, CRA training simulations, and operational 
+documentation aligned with real-world clinical trial execution.
 
 ### Clinical Operations Simulations
 Scenario-based CRA monitoring simulations modeling realistic trial environments
@@ -179,7 +180,10 @@ AI methods within clinical trial environments.
 Current focus is building practical clinical research associate (CRA) 
 competencies alongside biostatistical analysis skills. 
 
-# Related Project
+### Clinical Trials Operations System
 
-Clinical Trials Operations System (live binder):
-https://gminor71.github.io/clinical-trials-operations-system/
+- Live Documentation (Recommended View):
+  https://gminor71.github.io/clinical-trials-operations-system/
+
+- Source Files:
+  https://github.com/gminor71/biomedical-analytics-clinical-operations/tree/main/projects/clinical-trials-operations-system
