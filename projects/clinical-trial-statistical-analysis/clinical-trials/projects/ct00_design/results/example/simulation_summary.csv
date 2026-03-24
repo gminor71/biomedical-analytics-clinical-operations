@@ -1,0 +1,2 @@
+"nsim","mean_prop_control","mean_prop_treatment","mean_risk_difference","true_risk_difference","bias_risk_difference","empirical_power","mean_odds_ratio","median_odds_ratio"
+5000,0.300966666666667,0.449296666666667,0.14833,0.15,-0.00167000000000003,0.6696,1.98219877313555,1.89788732393831

@@ -88,5 +88,9 @@ projects/clinical-trial-statistical-analysis/**/projects/*/results/**
 !projects/clinical-trial-statistical-analysis/**/projects/*/results/packet_reference_output/
 !projects/clinical-trial-statistical-analysis/**/projects/*/results/packet_reference_output/**
 
+# Keep curated ct00 design example outputs
+!projects/clinical-trial-statistical-analysis/**/projects/ct00_design/results/example/
+!projects/clinical-trial-statistical-analysis/**/projects/ct00_design/results/example/**
+
 # Raw data (ignore)
 projects/clinical-trial-statistical-analysis/clinical-trials/projects/*/data/raw/
