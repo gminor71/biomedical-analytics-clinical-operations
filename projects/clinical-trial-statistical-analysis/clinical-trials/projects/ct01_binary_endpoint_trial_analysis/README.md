@@ -12,6 +12,18 @@ the clinical event within 365 days compared with Control?
 - Intervention: Active vs Control
 - Follow-up: Up to 365 Days
 
+Project-specific trial design work is located in `design/`.
+
+The design module evaluates a Phase II two-arm randomized trial with a binary
+endpoint using:
+- analytical power analysis
+- simulation under assumed response rates
+- operating characteristic assessment
+
+Design outputs are written to `design/results/`.
+Design validation (power, simulation, operating characteristics) is 
+integrated into the reporting packet.
+
 ## Primary Endpoint
 Binary event occurrence during follow-up.
 

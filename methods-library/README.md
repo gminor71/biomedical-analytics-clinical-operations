@@ -37,8 +37,8 @@ Each component is designed to reflect how statistical methods are:
 ```bash
 methods-library/
 │
+├── agent-logic/                      # Structured Decision Frameworks
 ├── biostatistics-project-template/   # Standard structure for analysis projects
-│
 ├── statistical-decision-guides/      # How to choose the correct statistical method
 ├── model-assumptions/                # Assumptions, diagnostics, and validation checks
 ├── tfl-interpretation/               # How to read and interpret outputs
@@ -51,7 +51,7 @@ methods-library/
 
 ## Core Components
 
-### 1. Biostatistics Project Template
+### Biostatistics Project Template
 
 Provides a standardized structure for clinical trial analyses.
 
@@ -76,7 +76,7 @@ Used as the foundation for:
 
 ---
 
-### 2. Statistical Decision Guides
+### Statistical Decision Guides
 
 Frameworks for selecting appropriate statistical methods based on:
 
@@ -89,7 +89,7 @@ Quick reference when reviewing or validating SAP methodology.
 
 ---
 
-### 3. Model Assumptions
+### Model Assumptions
 
 Checklists and diagnostics used to validate statistical models.
 
@@ -104,7 +104,7 @@ Ensure model validity before interpreting results.
 
 ---
 
-### 4. TFL Interpretation
+### TFL Interpretation
 
 Guides for interpreting common clinical trial outputs:
 
@@ -117,7 +117,7 @@ Support data review, monitoring, and communication with study teams.
 
 ---
 
-### 5. Missing Data
+### Missing Data
 
 Overview of missing data mechanisms and handling strategies:
 
@@ -130,7 +130,7 @@ Evaluate robustness of analyses and identify potential bias.
 
 ---
 
-### 6. Effect Size & Significance
+### Effect Size & Significance
 
 Distinguishes:
 
@@ -138,11 +138,11 @@ Distinguishes:
 * Clinical relevance (effect size)
 
 **Use Case:**
-Prevent overinterpretation of statistically significant results.
+Prevent over interpretation of statistically significant results.
 
 ---
 
-### 7. Common Pitfalls
+### Common Pitfalls
 
 Summary of frequent issues in clinical trial analysis:
 
@@ -153,6 +153,22 @@ Summary of frequent issues in clinical trial analysis:
 
 **Use Case:**
 Risk-based monitoring and audit preparation.
+
+---
+
+### Agent Logic
+
+This module extends the methods library by translating 
+clinical and statistical knowledge into structured decision frameworks.
+
+* Converting methods and workflows into rule-based logic
+* Defining:
+   - Inputs → Decision Rules → Actions
+* Supporting automation and agentic AI systems
+
+**Relationship to Projects:**
+
+* Coming Soon
 
 ---
 

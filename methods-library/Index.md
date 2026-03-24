@@ -2,7 +2,8 @@
 
 ## Overview
 
-This index provides a structured guide to statistical methods, decision frameworks, and interpretation resources used in clinical trial analysis.
+This index provides a structured guide to statistical methods, 
+decision frameworks, and interpretation resources used in clinical trial analysis.
 
 Use this page as the primary entry point to navigate the Methods Library.
 
@@ -14,13 +15,15 @@ Use this page as the primary entry point to navigate the Methods Library.
 
 * [Biostatistics Project Template](./biostatistics-project-template/README.md)
 
-Provides the standardized structure for building reproducible and auditable clinical trial analyses.
+Provides the standardized structure for building reproducible and auditable 
+clinical trial analyses.
 
 ---
 
 ## Statistical Decision Guides
 
-Frameworks for selecting appropriate statistical methods based on endpoint type and study design.
+Frameworks for selecting appropriate statistical methods based on endpoint 
+type and study design.
 
 ### Binary Endpoints
 
@@ -64,7 +67,7 @@ Guides for interpreting Tables, Listings, and Figures (TFLs).
 
 Handling missing data in clinical trials.
 
-* *(Coming Soon)* Missing Data Methods & Considerations
+* Missing Data Methods & Considerations
 
 ---
 
@@ -80,10 +83,28 @@ Understanding statistical vs clinical importance.
 
 Frequent issues in clinical trial statistical analysis.
 
-* *(Coming Soon)* Common Statistical Pitfalls in Clinical Trials
+* Common Statistical Pitfalls in Clinical Trials
 
 ---
 
+## Agent Logic
+
+Structured decision frameworks that translate statistical methods and 
+clinical workflows into actionable logic.
+
+This section extends the Methods Library from:
+
+Method guidance → to **Decision-making systems and automation-ready workflows**
+
+**Includes:**
+
+* Clinical operations logic (e.g., CRA query triage, site risk scoring)
+* Biostatistical logic (e.g., method selection, model diagnostics)
+* Cross-functional decision frameworks
+
+[Agent Logic Index](./agent-logic/INDEX.md)
+
+---
 ## Relationship to Project Work
 
 ### CT01 – Binary Endpoint Trial Analysis
@@ -120,7 +141,11 @@ Frequent issues in clinical trial statistical analysis.
 
    * Use TFL Interpretation Guides
 
-4. **Apply to Project Work**
+4. **Translate to Decision Logic (NEW)**
+
+   * Use Agent Logic to convert methods into structured decision frameworks
+   
+5. **Apply to Project Work**
 
    * Reference CT01 / CT02 implementations
 

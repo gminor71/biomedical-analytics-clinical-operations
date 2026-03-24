@@ -35,6 +35,129 @@ ph_csv     <- file.path(PATHS$tables,  "diagnostics_ph_test.csv")          # CT0
 int_csv_or <- file.path(PATHS$tables,  "interaction_or_by_severity.csv")   # CT01
 int_csv_hr <- file.path(PATHS$tables,  "interaction_hr_by_severity.csv")   # CT02
 
+# ---- Design artifacts (frozen outputs from design/results) ----
+design_results_dir <- file.path("design", "results")
+
+design_sim_csv   <- file.path(design_results_dir, "simulation_summary.csv")
+design_oc_csv    <- file.path(design_results_dir, "operating_characteristics.csv")
+design_power_csv <- file.path(design_results_dir, "power_curve.csv")
+design_power_png <- file.path(design_results_dir, "power_curve.png")
+design_params_r  <- file.path("design", "00_design_parameters.R")
+
+design_available <- all(file.exists(c(design_sim_csv, design_oc_csv, design_power_csv)))
+
+design_sim   <- NULL
+design_oc    <- NULL
+design_power <- NULL
+design_lines <- NULL
+
+if (design_available) {
+  design_sim   <- safe_read_csv(design_sim_csv)
+  design_oc    <- safe_read_csv(design_oc_csv)
+  design_power <- safe_read_csv(design_power_csv)
+  
+  if (file.exists(design_params_r)) {
+    source(design_params_r)
+  }
+  
+  if (exists("design_params")) {
+    ctrl <- design_params$p_control
+    trt  <- design_params$p_treatment
+    eff  <- trt - ctrl
+    n_pa <- design_params$n_per_arm
+    tgt  <- design_params$target_power
+    nsim_design <- design_params$nsim
+    alpha_design <- design_params$alpha
+    
+    emp_power <- NA_real_
+    mean_ctrl <- NA_real_
+    mean_trt  <- NA_real_
+    
+    if (!is.null(design_sim)) {
+      if ("empirical_power" %in% names(design_sim)) {
+        emp_power <- as.numeric(design_sim$empirical_power[1])
+      }
+      if ("mean_prop_control" %in% names(design_sim)) {
+        mean_ctrl <- as.numeric(design_sim$mean_prop_control[1])
+      }
+      if ("mean_prop_treatment" %in% names(design_sim)) {
+        mean_trt <- as.numeric(design_sim$mean_prop_treatment[1])
+      }
+    }
+    
+    req_n <- NA_real_
+    if (!is.null(design_power) && all(c("n_per_arm", "power") %in% names(design_power))) {
+      idx <- which(design_power$power >= tgt)
+      if (length(idx) > 0) req_n <- min(design_power$n_per_arm[idx])
+    }
+    
+    type1_vals <- NA_real_
+    cover_vals <- NA_real_
+    power_assumed <- NA_real_
+    
+    if (!is.null(design_oc)) {
+      null_rows <- design_oc$true_risk_difference == 0
+      if (any(null_rows)) {
+        type1_vals <- mean(design_oc$rejection_rate[null_rows], na.rm = TRUE)
+      }
+      
+      if ("ci_coverage" %in% names(design_oc)) {
+        cover_vals <- mean(design_oc$ci_coverage, na.rm = TRUE)
+      }
+      
+      assumed_rows <- abs(design_oc$true_risk_difference - eff) < 1e-8
+      assumed_rows <- assumed_rows & abs(design_oc$p_control - ctrl) < 1e-8
+      assumed_rows <- assumed_rows & abs(design_oc$p_treatment - trt) < 1e-8
+      
+      if (any(assumed_rows)) {
+        power_assumed <- as.numeric(design_oc$rejection_rate[assumed_rows][1])
+      }
+    }
+    
+    design_lines <- c(
+      "## Trial Design Evaluation",
+      "A simulation-based design evaluation was conducted using frozen design outputs generated before formal results reporting.",
+      "",
+      "### Design Assumptions",
+      paste0("- Control event rate: ", fmt_num(ctrl, 2)),
+      paste0("- Treatment event rate: ", fmt_num(trt, 2)),
+      paste0("- Absolute treatment effect: ", fmt_num(eff, 2)),
+      paste0("- Significance level (alpha): ", fmt_num(alpha_design, 2)),
+      paste0("- Target power: ", fmt_num(tgt, 2)),
+      paste0("- Planned sample size: ", n_pa, " subjects per arm"),
+      paste0("- Number of simulations: ", nsim_design),
+      "",
+      "### Design Results",
+      paste0("- Analytical sample size required: ",
+             ifelse(is.na(req_n), "not available", paste0(req_n, " subjects per arm"))),
+      paste0("- Mean simulated control proportion: ",
+             ifelse(is.na(mean_ctrl), "not available", fmt_num(mean_ctrl, 4))),
+      paste0("- Mean simulated treatment proportion: ",
+             ifelse(is.na(mean_trt), "not available", fmt_num(mean_trt, 4))),
+      paste0("- Empirical power: ",
+             ifelse(is.na(emp_power), "not available", fmt_num(emp_power, 4))),
+      "",
+      "### Operating Characteristics",
+      paste0("- Mean type I error across null scenarios: ",
+             ifelse(is.na(type1_vals), "not available", fmt_num(type1_vals, 4))),
+      paste0("- Mean confidence interval coverage: ",
+             ifelse(is.na(cover_vals), "not available", fmt_num(cover_vals, 4))),
+      paste0("- Power at the assumed design effect: ",
+             ifelse(is.na(power_assumed), "not available", fmt_num(power_assumed, 4))),
+      "",
+      "### Design Interpretation",
+      paste0(
+        "Analytical and simulation-based results support the planned sample size of ",
+        n_pa,
+        " subjects per arm for detecting an absolute treatment effect of ",
+        fmt_num(eff, 2),
+        "."
+      ),
+      ""
+    )
+  }
+}
+
 # ---- QC: required files exist ----
 qc_assert(file.exists(primary_rds),   paste0("Missing: ", primary_rds))
 qc_assert(file.exists(secondary_rds), paste0("Missing: ", secondary_rds))
@@ -139,13 +262,17 @@ if (isTRUE(NARRATIVE_SLOTS$supports_emmeans) && file.exists(emm_csv)) {
 
 # ---- Traceability ----
 trace <- trace_lines(c(
-  "Primary model (RDS)"       = primary_rds,
-  "Secondary models (RDS)"    = secondary_rds,
-  "Table 1 object (RDS)"      = tbl1_rds,
-  "EMMEANS (CSV)"             = emm_csv,
-  "PH test (CSV)"             = ph_csv,
-  "CT01 interaction OR (CSV)" = int_csv_or,
-  "CT02 interaction HR (CSV)" = int_csv_hr
+  "Primary model (RDS)"              = primary_rds,
+  "Secondary models (RDS)"           = secondary_rds,
+  "Table 1 object (RDS)"             = tbl1_rds,
+  "EMMEANS (CSV)"                    = emm_csv,
+  "PH test (CSV)"                    = ph_csv,
+  "CT01 interaction OR (CSV)"        = int_csv_or,
+  "CT02 interaction HR (CSV)"        = int_csv_hr,
+  "Design simulation summary (CSV)"  = design_sim_csv,
+  "Design operating characteristics" = design_oc_csv,
+  "Design power curve (CSV)"         = design_power_csv,
+  "Design power figure (PNG)"        = design_power_png
 ))
 
 # ---- Build narrative (Markdown) ----
@@ -154,6 +281,7 @@ lines <- c(
   "",
   paste0("Generated: ", stamp_time(run_time)),
   "",
+  if (!is.null(design_lines)) design_lines else NULL,
   "## Executive Summary",
   paste0("- Primary estimand: ", effect_line),
   "- Sensitivity and secondary analyses were reviewed for consistency with the primary conclusion.",
@@ -203,7 +331,12 @@ qc_write(c(
   paste0("Project: ", project_name),
   paste0("Primary model class: ", paste(class(primary_model), collapse = ", ")),
   paste0("Saved: ", out_md),
-  paste0("Saved: ", out_txt)
+  paste0("Saved: ", out_txt),
+  paste0("Design available: ", design_available),
+  paste0("Design simulation summary exists: ", file.exists(design_sim_csv)),
+  paste0("Design operating characteristics exists: ", file.exists(design_oc_csv)),
+  paste0("Design power curve CSV exists: ", file.exists(design_power_csv)),
+  paste0("Design power figure PNG exists: ", file.exists(design_power_png))
 ), qc_path)
 
 message("✅ Narrative written: ", out_md)
@@ -214,6 +347,50 @@ ref_misc <- file.path(PATHS$results, "packet_reference_output", "misc")
 if (dir.exists(ref_misc)) {
   file.copy(out_md,  file.path(ref_misc, basename(out_md)),  overwrite = TRUE)
   file.copy(out_txt, file.path(ref_misc, basename(out_txt)), overwrite = TRUE)
+}
+
+# Also drop key design artifacts into the reference packet (if it exists)
+ref_packet <- file.path(PATHS$results, "packet_reference_output")
+if (dir.exists(ref_packet)) {
+  ref_fig  <- file.path(ref_packet, "figures")
+  ref_tbl  <- file.path(ref_packet, "tables")
+  ref_misc2 <- file.path(ref_packet, "misc")
+  
+  dir.create(ref_fig,  recursive = TRUE, showWarnings = FALSE)
+  dir.create(ref_tbl,  recursive = TRUE, showWarnings = FALSE)
+  dir.create(ref_misc2, recursive = TRUE, showWarnings = FALSE)
+  
+  if (file.exists(design_power_png)) {
+    file.copy(
+      design_power_png,
+      file.path(ref_fig, "ct01_design_power_curve.png"),
+      overwrite = TRUE
+    )
+  }
+  
+  if (file.exists(design_power_csv)) {
+    file.copy(
+      design_power_csv,
+      file.path(ref_tbl, "ct01_design_power_curve.csv"),
+      overwrite = TRUE
+    )
+  }
+  
+  if (file.exists(design_oc_csv)) {
+    file.copy(
+      design_oc_csv,
+      file.path(ref_tbl, "ct01_design_operating_characteristics.csv"),
+      overwrite = TRUE
+    )
+  }
+  
+  if (file.exists(design_sim_csv)) {
+    file.copy(
+      design_sim_csv,
+      file.path(ref_misc2, "ct01_design_simulation_summary.csv"),
+      overwrite = TRUE
+    )
+  }
 }
 
 # Also drop narrative into the latest timestamped packet misc (if known)
