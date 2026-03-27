@@ -1,0 +1,27 @@
+{
+  "study_id": "CT05",
+  "analysis_id": "tte_case_001",
+  "endpoint_type": "time_to_event",
+  "status": "success",
+  "decision": {
+    "study_id": "CT05",
+    "analysis_id": "tte_case_001",
+    "endpoint_type": "time_to_event",
+    "endpoint_name": "progression_free_survival",
+    "primary_method": "Kaplan-Meier + Log-rank + Cox PH",
+    "ph_assumption_status": "violated",
+    "alternative_methods": [
+      "Stratified Cox model",
+      "Time-varying covariates",
+      "Restricted Mean Survival Time (RMST)",
+      "Accelerated Failure Time (AFT) model"
+    ],
+    "warnings": [
+      "Proportional hazards assumption violated."
+    ],
+    "notes": [
+      "Default TTE framework selected: KM estimation, Log-rank comparison, and Cox PH regression.",
+      "Alternative methods recommended due to PH assumption violation."
+    ]
+  }
+}
