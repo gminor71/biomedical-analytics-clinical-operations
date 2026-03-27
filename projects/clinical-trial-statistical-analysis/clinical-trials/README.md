@@ -14,21 +14,24 @@ into structured, executable logic.
 
 ```mermaid
 flowchart LR
-    A[ct00_design<br/>Study Design & TFL Planning]
-        --> B[ct01_binary_endpoint<br/>Binary Outcome Analysis]
+    A[ct00_design<br/>Study Design and Analysis Planning]
+        --> B[Endpoint-Specific Analyses<br/>Binary, TTE, Longitudinal, Dose Finding/PK]
 
-    A --> C[ct02_time_to_event<br/>Time-to-Event Analysis]
+    B --> C[Tables, Figures, Listings<br/>Reproducible Outputs]
 
-    A --> D[ct03_longitudinal<br/>Longitudinal Analysis]
-
-    B --> E[Tables, Figures, Listings]
-    C --> E
-    D --> E
+    C --> D[ct05_tte_methods_agent<br/>Decision System and Method Logic]
 ```
 
-This workflow reflects common clinical trial analysis practices in 
-which statistical analyses are prespecified during study design 
-and implemented through reproducible Tables, Figures, and Listings (TFL) workflows.
+
+This workflow represents a layered clinical trial analysis system. 
+Statistical methods are prespecified during study design and implemented 
+through endpoint-specific analyses, producing reproducible Tables, Figures, 
+and Listings (TFLs). These outputs can be further leveraged by 
+decision-support systems, including agent-based frameworks, 
+to operationalize statistical reasoning into structured method selection, 
+validation, and reporting workflows.
+
+
 
 ---
 
