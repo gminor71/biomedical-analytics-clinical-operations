@@ -1,0 +1,12 @@
+study_id: CT05
+analysis_id: tte_case_002
+endpoint_type: time_to_event
+endpoint_name: overall_survival
+sample_size: 40
+event_rate: 0.15
+censoring_present: true
+censoring_concern: informative
+ph_assumption_status: unknown
+covariates:
+  - treatment_arm
+notes: Edge case with small sample and low event rate.

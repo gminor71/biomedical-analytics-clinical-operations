@@ -1,0 +1,16 @@
+study_id: CT05
+analysis_id: tte_case_001
+endpoint_type: time_to_event
+endpoint_name: progression_free_survival
+sample_size: 120
+event_rate: 0.45
+censoring_present: true
+censoring_concern: non_informative
+ph_assumption_status: violated
+covariates:
+  - treatment_arm
+  - age
+  - baseline_ecog
+stratification_factors:
+  - disease_stage
+notes: Initial test case for TTE method agent.
