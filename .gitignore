@@ -92,5 +92,16 @@ projects/clinical-trial-statistical-analysis/**/projects/*/results/**
 !projects/clinical-trial-statistical-analysis/**/projects/ct00_design/results/example/
 !projects/clinical-trial-statistical-analysis/**/projects/ct00_design/results/example/**
 
+## Keep curated ct05 agent outputs (reports + summary only)
+!projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct05_tte_methods_agent/results/reports/
+!projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct05_tte_methods_agent/results/reports/**
+
+!projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct05_tte_methods_agent/results/summary/
+!projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct05_tte_methods_agent/results/summary/**
+
+# Ignore CT05 logs
+projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct05_tte_methods_agent/results/logs/
+projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct05_tte_methods_agent/results/logs/**
+
 # Raw data (ignore)
 projects/clinical-trial-statistical-analysis/clinical-trials/projects/*/data/raw/
