@@ -273,6 +273,8 @@ The agent follows a deterministic, stepwise evaluation:
 
 The agent returns a structured decision object:
 
+
+```json
 {
   "study_id": "",
   "analysis_id": "",
