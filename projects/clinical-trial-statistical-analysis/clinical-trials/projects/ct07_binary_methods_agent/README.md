@@ -1,7 +1,4 @@
 
-## `ct07/README.md`
-
-```markdown
 # CT07 – Binary Method Agent
 
 ## Overview
@@ -119,7 +116,6 @@ results/
 └── summary/
 ```
 
----
 
 ### Reports
 
