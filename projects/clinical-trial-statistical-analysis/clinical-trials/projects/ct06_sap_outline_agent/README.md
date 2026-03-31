@@ -307,8 +307,7 @@ The agent returns a structured SAP outline:
   "warnings": [],
   "notes": []
 }
-
----
+```
 
 ### ⚠️ Quality Controls
 
