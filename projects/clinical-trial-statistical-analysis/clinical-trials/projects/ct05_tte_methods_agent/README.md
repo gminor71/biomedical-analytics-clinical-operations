@@ -81,7 +81,6 @@ ct05_tte_method_agent/
 ├── src/
 ```
 
----
 
 ## Input
 
@@ -200,35 +199,113 @@ The project supports two execution modes:
 
 ---
 
-## Core Logic
+## Agent Prompt Logic
 
-The agent follows a structured decision pathway:
+This agent follows a structured, template-driven approach to statistical decision support.  
+The design aligns with the standard defined in:
 
-```text
-Input
-→ Validate endpoint type
-→ Assign baseline TTE method
-→ Evaluate PH assumption
-→ Apply warnings and alternative methods
-→ Generate outputs
-```
-
-### Default Framework
-
-* Kaplan-Meier estimation
-* Log-rank comparison
-* Cox proportional hazards regression
-
-### When PH is violated
-
-The agent may recommend:
-
-* Stratified Cox model
-* Time-varying covariates
-* Restricted Mean Survival Time (RMST)
-* Accelerated Failure Time (AFT) model
+`methods-library/agent-logic/agent_prompt_template.md`
 
 ---
+
+### 🧠 Role
+
+The agent operates as a:
+
+> Clinical trial biostatistician specializing in time-to-event (TTE) analysis
+
+---
+
+### 🎯 Task
+
+Evaluate a structured time-to-event analysis case and:
+
+- Recommend an appropriate primary method
+- Assess the proportional hazards (PH) assumption
+- Suggest alternative methods when assumptions are violated
+- Flag risks related to sample size, event rate, and censoring
+- Provide structured notes for interpretation
+
+---
+
+### 📊 Context (Input)
+
+The agent consumes structured input from YAML files, including:
+
+- `study_id`
+- `analysis_id`
+- `endpoint_type`
+- `endpoint_name`
+- `ph_assumption_status`
+- `sample_size`
+- `event_rate`
+- `censoring_concern`
+
+These inputs define the analysis scenario and drive decision logic.
+
+---
+
+### 🔧 Instructions (Evaluation Logic)
+
+The agent follows a deterministic, stepwise evaluation:
+
+1. **Confirm endpoint type**
+   - Validate that the endpoint is time-to-event
+
+2. **Assign baseline recommendation**
+   - Kaplan-Meier estimation
+   - Log-rank test
+   - Cox proportional hazards model
+
+3. **Evaluate PH assumption**
+   - If satisfied → proceed with Cox PH
+   - If violated → recommend alternatives:
+     - Stratified Cox model
+     - Time-varying covariates
+     - Restricted Mean Survival Time (RMST)
+     - Accelerated Failure Time (AFT) model
+   - If unknown → flag need for diagnostics
+
+4. **Assess sample size and event rate**
+   - Flag small sample size (<50)
+   - Flag low event rate (<20%)
+
+5. **Assess censoring**
+   - Flag potential informative censoring
+
+---
+
+### 📦 Output Format
+
+The agent returns a structured decision object:
+
+```json
+{
+  "study_id": "",
+  "analysis_id": "",
+  "endpoint_type": "",
+  "endpoint_name": "",
+  "primary_method": "",
+  "ph_assumption_status": "",
+  "alternative_methods": [],
+  "warnings": [],
+  "notes": []
+}
+
+
+```
+
+### ⚠️ Quality Controls
+
+The agent enforces the following safeguards:
+
+- Rejects unsupported endpoint types
+- Flags violations or uncertainty in the proportional hazards assumption
+- Identifies data limitations (sample size, event rate)
+- Highlights potential bias due to informative censoring
+- Returns structured warnings instead of silent failures
+
+```
 
 ## Design Principles
 

@@ -1,0 +1,25 @@
+study_id: "STUDY-003"
+analysis_id: "sap_case_003"
+
+study_design: "randomized_controlled_trial"
+
+endpoint_type: "time_to_event"
+endpoint_name: "disease_free_survival"
+
+objective: "Evaluate disease-free survival across treatment groups."
+
+analysis_population: "per_protocol"
+
+stratification_factors: []
+
+covariates: []
+
+intercurrent_events: []
+
+missing_data_risk: "low"
+
+censoring_concern: "non_informative"
+
+ph_assumption_status: "unknown"
+
+notes: "Pilot scenario with intentionally incomplete planning inputs."

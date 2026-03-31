@@ -1,0 +1,33 @@
+study_id: "STUDY-002"
+analysis_id: "sap_case_002"
+
+study_design: "randomized_controlled_trial"
+
+endpoint_type: "time_to_event"
+endpoint_name: "progression_free_survival"
+
+objective: "Compare progression-free survival between treatment and control arms."
+
+estimand_strategy: "treatment_policy"
+
+analysis_population: "itt"
+
+stratification_factors:
+  - "region"
+  - "prior_therapy"
+
+covariates:
+  - "age"
+  - "baseline_tumor_burden"
+
+intercurrent_events:
+  - "treatment_discontinuation"
+  - "start_of_new_anticancer_therapy"
+
+missing_data_risk: "high"
+
+censoring_concern: "informative"
+
+ph_assumption_status: "violated"
+
+notes: "Phase 2 oncology study with concern for non-proportional hazards."

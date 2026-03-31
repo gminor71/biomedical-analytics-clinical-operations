@@ -1,0 +1,34 @@
+study_id: "STUDY-001"
+analysis_id: "sap_case_001"
+
+study_design: "randomized_controlled_trial"
+
+endpoint_type: "time_to_event"
+endpoint_name: "overall_survival"
+
+objective: "Compare overall survival between treatment and control arms."
+
+estimand_strategy: "treatment_policy"
+
+analysis_population: "itt"
+
+stratification_factors:
+  - "region"
+  - "baseline_disease_stage"
+
+covariates:
+  - "age"
+  - "sex"
+  - "baseline_ecog"
+
+intercurrent_events:
+  - "treatment_discontinuation"
+  - "use_of_subsequent_therapy"
+
+missing_data_risk: "moderate"
+
+censoring_concern: "non_informative"
+
+ph_assumption_status: "unknown"
+
+notes: "Phase 3 oncology study evaluating survival outcomes."
