@@ -298,7 +298,6 @@ The agent enforces the following safeguards:
 - Suggests alternative adjusted methods when covariates are present
 - Returns structured warnings instead of silent failures
 
-```
 
 ## Design Principles
 

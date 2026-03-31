@@ -305,7 +305,7 @@ The agent enforces the following safeguards:
 - Highlights potential bias due to informative censoring
 - Returns structured warnings instead of silent failures
 
-```
+
 
 ## Design Principles
 
