@@ -151,6 +151,14 @@ This file provides:
 * Comparison of PH status and warning signals
 * Consolidated warning review
 
+## Effect Measures Reference
+
+The primary effect measures in time-to-event analysis include hazard ratios and RMST.
+
+For detailed interpretation guidance, see:
+
+- `methods-library/effect-size/tte_effect_measures.md`
+
 ---
 
 ## How to Run

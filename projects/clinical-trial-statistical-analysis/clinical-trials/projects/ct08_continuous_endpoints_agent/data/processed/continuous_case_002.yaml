@@ -1,0 +1,28 @@
+study_id: "STUDY-202"
+analysis_id: "continuous_case_002"
+
+study_design: "randomized_controlled_trial"
+
+endpoint_type: "continuous"
+endpoint_name: "change_in_biomarker_level"
+
+objective: "Compare change in biomarker level between treatment and control groups."
+
+analysis_population: "itt"
+
+n_groups: 2
+
+sample_size: 90
+
+normality: "non_normal"
+
+variance_homogeneity: "equal"
+
+covariates:
+  - "baseline_biomarker"
+  - "age"
+
+stratification_factors:
+  - "site"
+
+notes: "Non-normal distribution scenario intended to trigger nonparametric alternatives."

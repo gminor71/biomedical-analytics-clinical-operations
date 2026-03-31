@@ -153,6 +153,7 @@ Method guidance → to **Decision-making systems and automation-ready workflows*
 
 ## Key Principle
 
-> Method selection, validation, and interpretation should function as a connected system—not isolated steps.
+> Method selection, validation, and interpretation should function as 
+a connected system—not isolated steps.
 
 ---

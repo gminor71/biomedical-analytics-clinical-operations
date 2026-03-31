@@ -125,5 +125,16 @@ projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct06_sap_o
 projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct07_binary_methods_agent/results/logs/
 projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct07_binary_methods_agent/results/logs/**
 
+## Keep curated ct08 agent outputs (reports + summary only)
+!projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct08_continuous_endpoints_agent/results/reports/
+!projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct08_continuous_endpoints_agent/results/reports/**
+
+!projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct08_continuous_endpoints_agent/results/summary/
+!projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct08_continuous_endpoints_agent/results/summary/**
+
+# Ignore CT08 logs
+projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct08_continuous_endpoints_agent/results/logs/
+projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct08_continuous_endpoints_agent/results/logs/**
+
 # Raw data (ignore)
 projects/clinical-trial-statistical-analysis/clinical-trials/projects/*/data/raw/

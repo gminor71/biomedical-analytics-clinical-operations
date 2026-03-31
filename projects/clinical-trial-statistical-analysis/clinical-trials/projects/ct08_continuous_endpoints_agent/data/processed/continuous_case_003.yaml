@@ -1,0 +1,29 @@
+study_id: "STUDY-203"
+analysis_id: "continuous_case_003"
+
+study_design: "randomized_controlled_trial"
+
+endpoint_type: "continuous"
+endpoint_name: "change_in_quality_of_life_score"
+
+objective: "Compare mean change in quality of life score between treatment and control groups."
+
+analysis_population: "itt"
+
+n_groups: 2
+
+sample_size: 160
+
+normality: "normal"
+
+variance_homogeneity: "unequal"
+
+covariates:
+  - "baseline_qol_score"
+  - "age"
+  - "sex"
+
+stratification_factors:
+  - "region"
+
+notes: "Unequal variance scenario intended to trigger Welch t-test."

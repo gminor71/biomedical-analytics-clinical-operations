@@ -1,0 +1,29 @@
+study_id: "STUDY-201"
+analysis_id: "continuous_case_001"
+
+study_design: "randomized_controlled_trial"
+
+endpoint_type: "continuous"
+endpoint_name: "change_in_systolic_blood_pressure"
+
+objective: "Compare mean change in systolic blood pressure between treatment and control groups."
+
+analysis_population: "itt"
+
+n_groups: 2
+
+sample_size: 240
+
+normality: "normal"
+
+variance_homogeneity: "equal"
+
+covariates:
+  - "age"
+  - "baseline_blood_pressure"
+  - "sex"
+
+stratification_factors:
+  - "region"
+
+notes: "Phase 3 study evaluating treatment effect on blood pressure reduction."

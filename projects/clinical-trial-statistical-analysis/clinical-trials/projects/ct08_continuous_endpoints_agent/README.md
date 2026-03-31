@@ -1,11 +1,11 @@
 
-# CT07 – Binary Method Agent
+# CT08 – Continuous Endpoints Agent
 
 ## Overview
 
-**CT07 – Binary Method Agent** is a Python-based decision engine that
+**CT08 – Continuous Endpoints Agent** is a Python-based decision engine that
 translates biostatistical guidance into structured, executable logic
-for **binary endpoint** analysis in clinical trials.
+for **continuous endpoint** analysis in clinical trials.
 
 The system evaluates input scenarios and produces:
 
@@ -26,7 +26,7 @@ transformed into:
 
 Rather than performing statistical modeling directly, the agent focuses on:
 
-> **“Given the study conditions, what is the appropriate analytical approach for a binary endpoint?”**
+> **“Given the study conditions, what is the appropriate analytical approach for a continuous endpoint?”**
 
 ---
 
@@ -38,11 +38,11 @@ This project is part of a layered system:
 | --------- | ------------------------------ | -------------------------------------- |
 | Knowledge | `methods-library/`             | Statistical methods and interpretation |
 | Logic     | `methods-library/agent-logic/` | Decision rules and frameworks          |
-| Execution | `ct07_binary_methods_agent/`   | Implemented agent system               |
+| Execution | `ct08_continuous_endpoints_agent/` | Implemented agent system           |
 
-CT07 operationalizes:
+CT08 operationalizes:
 
-* Binary endpoint method selection
+* Continuous endpoint method selection
 * Effect measure guidance
 * Agent-based decision logic
 
@@ -52,7 +52,7 @@ CT07 operationalizes:
 
 ### Included
 
-* Binary endpoint support
+* Continuous endpoint support
 * Rule-based method selection
 * Effect measure guidance
 * YAML-based structured input
@@ -65,6 +65,7 @@ CT07 operationalizes:
 
 * Model fitting or statistical computation
 * Automated diagnostics
+* Repeated-measures or longitudinal modeling
 * Multi-endpoint routing
 * LLM or AI-generated interpretation
 * Integration with prior CT project outputs
@@ -74,7 +75,7 @@ CT07 operationalizes:
 ## Project Structure
 
 ```text
-ct07_binary_methods_agent/
+ct08_continuous_endpoints_agent/
 ├── run_agent.py
 ├── run_agent_batch.py
 ├── data/
@@ -96,9 +97,10 @@ Each file represents a single analysis scenario.
 
 * `endpoint_type`
 * `endpoint_name`
+* `n_groups`
 * `sample_size`
-* `event_rate`
-* `expected_cell_count`
+* `normality`
+* `variance_homogeneity`
 * `covariates`
 
 ---
@@ -153,11 +155,10 @@ This file provides:
 
 ## Effect Measures Reference
 
-Binary endpoint analysis commonly uses risk difference, risk ratio, and odds ratio.
+For interpretation of continuous endpoint effect measures used in 
+this project, see:
 
-For detailed interpretation guidance, see:
-
-- `methods-library/effect-size/binary_effect_measures.md`
+- `methods-library/effect-size/continuous_effect_measures.md`
 
 ---
 
@@ -222,18 +223,18 @@ The design aligns with the standard defined in:
 
 The agent operates as a:
 
-> Clinical trial biostatistician specializing in binary endpoint analysis
+> Clinical trial biostatistician specializing in continuous endpoint analysis
 
 ---
 
 ### 🎯 Task
 
-Evaluate a structured binary endpoint analysis case and:
+Evaluate a structured continuous endpoint analysis case and:
 
 - Recommend an appropriate primary method
 - Identify an appropriate effect measure
-- Suggest alternative methods when covariate adjustment is relevant
-- Flag risks related to sample size, event rate, and censoring
+- Suggest alternative methods when assumptions are not fully supported
+- Flag risks related to non-normality and unequal variance
 - Provide structured notes for interpretation
 
 ---
@@ -246,9 +247,10 @@ The agent consumes structured input from YAML files, including:
 - `analysis_id`
 - `endpoint_type`
 - `endpoint_name`
+- `n_groups`
 - `sample_size`
-- `event_rate`
-- `expected_cell_count`
+- `normality`
+- `variance_homogeneity`
 - `covariates`
 
 These inputs define the analysis scenario and drive decision logic.
@@ -260,22 +262,20 @@ These inputs define the analysis scenario and drive decision logic.
 The agent follows a deterministic, stepwise evaluation:
 
 1. **Confirm endpoint type**
-   - Validate that the endpoint is binary
+   - Validate that the endpoint is continuous
 
 2. **Assign baseline recommendation**
-   - Chi-square test
-   - Risk difference / Risk ratio
+   - Independent t-test for two groups
+   - ANOVA for more than two groups
 
-3. **Evaluate sample size and expected cell counts**
-   - If sample size is small or expected counts are low, 
-   recommend Fisher's exact test
+3. **Evaluate normality**
+   - If non-normal, suggest nonparametric alternatives
 
-4. **Evaluate covariate adjustment**
-   - If covariates are present, suggest logistic regression
+4. **Evaluate variance assumptions**
+   - If variance is unequal for two groups, prefer Welch t-test
 
-5. **Evaluate rare event risk**
-   - If event rate is very low, flag possible instability and 
-   note alternative exact or penalized approaches if needed
+5. **Evaluate covariate adjustment**
+   - If covariates are present, suggest linear regression
 
 ---
 
@@ -303,11 +303,10 @@ The agent returns a structured decision object:
 The agent enforces the following safeguards:
 
 - Rejects unsupported endpoint types
-- Flags small sample size or sparse data concerns
-- Identifies rare event instability risks
+- Flags non-normality concerns
+- Identifies unequal variance issues
 - Suggests alternative adjusted methods when covariates are present
 - Returns structured warnings instead of silent failures
-
 
 ## Design Principles
 
@@ -322,11 +321,11 @@ The agent enforces the following safeguards:
 
 * **Scalable architecture**
   Designed to support expansion into multi-endpoint and AI-assisted systems
-
+  
 ---
 
 ## Key Principle
 
-> This project demonstrates how binary endpoint method selection can be 
-translated into structured decision systems, forming the foundation for 
-agentic AI in clinical research.
+> This project demonstrates how continuous endpoint method selection can be 
+translated into structured decision systems, 
+forming the foundation for agentic AI in clinical research.
