@@ -1,0 +1,27 @@
+study_id: "STUDY-101"
+analysis_id: "binary_case_001"
+
+study_design: "randomized_controlled_trial"
+
+endpoint_type: "binary"
+endpoint_name: "objective_response_rate"
+
+objective: "Compare response rates between treatment and control arms."
+
+analysis_population: "itt"
+
+sample_size: 220
+
+event_rate: 0.45
+
+expected_cell_count: "adequate"
+
+covariates:
+  - "age"
+  - "sex"
+  - "baseline_disease_stage"
+
+stratification_factors:
+  - "region"
+
+notes: "Phase 3 oncology study evaluating objective response."

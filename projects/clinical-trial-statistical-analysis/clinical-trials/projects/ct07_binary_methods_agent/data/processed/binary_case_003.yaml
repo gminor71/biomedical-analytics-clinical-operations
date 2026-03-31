@@ -1,0 +1,26 @@
+study_id: "STUDY-103"
+analysis_id: "binary_case_003"
+
+study_design: "randomized_controlled_trial"
+
+endpoint_type: "binary"
+endpoint_name: "serious_adverse_event"
+
+objective: "Compare serious adverse event rates between treatment and control arms."
+
+analysis_population: "safety"
+
+sample_size: 180
+
+event_rate: 0.04
+
+expected_cell_count: "adequate"
+
+covariates:
+  - "age"
+  - "baseline_comorbidity_score"
+
+stratification_factors:
+  - "region"
+
+notes: "Rare-event safety scenario intended to test instability warnings."

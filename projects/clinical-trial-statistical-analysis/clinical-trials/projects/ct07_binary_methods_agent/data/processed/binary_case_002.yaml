@@ -1,0 +1,26 @@
+study_id: "STUDY-102"
+analysis_id: "binary_case_002"
+
+study_design: "randomized_controlled_trial"
+
+endpoint_type: "binary"
+endpoint_name: "clinical_response"
+
+objective: "Compare clinical response rates between treatment and control arms."
+
+analysis_population: "itt"
+
+sample_size: 36
+
+event_rate: 0.30
+
+expected_cell_count: "low"
+
+covariates:
+  - "age"
+  - "baseline_severity"
+
+stratification_factors:
+  - "site"
+
+notes: "Small-sample trial scenario intended to trigger Fisher's exact test."
