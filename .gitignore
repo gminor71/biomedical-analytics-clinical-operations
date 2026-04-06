@@ -138,3 +138,25 @@ projects/clinical-trial-statistical-analysis/clinical-trials/projects/ct08_conti
 
 # Raw data (ignore)
 projects/clinical-trial-statistical-analysis/clinical-trials/projects/*/data/raw/
+
+# -----------------------------
+# Project Management Outputs
+# -----------------------------
+
+# PM01 generated project workspaces
+project-management/logic/pm01_output_recommender/generated_projects/
+
+# PM01 results
+project-management/logic/pm01_output_recommender/results/
+
+# PM02 generated / intermediate inputs
+project-management/logic/pm02_raid_triage/data/processed/generated_from_mvr/
+
+# PM02 results (triaged outputs)
+project-management/logic/pm02_raid_triage/results/
+
+# Optional: ignore working Excel logs if regenerated
+project-management/**/raid_log_working.xlsx
+project-management/**/deliverables_tracker_working.xlsx
+project-management/**/milestone_tracker_working.xlsx
+project-management/**/stakeholder_register_working.xlsx

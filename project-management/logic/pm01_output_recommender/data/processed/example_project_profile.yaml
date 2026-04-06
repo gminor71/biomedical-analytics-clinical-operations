@@ -1,0 +1,15 @@
+project_name: Phase 2 clinical trial reporting support
+project_type: clinical_research
+functional_area: cross_functional
+complexity: medium
+regulatory_environment: high
+team_structure: cross_functional
+vendor_involvement: true
+timeline_pressure: high
+phase: execution
+
+primary_outputs:
+  - status_reporting
+  - risk_tracking
+  - deliverable_tracking
+  - decision_tracking

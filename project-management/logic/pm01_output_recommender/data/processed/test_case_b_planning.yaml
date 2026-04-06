@@ -1,0 +1,12 @@
+project_name: Internal analytics tracker setup
+project_type: analytics
+functional_area: analytics
+complexity: low
+regulatory_environment: low
+team_structure: single_function
+vendor_involvement: false
+timeline_pressure: low
+phase: planning
+
+primary_outputs:
+  - status_reporting

@@ -1,0 +1,14 @@
+project_name: ""
+project_type: clinical_research
+functional_area: cross_functional
+complexity: medium
+regulatory_environment: high
+team_structure: cross_functional
+vendor_involvement: false
+timeline_pressure: medium
+phase: planning
+
+primary_outputs:
+  - status_reporting
+  - risk_tracking
+  - deliverable_tracking

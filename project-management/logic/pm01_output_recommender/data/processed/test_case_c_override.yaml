@@ -1,0 +1,13 @@
+project_name: Data review support workstream
+project_type: clinical_research
+functional_area: biostatistics
+complexity: low
+regulatory_environment: medium
+team_structure: cross_functional
+vendor_involvement: false
+timeline_pressure: medium
+phase: execution
+
+primary_outputs:
+  - risk_tracking
+  - decision_tracking
