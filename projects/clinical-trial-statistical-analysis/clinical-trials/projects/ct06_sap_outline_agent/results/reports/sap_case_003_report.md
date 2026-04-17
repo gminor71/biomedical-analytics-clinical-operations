@@ -62,7 +62,9 @@ Missing data risk is assessed as low; censoring concern is non_informative.
 
 ## Warnings
 
-- None
+- PH assumption status is unknown or not assessed.
+- Small sample size may reduce model stability and interpretability.
+- Low event rate may reduce power and limit reliable inference.
 
 ---
 
@@ -70,6 +72,8 @@ Missing data risk is assessed as low; censoring concern is non_informative.
 
 - No covariates were provided for the primary adjusted analysis.
 - No stratification factors were provided.
+- Default TTE framework selected: KM estimation, Log-rank comparison, and Cox PH regression.
+- Further diagnostics are needed before confirming the primary regression approach.
 - Study design recorded as: randomized_controlled_trial.
 
 ---

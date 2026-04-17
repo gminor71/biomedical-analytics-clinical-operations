@@ -1,0 +1,59 @@
+# ==========================================
+# SAP Case Template – CT06 SAP Outline Agent
+# ==========================================
+
+# --- Study Metadata ---
+study_id: "STUDY-XXX"
+analysis_id: "sap_case_XXX"
+
+study_design: "randomized_controlled_trial"
+
+# --- Endpoint Definition ---
+endpoint_type: "time_to_event"  # options: time_to_event | binary | continuous
+endpoint_name: "overall_survival"
+
+# --- Objective ---
+objective: "Compare treatment groups for the specified endpoint."
+
+# --- Estimand ---
+estimand_strategy: "treatment_policy"
+
+# --- Analysis Population ---
+analysis_population: "itt"
+
+# --- Covariates ---
+covariates:
+  - "age"
+  - "sex"
+
+# --- Stratification ---
+stratification_factors:
+  - "region"
+
+# --- Intercurrent Events ---
+intercurrent_events:
+  - "treatment_discontinuation"
+
+# --- Missing Data ---
+missing_data_risk: "moderate"  # low | moderate | high
+
+# ==========================================
+# Endpoint-Specific Fields
+# ==========================================
+
+# --- Time-to-Event Only ---
+ph_assumption_status: "unknown"  # holds | violated | unknown
+censoring_concern: "non_informative"
+
+# --- Binary Only ---
+event_rate: 0.20
+expected_cell_count: "adequate"  # adequate | sparse
+
+# --- Continuous Only ---
+n_groups: 2
+sample_size: 200
+normality: "normal"              # normal | non_normal
+variance_homogeneity: "equal"   # equal | unequal
+
+# --- Optional Notes ---
+notes: "Optional description of the analysis scenario."

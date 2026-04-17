@@ -2,25 +2,12 @@ from __future__ import annotations
 
 from typing import Any
 
-from src.logic.continuous_method_logic import evaluate_continuous_case
+from framework.shared_logic.continuous_method_logic import evaluate_continuous_case
 
 
 def run_agent(case: dict[str, Any]) -> dict[str, Any]:
     """
     Run the v1 continuous method agent on a single case.
-
-    Parameters
-    ----------
-    case : dict[str, Any]
-        Structured input case data.
-
-    Returns
-    -------
-    dict[str, Any]
-        Agent result containing:
-        - input metadata
-        - decision output
-        - run status
     """
     endpoint_type = case.get("endpoint_type")
 

@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from typing import Any
 
-from src.logic.binary_method_logic import evaluate_binary_case
+from framework.shared_logic.binary_method_logic import evaluate_binary_case
 
 
 def run_agent(case: dict[str, Any]) -> dict[str, Any]:

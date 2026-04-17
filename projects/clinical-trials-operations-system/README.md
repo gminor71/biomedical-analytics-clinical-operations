@@ -64,6 +64,63 @@ Outputs from this system conceptually feed into:
 
 ---
 
+## Relationship to Project Management Framework
+
+This system operates in alignment with the project-management framework located at:
+
+`/project-management/`
+
+The project-management framework provides:
+- Structured project setup and artifact recommendations (PM01)
+- Standardized project documentation and tracking outputs (Markdown and Excel)
+- Centralized RAID log (Risk, Action, Issue, Decision) management
+- Operational triage logic for risks, issues, and decisions (PM02)
+
+Within this context, the Clinical Trials Operations System represents the
+**site-level and CRA execution layer**, including:
+
+- Monitoring visit execution (MV1, MV2)
+- Site communication and follow-up activities
+- Query identification and resolution tracking
+- Risk identification during monitoring activities
+
+---
+
+### Integration Points
+
+- Observations from monitoring visits (e.g., findings, queries, delays)
+  can be triaged using PM02 logic
+
+- Triaged items can be appended to the project RAID log, ensuring
+  consistent tracking across study teams
+
+- Site-level risks and issues align with project-level governance,
+  status reporting, and escalation pathways
+
+---
+
+### Operational Flow Alignment
+
+```text
+Site Monitoring Activity (MVR)
+   ↓
+Observation / Issue Identified
+   ↓
+PM02 Triage (classification, priority, ownership)
+   ↓
+RAID Log Entry (project-level tracking)
+   ↓
+Status Reporting and Escalation
+```
+
+This alignment ensures consistency between:
+
+- Site-level execution (CRA perspective)
+- Study-level tracking and governance
+- Cross-functional project management and reporting
+
+---
+
 ##  Repository Note
 
 This project was originally developed as a standalone repository and is now 

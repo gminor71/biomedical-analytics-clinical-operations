@@ -107,6 +107,9 @@ Each file represents a single SAP planning scenario.
 * `missing_data_risk`
 * `censoring_concern`
 
+See `methods-library/agent-logic/biostatistics/sap/sap_case_template.md`
+for the standard SAP case input schema.
+
 ---
 
 ## Output
@@ -203,7 +206,8 @@ The project supports two execution modes:
 
 ## Agent Prompt Logic
 
-This agent follows a structured, template-driven approach to statistical decision support.  
+This agent follows a structured, template-driven approach to statistical 
+decision support.  
 The design aligns with the standard defined in:
 
 `methods-library/agent-logic/agent_prompt_template.md`

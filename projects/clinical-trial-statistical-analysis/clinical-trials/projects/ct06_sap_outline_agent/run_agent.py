@@ -1,5 +1,11 @@
 from __future__ import annotations
 
+import sys
+from pathlib import Path
+
+# Add clinical-trials root to Python path
+sys.path.append(str(Path(__file__).resolve().parents[2]))
+
 from pathlib import Path
 
 from src.io.load_inputs import load_case

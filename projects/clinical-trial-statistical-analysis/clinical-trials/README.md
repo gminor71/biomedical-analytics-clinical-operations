@@ -19,7 +19,7 @@ flowchart LR
 
     B --> C[Tables, Figures, Listings<br/>Reproducible Outputs]
 
-    C --> D[ct05_tte_methods_agent<br/>Decision System and Method Logic]
+    C --> D[Decision Systems<br/>CT05–CT08 Agents]
 ```
 
 
@@ -45,23 +45,25 @@ Study Design → Statistical Analysis → TFL Outputs → Decision Systems (Agen
 
 ### Agent Layer
 
+The workspace includes multiple agent-based decision systems that
+translate statistical reasoning into structured, executable logic:
+
 * `ct05_tte_methods_agent`
+  - Time-to-event method selection and PH assumption evaluation
 
-  * Rule-based decision engine for time-to-event analysis
-  * Evaluates:
+* `ct06_sap_outline_agent`
+  - SAP outline generation and statistical planning logic
 
-    * endpoint characteristics
-    * proportional hazards (PH) assumption status
-    * sample size and event rate considerations
-  * Produces:
+* `ct07_binary_methods_agent`
+  - Binary endpoint method selection and effect measure guidance
 
-    * method recommendations
-    * alternative modeling strategies
-    * structured reports and batch summaries
+* `ct08_continuous_endpoints_agent`
+  - Continuous endpoint method selection and assumption-aware analysis
 
-This represents a transition from:
+These agents represent a transition from:
 
 * **analysis execution** → to → **analysis decision support**
+
 
 ---
 
@@ -77,7 +79,12 @@ organized by endpoint type. Analyses follow a common workflow:
    * Time-to-event endpoints (`ct02_time_to_event`)
    * Longitudinal endpoints (`ct03_longitudinal`)
 3. Generation of reproducible Tables, Figures, and Listings (TFLs)
-4. Decision support and method selection (`ct05_tte_methods_agent`)
+4. Decision support and method selection
+
+   * Time-to-event methods (`ct05_tte_methods_agent`)
+   * SAP planning (`ct06_sap_outline_agent`)
+   * Binary endpoint methods (`ct07_binary_methods_agent`)
+   * Continuous endpoint methods (`ct08_continuous_endpoints_agent`)
 
 Each endpoint analysis is implemented independently while adhering to a
 shared structure and reporting workflow.
@@ -97,6 +104,14 @@ shared structure and reporting workflow.
   * Includes standardized path helpers and reusable functions
 
 ---
+
+## Methods Library Integration
+
+This workspace is supported by a centralized methods library:
+
+```text
+methods-library/
+```
 
 ## Endpoint Mapping
 
@@ -122,12 +137,12 @@ presentation workflows.
 
 ---
 
-## Agent Outputs (CT05)
+## Agent Outputs (CT05-CT08)
 
-The TTE Method Agent produces structured outputs in:
+Agent systems produce structured outputs in their respective project folders:
 
 ```text
-ct05_tte_methods_agent/results/
+ctXX_*/results/
 ├── reports/
 ├── summary/
 ```

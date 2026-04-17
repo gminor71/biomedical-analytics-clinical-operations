@@ -48,9 +48,10 @@ Missing data risk is assessed as high; censoring concern is informative.
 
 ## Sensitivity Analyses
 
-- Consider Restricted Mean Survival Time (RMST) analysis.
-- Consider Accelerated Failure Time (AFT) modeling.
-- Consider time-varying covariate or stratified Cox approaches.
+- Consider Stratified Cox model as an alternative time-to-event analysis approach.
+- Consider Time-varying covariates as an alternative time-to-event analysis approach.
+- Consider Restricted Mean Survival Time (RMST) as an alternative time-to-event analysis approach.
+- Consider Accelerated Failure Time (AFT) model as an alternative time-to-event analysis approach.
 - Consider sensitivity analysis addressing informative censoring.
 - Review the impact of missing data assumptions on the primary analysis.
 
@@ -65,6 +66,8 @@ Missing data risk is assessed as high; censoring concern is informative.
 ## Warnings
 
 - Proportional hazards assumption violated.
+- Small sample size may reduce model stability and interpretability.
+- Low event rate may reduce power and limit reliable inference.
 - Potential informative censoring detected; sensitivity analysis should be considered.
 
 ---
@@ -72,6 +75,8 @@ Missing data risk is assessed as high; censoring concern is informative.
 ## Notes
 
 - Intercurrent events were provided and should be aligned with the estimand strategy.
+- Default TTE framework selected: KM estimation, Log-rank comparison, and Cox PH regression.
+- Alternative methods recommended due to PH assumption violation.
 - Study design recorded as: randomized_controlled_trial.
 
 ---

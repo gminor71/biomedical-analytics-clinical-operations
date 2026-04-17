@@ -8,12 +8,13 @@ biostatistics roles supporting data-driven clinical trial execution and analysis
 
 Quick Navigation
 
--  [Clinical Analytics Workflow](#clinical-analytics-workflow)
--  [Clinical Operations and Analytics Projects](#clinical-operations-and-analytics-projects)
--  [Methods Library](#methods-library)
--  [Clinical Context](#clinical-context)
--  [Tools and Technologies](#tools-and-technologies)
--  [About](#about)
+- [System Architecture](docs/system_architecture.md)
+- [Clinical Analytics Workflow](#clinical-analytics-workflow)
+- [Clinical Operations and Analytics Projects](#clinical-operations-and-analytics-projects)
+- [Methods Library](#methods-library)
+- [Clinical Context](#clinical-context)
+- [Tools and Technologies](#tools-and-technologies)
+- [About](#about)
 
 ## Program Narrative
 
@@ -53,7 +54,8 @@ biomedical-analytics-clinical-operations/
 │   │
 │   └── clinical-trial-statistical-analysis
 │       Reproducible clinical trial statistical workflows and TFL reporting
-│
+│       Rules based biostat decision agents, SAP planning, and endpoint specific method agents
+|
 ├── methods-library
 │   Reusable statistical methods and project templates
 │
@@ -84,7 +86,7 @@ flowchart LR
     A[Clinical Trials Operations System<br/>Handbook and Operational Reference]
       --> B[Clinical Operations Simulations<br/>CRA Training and Execution Practice]
       --> C[Clinical Trial Statistical Analysis<br/>CT Projects, Biostatistical Workflows, and TFL Reporting]
-      --> D[AI and Advanced Analytics Projects<br/>Decision Support and Predictive Modeling]
+      --> D[AI and Agentic Decision Support]
 ```
 
 # Clinical Analytics Workflow
@@ -143,17 +145,33 @@ and site performance assessment.
 Exploration of natural language processing approaches for clinical documentation
 and research data extraction.
 
-# Methods Library
+### Methods Library
 
-### Survival Analysis Workflows
-Reusable implementations of time-to-event analysis methods commonly used in clinical trials.
+Reusable reference layer supporting biostatistical analysis, interpretation,
+and agent-based decision workflows.
 
-### Model Validation and Calibration
-Methods supporting evaluation of predictive models in biomedical datasets.
+Includes:
 
-### Missing Data Approaches
-Strategies for handling incomplete clinical data within reproducible analysis pipelines.
+- **Statistical method references**
+  - Survival analysis workflows
+  - Missing data approaches
+  - Model validation and calibration
+  - Endpoint-specific method guidance
 
+- **Agent logic frameworks**
+  - Structured decision logic for time-to-event, binary, and continuous endpoints
+  - SAP outline planning logic
+  - Reusable prompt and reasoning templates for biostatistical agents
+
+- **Effect size references**
+  - Binary effect measures
+  - Time-to-event effect measures
+  - Continuous effect measures
+
+- **Project templates and reusable documentation**
+  - Biostatistics project templates
+  - Standardized markdown references
+  - Cross-project analytical design patterns
 # Clinical Context
 
 Short technical notes connecting analytics to trial execution.
@@ -166,8 +184,11 @@ Short technical notes connecting analytics to trial execution.
 # Tools and Technologies
 - Python (pandas, scikit-learn)
 - R (survival, tidyverse)
+- YAML
 - Quarto
 - JupyterLab
+- Markdown
+- Rule Based Agent Design/Decision Logic
 - Git & GitHub
 - Statistical Modeling & Machine Learning
 

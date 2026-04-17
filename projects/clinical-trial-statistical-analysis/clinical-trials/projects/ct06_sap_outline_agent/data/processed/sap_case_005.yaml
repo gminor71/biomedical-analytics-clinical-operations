@@ -1,0 +1,33 @@
+study_id: "STUDY-004"
+analysis_id: "sap_case_004"
+
+study_design: "randomized_controlled_trial"
+
+endpoint_type: "binary"
+endpoint_name: "objective_response_rate"
+
+objective: "Compare objective response rates between treatment and control arms."
+
+estimand_strategy: "treatment_policy"
+
+analysis_population: "itt"
+
+stratification_factors:
+  - "region"
+  - "baseline_disease_stage"
+
+covariates:
+  - "age"
+  - "sex"
+  - "baseline_tumor_burden"
+
+intercurrent_events:
+  - "treatment_discontinuation"
+  - "use_of_subsequent_therapy"
+
+missing_data_risk: "moderate"
+
+event_rate: 0.18
+expected_cell_count: "adequate"
+
+notes: "Binary endpoint SAP scenario for response analysis."

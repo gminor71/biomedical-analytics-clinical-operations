@@ -11,7 +11,7 @@ This library serves two complementary purposes:
 2. **Standardizing how statistical methods are selected, validated, and interpreted**
 
 Together, these components bridge statistical theory with real-world clinical 
-trial execution.
+trial execution and structured decision-support systems.
 
 ---
 
@@ -37,13 +37,13 @@ Each component is designed to reflect how statistical methods are:
 ```bash
 methods-library/
 │
-├── agent-logic/                      # Structured Decision Frameworks
+├── agent-logic/                      # Structured Decision Frameworks (biostat agents)
 ├── biostatistics-project-template/   # Standard structure for analysis projects
 ├── statistical-decision-guides/      # How to choose the correct statistical method
 ├── model-assumptions/                # Assumptions, diagnostics, and validation checks
-├── tfl-interpretation/               # How to read and interpret outputs
+├── tfl-interpretation/               # Output interpretation guidance
 ├── missing-data/                    # Handling missing data in clinical trials
-├── effect-size/                     # Clinical vs statistical significance
+├── effect-size/                     # Effect measure rreference and interpretation
 └── common-pitfalls.md               # Frequent statistical and interpretation errors
 ```
 
@@ -130,15 +130,29 @@ Evaluate robustness of analyses and identify potential bias.
 
 ---
 
-### Effect Size & Significance
+### Effect Size & Interpretation
 
-Distinguishes:
+Reference material for selecting and interpreting effect measures across endpoint types:
 
-* Statistical significance (p-values)
-* Clinical relevance (effect size)
+* Binary endpoints
+  - Risk difference
+  - Risk ratio
+  - Odds ratio
+
+* Time-to-event endpoints
+  - Hazard ratio
+  - Restricted Mean Survival Time (RMST)
+
+* Continuous endpoints
+  - Mean difference
+  - Least-squares mean difference
+  - Standardized mean difference
 
 **Use Case:**
-Prevent over interpretation of statistically significant results.
+
+* Interpret results in clinically meaningful terms
+* Align effect measures with statistical models
+* Support SAP development and reporting
 
 ---
 
@@ -158,17 +172,33 @@ Risk-based monitoring and audit preparation.
 
 ### Agent Logic
 
-This module extends the methods library by translating 
-clinical and statistical knowledge into structured decision frameworks.
+This module translates statistical methodology into **structured, executable decision logic**.
 
-* Converting methods and workflows into rule-based logic
-* Defining:
-   - Inputs → Decision Rules → Actions
-* Supporting automation and agentic AI systems
+Includes:
+
+* Time-to-event method logic
+* Binary endpoint method logic
+* Continuous endpoint method logic
+* SAP outline planning logic
+
+Each framework defines:
+
+* Inputs → Decision Rules → Outputs
+
+**Purpose:**
+
+* Standardize statistical reasoning
+* Support reproducible decision-making
+* Enable agent-based analytical systems
 
 **Relationship to Projects:**
 
-* Coming Soon
+Implemented in:
+
+* `ct05_tte_methods_agent`
+* `ct06_sap_outline_agent`
+* `ct07_binary_methods_agent`
+* `ct08_continuous_endpoints_agent`
 
 ---
 
@@ -194,20 +224,36 @@ clinical and statistical knowledge into structured decision frameworks.
 * Identify red flags using common pitfalls
 * Evaluate missing data handling and biases
 
+### 5. Decision Support (Agent Integration)
+
+* Use agent logic frameworks to standardize method selection
+* Apply decision systems for reproducible statistical planning
+
 ---
 
 ## Relationship to Project Work
 
-This library complements the project-based analyses in this repository:
+This library supports both traditional analysis workflows and agent-based systems:
 
-* **CT01 – Binary Endpoint Trial Analysis**
-* **CT02 – Time-to-Event Survival Analysis**
+### Traditional Analysis Projects
+
+* CT01 – Binary Endpoint Trial Analysis
+* CT02 – Time-to-Event Survival Analysis
+* CT03 – Longitudinal Analysis
+
+### Agent-Based Decision Systems
+
+* CT05 – Time-to-Event Method Agent
+* CT06 – SAP Outline Agent
+* CT07 – Binary Method Agent
+* CT08 – Continuous Endpoints Agent
 
 **Workflow Integration:**
 
-1. Template defines *how to build the analysis*
+1. Templates define *how to build the analysis*
 2. Methods library defines *how to think about the analysis*
-3. Projects demonstrate *how the analysis is executed*
+3. Agents implement *how decisions are operationalized*
+4. Projects demonstrate *how analyses are executed*
 
 ---
 

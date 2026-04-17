@@ -14,9 +14,12 @@ Timeline Phase: t2 – Active Monitoring
 
 ## Risk Summary
 
-Site 003 remains a high-enrolling and operationally engaged site. Source documentation is generally complete, and no critical compliance issues have been identified.
+Site 003 remains a high-enrolling and operationally engaged site. 
+Source documentation is generally complete, and no critical compliance 
+issues have been identified.
 
-However, compared with the previous monitoring visit, there is evidence of recurring operational patterns that warrant continued attention.
+However, compared with the previous monitoring visit, there is evidence o
+f recurring operational patterns that warrant continued attention.
 
 ---
 
